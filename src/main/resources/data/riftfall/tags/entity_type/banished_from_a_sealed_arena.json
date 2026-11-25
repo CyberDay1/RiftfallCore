@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "irons_spellbooks:portal", "required": false },
+    { "id": "buildaspell:portal", "required": false }
+  ]
+}

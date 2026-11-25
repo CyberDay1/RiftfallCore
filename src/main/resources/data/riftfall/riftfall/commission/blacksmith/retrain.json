@@ -1,0 +1,10 @@
+{
+  "kind": "boss",
+  "weight": 10,
+  "min_tier": 12,
+  "retrain": true,
+  "entity_tag": "riftfall:rift_bosses",
+  "count": 2,
+  "xp": 60,
+  "rewards": []
+}

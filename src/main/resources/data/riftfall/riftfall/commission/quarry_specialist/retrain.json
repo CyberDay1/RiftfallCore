@@ -1,0 +1,9 @@
+{
+  "kind": "tier",
+  "weight": 10,
+  "min_tier": 12,
+  "retrain": true,
+  "count": 1,
+  "xp": 60,
+  "rewards": []
+}

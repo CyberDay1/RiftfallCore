@@ -1,0 +1,59 @@
+{
+    "type": "irons_apothic:spell_trigger",
+    "definition": {
+        "affix_type": "stat",
+        "weights": {
+            "quality": 0.0,
+            "weight": 0
+        },
+        "exclusive_set": []
+    },
+    "spell": "irons_spellbooks:sunbeam",
+    "trigger": "PROJECTILE_HIT",
+    "target": "TARGET",
+    "values": {
+        "apotheosis:common": {
+            "level": {
+                "min": 1,
+                "steps": 1,
+                "step": 1
+            },
+            "cooldown": 274
+        },
+        "apotheosis:uncommon": {
+            "level": {
+                "min": 1,
+                "steps": 1,
+                "step": 1
+            },
+            "cooldown": 196
+        },
+        "apotheosis:rare": {
+            "level": {
+                "min": 1,
+                "steps": 2,
+                "step": 1
+            },
+            "cooldown": 140
+        },
+        "apotheosis:epic": {
+            "level": {
+                "min": 1,
+                "steps": 3,
+                "step": 1
+            },
+            "cooldown": 100
+        },
+        "apotheosis:mythic": {
+            "level": {
+                "min": 2,
+                "steps": 3,
+                "step": 1
+            },
+            "cooldown": 80
+        }
+    },
+    "types": [
+        "apotheosis:bow"
+    ]
+}

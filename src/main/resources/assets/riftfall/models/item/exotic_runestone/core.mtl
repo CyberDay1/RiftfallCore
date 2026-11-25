@@ -1,0 +1,39 @@
+newmtl ivory
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/runestones/ivory
+
+newmtl ivory_side
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/runestones/ivory_side
+
+newmtl gold
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/runestones/gold
+
+newmtl foundation
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/runestones/foundation
+
+newmtl light
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/runestones/light
+
+newmtl particle
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/runestones/ivory
+
+newmtl glyph_outline
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/runestones/exotic_outline
+
+newmtl glyph_light
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/runestones/exotic_glyph

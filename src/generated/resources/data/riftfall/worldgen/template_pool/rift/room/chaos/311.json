@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/room/chaos/311/think-1-rachaelrose",
+        "processors": "riftfall:room_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/room/chaos/311/twisting_hallway-1-warren",
+        "processors": "riftfall:room_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/room/chaos/311/void_cracks-1-rachaelrose",
+        "processors": "riftfall:room_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

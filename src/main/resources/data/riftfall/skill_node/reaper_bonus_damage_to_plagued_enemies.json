@@ -1,0 +1,10 @@
+{
+  "id": "reaper_bonus_damage_to_plagued_enemies",
+  "class": "reaper",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/reaper_bonus_damage_to_plagued_enemies",
+  "shape": "conditional",
+  "bonus_base": 0.05,
+  "bonus_per_rank": 0.05
+}

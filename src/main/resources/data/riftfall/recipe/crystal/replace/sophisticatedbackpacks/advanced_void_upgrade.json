@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystalcraft_unlimited_java"
+    },
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_void_upgrade"
+    }
+  ],
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "crystalcraft_unlimited_java:maradonyx"
+    },
+    "G": {
+      "tag": "c:ingots/gold"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "V": {
+      "item": "sophisticatedbackpacks:void_upgrade"
+    }
+  },
+  "pattern": [
+    " D ",
+    "GVG",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedbackpacks:advanced_void_upgrade"
+  }
+}

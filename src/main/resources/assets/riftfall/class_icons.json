@@ -1,0 +1,15 @@
+{
+  "arcanist": {"texture": "riftfall:textures/gui/class_icon/arcanist.png", "items": ["wizards:staff_arcane", "wizards:wand_arcane", "irons_spellbooks:iron_spell_book", "minecraft:enchanted_book"]},
+  "cleric": {"texture": "riftfall:textures/gui/class_icon/cleric.png", "items": ["paladins:holy_staff", "paladins:holy_wand", "minecraft:totem_of_undying"]},
+  "gunner": {"texture": "riftfall:textures/gui/class_icon/gunner.png", "items": ["minecraft:crossbow"]},
+  "monk": {"texture": "riftfall:textures/gui/class_icon/monk.png", "items": ["withersweapons:knuckles", "forcemaster_rpg:iron_knuckle", "minecraft:paper"]},
+  "paladin": {"texture": "riftfall:textures/gui/class_icon/paladin.png", "items": ["paladins:iron_mace", "legendary_monsters:knight_summoner", "minecraft:shield"]},
+  "phantom": {"texture": "riftfall:textures/gui/class_icon/phantom.png", "items": ["rogues:iron_dagger", "minecraft:phantom_membrane"]},
+  "ranger": {"texture": "riftfall:textures/gui/class_icon/ranger.png", "items": ["archers:mechanic_shortbow", "minecraft:bow"]},
+  "reaper": {"texture": "riftfall:textures/gui/class_icon/reaper.png", "items": ["simplyswords:iron_scythe", "irons_spellbooks:decrepit_scythe", "weaponsexpanded:iron_scythe", "minecraft:iron_hoe"]},
+  "shifter": {"texture": "riftfall:textures/gui/class_icon/shifter.png", "items": ["rogues:iron_double_axe", "alexsmobs:dropbear_claw", "alexsmobs:bear_fur", "minecraft:bone"]},
+  "summoner": {"texture": "riftfall:textures/gui/class_icon/summoner.png", "items": ["wizards:staff_wizard", "endermanoverhaul:summoner_pearl", "irons_spellbooks:evoker_spell_book", "minecraft:end_crystal"]},
+  "sword_immortal": {"texture": "riftfall:textures/gui/class_icon/sword_immortal.png", "items": ["simplyswords:iron_katana", "darkblades:dark_katana", "minecraft:iron_sword"]},
+  "tactician": {"texture": "riftfall:textures/gui/class_icon/tactician.png", "items": ["simplyswords:iron_spear", "irons_spellbooks:furled_map", "minecraft:spyglass"]},
+  "trickster": {"texture": "riftfall:textures/gui/class_icon/trickster.png", "items": ["simplyswords:iron_chakram", "friendsandfoes:totem_of_illusion", "minecraft:ender_pearl"]}
+}

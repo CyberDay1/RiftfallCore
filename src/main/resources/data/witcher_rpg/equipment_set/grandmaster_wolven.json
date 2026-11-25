@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witcher_rpg"
+    }
+  ],
+  "name": "grandmaster_wolven",
+  "items": [
+    "witcher_rpg:grandmaster_wolven_head",
+    "witcher_rpg:grandmaster_wolven_chest",
+    "witcher_rpg:grandmaster_wolven_legs",
+    "witcher_rpg:grandmaster_wolven_feet",
+    "witcher_rpg:wolf_school_medallion"
+  ],
+  "bonuses": []
+}

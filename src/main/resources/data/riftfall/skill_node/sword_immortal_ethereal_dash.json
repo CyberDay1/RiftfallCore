@@ -1,0 +1,18 @@
+{
+  "id": "sword_immortal_ethereal_dash",
+  "class": "sword_immortal",
+  "ascendancy": "spirit_blade_sage",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_ethereal_dash",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 15.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "heal",
+    "magnitude_per_rank": 0.1
+  },
+  "category": "movement"
+}

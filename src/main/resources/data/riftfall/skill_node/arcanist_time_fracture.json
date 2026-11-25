@@ -1,0 +1,27 @@
+{
+  "id": "arcanist_time_fracture",
+  "class": "arcanist",
+  "ascendancy": "chronomancer",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:arcanist_time_fracture",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 140.0,
+  "base_cooldown_ticks": 4000,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  },
+  "stored": {
+    "release": "expire",
+    "window_ticks": 70,
+    "arm_ticks": 30,
+    "anchor": "aim",
+    "aim_range": 24.0,
+    "radius": 6.0,
+    "pulse_ticks": 10,
+    "pull": 0.0
+  }
+}

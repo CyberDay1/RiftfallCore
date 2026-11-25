@@ -1,0 +1,885 @@
+{
+ "revision": 1,
+ "templates": {
+  "riftfall:home/layout_v1/02_stillwater_field": [
+   {
+    "note": "02_stillwater_field_1",
+    "pos": [
+     67,
+     15,
+     58
+    ],
+    "carrier": "chest",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/03_brook_crossing": [
+   {
+    "note": "03_brook_crossing_1",
+    "pos": [
+     52,
+     16,
+     63
+    ],
+    "carrier": "chest",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "03_brook_crossing_2",
+    "pos": [
+     68,
+     21,
+     68
+    ],
+    "carrier": "sign",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     68,
+     21,
+     67
+    ],
+    "support_block": "chipped:crated_spruce_planks"
+   }
+  ],
+  "riftfall:home/layout_v1/04_birch_hollow": [
+   {
+    "note": "04_birch_hollow_1",
+    "pos": [
+     64,
+     18,
+     48
+    ],
+    "carrier": "sign",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     65,
+     18,
+     48
+    ],
+    "support_block": "minecraft:birch_log"
+   },
+   {
+    "note": "04_birch_hollow_2",
+    "pos": [
+     66,
+     18,
+     48
+    ],
+    "carrier": "chest",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/05_forsaken_outpost": [
+   {
+    "note": "05_forsaken_outpost_1",
+    "pos": [
+     33,
+     22,
+     32
+    ],
+    "carrier": "lectern",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "05_forsaken_outpost_2",
+    "pos": [
+     27,
+     23,
+     32
+    ],
+    "carrier": "sign",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     26,
+     23,
+     32
+    ],
+    "support_block": "biomeswevegone:cracked_red_rock_bricks"
+   }
+  ],
+  "riftfall:home/layout_v1/07_clover_rise": [
+   {
+    "note": "07_clover_rise_1",
+    "pos": [
+     36,
+     25,
+     47
+    ],
+    "carrier": "frame",
+    "facing": "north",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     36,
+     25,
+     48
+    ],
+    "support_block": "chipped:calcite_pillar"
+   },
+   {
+    "note": "07_clover_rise_2",
+    "pos": [
+     33,
+     24,
+     43
+    ],
+    "carrier": "chest",
+    "facing": "north",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/08_sedge_meadow": [
+   {
+    "note": "08_sedge_meadow_1",
+    "pos": [
+     20,
+     12,
+     29
+    ],
+    "carrier": "chest",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "08_sedge_meadow_2",
+    "pos": [
+     56,
+     12,
+     67
+    ],
+    "carrier": "standing_sign",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/09_orchard_rest": [
+   {
+    "note": "09_orchard_rest_1",
+    "pos": [
+     70,
+     11,
+     68
+    ],
+    "carrier": "lectern",
+    "facing": "north",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "09_orchard_rest_2",
+    "pos": [
+     67,
+     11,
+     54
+    ],
+    "carrier": "standing_sign",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/10_stonefield_crossing": [
+   {
+    "note": "10_stonefield_crossing_1",
+    "pos": [
+     56,
+     11,
+     81
+    ],
+    "carrier": "lectern",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "10_stonefield_crossing_2",
+    "pos": [
+     5,
+     12,
+     47
+    ],
+    "carrier": "standing_sign",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/crystal_hollow": [
+   {
+    "note": "crystal_hollow_1",
+    "pos": [
+     62,
+     13,
+     80
+    ],
+    "carrier": "lectern",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "crystal_hollow_2",
+    "pos": [
+     60,
+     15,
+     26
+    ],
+    "carrier": "birch_sign",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     60,
+     15,
+     25
+    ],
+    "support_block": "quark:shale"
+   }
+  ],
+  "riftfall:home/layout_v1/fallen_aqueduct": [
+   {
+    "note": "fallen_aqueduct_1",
+    "pos": [
+     27,
+     13,
+     83
+    ],
+    "carrier": "lectern",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "fallen_aqueduct_2",
+    "pos": [
+     20,
+     21,
+     28
+    ],
+    "carrier": "chest",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "fallen_aqueduct_3",
+    "pos": [
+     19,
+     22,
+     30
+    ],
+    "carrier": "sign",
+    "facing": "north",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     19,
+     22,
+     31
+    ],
+    "support_block": "twigs:cracked_polished_calcite_bricks"
+   }
+  ],
+  "riftfall:home/layout_v1/flooded_cloister": [
+   {
+    "note": "flooded_cloister_1",
+    "pos": [
+     29,
+     14,
+     26
+    ],
+    "carrier": "lectern",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "flooded_cloister_2",
+    "pos": [
+     54,
+     14,
+     62
+    ],
+    "carrier": "sign",
+    "facing": "north",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     54,
+     14,
+     63
+    ],
+    "support_block": "chipped:calcite_pillar"
+   }
+  ],
+  "riftfall:home/layout_v1/frostpine_ridge": [
+   {
+    "note": "frostpine_ridge_1",
+    "pos": [
+     69,
+     15,
+     77
+    ],
+    "carrier": "chest",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "frostpine_ridge_2",
+    "pos": [
+     68,
+     17,
+     77
+    ],
+    "carrier": "frame",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     68,
+     17,
+     76
+    ],
+    "support_block": "biomeswevegone:pine_planks"
+   }
+  ],
+  "riftfall:home/layout_v1/fungal_grotto": [
+   {
+    "note": "fungal_grotto_1",
+    "pos": [
+     86,
+     13,
+     28
+    ],
+    "carrier": "chest",
+    "facing": "north",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "fungal_grotto_2",
+    "pos": [
+     79,
+     13,
+     26
+    ],
+    "carrier": "sign",
+    "facing": "north",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     79,
+     13,
+     27
+    ],
+    "support_block": "chipped:crated_spruce_planks"
+   }
+  ],
+  "riftfall:home/layout_v1/observatory_100x100": [
+   {
+    "note": "observatory_1",
+    "pos": [
+     75,
+     19,
+     44
+    ],
+    "carrier": "lectern",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "observatory_2",
+    "pos": [
+     21,
+     21,
+     44
+    ],
+    "carrier": "frame",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     20,
+     21,
+     44
+    ],
+    "support_block": "minecraft:bookshelf"
+   },
+   {
+    "note": "observatory_3",
+    "pos": [
+     30,
+     20,
+     49
+    ],
+    "carrier": "chest",
+    "facing": "north",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/reedwater_mill": [
+   {
+    "note": "reedwater_mill_1",
+    "pos": [
+     31,
+     15,
+     52
+    ],
+    "carrier": "barrel",
+    "facing": "up",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "reedwater_mill_2",
+    "pos": [
+     41,
+     16,
+     50
+    ],
+    "carrier": "sign",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     42,
+     16,
+     50
+    ],
+    "support_block": "biomeswevegone:cypress_planks"
+   }
+  ],
+  "riftfall:home/layout_v1/riftscar_basin": [
+   {
+    "note": "riftscar_basin_1",
+    "pos": [
+     36,
+     13,
+     83
+    ],
+    "carrier": "chest",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "riftscar_basin_2",
+    "pos": [
+     50,
+     26,
+     30
+    ],
+    "carrier": "sign",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     50,
+     26,
+     29
+    ],
+    "support_block": "minecraft:basalt"
+   }
+  ],
+  "riftfall:home/layout_v1/rootbound_archive": [
+   {
+    "note": "rootbound_archive_1",
+    "pos": [
+     42,
+     15,
+     37
+    ],
+    "carrier": "lectern",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "rootbound_archive_2",
+    "pos": [
+     34,
+     17,
+     33
+    ],
+    "carrier": "shelf",
+    "facing": "south",
+    "before": "biomeswevegone:ironwood_bookshelf",
+    "before_state": {
+     "Name": "biomeswevegone:ironwood_bookshelf"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/sanctuary_100x100": [
+   {
+    "note": "sanctuary_1",
+    "pos": [
+     50,
+     12,
+     56
+    ],
+    "carrier": "lectern",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "sanctuary_2",
+    "pos": [
+     50,
+     12,
+     53
+    ],
+    "carrier": "standing_sign",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/sunken_gardens": [
+   {
+    "note": "sunken_gardens_1",
+    "pos": [
+     75,
+     14,
+     69
+    ],
+    "carrier": "chest",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "sunken_gardens_2",
+    "pos": [
+     72,
+     13,
+     72
+    ],
+    "carrier": "chest",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/supply_depot": [
+   {
+    "note": "supply_depot_1",
+    "pos": [
+     70,
+     13,
+     56
+    ],
+    "carrier": "lectern",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "supply_depot_2",
+    "pos": [
+     78,
+     13,
+     30
+    ],
+    "carrier": "chest",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v1/windworn_plateau": [
+   {
+    "note": "windworn_plateau_1",
+    "pos": [
+     27,
+     36,
+     31
+    ],
+    "carrier": "chest",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "windworn_plateau_2",
+    "pos": [
+     27,
+     36,
+     30
+    ],
+    "carrier": "sign",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     26,
+     36,
+     30
+    ],
+    "support_block": "minecraft:sandstone"
+   }
+  ],
+  "riftfall:home/layout_v2/01_meadow_ruin": [
+   {
+    "note": "01_meadow_ruin_1",
+    "pos": [
+     61,
+     22,
+     36
+    ],
+    "carrier": "sign",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     61,
+     22,
+     35
+    ],
+    "support_block": "biomeswevegone:dacite_pillar"
+   },
+   {
+    "note": "01_meadow_ruin_2",
+    "pos": [
+     55,
+     21,
+     32
+    ],
+    "carrier": "sign",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     55,
+     21,
+     31
+    ],
+    "support_block": "biomeswevegone:chiseled_dacite_bricks"
+   },
+   {
+    "note": "01_meadow_ruin_3",
+    "pos": [
+     39,
+     21,
+     50
+    ],
+    "carrier": "chest",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ],
+  "riftfall:home/layout_v2/06_waystation_alpha": [
+   {
+    "note": "06_waystation_alpha_1",
+    "pos": [
+     68,
+     14,
+     30
+    ],
+    "carrier": "lectern",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "06_waystation_alpha_2",
+    "pos": [
+     68,
+     16,
+     28
+    ],
+    "carrier": "frame",
+    "facing": "south",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     68,
+     16,
+     27
+    ],
+    "support_block": "twigs:mossy_cobblestone_bricks"
+   }
+  ],
+  "riftfall:home/layout_v2/ashen_quarry": [
+   {
+    "note": "ashen_quarry_1",
+    "pos": [
+     23,
+     13,
+     64
+    ],
+    "carrier": "lectern",
+    "facing": "north",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "ashen_quarry_2",
+    "pos": [
+     91,
+     13,
+     43
+    ],
+    "carrier": "sign",
+    "facing": "east",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    },
+    "support": [
+     90,
+     13,
+     43
+    ],
+    "support_block": "biomeswevegone:black_sand"
+   }
+  ],
+  "riftfall:home/layout_v2/forge_100x100": [
+   {
+    "note": "forge_1",
+    "pos": [
+     40,
+     24,
+     50
+    ],
+    "carrier": "barrel",
+    "facing": "up",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   },
+   {
+    "note": "forge_2",
+    "pos": [
+     43,
+     24,
+     37
+    ],
+    "carrier": "chest",
+    "facing": "west",
+    "before": "minecraft:air",
+    "before_state": {
+     "Name": "minecraft:air"
+    }
+   }
+  ]
+ }
+}

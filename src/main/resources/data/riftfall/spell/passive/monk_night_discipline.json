@@ -1,0 +1,58 @@
+{
+  "school": "spell_power:physical_melee",
+  "type": "PASSIVE",
+  "range": 0.0,
+  "passive": {
+    "triggers": [
+      {
+        "type": "MELEE_IMPACT",
+        "target_conditions": [
+          {
+            "entity_predicate_id": "spell_engine:has_bad_effect"
+          }
+        ]
+      }
+    ]
+  },
+  "target": {
+    "type": "FROM_TRIGGER"
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "min_power": 0.0,
+        "damage": {
+          "spell_power_coefficient": 1.0,
+          "knockback": 0.0
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 2909137151,
+              "scale": 0.35,
+              "opacity": 0.85
+            },
+            "batch": {
+              "count": 4.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.06
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:entity.enderman.teleport",
+        "volume": 0.16,
+        "pitch": 1.25,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

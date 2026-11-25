@@ -1,0 +1,46 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.armor",
+    "categories": [
+        "apotheosis:boots",
+        "apotheosis:chestplate",
+        "apotheosis:helmet",
+        "apotheosis:leggings"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 10
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.4,
+            "max": 0.8,
+            "step": 0.05
+        },
+        "apotheosis:uncommon": {
+            "min": 0.6,
+            "max": 1.1,
+            "step": 0.0625
+        },
+        "apotheosis:rare": {
+            "min": 0.9,
+            "max": 1.4,
+            "step": 0.0625
+        },
+        "apotheosis:epic": {
+            "min": 1.2,
+            "max": 1.7,
+            "step": 0.0625
+        },
+        "apotheosis:mythic": {
+            "min": 1.6,
+            "max": 2.0,
+            "step": 0.05
+        }
+    }
+}

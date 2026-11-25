@@ -1,0 +1,18 @@
+{
+  "id": "gunner_mine_wall",
+  "class": "gunner",
+  "ascendancy": "siege_engineer",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:gunner_mine_wall",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 42.0,
+  "base_cooldown_ticks": 320,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1
+  },
+  "category": "explosive"
+}

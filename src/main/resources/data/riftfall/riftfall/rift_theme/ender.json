@@ -1,0 +1,131 @@
+{
+  "materials": {
+    "1": [
+      { "block": "cataclysm:obsidian_bricks", "weight": 6.0,
+        "variants": { "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "cataclysm:polished_obsidian", "weight": 2.0,
+        "variants": { "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "eternal_starlight:polished_abysslate_bricks", "weight": 1.5,
+        "variants": { "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "cataclysm:void_stone", "weight": 0.35,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "2": [
+      { "block": "enderscape:polished_kurodite",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "3": [
+      { "block": "enderscape:dusk_purpur_block", "weight": 3.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "enderscape:murublight_bricks", "weight": 1.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "4": [
+      { "block": "eternal_starlight:polished_abysslate_bricks", "weight": 3.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "eternal_starlight:torreya_tiles", "weight": 1.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "5": [
+      { "block": "cataclysm:purpur_tiles",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "6": [
+      { "block": "deep_aether:yagroot_planks",
+        "variants": { "directional_pillar": "cataclysm:obsidian_pillar",
+                      "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "7": [
+      { "block": "minecraft:obsidian", "weight": 3.0,
+        "variants": { "directional_pillar": "cataclysm:obsidian_pillar",
+                      "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "minecraft:crying_obsidian", "weight": 1.0,
+        "variants": { "directional_pillar": "cataclysm:obsidian_pillar",
+                      "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "8": [
+      { "block": "enderscape:cut_shadoline",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "9": [
+      { "block": "cataclysm:polished_obsidian",
+        "variants": { "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "10": [
+      { "block": "cataclysm:obsidian_bricks",
+        "variants": { "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "11": [
+      { "block": "minecraft:obsidian",
+        "variants": { "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "12": [
+      { "block": "eternal_starlight:amaramber_bricks",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "13": [
+      { "block": "enderscape:murublight_bricks",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "14": [
+      { "block": "minecraft:obsidian",
+        "variants": { "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "15": [
+      { "block": "cataclysm:obsidian_bricks",
+        "variants": { "glass": "glassential:obsidian_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ]
+  },
+  "fallback": "cataclysm:obsidian_bricks",
+  "noise_scale": [0.045, 0.045, 0.045],
+  "seed_adjustment": 5051,
+  "decorators": [
+{
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:end_rod",
+      "requires_down": true,
+      "rarity": 0.015
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:chain",
+      "requires_up": true,
+      "rarity": 0.025,
+      "seed": 5053
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:levitation_plate",
+        "darkutils:darkness_plate",
+        "darkutils:misfortune_plate"
+      ],
+      "decoy": "minecraft:polished_blackstone_pressure_plate",
+      "room_kinds": ["approach", "chaos", "stable", "unstable", "boss"],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 5051
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "deepslate",
+      "home": "moonstone",
+      "light": "minecraft:pearlescent_froglight"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "deepslate",
+      "home": "moonstone",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:pearlescent_froglight",
+      "ceiling": "minecraft:pearlescent_froglight",
+      "floor": "minecraft:pearlescent_froglight",
+      "hanging": "minecraft:end_rod[facing=down]",
+      "seed": 5054
+    }
+  ]
+}

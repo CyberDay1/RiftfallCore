@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witcher_rpg"
+    }
+  ],
+  "name": "grandmaster_griffin",
+  "items": [
+    "witcher_rpg:grandmaster_griffin_head",
+    "witcher_rpg:grandmaster_griffin_chest",
+    "witcher_rpg:grandmaster_griffin_legs",
+    "witcher_rpg:grandmaster_griffin_feet",
+    "witcher_rpg:griffin_school_medallion"
+  ],
+  "bonuses": []
+}

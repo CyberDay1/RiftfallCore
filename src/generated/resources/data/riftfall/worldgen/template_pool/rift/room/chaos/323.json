@@ -1,0 +1,23 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/room/chaos/323/overlapping_hallways-1-warren",
+        "processors": "riftfall:room_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/room/chaos/323/stablechaoscave-1-jyu",
+        "processors": "riftfall:room_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gunner_grapple_pull",
+  "class": "gunner",
+  "ascendancy": "gunslinger",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:gunner_grapple_pull",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 34.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  }
+}

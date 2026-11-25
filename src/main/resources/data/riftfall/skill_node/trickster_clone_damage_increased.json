@@ -1,0 +1,8 @@
+{
+  "id": "trickster_clone_damage_increased",
+  "class": "trickster",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "ranged_weapon:damage",
+  "bonus_per_rank": 0.5
+}

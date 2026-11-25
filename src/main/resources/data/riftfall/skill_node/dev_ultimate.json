@@ -1,0 +1,14 @@
+{
+  "id": "dev_ultimate",
+  "class": "dev",
+  "ascendancy": "dev_first",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "rpg_series:smash",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 20.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": { "type": "damage", "damage_per_rank": 0.1 }
+}

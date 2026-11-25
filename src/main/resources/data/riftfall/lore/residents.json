@@ -1,0 +1,493 @@
+{
+ "version": 1,
+ "source": "lore-draft-v3.md",
+ "residents": [
+  {
+   "role": "blacksmith",
+   "person": "Penk",
+   "swap_after": 2,
+   "lines": [
+    {
+     "note": "forge_1",
+     "rank": 0,
+     "text": "My work book. Hinges for the Widow Tamsett. I'll walk them down when the road's back."
+    },
+    {
+     "note": "forge_2",
+     "rank": 0,
+     "text": "Tam's at the Hobb fair. He'll be back by second bell. He always is."
+    },
+    {
+     "note": "supply_depot_2",
+     "rank": 0,
+     "text": "You've been to the depot. Don't tell me what you found. Just tell me if he was counting rope."
+    },
+    {
+     "note": "supply_depot_1",
+     "rank": 0,
+     "text": "Ludd's forms say the forge went before Hobb did. It didn't save us. It hired us."
+    }
+   ]
+  },
+  {
+   "role": "quarry_specialist",
+   "person": "Kettrick",
+   "swap_after": 2,
+   "lines": [
+    {
+     "note": "ashen_quarry_1",
+     "rank": 0,
+     "text": "My shift log. Went to inspect the east face. Woke here beside the tool shelter."
+    },
+    {
+     "note": "ashen_quarry_2",
+     "rank": 10,
+     "text": "Ground beyond the east face again. Don't recognize it. Leaving that face alone."
+    },
+    {
+     "note": "",
+     "rank": 18,
+     "text": "We prayed to the Banked Fire: keep it low, keep it fed, never let it go hungry. I've been watching your Core."
+    },
+    {
+     "note": "supply_depot_1",
+     "rank": 16,
+     "text": "It took my cut and the girl from the Seams. Not the yard, not the kilns. Just the hands that could make you a rune."
+    }
+   ]
+  },
+  {
+   "role": "jeweler",
+   "person": "Dessa",
+   "swap_after": 2,
+   "lines": [
+    {
+     "note": "crystal_hollow_1",
+     "rank": 0,
+     "text": "My cutting book. Moll sent me to the quarry with her wheels. I knew she wanted me out of the mines. I still thought I'd be going back."
+    },
+    {
+     "note": "crystal_hollow_2",
+     "rank": 0,
+     "text": "The stones you bring back hum when I first set them. I wait till they stop."
+    },
+    {
+     "note": "",
+     "rank": 18,
+     "text": "Moll stayed to hear the end of the song. Listen to the Core. It's all on one note."
+    }
+   ]
+  },
+  {
+   "role": "rift_cartographer",
+   "person": "Pell",
+   "swap_after": 3,
+   "lines": [
+    {
+     "note": "observatory_1",
+     "rank": 0,
+     "text": "Her observation book. The seams wouldn't hold for a drawing. She marked where they'd been."
+    },
+    {
+     "note": "observatory_3",
+     "rank": 0,
+     "text": "She told me to take the charts to the town. There's no town. So I chart the rifts. Somebody should know."
+    },
+    {
+     "note": "",
+     "rank": 18,
+     "text": "Count the cracks over the Core. Five, and never the same shape twice. Her sky did that, at the end. I mark the rifts by date now."
+    },
+    {
+     "note": "05_forsaken_outpost_1",
+     "rank": 0,
+     "text": "Choose a world. I'll attune the key. I used to call that cartography."
+    },
+    {
+     "note": "observatory_2",
+     "rank": 23,
+     "text": "She ruled a line from the Empty Chair to where the seams opened. I've finished it for her. It ends at your Core."
+    }
+   ]
+  },
+  {
+   "role": "combat_mentor",
+   "person": "Joss",
+   "swap_after": 2,
+   "lines": [
+    {
+     "note": "06_waystation_alpha_1",
+     "rank": 0,
+     "text": "The waybook. I put those pins in myself. Red for the stations that stopped answering."
+    },
+    {
+     "note": "06_waystation_alpha_2",
+     "rank": 0,
+     "text": "One white pin left. Tull's Cross. That's about where we're standing."
+    },
+    {
+     "note": "",
+     "rank": 18,
+     "text": "I know what you're fighting. I still teach you how. It's the only thing I'm good for."
+    },
+    {
+     "note": "",
+     "rank": 26,
+     "text": "Keep drilling. One day you'll fight something that isn't guarding anything. I'd like you ready for that one."
+    }
+   ]
+  },
+  {
+   "role": "quartermaster",
+   "person": "Ludd",
+   "swap_after": 0,
+   "lines": [
+    {
+     "note": "supply_depot_1",
+     "rank": 0,
+     "text": "Form nine. Everything that floats. I signed the last one with nothing on it."
+    },
+    {
+     "note": "supply_depot_2",
+     "rank": 0,
+     "text": "I sent Penk's lad to count rope. I don't know which side of the edge the rope shed was."
+    },
+    {
+     "note": "",
+     "rank": 22,
+     "text": "Things come in, they get logged, nothing goes out. I kept stores for a whole town once."
+    },
+    {
+     "note": "supply_depot_1",
+     "rank": 16,
+     "text": "A smith, a quarry crew, a cutter, a chart-reader, a drill sergeant, a storesman. That's not a rescue. That's a muster roll."
+    }
+   ]
+  },
+  {
+   "role": "rift_stabilizer",
+   "person": "Teo-under-Seven",
+   "swap_after": 0,
+   "lines": [
+    {
+     "note": "riftscar_basin_1",
+     "rank": 0,
+     "text": "Our Watch book. Over three thousand darks of observations. Once, an entry for every light in the sky."
+    },
+    {
+     "note": "riftscar_basin_2",
+     "rank": 0,
+     "text": "There was a green light in our sky. I knew your light before I knew your face."
+    },
+    {
+     "note": "",
+     "rank": 22,
+     "text": "The Hinge kept us steady. Now I steady your keys, and I'm good at it."
+    },
+    {
+     "note": "riftscar_basin_1",
+     "rank": 23,
+     "text": "The first keepers recorded the fall but never found where the light landed. I think we're standing on it."
+    }
+   ]
+  },
+  {
+   "role": "druid",
+   "person": "Neve",
+   "swap_after": 0,
+   "lines": [
+    {
+     "note": "sunken_gardens_1",
+     "rank": 0,
+     "text": "My sowing book. I wrote it for whoever tended the garden next. I didn't think that would be me."
+    },
+    {
+     "note": "sunken_gardens_2",
+     "rank": 0,
+     "text": "The kale took. It always does. The salt didn't come with us, so I salt the beds by hand."
+    },
+    {
+     "note": "flooded_cloister_1",
+     "rank": 0,
+     "text": "'The Saltry gardens, with Neve Saltry and her fig.' She's on the south wall. She'll fruit if you leave her alone."
+    }
+   ]
+  },
+  {
+   "role": "apothecarist",
+   "person": "Ama",
+   "swap_after": 0,
+   "lines": [
+    {
+     "note": "fungal_grotto_1",
+     "rank": 0,
+     "text": "My casebook. I was the last case in it. I'm steadier here. The ground holds."
+    },
+    {
+     "note": "rootbound_archive_1",
+     "rank": 0,
+     "text": "The Readers wrote it all down. I couldn't help the people in my casebook. I can still help you."
+    },
+    {
+     "note": "",
+     "rank": 25,
+     "text": "The ground holds here because something holds it. I can feel it underneath. It's very glad of you."
+    },
+    {
+     "note": "fungal_grotto_1",
+     "rank": 21,
+     "text": "I've written my name inside your collar. Ama. In case you come back one day and can't find it."
+    }
+   ]
+  },
+  {
+   "role": "cook",
+   "person": "Hal",
+   "swap_after": 0,
+   "lines": [
+    {
+     "note": "reedwater_mill_1",
+     "rank": 0,
+     "text": "Gran's recipes. Tide bread wants sea water. I use well water and salt. It's not the same, but it's bread."
+    },
+    {
+     "note": "reedwater_mill_1",
+     "rank": 22,
+     "text": "That's the little one's hand at the end, copying out the bread. Gran made her."
+    },
+    {
+     "note": "flooded_cloister_1",
+     "rank": 0,
+     "text": "The market half went on the ninth day. Gran had the little one at market all that week. I'll bake tide bread tomorrow."
+    }
+   ]
+  },
+  {
+   "role": "restoration_keeper",
+   "person": "Sister Calla",
+   "swap_after": 0,
+   "lines": [
+    {
+     "note": "flooded_cloister_1",
+     "rank": 0,
+     "text": "Our Book of Things Taken. I gave you your name in it. I hoped you were trying to put something right."
+    },
+    {
+     "note": "flooded_cloister_2",
+     "rank": 0,
+     "text": "I restore what you bring me. It's the only restoring here I can do honestly."
+    },
+    {
+     "note": "",
+     "rank": 25,
+     "text": "We prayed for you every day the cloister stood. I've kept on. The Patient Water doesn't stop because the answer is no."
+    },
+    {
+     "note": "flooded_cloister_1",
+     "rank": 23,
+     "text": "We taught the Climber to novices who wouldn't wait their turn. I never imagined its voice would be kind."
+    }
+   ]
+  },
+  {
+   "role": "relic_scholar",
+   "person": "Oren",
+   "swap_after": 0,
+   "lines": [
+    {
+     "note": "rootbound_archive_1",
+     "rank": 0,
+     "text": "The Readers' finding. You'll see I dissented. I said you'd know eventually."
+    },
+    {
+     "note": "rootbound_archive_2",
+     "rank": 0,
+     "text": "It can't be bound while it's small. It must stand up first, and it won't until it's whole. Finish it. I'll keep the register."
+    },
+    {
+     "note": "",
+     "rank": 26,
+     "text": "Home is finished. It's still growing. I'll record the day it stands up."
+    }
+   ]
+  }
+ ],
+ "known": [
+  {
+   "key": "blacksmith.known.boss.0",
+   "text": "%s. Hand me your kit; I'll see to it. I don't need to hear how it went."
+  },
+  {
+   "key": "blacksmith.known.boss.1",
+   "text": "%s, then. Leave the gear on the bench. It'll be ready by second bell."
+  },
+  {
+   "key": "blacksmith.known.request.0",
+   "text": "Request done."
+  },
+  {
+   "key": "blacksmith.known.request.1",
+   "text": "That's one more off the board."
+  },
+  {
+   "key": "quarry_specialist.known.boss.0",
+   "text": "%s, down. Put the stone in the bin. I won't ask what it was cut from."
+  },
+  {
+   "key": "quarry_specialist.known.boss.1",
+   "text": "%s. Leave any crystals by the shelter. I'll look them over when I've finished this cut."
+  },
+  {
+   "key": "quarry_specialist.known.tier.0",
+   "text": "Tier %s. Deeper every time. We went at the east face like that once."
+  },
+  {
+   "key": "quarry_specialist.known.rank_up.1",
+   "text": "More work for my bench. At least I still know how to do it."
+  },
+  {
+   "key": "quarry_specialist.known.request.1",
+   "text": "Order filled. Set it by the bench; I'll sort it."
+  },
+  {
+   "key": "jeweler.known.boss.0",
+   "text": "%s. Leave its stones a day. Let them finish humming."
+  },
+  {
+   "key": "jeweler.known.boss.1",
+   "text": "%s. Bring me what you have and I'll set it."
+  },
+  {
+   "key": "jeweler.known.tier.0",
+   "text": "Tier %s. The stones come back louder now. I wait longer before I cut."
+  },
+  {
+   "key": "rift_cartographer.known.boss.0",
+   "text": "%s. I'll mark it, with the date. Somebody should know where it was."
+  },
+  {
+   "key": "rift_cartographer.known.boss.1",
+   "text": "%s. It goes in the atlas. She'd want it written down properly."
+  },
+  {
+   "key": "rift_cartographer.known.tier.1",
+   "text": "A tier %s clear. I'll ink it in. I've stopped calling it new ground."
+  },
+  {
+   "key": "rift_cartographer.known.request.0",
+   "text": "Inked in. I've left a margin for what was there."
+  },
+  {
+   "key": "rift_cartographer.known.rank_up.1",
+   "text": "More room in the atlas. It fills faster than I'd like."
+  },
+  {
+   "key": "any.known.boss.0",
+   "text": "You brought down %s. I've started keeping the names."
+  },
+  {
+   "key": "any.known.boss.1",
+   "text": "%s, fallen. I heard. Sit a while before you go to the Core."
+  },
+  {
+   "key": "any.known.tier.0",
+   "text": "Tier %s cleared. The home grows. I try not to look at the edges."
+  },
+  {
+   "key": "any.known.tier.1",
+   "text": "A tier %s clear. I know where some of those doors lead now."
+  },
+  {
+   "key": "any.known.rank_up.0",
+   "text": "More work. I'll do it. I'm starting to think that's what I'm here for."
+  },
+  {
+   "key": "combat_mentor.known.boss.0",
+   "text": "%s, down. Good footwork. I taught you that, and I'd teach it again."
+  },
+  {
+   "key": "combat_mentor.known.boss.1",
+   "text": "%s. Come and drill tomorrow. Keep your hands busy."
+  },
+  {
+   "key": "quartermaster.known.boss.0",
+   "text": "%s. Supplies go in the ledger. I'll leave the rest out."
+  },
+  {
+   "key": "quartermaster.known.boss.1",
+   "text": "%s, entered and filed. There's a box on the form for this now. I wish there weren't."
+  },
+  {
+   "key": "rift_stabilizer.known.boss.0",
+   "text": "%s. Somewhere a light just went out. I used to write those down."
+  },
+  {
+   "key": "rift_stabilizer.known.boss.1",
+   "text": "%s, fallen. I'll steady your next key."
+  },
+  {
+   "key": "druid.known.boss.0",
+   "text": "%s. Come and sit by the kale a minute."
+  },
+  {
+   "key": "druid.known.boss.1",
+   "text": "%s, fallen. I keep thinking about the gardens there. I hope someone sowed them."
+  },
+  {
+   "key": "apothecarist.known.boss.0",
+   "text": "%s. Let me see your hands. Steady enough."
+  },
+  {
+   "key": "apothecarist.known.boss.1",
+   "text": "%s. The ground there will be letting go. Drink this."
+  },
+  {
+   "key": "cook.known.boss.0",
+   "text": "%s. I've kept a plate back. Eat first."
+  },
+  {
+   "key": "cook.known.boss.1",
+   "text": "%s, fallen. Gran fed whoever came to the door. I'm trying to keep to that."
+  },
+  {
+   "key": "restoration_keeper.known.boss.0",
+   "text": "%s. I'll add it to the book tonight, Restorer, and a prayer after it."
+  },
+  {
+   "key": "restoration_keeper.known.boss.1",
+   "text": "%s, fallen. The Patient Water says keep praying. So I do, for them and for you."
+  },
+  {
+   "key": "relic_scholar.known.boss.0",
+   "text": "%s. I'll enter the name beside the others."
+  },
+  {
+   "key": "relic_scholar.known.boss.1",
+   "text": "%s, fallen. Bring me any relic it dropped. I'll catalog what remains."
+  },
+  {
+   "key": "any.known.deaths.0",
+   "text": "You looked at me as though you were trying to place me. Sit down."
+  },
+  {
+   "key": "any.known.deaths.1",
+   "text": "You come back a little quieter every time."
+  },
+  {
+   "key": "blacksmith.known.deaths.0",
+   "text": "Dents and scorch. You asked me who made this. I did. You asked last time too."
+  },
+  {
+   "key": "jeweler.known.deaths.0",
+   "text": "You look worn. You didn't know my name at the door. It's Dessa. I'll keep saying it."
+  },
+  {
+   "key": "rift_cartographer.known.deaths.1",
+   "text": "Let's choose the next rift together. I'll show you which ones you chose before."
+  },
+  {
+   "key": "rift_cartographer.known.rank_up.0",
+   "text": "I've checked the new routes. I know what I'm sending you toward."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "reaper_dark_fortify",
+  "class": "reaper",
+  "ascendancy": "drainreaver",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:reaper_dark_fortify",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 44.0,
+  "base_cooldown_ticks": 360,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1
+  }
+}

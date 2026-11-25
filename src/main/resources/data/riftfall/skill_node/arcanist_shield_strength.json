@@ -1,0 +1,8 @@
+{
+  "id": "arcanist_shield_strength",
+  "class": "arcanist",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:shield_strength",
+  "bonus_per_rank": 0.1
+}

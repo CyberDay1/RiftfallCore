@@ -1,0 +1,9 @@
+{
+  "id": "reaper_mana_regen_on_kill",
+  "class": "reaper",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/reaper_mana_regen_on_kill",
+  "shape": "proc",
+  "bonus_per_rank": 0.05
+}

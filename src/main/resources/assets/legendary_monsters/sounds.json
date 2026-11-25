@@ -1,0 +1,62 @@
+{
+  "cloud_golem_music": {
+    "subtitles": "sounds.legendary_monsters.cloud_golem_music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legendary_monsters:cloud_golem_music",
+        "stream": true
+      }
+    ]
+  },
+  "cloud_golem_music_stereo": {
+    "subtitles": "sounds.legendary_monsters.cloud_golem_music_stereo",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legendary_monsters:cloud_golem_music_stereo",
+        "stream": true
+      }
+    ]
+  },
+  "obliterator_stereo": {
+    "subtitles": "obliterator_stereo",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legendary_monsters:obliterator_stereo",
+        "stream": true
+      }
+    ]
+  },
+  "obliterator_mono": {
+    "subtitles": "obliterator_mono",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legendary_monsters:obliterator_mono",
+        "stream": true
+      }
+    ]
+  },
+  "possessed_paladin_mono": {
+    "subtitles": "possessed_paladin_mono",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legendary_monsters:possessed_paladin_mono",
+        "stream": true
+      }
+    ]
+  },
+  "possessed_paladin_stereo": {
+    "subtitles": "possessed_paladin_stereo",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legendary_monsters:possessed_paladin_stereo",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "bosses_of_mass_destruction:gauntlet", "required": false },
+    { "id": "bosses_of_mass_destruction:lich", "required": false },
+    { "id": "bosses_of_mass_destruction:obsidilith", "required": false },
+    { "id": "bosses_of_mass_destruction:void_blossom", "required": false },
+
+    { "id": "cataclysm:ancient_remnant", "required": false },
+    { "id": "cataclysm:ender_guardian", "required": false },
+    { "id": "cataclysm:ignis", "required": false },
+    { "id": "cataclysm:maledictus", "required": false },
+    { "id": "cataclysm:netherite_monstrosity", "required": false },
+    { "id": "cataclysm:scylla", "required": false },
+    { "id": "cataclysm:the_harbinger", "required": false },
+    { "id": "cataclysm:the_leviathan", "required": false },
+
+    { "id": "block_factorys_bosses:infernal_dragon", "required": false },
+    { "id": "block_factorys_bosses:kraken", "required": false },
+    { "id": "block_factorys_bosses:sandworm", "required": false },
+    { "id": "block_factorys_bosses:underworld_knight", "required": false },
+    { "id": "block_factorys_bosses:yeti", "required": false },
+
+    { "id": "eternal_starlight:lunar_monstrosity", "required": false },
+    { "id": "eternal_starlight:starlight_golem", "required": false },
+
+    { "id": "aether:slider", "required": false },
+    { "id": "aether:sun_spirit", "required": false },
+    { "id": "aether:valkyrie_queen", "required": false },
+
+    { "id": "voidscape:corrupted_pawn", "required": false },
+    { "id": "voidscape:null_servant", "required": false },
+
+    { "id": "legendary_monsters:cloud_golem", "required": false },
+    { "id": "legendary_monsters:posessed_paladin", "required": false },
+    { "id": "legendary_monsters:the_obliterator", "required": false },
+
+    { "id": "irons_spellbooks:dead_king", "required": false },
+    { "id": "irons_spellbooks:fire_boss", "required": false },
+
+    { "id": "too_many_weapons:decayer", "required": false },
+    { "id": "too_many_weapons:safey_is_a_sin", "required": false },
+
+    { "id": "alexsmobs:void_worm", "required": false },
+    { "id": "born_in_chaos_v1:lord_pumpkinhead", "required": false },
+    { "id": "deeperdarker:stalker", "required": false },
+    { "id": "ftboceanmobs:rift_weaver", "required": false },
+    { "id": "primitive_creatures:idolater_", "required": false }
+  ]
+}

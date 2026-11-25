@@ -1,0 +1,12 @@
+{
+  "type": "riftfall:rift",
+  "generator": {
+    "type": "riftfall:rift",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "riftfall:rift"
+    },
+    "height": 256,
+    "radius_sections": 24
+  }
+}

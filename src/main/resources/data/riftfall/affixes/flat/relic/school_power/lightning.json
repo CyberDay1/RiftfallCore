@@ -1,0 +1,52 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "irons_spellbooks:lightning_spell_power",
+    "categories": [
+        "riftfall:relic"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [
+            "riftfall:flat/relic/school_power/blood",
+            "riftfall:flat/relic/school_power/eldritch",
+            "riftfall:flat/relic/school_power/ender",
+            "riftfall:flat/relic/school_power/evocation",
+            "riftfall:flat/relic/school_power/fire",
+            "riftfall:flat/relic/school_power/holy",
+            "riftfall:flat/relic/school_power/ice",
+            "riftfall:flat/relic/school_power/nature"
+        ],
+        "weights": {
+            "quality": 0.1,
+            "weight": 3
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.018,
+            "max": 0.036,
+            "step": 0.00225
+        },
+        "apotheosis:uncommon": {
+            "min": 0.027,
+            "max": 0.0495,
+            "step": 0.0028125
+        },
+        "apotheosis:rare": {
+            "min": 0.0405,
+            "max": 0.063,
+            "step": 0.0028125
+        },
+        "apotheosis:epic": {
+            "min": 0.054,
+            "max": 0.0765,
+            "step": 0.0028125
+        },
+        "apotheosis:mythic": {
+            "min": 0.072,
+            "max": 0.09,
+            "step": 0.00225
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "reaper_plague_bolt",
+  "class": "reaper",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:reaper_plague_bolt",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 34.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.1,
+    "duration_seconds_per_rank": 0.4
+  },
+  "dot": {
+    "type": "venom",
+    "coefficient": 1.1,
+    "seconds": 12.0
+  }
+}

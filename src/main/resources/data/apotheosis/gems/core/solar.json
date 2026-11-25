@@ -1,0 +1,73 @@
+{
+    "type": "apotheosis:gem",
+    "min_purity": "cracked",
+    "unique": true,
+    "weights": {
+        "weight": 100,
+        "quality": 0.1
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:healing_received",
+            "gem_class": {
+                "key": "armor",
+                "types": [
+                    "apotheosis:helmet",
+                    "apotheosis:chestplate",
+                    "apotheosis:leggings",
+                    "apotheosis:boots"
+                ]
+            },
+            "operation": "add_multiplied_base",
+            "values": {
+                "cracked": 0.015,
+                "chipped": 0.02,
+                "flawed": 0.028,
+                "normal": 0.035,
+                "flawless": 0.043,
+                "perfect": 0.05
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:self_healing",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.015,
+                "chipped": 0.02,
+                "flawed": 0.028,
+                "normal": 0.035,
+                "flawless": 0.043,
+                "perfect": 0.05
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:self_healing",
+            "gem_class": {
+                "key": "magic_gear",
+                "types": [
+                    "irons_apothic:staff",
+                    "irons_apothic:spellbook"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.015,
+                "chipped": 0.02,
+                "flawed": 0.028,
+                "normal": 0.035,
+                "flawless": 0.043,
+                "perfect": 0.05
+            }
+        }
+    ]
+}

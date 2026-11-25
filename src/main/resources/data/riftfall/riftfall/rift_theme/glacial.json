@@ -1,0 +1,251 @@
+{
+  "materials": {
+    "1": [
+      {
+        "block": "cataclysm:frosted_stone_bricks",
+        "weight": 4.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "cataclysm:stone_pillar"
+        }
+      },
+      {
+        "block": "quark:permafrost_bricks",
+        "weight": 2.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      },
+      {
+        "block": "minecraft:stone_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "2": [
+      {
+        "block": "quark:permafrost",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "3": [
+      {
+        "block": "quark:permafrost_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "4": [
+      {
+        "block": "eternal_starlight:eternal_ice_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "5": [
+      {
+        "block": "cataclysm:frosted_stone_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "cataclysm:stone_pillar"
+        }
+      }
+    ],
+    "6": [
+      {
+        "block": "minecraft:spruce_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:stripped_spruce_log"
+        }
+      }
+    ],
+    "7": [
+      {
+        "block": "cataclysm:frosted_stone_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "cataclysm:stone_pillar"
+        }
+      }
+    ],
+    "8": [
+      {
+        "block": "quark:permafrost",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "9": [
+      {
+        "block": "eternal_starlight:haze_ice_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "10": [
+      {
+        "block": "minecraft:polished_diorite",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "11": [
+      {
+        "block": "minecraft:spruce_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:stripped_spruce_log"
+        }
+      }
+    ],
+    "12": [
+      {
+        "block": "quark:permafrost_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "13": [
+      {
+        "block": "eternal_starlight:eternal_ice_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "14": [
+      {
+        "block": "eternal_starlight:haze_ice_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "15": [
+      {
+        "block": "cataclysm:frosted_stone_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:light_blue_stained_glass",
+          "glass_pane": "minecraft:light_blue_stained_glass_pane",
+          "directional_pillar": "cataclysm:stone_pillar"
+        }
+      }
+    ]
+  },
+  "fallback": "minecraft:stone_bricks",
+  "noise_scale": [
+    0.055,
+    0.09,
+    0.055
+  ],
+  "seed_adjustment": 13001,
+  "decorators": [
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:soul_lantern[hanging=true]",
+      "rarity": 0.025,
+      "seed": 13002,
+      "requires_up": true
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:cobweb",
+      "rarity": 0.012,
+      "seed": 13003,
+      "requires_sides": 2
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:frost_plate",
+        "darkutils:slowness_plate",
+        "darkutils:weakness_plate"
+      ],
+      "decoy": "minecraft:stone_pressure_plate",
+      "room_kinds": [
+        "approach",
+        "chaos",
+        "stable",
+        "unstable",
+        "boss"
+      ],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 13001
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "stone",
+      "home": "ice_opal",
+      "light": "minecraft:sea_lantern"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "stone",
+      "home": "ice_opal",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:sea_lantern",
+      "ceiling": "minecraft:sea_lantern",
+      "floor": "minecraft:sea_lantern",
+      "alcove": "minecraft:soul_lantern",
+      "hanging": "minecraft:soul_lantern[hanging=true]",
+      "seed": 13004
+    }
+  ]
+}

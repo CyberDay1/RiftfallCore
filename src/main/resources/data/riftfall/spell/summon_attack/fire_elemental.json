@@ -1,0 +1,100 @@
+{
+  "school": "spell_power:fire",
+  "range": 16,
+  "active": {
+    "cast": {
+      "duration": 0.25
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "required": true
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.evoker.cast_spell",
+      "volume": 0.25
+    }
+  },
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "direct_towards_target": false,
+      "launch_properties": {
+        "velocity": 1.1
+      },
+      "projectile": {
+        "homing_angle": 0,
+        "client_data": {
+          "travel_particles": [
+            {
+              "id": "spell_engine:magic_spark",
+              "appearance": {
+                "color": 4285542399,
+                "scale": 0.35,
+                "opacity": 0.85
+              },
+              "batch": {
+                "count": 1.0,
+                "shape": "SPHERE",
+                "anchor": "ENTITY",
+                "extent": 0.0,
+                "min_speed": 0.004,
+                "max_speed": 0.008
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "orientation": "TOWARDS_MOTION",
+                "fx": {
+                  "model_id": "wizards:spell_projectile/fireball",
+                  "scale": 0.4,
+                  "light_emission": "GLOW"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.0
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 4285542399,
+              "scale": 0.35,
+              "opacity": 0.85
+            },
+            "batch": {
+              "count": 3.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.06
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 1.3
+    }
+  }
+}

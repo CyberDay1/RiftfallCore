@@ -1,0 +1,8 @@
+{
+  "id": "paladin_healing_received",
+  "class": "paladin",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "apothic_attributes:healing_received",
+  "bonus_per_rank": 0.1
+}

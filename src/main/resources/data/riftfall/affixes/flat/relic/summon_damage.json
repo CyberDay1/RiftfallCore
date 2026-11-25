@@ -1,0 +1,43 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "irons_spellbooks:summon_damage",
+    "categories": [
+        "riftfall:relic"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.01,
+            "max": 0.02,
+            "step": 0.00125
+        },
+        "apotheosis:uncommon": {
+            "min": 0.015,
+            "max": 0.0275,
+            "step": 0.0015625
+        },
+        "apotheosis:rare": {
+            "min": 0.0225,
+            "max": 0.035,
+            "step": 0.0015625
+        },
+        "apotheosis:epic": {
+            "min": 0.03,
+            "max": 0.0425,
+            "step": 0.0015625
+        },
+        "apotheosis:mythic": {
+            "min": 0.04,
+            "max": 0.05,
+            "step": 0.00125
+        }
+    }
+}

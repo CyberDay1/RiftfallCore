@@ -1,0 +1,22 @@
+{
+  "id": "sword_immortal_flow_state",
+  "class": "sword_immortal",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/sword_immortal_flow_state",
+  "shape": "proc",
+  "internal_cooldown_ticks": 100,
+  "bonus_per_rank": 0.08,
+  "reaction": {
+    "on": "move"
+  },
+  "surge": {
+    "seconds": 4.0,
+    "terms": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

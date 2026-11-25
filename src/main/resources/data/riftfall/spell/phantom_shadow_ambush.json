@@ -1,0 +1,206 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 12.0,
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "required": true,
+      "sticky": true
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "rogues:shadow_step_depart",
+      "volume": 0.6,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:weapon_dual_slash_cross",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:smoke_large",
+          "appearance": {
+            "color": 336207871,
+            "color_variance": 0.08,
+            "scale": 1.4,
+            "opacity": 0.75
+          },
+          "batch": {
+            "count": 8.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.02,
+            "max_speed": 0.05
+          }
+        },
+        {
+          "id": "spell_engine:smoke_medium",
+          "appearance": {
+            "color": 336207871,
+            "color_variance": 0.08,
+            "scale": 3.0,
+            "opacity": 0.9
+          },
+          "batch": {
+            "count": 10.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.1
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "TELEPORT",
+        "teleport": {
+          "mode": "BEHIND_TARGET",
+          "intent": "HARMFUL",
+          "behind_target": {
+            "distance": 1.5
+          }
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 2.6,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:area_effect_642",
+            "appearance": {
+              "color": 2808545279,
+              "color_variance": 0.08,
+              "facing": "CAMERA",
+              "scale": 1.1,
+              "opacity": 0.95
+            },
+            "batch": {
+              "count": 1.0,
+              "shape": "NONE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.0,
+              "max_speed": 0.0
+            }
+          },
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 336207871,
+              "color_variance": 0.08,
+              "scale": 3.0,
+              "opacity": 0.9
+            },
+            "batch": {
+              "count": 6.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.08
+            }
+          }
+        ],
+        "models": [
+          {
+            "model_id": "riftfall:spell_effect/arc_shadow",
+            "duration": 8,
+            "scale": 1.1,
+            "positioning": {
+              "vertical": 0.5
+            },
+            "follow_entity": false,
+            "light_emission": "GLOW",
+            "initial": [
+              {
+                "operation": "rotate",
+                "z": 30
+              }
+            ],
+            "animations": [
+              {
+                "operation": "scale",
+                "start": 0,
+                "end": 5,
+                "x": 0.3,
+                "y": 0.3,
+                "z": 0.3,
+                "easing": "LINEAR"
+              },
+              {
+                "operation": "scale",
+                "start": 5,
+                "end": 8,
+                "x": 0,
+                "y": -1.3,
+                "z": 0,
+                "easing": "LINEAR"
+              }
+            ]
+          },
+          {
+            "model_id": "riftfall:spell_effect/arc_shadow",
+            "duration": 8,
+            "scale": 1.1,
+            "positioning": {
+              "vertical": 0.5
+            },
+            "follow_entity": false,
+            "light_emission": "GLOW",
+            "initial": [
+              {
+                "operation": "rotate",
+                "z": -30
+              }
+            ],
+            "animations": [
+              {
+                "operation": "scale",
+                "start": 0,
+                "end": 5,
+                "x": 0.3,
+                "y": 0.3,
+                "z": 0.3,
+                "easing": "LINEAR"
+              },
+              {
+                "operation": "scale",
+                "start": 5,
+                "end": 8,
+                "x": 0,
+                "y": -1.3,
+                "z": 0,
+                "easing": "LINEAR"
+              }
+            ]
+          }
+        ]
+      },
+      "sound": {
+        "id": "rogues:mutilate_impact",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

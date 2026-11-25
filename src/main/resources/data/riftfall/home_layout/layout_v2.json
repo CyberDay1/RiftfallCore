@@ -1,0 +1,1007 @@
+{
+  "status": "25 ready tiles: core, blacksmith, quarry, then remaining crafted landscapes; wilderness after 25.",
+  "tile_size": 100,
+  "coordinates": "east +X; south +Z; core tile grid (0,0), existing origin (0,0,0)",
+  "world_bounds_xz_inclusive": [
+    -200,
+    299
+  ],
+  "road_surface_y_at_seams": 10,
+  "player_feet_y_at_seams": 11,
+  "seam_centers_local_xz": {
+    "N": [
+      50,
+      0
+    ],
+    "E": [
+      99,
+      50
+    ],
+    "S": [
+      50,
+      99
+    ],
+    "W": [
+      0,
+      50
+    ]
+  },
+  "straight_seam_approach_blocks": 8,
+  "headroom_minimum": 4,
+  "shoulder_blocks_per_side": 1,
+  "tiles": [
+    {
+      "name": "Core Sanctuary",
+      "grid_xz": [
+        0,
+        0
+      ],
+      "block_origin_xyz": [
+        0,
+        0,
+        0
+      ],
+      "proposed_unlock_order": 1,
+      "ports_and_clear_widths": {
+        "N": 5,
+        "E": 5,
+        "S": 5,
+        "W": 5
+      },
+      "id": "sanctuary_100x100",
+      "template": "riftfall:home/layout_v1/sanctuary_100x100",
+      "ready": true,
+      "build_status": "road_variant_validated"
+    },
+    {
+      "name": "Forge",
+      "grid_xz": [
+        1,
+        0
+      ],
+      "block_origin_xyz": [
+        100,
+        0,
+        0
+      ],
+      "proposed_unlock_order": 2,
+      "ports_and_clear_widths": {
+        "S": 5,
+        "N": 5,
+        "W": 5,
+        "E": 5
+      },
+      "id": "forge_100x100",
+      "template": "riftfall:home/layout_v2/forge_100x100",
+      "ready": true,
+      "build_status": "road_variant_validated"
+    },
+    {
+      "name": "Ashen Quarry",
+      "grid_xz": [
+        1,
+        1
+      ],
+      "block_origin_xyz": [
+        100,
+        0,
+        100
+      ],
+      "proposed_unlock_order": 3,
+      "ports_and_clear_widths": {
+        "N": 5,
+        "W": 5,
+        "E": 5
+      },
+      "id": "ashen_quarry",
+      "template": "riftfall:home/layout_v2/ashen_quarry",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A stepped charcoal quarry with exposed pale seams, crane, cut-stone stockpiles and a tool shelter."
+    },
+    {
+      "name": "Brook Crossing",
+      "grid_xz": [
+        0,
+        1
+      ],
+      "block_origin_xyz": [
+        0,
+        0,
+        100
+      ],
+      "proposed_unlock_order": 4,
+      "ports_and_clear_widths": {
+        "E": 5,
+        "W": 5,
+        "N": 5,
+        "S": 5
+      },
+      "id": "03_brook_crossing",
+      "template": "riftfall:home/layout_v1/03_brook_crossing",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A narrow stepped ravine carrying three cascades, a long timber crossing, fern-covered rock banks and bridge-maintenance landing."
+    },
+    {
+      "name": "Sedge Meadow",
+      "grid_xz": [
+        -1,
+        1
+      ],
+      "block_origin_xyz": [
+        -100,
+        0,
+        100
+      ],
+      "proposed_unlock_order": 5,
+      "ports_and_clear_widths": {
+        "E": 5,
+        "N": 5
+      },
+      "id": "08_sedge_meadow",
+      "template": "riftfall:home/layout_v1/08_sedge_meadow",
+      "ready": true,
+      "build_status": "road_variant_validated"
+    },
+    {
+      "name": "Stillwater Field",
+      "grid_xz": [
+        -1,
+        0
+      ],
+      "block_origin_xyz": [
+        -100,
+        0,
+        0
+      ],
+      "proposed_unlock_order": 6,
+      "ports_and_clear_widths": {
+        "S": 5,
+        "N": 5,
+        "E": 5,
+        "W": 5
+      },
+      "id": "02_stillwater_field",
+      "template": "riftfall:home/layout_v1/02_stillwater_field",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A broad irregular still lake, willow-shaded reed banks, low gravel spits, fishing landing and low boat shed; no ruins."
+    },
+    {
+      "name": "Birch Hollow",
+      "grid_xz": [
+        -1,
+        -1
+      ],
+      "block_origin_xyz": [
+        -100,
+        0,
+        -100
+      ],
+      "proposed_unlock_order": 7,
+      "ports_and_clear_widths": {
+        "S": 5,
+        "E": 5
+      },
+      "id": "04_birch_hollow",
+      "template": "riftfall:home/layout_v1/04_birch_hollow",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A dense stand of tall white birches around an asymmetric wooded hollow, fallen trunks, boulder shelves and a canvas forager camp; no pond or stone shrine."
+    },
+    {
+      "name": "Clover Rise",
+      "grid_xz": [
+        0,
+        -1
+      ],
+      "block_origin_xyz": [
+        0,
+        0,
+        -100
+      ],
+      "proposed_unlock_order": 8,
+      "ports_and_clear_widths": {
+        "W": 5,
+        "E": 5,
+        "S": 5,
+        "N": 5
+      },
+      "id": "07_clover_rise",
+      "template": "riftfall:home/layout_v1/07_clover_rise",
+      "ready": true,
+      "build_status": "road_variant_validated"
+    },
+    {
+      "name": "Stonefield Crossing",
+      "grid_xz": [
+        1,
+        -1
+      ],
+      "block_origin_xyz": [
+        100,
+        0,
+        -100
+      ],
+      "proposed_unlock_order": 9,
+      "ports_and_clear_widths": {
+        "W": 5,
+        "S": 5,
+        "E": 5
+      },
+      "id": "10_stonefield_crossing",
+      "template": "riftfall:home/layout_v1/10_stonefield_crossing",
+      "ready": true,
+      "build_status": "road_variant_validated"
+    },
+    {
+      "name": "Observatory",
+      "grid_xz": [
+        0,
+        -2
+      ],
+      "block_origin_xyz": [
+        0,
+        0,
+        -200
+      ],
+      "proposed_unlock_order": 10,
+      "ports_and_clear_widths": {
+        "E": 3,
+        "W": 3,
+        "S": 5
+      },
+      "id": "observatory_100x100",
+      "template": "riftfall:home/layout_v1/observatory_100x100",
+      "ready": true,
+      "build_status": "road_variant_validated"
+    },
+    {
+      "name": "Crystal Hollow",
+      "grid_xz": [
+        1,
+        -2
+      ],
+      "block_origin_xyz": [
+        100,
+        0,
+        -200
+      ],
+      "proposed_unlock_order": 11,
+      "ports_and_clear_widths": {
+        "W": 3,
+        "E": 3
+      },
+      "id": "crystal_hollow",
+      "template": "riftfall:home/layout_v1/crystal_hollow",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "An open crescent geode, blue and violet crystal spires, a reflective pool and a mineral survey camp."
+    },
+    {
+      "name": "Watchpost Alpha",
+      "grid_xz": [
+        2,
+        -2
+      ],
+      "block_origin_xyz": [
+        200,
+        0,
+        -200
+      ],
+      "proposed_unlock_order": 12,
+      "ports_and_clear_widths": {
+        "W": 3,
+        "S": 5
+      },
+      "id": "06_waystation_alpha",
+      "template": "riftfall:home/layout_v2/06_waystation_alpha",
+      "ready": true,
+      "build_status": "road_variant_validated"
+    },
+    {
+      "name": "Meadow Ruin",
+      "grid_xz": [
+        2,
+        -1
+      ],
+      "block_origin_xyz": [
+        200,
+        0,
+        -100
+      ],
+      "proposed_unlock_order": 13,
+      "ports_and_clear_widths": {
+        "N": 5,
+        "S": 5,
+        "W": 5
+      },
+      "id": "01_meadow_ruin",
+      "template": "riftfall:home/layout_v2/01_meadow_ruin",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A wind-swept ridge with a roofless abbey, broken square tower, exposed nave, burial garden and wildflower escarpment."
+    },
+    {
+      "name": "Forsaken Outpost",
+      "grid_xz": [
+        2,
+        0
+      ],
+      "block_origin_xyz": [
+        200,
+        0,
+        0
+      ],
+      "proposed_unlock_order": 14,
+      "ports_and_clear_widths": {
+        "N": 5,
+        "S": 5,
+        "W": 5
+      },
+      "id": "05_forsaken_outpost",
+      "template": "riftfall:home/layout_v1/05_forsaken_outpost",
+      "ready": true,
+      "build_status": "road_variant_validated"
+    },
+    {
+      "name": "Supply Depot",
+      "grid_xz": [
+        2,
+        1
+      ],
+      "block_origin_xyz": [
+        200,
+        0,
+        100
+      ],
+      "proposed_unlock_order": 15,
+      "ports_and_clear_widths": {
+        "N": 5,
+        "S": 3,
+        "W": 5
+      },
+      "id": "supply_depot",
+      "template": "riftfall:home/layout_v1/supply_depot",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A low, dry freight yard with a stocked timber warehouse, unloading platform, repair canopy and loaded carts."
+    },
+    {
+      "name": "Riftscar Basin",
+      "grid_xz": [
+        2,
+        2
+      ],
+      "block_origin_xyz": [
+        200,
+        0,
+        200
+      ],
+      "proposed_unlock_order": 16,
+      "ports_and_clear_widths": {
+        "N": 3,
+        "W": 3
+      },
+      "id": "riftscar_basin",
+      "template": "riftfall:home/layout_v1/riftscar_basin",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "An asymmetric impact basin, diagonal obsidian fissure, leaning basalt teeth and a deserted measuring camp."
+    },
+    {
+      "name": "Windworn Plateau",
+      "grid_xz": [
+        1,
+        2
+      ],
+      "block_origin_xyz": [
+        100,
+        0,
+        200
+      ],
+      "proposed_unlock_order": 17,
+      "ports_and_clear_widths": {
+        "E": 3,
+        "W": 3
+      },
+      "id": "windworn_plateau",
+      "template": "riftfall:home/layout_v1/windworn_plateau",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "Long pale wind-carved ridges and narrow sandstone fins, a low natural arch and a caravan rest tucked into a lee-side shelf."
+    },
+    {
+      "name": "Orchard Rest",
+      "grid_xz": [
+        0,
+        2
+      ],
+      "block_origin_xyz": [
+        0,
+        0,
+        200
+      ],
+      "proposed_unlock_order": 18,
+      "ports_and_clear_widths": {
+        "E": 3,
+        "W": 3,
+        "N": 5
+      },
+      "id": "09_orchard_rest",
+      "template": "riftfall:home/layout_v1/09_orchard_rest",
+      "ready": true,
+      "build_status": "road_variant_validated"
+    },
+    {
+      "name": "Sunken Gardens",
+      "grid_xz": [
+        -1,
+        2
+      ],
+      "block_origin_xyz": [
+        -100,
+        0,
+        200
+      ],
+      "proposed_unlock_order": 19,
+      "ports_and_clear_widths": {
+        "E": 3,
+        "W": 3
+      },
+      "id": "sunken_gardens",
+      "template": "riftfall:home/layout_v1/sunken_gardens",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A sunken formal garden with stepped limestone walls, water rills, flower beds, broken pergola and potting corner."
+    },
+    {
+      "name": "Fungal Grotto",
+      "grid_xz": [
+        -2,
+        2
+      ],
+      "block_origin_xyz": [
+        -200,
+        0,
+        200
+      ],
+      "proposed_unlock_order": 20,
+      "ports_and_clear_widths": {
+        "E": 3,
+        "N": 3
+      },
+      "id": "fungal_grotto",
+      "template": "riftfall:home/layout_v1/fungal_grotto",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A horseshoe of dark rock enclosing giant lavender and green fungi, luminous pools and an herbalist alcove."
+    },
+    {
+      "name": "Reedwater Mill",
+      "grid_xz": [
+        -2,
+        1
+      ],
+      "block_origin_xyz": [
+        -200,
+        0,
+        100
+      ],
+      "proposed_unlock_order": 21,
+      "ports_and_clear_widths": {
+        "S": 3,
+        "N": 3
+      },
+      "id": "reedwater_mill",
+      "template": "riftfall:home/layout_v1/reedwater_mill",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A meandering reed-filled millrace beside a furnished watermill, timber wheel, catch dock and grain stores."
+    },
+    {
+      "name": "Flooded Cloister",
+      "grid_xz": [
+        -2,
+        0
+      ],
+      "block_origin_xyz": [
+        -200,
+        0,
+        0
+      ],
+      "proposed_unlock_order": 22,
+      "ports_and_clear_widths": {
+        "S": 3,
+        "N": 3,
+        "E": 5
+      },
+      "id": "flooded_cloister",
+      "template": "riftfall:home/layout_v1/flooded_cloister",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "Partly submerged cloister arcades around an open flooded court, with cypress islands and a salvager landing."
+    },
+    {
+      "name": "Rootbound Archive",
+      "grid_xz": [
+        -2,
+        -1
+      ],
+      "block_origin_xyz": [
+        -200,
+        0,
+        -100
+      ],
+      "proposed_unlock_order": 23,
+      "ports_and_clear_widths": {
+        "S": 3,
+        "N": 3
+      },
+      "id": "rootbound_archive",
+      "template": "riftfall:home/layout_v1/rootbound_archive",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "An old reading hall embedded in a wooded bank, overtaken by a giant ironwood and sprawling roots."
+    },
+    {
+      "name": "Frostpine Ridge",
+      "grid_xz": [
+        -2,
+        -2
+      ],
+      "block_origin_xyz": [
+        -200,
+        0,
+        -200
+      ],
+      "proposed_unlock_order": 24,
+      "ports_and_clear_widths": {
+        "S": 3,
+        "E": 3
+      },
+      "id": "frostpine_ridge",
+      "template": "riftfall:home/layout_v1/frostpine_ridge",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "Two snowy ridges and a fir-lined saddle, a frozen tarn, windbreak shelter and stacked firewood."
+    },
+    {
+      "name": "Fallen Aqueduct",
+      "grid_xz": [
+        -1,
+        -2
+      ],
+      "block_origin_xyz": [
+        -100,
+        0,
+        -200
+      ],
+      "proposed_unlock_order": 25,
+      "ports_and_clear_widths": {
+        "W": 3,
+        "E": 3
+      },
+      "id": "fallen_aqueduct",
+      "template": "riftfall:home/layout_v1/fallen_aqueduct",
+      "ready": true,
+      "build_status": "road_variant_validated",
+      "landscape_design": "A tall broken aqueduct spanning a stream, intact arches and channel beside fallen voussoirs and a survey station."
+    }
+  ],
+  "connections": [
+    {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "type": "inner_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1
+      ],
+      "type": "inner_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        0,
+        1
+      ],
+      "b": [
+        -1,
+        1
+      ],
+      "type": "inner_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        -1,
+        1
+      ],
+      "b": [
+        -1,
+        0
+      ],
+      "type": "inner_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        -1,
+        0
+      ],
+      "b": [
+        -1,
+        -1
+      ],
+      "type": "inner_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        -1,
+        -1
+      ],
+      "b": [
+        0,
+        -1
+      ],
+      "type": "inner_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        0,
+        -1
+      ],
+      "b": [
+        1,
+        -1
+      ],
+      "type": "inner_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        1,
+        -1
+      ],
+      "b": [
+        1,
+        0
+      ],
+      "type": "inner_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        0,
+        -2
+      ],
+      "b": [
+        1,
+        -2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        1,
+        -2
+      ],
+      "b": [
+        2,
+        -2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        2,
+        -2
+      ],
+      "b": [
+        2,
+        -1
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        2,
+        -1
+      ],
+      "b": [
+        2,
+        0
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        2,
+        0
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        2,
+        2
+      ],
+      "b": [
+        1,
+        2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        1,
+        2
+      ],
+      "b": [
+        0,
+        2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        0,
+        2
+      ],
+      "b": [
+        -1,
+        2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        -1,
+        2
+      ],
+      "b": [
+        -2,
+        2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        -2,
+        2
+      ],
+      "b": [
+        -2,
+        1
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        -2,
+        1
+      ],
+      "b": [
+        -2,
+        0
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        -2,
+        0
+      ],
+      "b": [
+        -2,
+        -1
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        -2,
+        -1
+      ],
+      "b": [
+        -2,
+        -2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        -2,
+        -2
+      ],
+      "b": [
+        -1,
+        -2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        -1,
+        -2
+      ],
+      "b": [
+        0,
+        -2
+      ],
+      "type": "outer_loop",
+      "clear_width_blocks": 3
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        -1
+      ],
+      "type": "sanctuary_spoke",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0
+      ],
+      "type": "sanctuary_spoke",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1
+      ],
+      "type": "sanctuary_spoke",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        -1,
+        0
+      ],
+      "type": "sanctuary_spoke",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        0,
+        -1
+      ],
+      "b": [
+        0,
+        -2
+      ],
+      "type": "outer_connector",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        2,
+        0
+      ],
+      "type": "outer_connector",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        0,
+        1
+      ],
+      "b": [
+        0,
+        2
+      ],
+      "type": "outer_connector",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        -1,
+        0
+      ],
+      "b": [
+        -2,
+        0
+      ],
+      "type": "outer_connector",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        1,
+        -1
+      ],
+      "b": [
+        2,
+        -1
+      ],
+      "type": "working_outpost_link",
+      "clear_width_blocks": 5
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "type": "working_outpost_link",
+      "clear_width_blocks": 5
+    }
+  ],
+  "migration": "Only v1 homes with the sanctuary alone upgrade to v2. Expanded v1 homes retain their original map and assets.",
+  "core_route": "Outer precinct bypass links all four seam approaches; inner shrine, machine volume and existing arrival stay clear.",
+  "locked_edges": "Existing HomeBoundary collision and glow enforce locked edges. Decorative removable road gates are pending.",
+  "layout_version": 2
+}

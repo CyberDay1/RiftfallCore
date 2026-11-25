@@ -1,0 +1,26 @@
+{
+  "class": "summoner",
+  "families": [
+    {
+      "name": "staves and relics",
+      "items": [
+        "wizards:staff_wizard",
+        "simple_staves:woodenwand"
+      ],
+      "words": [
+        "staff",
+        "staves",
+        "rod",
+        "sceptre",
+        "scepter",
+        "wand",
+        "totem",
+        "bell",
+        "horn",
+        "orb",
+        "tome",
+        "grimoire"
+      ]
+    }
+  ]
+}

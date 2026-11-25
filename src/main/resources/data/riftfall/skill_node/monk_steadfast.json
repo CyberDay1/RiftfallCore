@@ -1,0 +1,9 @@
+{
+  "id": "monk_steadfast",
+  "class": "monk",
+  "ascendancy": "iron_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "mrpg_lib:tenacity",
+  "bonus_per_rank": 10.0
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cleric_miracle_of_renewal",
+  "class": "cleric",
+  "ascendancy": "high_priest",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:cleric_miracle_of_renewal",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 4000,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "heal",
+    "magnitude_per_rank": 0.1
+  },
+  "category": "heal"
+}

@@ -1,0 +1,36 @@
+{
+  "class": "sword_immortal",
+  "families": [
+    {
+      "name": "katanas",
+      "items": [
+        "simplyswords:iron_katana"
+      ],
+      "words": [
+        "katana",
+        "tachi",
+        "odachi",
+        "nodachi",
+        "wakizashi",
+        "uchigatana"
+      ]
+    },
+    {
+      "name": "swords",
+      "words": [
+        "sword",
+        "longsword",
+        "blade",
+        "saber",
+        "sabre",
+        "rapier",
+        "jian",
+        "dao",
+        "cutlass",
+        "scimitar",
+        "claymore",
+        "greatsword"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "class": "arcanist",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "wizards:staff_arcane",
+      "fallback": "minecraft:wooden_sword"
+    },
+    {
+      "slot": "head",
+      "item": "wizards:arcane_robe_head"
+    },
+    {
+      "slot": "chest",
+      "item": "wizards:arcane_robe_chest"
+    },
+    {
+      "slot": "legs",
+      "item": "wizards:arcane_robe_legs"
+    },
+    {
+      "slot": "feet",
+      "item": "wizards:arcane_robe_feet"
+    }
+  ]
+}

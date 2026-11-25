@@ -1,0 +1,36 @@
+{
+    "type": "irons_apothic:imbued_spell_trigger",
+    "definition": {
+        "affix_type": "stat",
+        "weights": {
+            "quality": 0.0,
+            "weight": 0
+        },
+        "exclusive_set": []
+    },
+    "trigger": "SPELL_DAMAGE",
+    "target": "TARGET",
+    "values": {
+        "apotheosis:common": {
+            "cooldown": 5860
+        },
+        "apotheosis:uncommon": {
+            "cooldown": 4688
+        },
+        "apotheosis:rare": {
+            "cooldown": 3750
+        },
+        "apotheosis:epic": {
+            "cooldown": 3000
+        },
+        "apotheosis:mythic": {
+            "cooldown": 2400
+        }
+    },
+    "types": [
+        "apotheosis:helmet",
+        "apotheosis:chestplate",
+        "apotheosis:leggings",
+        "apotheosis:boots"
+    ]
+}

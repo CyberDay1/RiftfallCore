@@ -1,0 +1,255 @@
+{
+  "materials": {
+    "1": [
+      {
+        "block": "biomeswevegone:windswept_sandstone",
+        "weight": 4.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "minecraft:bone_block"
+        }
+      },
+      {
+        "block": "create:cut_ochrum_bricks",
+        "weight": 2.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "create:ochrum_pillar"
+        }
+      },
+      {
+        "block": "minecraft:sandstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "minecraft:bone_block"
+        }
+      }
+    ],
+    "2": [
+      {
+        "block": "biomeswevegone:smooth_windswept_sandstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "minecraft:bone_block"
+        }
+      }
+    ],
+    "3": [
+      {
+        "block": "create:polished_cut_ochrum",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "create:ochrum_pillar"
+        }
+      }
+    ],
+    "4": [
+      {
+        "block": "biomeswevegone:cut_windswept_sandstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "minecraft:bone_block",
+          "stairs": "biomeswevegone:windswept_sandstone_stairs",
+          "wall": "biomeswevegone:windswept_sandstone_wall"
+        }
+      }
+    ],
+    "5": [
+      {
+        "block": "create:cut_ochrum_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "create:ochrum_pillar"
+        }
+      }
+    ],
+    "6": [
+      {
+        "block": "biomeswevegone:palm_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "biomeswevegone:stripped_palm_log"
+        }
+      }
+    ],
+    "7": [
+      {
+        "block": "create:cut_ochrum_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "create:ochrum_pillar"
+        }
+      }
+    ],
+    "8": [
+      {
+        "block": "minecraft:smooth_sandstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "minecraft:bone_block"
+        }
+      }
+    ],
+    "9": [
+      {
+        "block": "chisel:glyphs/sandstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "minecraft:bone_block"
+        }
+      }
+    ],
+    "10": [
+      {
+        "block": "biomeswevegone:chiseled_windswept_sandstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "minecraft:bone_block"
+        }
+      }
+    ],
+    "11": [
+      {
+        "block": "biomeswevegone:palm_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "biomeswevegone:stripped_palm_log"
+        }
+      }
+    ],
+    "12": [
+      {
+        "block": "create:polished_cut_ochrum",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "create:ochrum_pillar"
+        }
+      }
+    ],
+    "13": [
+      {
+        "block": "biomeswevegone:windswept_sandstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "minecraft:bone_block"
+        }
+      }
+    ],
+    "14": [
+      {
+        "block": "minecraft:chiseled_sandstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "minecraft:bone_block",
+          "slab": "minecraft:sandstone_slab",
+          "stairs": "minecraft:sandstone_stairs"
+        }
+      }
+    ],
+    "15": [
+      {
+        "block": "create:cut_ochrum",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:orange_stained_glass",
+          "glass_pane": "minecraft:orange_stained_glass_pane",
+          "directional_pillar": "create:ochrum_pillar"
+        }
+      }
+    ]
+  },
+  "fallback": "minecraft:sandstone",
+  "noise_scale": [
+    0.045,
+    0.12,
+    0.045
+  ],
+  "seed_adjustment": 15013,
+  "decorators": [
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:lantern[hanging=true]",
+      "rarity": 0.02,
+      "seed": 15014,
+      "requires_up": true
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:cobweb",
+      "rarity": 0.025,
+      "seed": 15015,
+      "requires_sides": 2
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:fatigue_plate",
+        "darkutils:hunger_plate",
+        "darkutils:weakness_plate"
+      ],
+      "decoy": "minecraft:stone_pressure_plate",
+      "room_kinds": [
+        "approach",
+        "chaos",
+        "stable",
+        "unstable",
+        "boss"
+      ],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 15013
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "stone",
+      "home": "sunstone",
+      "light": "minecraft:glowstone"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "stone",
+      "home": "sunstone",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:glowstone",
+      "ceiling": "minecraft:glowstone",
+      "floor": "minecraft:glowstone",
+      "alcove": "minecraft:lantern",
+      "hanging": "minecraft:lantern[hanging=true]",
+      "seed": 15016
+    }
+  ]
+}

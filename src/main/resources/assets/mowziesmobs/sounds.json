@@ -1,0 +1,14 @@
+{
+  "music.petiole": {
+    "category": "record",
+    "subtitle": "subtitles.mowziesmobs.petiole",
+    "stream": true,
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mowziesmobs:music/petiole",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ranger_bonus_damage_to_marked",
+  "class": "ranger",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/ranger_bonus_damage_to_marked",
+  "shape": "conditional",
+  "bonus_base": 0.05,
+  "bonus_per_rank": 0.05
+}

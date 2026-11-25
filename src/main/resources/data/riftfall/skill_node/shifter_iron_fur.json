@@ -1,0 +1,17 @@
+{
+  "id": "shifter_iron_fur",
+  "class": "shifter",
+  "ascendancy": "bear_warden",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:shifter_iron_fur",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 41.0,
+  "base_cooldown_ticks": 360,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

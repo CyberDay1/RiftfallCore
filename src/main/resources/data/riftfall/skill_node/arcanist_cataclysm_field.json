@@ -1,0 +1,28 @@
+{
+  "id": "arcanist_cataclysm_field",
+  "class": "arcanist",
+  "ascendancy": "elementalist",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:arcanist_cataclysm_field",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 4000,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.1,
+    "duration_seconds_per_rank": 0.0
+  },
+  "stored": {
+    "release": "expire",
+    "window_ticks": 70,
+    "arm_ticks": 30,
+    "anchor": "aim",
+    "aim_range": 24.0,
+    "radius": 6.0,
+    "pulse_ticks": 10,
+    "pull": 0.4
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 20.0,
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "release": {
+    "sound": {
+      "id": "rogues:throw",
+      "volume": 0.6,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:one_handed_throw_release_instant",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:smoke_medium",
+          "appearance": {
+            "color": 336207871,
+            "color_variance": 0.08,
+            "scale": 3.0,
+            "opacity": 0.9
+          },
+          "batch": {
+            "count": 5.0,
+            "shape": "CONE",
+            "anchor": "LAUNCH_POINT",
+            "extent": 0.0,
+            "min_speed": 0.02,
+            "max_speed": 0.05,
+            "alignment": "LOOK",
+            "angle": 30.0
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.6,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:area_effect_474",
+            "appearance": {
+              "color": 2808545279,
+              "color_variance": 0.08,
+              "facing": "CAMERA",
+              "scale": 1.1,
+              "opacity": 0.95
+            },
+            "batch": {
+              "count": 1.0,
+              "shape": "NONE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.0,
+              "max_speed": 0.0
+            }
+          },
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 336207871,
+              "color_variance": 0.08,
+              "scale": 3.0,
+              "opacity": 0.9
+            },
+            "batch": {
+              "count": 6.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.08
+            }
+          },
+          {
+            "id": "spell_engine:magic_star",
+            "appearance": {
+              "color": 2808545279,
+              "color_variance": 0.08,
+              "scale": 2.6
+            },
+            "batch": {
+              "count": 4.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.04,
+              "max_speed": 0.09
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "rogues:throw_impact",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "randomness": 0.06
+      }
+    }
+  ],
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 1.5
+      },
+      "direct_towards_target": false,
+      "projectile": {
+        "homing_angle": 0.0,
+        "divergence": 0.0,
+        "client_data": {
+          "light_level": 6,
+          "travel_particles": [
+            {
+              "id": "spell_engine:smoke_medium",
+              "appearance": {
+                "color": 336207871,
+                "color_variance": 0.08,
+                "scale": 2.0,
+                "opacity": 0.9
+              },
+              "batch": {
+                "count": 1.0,
+                "shape": "SPHERE",
+                "anchor": "ENTITY",
+                "extent": 0.0,
+                "min_speed": 0.0,
+                "max_speed": 0.01
+              }
+            },
+            {
+              "id": "spell_engine:magic_spark",
+              "appearance": {
+                "color": 2808545279,
+                "color_variance": 0.08,
+                "scale": 1.4
+              },
+              "batch": {
+                "count": 1.0,
+                "shape": "SPHERE",
+                "anchor": "ENTITY",
+                "extent": 0.0,
+                "min_speed": 0.0,
+                "max_speed": 0.01
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "orientation": "TOWARDS_MOTION",
+                "rotate_degrees_per_tick": 0.0,
+                "fx": {
+                  "model_id": "riftfall:spell_projectile/shadow_shuriken",
+                  "scale": 0.7,
+                  "light_emission": "GLOW",
+                  "animations": [
+                    {
+                      "operation": "rotate",
+                      "y": 9600,
+                      "start": 0,
+                      "end": 200,
+                      "easing": "LINEAR"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/anomaly/inwall/3/doorway-1-jyu",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/anomaly/inwall/3/mineshaft-1-wout",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "riftfall:rift/terminator/poi"
+}

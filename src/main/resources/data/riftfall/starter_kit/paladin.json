@@ -1,0 +1,35 @@
+{
+  "class": "paladin",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "paladins:iron_mace",
+      "fallback": "minecraft:iron_sword"
+    },
+    {
+      "slot": "offhand",
+      "item": "paladins:iron_kite_shield",
+      "fallback": "minecraft:shield"
+    },
+    {
+      "slot": "head",
+      "item": "paladins:paladin_armor_head",
+      "fallback": "minecraft:iron_helmet"
+    },
+    {
+      "slot": "chest",
+      "item": "paladins:paladin_armor_chest",
+      "fallback": "minecraft:iron_chestplate"
+    },
+    {
+      "slot": "legs",
+      "item": "paladins:paladin_armor_legs",
+      "fallback": "minecraft:iron_leggings"
+    },
+    {
+      "slot": "feet",
+      "item": "paladins:paladin_armor_feet",
+      "fallback": "minecraft:iron_boots"
+    }
+  ]
+}

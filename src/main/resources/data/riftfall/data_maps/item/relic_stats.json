@@ -1,0 +1,1605 @@
+{
+  "values": {
+    "more_relics:greater_frozen_heart": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "mrpg_lib:tenacity",
+          "amount": 6.0
+        },
+        {
+          "attribute": "riftfall:resistance",
+          "amount": 0.0275
+        }
+      ]
+    },
+    "more_relics:greater_kircheis_shard": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:projectile_damage",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "more_relics:greater_liandrys_torment": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.1
+        },
+        {
+          "attribute": "riftfall:burn_damage",
+          "amount": 0.05
+        }
+      ]
+    },
+    "more_relics:greater_madreds_bloodrazor": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "amount": 0.06,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "apothic_attributes:life_steal",
+          "amount": 0.015
+        }
+      ]
+    },
+    "more_relics:greater_proc_rage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "amount": 4.0,
+          "tiered": true
+        },
+        {
+          "attribute": "apothic_attributes:overheal",
+          "amount": 0.04
+        }
+      ]
+    },
+    "more_relics:greater_sunfire_cape": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "amount": 4.0,
+          "tiered": true
+        },
+        {
+          "attribute": "riftfall:burn_damage",
+          "amount": 0.05
+        }
+      ]
+    },
+    "more_relics:jewel_figurine_aquamarine": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:mana_regen",
+          "amount": 0.5
+        }
+      ]
+    },
+    "more_relics:jewel_figurine_chain": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "amount": 0.03,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "more_relics:jewel_figurine_malachite": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.025
+        },
+        {
+          "attribute": "riftfall:venom_damage",
+          "amount": 0.025
+        }
+      ]
+    },
+    "more_relics:lesser_proc_air_water": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.025
+        },
+        {
+          "attribute": "riftfall:mana_regen",
+          "amount": 0.25
+        }
+      ]
+    },
+    "more_relics:lesser_proc_earth_nature": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.025
+        },
+        {
+          "attribute": "apothic_attributes:healing_received",
+          "amount": 0.025,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "more_relics:lesser_use_rage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "amount": 0.03,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "more_relics:medium_proc_lifesteal": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:life_steal",
+          "amount": 0.0225
+        }
+      ]
+    },
+    "more_relics:medium_proc_rage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "amount": 0.045,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "apothic_attributes:crit_damage",
+          "amount": 0.056
+        }
+      ]
+    },
+    "more_relics:medium_use_air_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.0375
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.02,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "more_relics:medium_use_earth_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.0375
+        },
+        {
+          "attribute": "riftfall:resistance",
+          "amount": 0.021
+        }
+      ]
+    },
+    "more_relics:medium_use_nature_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.0375
+        },
+        {
+          "attribute": "riftfall:venom_damage",
+          "amount": 0.0375
+        }
+      ]
+    },
+    "more_relics:medium_use_water_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.0375
+        },
+        {
+          "attribute": "riftfall:mana_regen",
+          "amount": 0.375
+        }
+      ]
+    },
+    "more_relics:superior_guardian_angel": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "amount": 5.0,
+          "tiered": true
+        },
+        {
+          "attribute": "apothic_attributes:overheal",
+          "amount": 0.05
+        }
+      ]
+    },
+    "more_relics:superior_mejais_soulstealer": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.125
+        }
+      ]
+    },
+    "more_relics:superior_mikaels_blessing": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:healing_done",
+          "amount": 0.125
+        },
+        {
+          "attribute": "mrpg_lib:tenacity",
+          "amount": 3.75
+        }
+      ]
+    },
+    "more_relics:superior_shurelyas_battlesong": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:ability_haste",
+          "amount": 7.5
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.04,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "more_relics:superior_zhonyas_hourglass": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "more_relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:resistance",
+          "amount": 0.069
+        }
+      ]
+    },
+    "relics:amphibian_boot": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "neoforge:swim_speed",
+          "amount": 0.11,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "amount": 1.0
+        }
+      ]
+    },
+    "relics:aqua_walker": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "neoforge:swim_speed",
+          "amount": 0.11,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "amount": 0.33
+        }
+      ]
+    },
+    "relics:bastion_ring": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:experience_gained",
+          "amount": 0.11,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "minecraft:generic.luck",
+          "amount": 0.75
+        }
+      ]
+    },
+    "relics:chorus_inhibitor": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:movement_haste",
+          "amount": 7.5
+        },
+        {
+          "attribute": "apothic_attributes:dodge_chance",
+          "amount": 0.011
+        }
+      ]
+    },
+    "relics:drowned_belt": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "amount": 3.0,
+          "tiered": true
+        },
+        {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "amount": 1.0
+        }
+      ]
+    },
+    "relics:elytra_booster": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "amount": -0.25
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.02,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics:enders_hand": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:player.entity_interaction_range",
+          "amount": 0.19
+        },
+        {
+          "attribute": "apothic_attributes:crit_damage",
+          "amount": 0.056
+        }
+      ]
+    },
+    "relics:holy_locket": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:healing_done",
+          "amount": 0.075
+        },
+        {
+          "attribute": "apothic_attributes:healing_received",
+          "amount": 0.0375,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics:hunter_belt": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:summon_power",
+          "amount": 0.075
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "amount": 1.5,
+          "tiered": true
+        }
+      ]
+    },
+    "relics:ice_breaker": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "amount": 0.045
+        },
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "amount": -0.25
+        }
+      ]
+    },
+    "relics:ice_skates": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.03,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "amount": 0.1
+        }
+      ]
+    },
+    "relics:jellyfish_necklace": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.075
+        },
+        {
+          "attribute": "neoforge:swim_speed",
+          "amount": 0.056,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics:leafy_ring": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:healing_received",
+          "amount": 0.075,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "amount": 1.5,
+          "tiered": true
+        }
+      ]
+    },
+    "relics:leather_belt": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "amount": 3.0,
+          "tiered": true
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "amount": 0.0225
+        }
+      ]
+    },
+    "relics:magma_walker": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.burning_time",
+          "amount": -0.3,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.02,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics:midnight_robe": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:dodge_chance",
+          "amount": 0.0225
+        },
+        {
+          "attribute": "apothic_attributes:crit_damage",
+          "amount": 0.056
+        }
+      ]
+    },
+    "relics:phantom_boot": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.03,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "amount": 3.0
+        }
+      ]
+    },
+    "relics:rage_glove": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "amount": 0.045,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "apothic_attributes:life_steal",
+          "amount": 0.011
+        }
+      ]
+    },
+    "relics:reflection_necklace": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:resistance",
+          "amount": 0.041
+        },
+        {
+          "attribute": "apothic_attributes:overheal",
+          "amount": 0.03
+        }
+      ]
+    },
+    "relics:roller_skates": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.03,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "minecraft:generic.step_height",
+          "amount": 0.5
+        }
+      ]
+    },
+    "relics:shadow_glaive": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:scavenging",
+          "amount": 0.05
+        },
+        {
+          "attribute": "apothic_attributes:projectile_damage",
+          "amount": 0.0375,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics:spore_sack": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:scavenging",
+          "amount": 0.05
+        },
+        {
+          "attribute": "apothic_attributes:overheal",
+          "amount": 0.03
+        }
+      ]
+    },
+    "relics:springy_boot": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.jump_strength",
+          "amount": 0.1
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "amount": 3.0
+        }
+      ]
+    },
+    "relics:wool_mitten": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:projectile_damage",
+          "amount": 0.075,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "apothic_attributes:crit_chance",
+          "amount": 0.019
+        }
+      ]
+    },
+    "relics_rpgs:greater_healing_taken": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:healing_received",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:greater_perk_defense_block": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:guard",
+          "amount": 0.06
+        },
+        {
+          "attribute": "apothic_attributes:healing_received",
+          "amount": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:greater_perk_evasion_attack": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:dodge_chance",
+          "amount": 0.03
+        },
+        {
+          "attribute": "apothic_attributes:crit_damage",
+          "amount": 0.075
+        }
+      ]
+    },
+    "relics_rpgs:greater_perk_heal_cleanse": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:healing_done",
+          "amount": 0.1
+        },
+        {
+          "attribute": "mrpg_lib:tenacity",
+          "amount": 3.0
+        }
+      ]
+    },
+    "relics_rpgs:greater_perk_heal_danger": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:healing_done",
+          "amount": 0.1
+        }
+      ]
+    },
+    "relics_rpgs:greater_perk_melee_stun": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "amount": 0.06,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:greater_perk_ranged_levitate": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:projectile_damage",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:greater_perk_roll_damage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.05
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.04,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:greater_perk_shield_reset": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:guard",
+          "amount": 0.06
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "amount": 0.03
+        }
+      ]
+    },
+    "relics_rpgs:greater_perk_spell_stun": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.1
+        }
+      ]
+    },
+    "relics_rpgs:greater_proc_defense_danger": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:resistance",
+          "amount": 0.055
+        }
+      ]
+    },
+    "relics_rpgs:greater_proc_physical_trance": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "amount": 0.06,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:greater_proc_spell_trance": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:ability_haste",
+          "amount": 6.0
+        }
+      ]
+    },
+    "relics_rpgs:jewel_figurine_citrine": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:healing_done",
+          "amount": 0.05
+        },
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.025
+        }
+      ]
+    },
+    "relics_rpgs:jewel_figurine_jade": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:projectile_damage",
+          "amount": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:jewel_figurine_ruby": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "amount": 0.03,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:jewel_figurine_sapphire": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "amount": 2.0,
+          "tiered": true
+        }
+      ]
+    },
+    "relics_rpgs:jewel_figurine_tanzanite": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.05
+        }
+      ]
+    },
+    "relics_rpgs:jewel_figurine_topaz": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.05
+        }
+      ]
+    },
+    "relics_rpgs:lesser_evasion": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:dodge_chance",
+          "amount": 0.015
+        },
+        {
+          "attribute": "minecraft:generic.luck",
+          "amount": 0.5
+        }
+      ]
+    },
+    "relics_rpgs:lesser_melee_crit_chance": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:crit_chance",
+          "amount": 0.025
+        }
+      ]
+    },
+    "relics_rpgs:lesser_melee_crit_damage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:crit_damage",
+          "amount": 0.075
+        }
+      ]
+    },
+    "relics_rpgs:lesser_proc_arcane_fire": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.025
+        },
+        {
+          "attribute": "riftfall:burn_damage",
+          "amount": 0.025
+        }
+      ]
+    },
+    "relics_rpgs:lesser_proc_crit_damage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:crit_damage",
+          "amount": 0.075
+        }
+      ]
+    },
+    "relics_rpgs:lesser_proc_frost_healing": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.025
+        },
+        {
+          "attribute": "riftfall:healing_done",
+          "amount": 0.025
+        }
+      ]
+    },
+    "relics_rpgs:lesser_proc_spell_crit": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:crit_chance",
+          "amount": 0.025
+        }
+      ]
+    },
+    "relics_rpgs:lesser_roll": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.04,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:lesser_use_damage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "amount": 0.03,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:lesser_use_dex": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "amount": 0.03,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:lesser_use_health": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:healing_received",
+          "amount": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:lesser_use_ranged": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:projectile_damage",
+          "amount": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:lesser_use_spell_haste": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:ability_haste",
+          "amount": 3.0
+        }
+      ]
+    },
+    "relics_rpgs:lesser_use_spell_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.05
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_arcane_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.0375
+        },
+        {
+          "attribute": "riftfall:mana_regen",
+          "amount": 0.375
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_attack_damage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "amount": 0.045,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "mrpg_lib:tenacity",
+          "amount": 2.25
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_attack_speed": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "amount": 0.045,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_defense": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "amount": 0.75,
+          "tiered": true
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "amount": 0.0225
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_evasion": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:dodge_chance",
+          "amount": 0.0225
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_fire_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.0375
+        },
+        {
+          "attribute": "riftfall:burn_damage",
+          "amount": 0.0375
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_frost_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.0375
+        },
+        {
+          "attribute": "riftfall:mana_regen",
+          "amount": 0.375
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_healing_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:healing_done",
+          "amount": 0.075
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_ranged_damage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "apothic_attributes:projectile_damage",
+          "amount": 0.075,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_spell_haste": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:ability_haste",
+          "amount": 4.5
+        }
+      ]
+    },
+    "relics_rpgs:medium_proc_spell_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.075
+        }
+      ]
+    },
+    "relics_rpgs:superior_use_area_attack_damage": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "amount": 0.075,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:superior_use_area_defense_health": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "amount": 5.0,
+          "tiered": true
+        }
+      ]
+    },
+    "relics_rpgs:superior_use_zone_healing_taken": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:healing_done",
+          "amount": 0.125
+        },
+        {
+          "attribute": "apothic_attributes:healing_received",
+          "amount": 0.0625,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    },
+    "relics_rpgs:superior_use_zone_spell_power": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "relics_rpgs"
+        }
+      ],
+      "value": [
+        {
+          "attribute": "riftfall:spell_damage",
+          "amount": 0.125
+        }
+      ]
+    }
+  }
+}

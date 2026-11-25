@@ -1,0 +1,35 @@
+{
+ "version": 1,
+ "source": "lore-draft-v3.md",
+ "pools": {
+  "act1": [
+   "I have got you. You will not miss what is gone.",
+   "There. Up you get. Your kit took the worst of it.",
+   "Easy. You are home. Whatever you dropped down there, leave it."
+  ],
+  "act2": [
+   "I have got you. Your hands will shake a while. Let them.",
+   "Home again. You got further this time. I watched.",
+   "Lie still a moment. Something will feel missing. It passes."
+  ],
+  "act3": [
+   "I have got you. Do not try to remember the fall. There is nothing in it worth keeping.",
+   "Back. Do not count what is missing. I count for both of us.",
+   "Sit a moment. Let the feeling pass. Trying to remember will only make it hurt."
+  ],
+  "act4": [
+   "You keep coming back to me. That is all that matters.",
+   "Back. You asked me where you were. You always ask.",
+   "Up. The forge is lit and the lamps are on. Everything here is waiting on you."
+  ],
+  "known": [
+   "I have got you. I always will. That was never the part that cost you.",
+   "Back again. You do not remember the first time I said that. I do.",
+   "Up. You know what I am now. You came back anyway. Of course you did."
+  ],
+  "wild": [
+   "I have got you. Rest. There is so much room to cover.",
+   "Home again. Rest your hands. I will need them when you are ready."
+  ]
+ }
+}

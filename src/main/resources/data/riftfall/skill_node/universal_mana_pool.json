@@ -1,0 +1,8 @@
+{
+  "id": "universal_mana_pool",
+  "class": "universal",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:max_mana",
+  "bonus_per_rank": 5.0
+}

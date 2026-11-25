@@ -1,0 +1,11 @@
+{
+  "id": "monk_rhythm",
+  "class": "monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/monk_rhythm",
+  "shape": "proc",
+  "internal_cooldown_ticks": 10,
+  "bonus_base": 0.2,
+  "bonus_per_rank": 0.05
+}

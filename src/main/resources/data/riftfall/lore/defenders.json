@@ -1,0 +1,19 @@
+{
+ "version": 1,
+ "source": "review-story-text-2026-11.md S10; placeholder epithets, %s is the world's name. A theme left out keeps the boss's real name.",
+ "themes": {
+  "default": "the Defender of %s",
+  "foundry": "the Forge-Guard of %s",
+  "infernal": "the Stoker of %s",
+  "ruins": "the Last Shield of %s",
+  "celestial": "the Watcher of %s",
+  "cave": "the Holdfast of %s",
+  "catacombs": "the Warden of %s",
+  "void": "the Doorkeeper of %s",
+  "solar": "the Sentinel of %s",
+  "tidal": "the Guardian of %s",
+  "mycelial": "the Tender of %s",
+  "glacial": "the Vigil of %s",
+  "ender": "the Marshal of %s"
+ }
+}

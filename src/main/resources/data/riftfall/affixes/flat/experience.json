@@ -1,0 +1,45 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "apothic_attributes:experience_gained",
+    "categories": [
+        "apotheosis:helmet",
+        "riftfall:necklace",
+        "riftfall:trinket"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.03,
+            "max": 0.06,
+            "step": 0.00375
+        },
+        "apotheosis:uncommon": {
+            "min": 0.045,
+            "max": 0.0825,
+            "step": 0.004688
+        },
+        "apotheosis:rare": {
+            "min": 0.0675,
+            "max": 0.105,
+            "step": 0.004687
+        },
+        "apotheosis:epic": {
+            "min": 0.09,
+            "max": 0.1275,
+            "step": 0.004688
+        },
+        "apotheosis:mythic": {
+            "min": 0.12,
+            "max": 0.15,
+            "step": 0.00375
+        }
+    }
+}

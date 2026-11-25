@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "position=north_west": { "model": "riftfall:block/world_resurrection_machine_part", "y": 0 },
+    "position=north":      { "model": "riftfall:block/world_resurrection_machine_part", "y": 0 },
+    "position=north_east": { "model": "riftfall:block/world_resurrection_machine_part", "y": 90 },
+    "position=west":       { "model": "riftfall:block/world_resurrection_machine_part", "y": 270 },
+    "position=east":       { "model": "riftfall:block/world_resurrection_machine_part", "y": 90 },
+    "position=south_west": { "model": "riftfall:block/world_resurrection_machine_part", "y": 270 },
+    "position=south":      { "model": "riftfall:block/world_resurrection_machine_part", "y": 180 },
+    "position=south_east": { "model": "riftfall:block/world_resurrection_machine_part", "y": 180 }
+  }
+}

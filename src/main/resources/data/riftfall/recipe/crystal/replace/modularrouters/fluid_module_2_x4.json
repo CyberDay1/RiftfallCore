@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "modularrouters"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystalcraft_unlimited_java"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "modularrouters:fluid_module"
+    },
+    {
+      "item": "modularrouters:fluid_module"
+    },
+    {
+      "item": "modularrouters:fluid_module"
+    },
+    {
+      "item": "modularrouters:fluid_module"
+    },
+    {
+      "item": "crystalcraft_unlimited_java:aquamarine"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "modularrouters:fluid_module_2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "class": "monk",
+  "families": [
+    {
+      "name": "fist weapons",
+      "items": [
+        "withersweapons:knuckles"
+      ],
+      "words": [
+        "knuckle",
+        "knuckles",
+        "gauntlet",
+        "gauntlets",
+        "fist",
+        "fists",
+        "cestus",
+        "katar",
+        "tekko",
+        "knuckleduster"
+      ]
+    }
+  ]
+}

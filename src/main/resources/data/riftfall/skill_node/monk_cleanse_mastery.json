@@ -1,0 +1,23 @@
+{
+  "id": "monk_cleanse_mastery",
+  "class": "monk",
+  "ascendancy": "spirit_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/monk_cleanse_mastery",
+  "shape": "proc",
+  "internal_cooldown_ticks": 100,
+  "bonus_per_rank": 0.1,
+  "reaction": {
+    "on": "cleanse"
+  },
+  "surge": {
+    "seconds": 4.0,
+    "terms": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

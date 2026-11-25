@@ -1,0 +1,33 @@
+{
+  "id": "trickster_death_grid",
+  "class": "trickster",
+  "ascendancy": "trapmaster",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:trickster_death_grid",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 4200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.1,
+    "duration_seconds_per_rank": 0.4
+  },
+  "dot": {
+    "type": "bleed",
+    "coefficient": 0.8,
+    "seconds": 8.0
+  },
+  "stored": {
+    "release": "recast",
+    "window_ticks": 120,
+    "arm_ticks": 10,
+    "on_expire": "release",
+    "anchor": "aim",
+    "aim_range": 20.0,
+    "radius": 10.0,
+    "angle": 120.0
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "corrupted_record": {
+    "subtitle": "sounds.spore.record",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:corrupted_record",
+        "stream": true
+      }
+    ]
+  },
+  "forgotten_patient": {
+    "subtitle": "sounds.spore.forgotten_patient",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:forgotten_patient",
+        "stream": true
+      }
+    ]
+  },
+  "forsaken_future": {
+    "subtitle": "sounds.spore.forsaken_future",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:forsaken_future",
+        "stream": true
+      }
+    ]
+  },
+  "bane_of_settlement": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:events/bane_of_settlement",
+        "stream": true
+      }
+    ]
+  },
+  "bicentennial": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/bicentennial",
+        "stream": true
+      }
+    ]
+  },
+  "broken_reflection": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/broken_reflection",
+        "stream": true
+      }
+    ]
+  },
+  "cycle_of_evolution": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/cycle_of_evolution",
+        "stream": true
+      }
+    ]
+  },
+  "decay": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/decay",
+        "stream": true
+      }
+    ]
+  },
+  "desolation": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/desolation",
+        "stream": true
+      }
+    ]
+  },
+  "endless_feast": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/endless_feast",
+        "stream": true
+      }
+    ]
+  },
+  "fall_of_man": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/fall_of_man",
+        "stream": true
+      }
+    ]
+  },
+  "insolence": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:events/insolence",
+        "stream": true
+      }
+    ]
+  },
+  "manmade_horrors": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/manmade_horrors",
+        "stream": true
+      }
+    ]
+  },
+  "mental_mutilation": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/mental_mutilation",
+        "stream": true
+      }
+    ]
+  },
+  "myconaut": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/myconaut",
+        "stream": true
+      }
+    ]
+  },
+  "myconoclast": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/myconoclast",
+        "stream": true
+      }
+    ]
+  },
+  "mycophobia": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:events/mycophobia",
+        "stream": true
+      }
+    ]
+  },
+  "natural_occurance": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/natural_occurance",
+        "stream": true
+      }
+    ]
+  },
+  "neurogenesis": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/neurogenesis",
+        "stream": true
+      }
+    ]
+  },
+  "nourishment": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/nourishment",
+        "stream": true
+      }
+    ]
+  },
+  "once_here": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:events/once_here",
+        "stream": true
+      }
+    ]
+  },
+  "project_regenesis": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/project_regenesis",
+        "stream": true
+      }
+    ]
+  },
+  "prototype": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/prototype",
+        "stream": true
+      }
+    ]
+  },
+  "reclaimation": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/reclaimation",
+        "stream": true
+      }
+    ]
+  },
+  "repurposed": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/repurpose",
+        "stream": true
+      }
+    ]
+  },
+  "restless_reach": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/restless_reach",
+        "stream": true
+      }
+    ]
+  },
+  "roads_once_travelled": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/roads_once_travelled",
+        "stream": true
+      }
+    ]
+  },
+  "rot": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/rot",
+        "stream": true
+      }
+    ]
+  },
+  "sleepless_dreaming": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/sleepless_dreaming",
+        "stream": true
+      }
+    ]
+  },
+  "something_once_great": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/something_once_great",
+        "stream": true
+      }
+    ]
+  },
+  "spore_burst_song": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/spore_burst",
+        "stream": true
+      }
+    ]
+  },
+  "start_anew": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/start_anew",
+        "stream": true
+      }
+    ]
+  },
+  "synaptic_relapse": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/synaptic_relapse",
+        "stream": true
+      }
+    ]
+  },
+  "the_soil_talks": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/the_soil_talks",
+        "stream": true
+      }
+    ]
+  },
+  "they_awaken": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/they_awaken",
+        "stream": true
+      }
+    ]
+  },
+  "they_grow_below": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:pre_proto/they_grow_below",
+        "stream": true
+      }
+    ]
+  },
+  "they_listen": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/they_listen",
+        "stream": true
+      }
+    ]
+  },
+  "virulent_vigil": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:events/virulent_vigil",
+        "stream": true
+      }
+    ]
+  },
+  "whispers": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/whispers",
+        "stream": true
+      }
+    ]
+  },
+  "what_we_become": {
+    "subtitle": "sounds.spore.song",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "spore:post_proto/what_we_become",
+        "stream": true
+      }
+    ]
+  }
+}

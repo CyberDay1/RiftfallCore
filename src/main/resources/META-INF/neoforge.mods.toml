@@ -1,0 +1,371 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+    modId = "${mod_id}"
+    version = "${mod_version}"
+    displayName = "${mod_name}"
+    authors = "${mod_authors}"
+    description = '''${mod_description}'''
+
+[[dependencies.${mod_id}]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "${neo_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "${minecraft_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
+
+# A third of the room library was built in 1.21.4 and places Pale Garden blocks, which 1.21.1 does
+# not have. VanillaBackport registers them under the `minecraft:` namespace and is a fixed part of the
+# pack, so the rooms ship as their builders authored them; without it those 36 rooms stamp air where
+# the pale blocks were. Optional rather than required only so the dev runtime, which does not carry it, still boots.
+[[dependencies.${mod_id}]]
+    modId = "vanillabackport"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# The three below are ordering declarations and nothing else: none is used, none is required, and
+# Riftfall behaves identically whether any of them is installed.
+#
+# Riftfall replaces five vanilla enchantment tags outright -- in_enchanting_table, on_random_loot,
+# tradeable, on_mob_spawn_equipment, on_traded_equipment -- so that the only enchantments the game
+# can hand out are the ones in `#riftfall:permitted`. A `"replace": true` tag file wins over every
+# additive contribution that loaded before it and loses to every one that loads after, and a mod's
+# data sits in mod load order. These three are the mods in the pack that add to those tags --
+# create to in_enchanting_table, weaponsexpanded to tradeable and in_enchanting_table,
+# extraspellattributes to on_random_loot and tradeable -- so without an explicit AFTER their
+# entries could land back on top of the replacement.
+#
+# This is the one place in the mod where a declaration rather than a runtime probe is the real
+# condition: there is nothing to probe, the question is settled before any of our code runs. The
+# list is a reading of the pack as it stands, so if the pack list changes this list has to change
+# with it, and com.cyberday1.riftfall.gear.EnchantmentBan is the backstop for the window where it
+# has not.
+[[dependencies.${mod_id}]]
+    modId = "weaponsexpanded"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "extraspellattributes"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# Adds cooldown_reduction to on_random_loot, and sorted after us until this was declared.
+[[dependencies.${mod_id}]]
+    modId = "glixtors_random_additions"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# Riftfall retunes gems Apotheosis already defines, by shipping replacement copies of files under
+# `data/apotheosis/gems/`. One file decides both halves of a gem: what it does, and what it fits
+# into. A gem is socketable into a piece precisely when it carries a bonus covering that piece's
+# loot category, so widening `gem_class.types` widens the gear it accepts, and there is no second
+# list to keep in step.
+#
+# The ordering rule is the one described for the enchantment tags above: whole-file replacement wins
+# over whatever loaded before it and loses to whatever loads after. Measured 2026-08-20 by shipping
+# a deliberately wrong Ballast and reading it in-game -- without this entry Apotheosis wins and the
+# retune is dropped in silence, which is the failure mode worth guarding, because nothing logs.
+#
+# Additive changes must NOT come through here. `data/riftfall/extra_gem_bonuses/` attaches new
+# bonuses to an existing gem from our own namespace and is order-independent, which is how
+# irons_apothic reaches Apotheosis' gems. Reserve this entry for bonuses Apotheosis itself defines.
+[[dependencies.${mod_id}]]
+    modId = "apotheosis"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# Same rule, second source. Affixes are one registry but two namespaces: Apotheosis ships 94 under
+# `apotheosis:` and irons_apothic ships 140 more under `irons_apothic:`, and Riftfall replaces all
+# 234. Without this entry the 140 replacements lose to the originals in exactly the same silence.
+[[dependencies.${mod_id}]]
+    modId = "irons_apothic"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# Keep Relics' biome-based bonus rolls out of our weighted barrel and boss tables.
+# Our replacement loot modifier must load after Relics' unconditional original.
+[[dependencies.${mod_id}]]
+    modId = "relics"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# BuildASpell is an authoring backend here, not a thing players build with, so three pieces of it
+# have no player-facing job and are dropped at load: its three enchantments, the Arcane Altar recipe,
+# and the global loot modifier that seeds spell runes into chests.
+#
+# The enchantments -- mana_pool, mana_regeneration, spell_power -- all sit outside
+# `#riftfall:permitted`, so com.cyberday1.riftfall.gear.EnchantmentBan already reported them as level
+# 0. But that strip is a READ-time one and never blocks a write, which left them able to be applied,
+# to draw a glint and a tooltip, and to be listed as though they did something. Dropping the
+# definitions is what actually removes them. buildaspell reads its own by ResourceKey into an
+# Optional and falls back to 0 (buildaspell.mana.ManaHelper#getEnchantmentLevel), and it ships no
+# enchantment tags, so nothing dangles.
+#
+# The altar was the only station that offered those three, so with them gone it has nothing left to
+# do. Its recipe consumed a vanilla enchanting table, which the pack still has.
+#
+# buildaspell:chest_spell_rune drops a finished Spell Rune into five percent of chests. That is a way
+# to unlock spell components which sits entirely outside the essence economy the progression config
+# governs, so turning those knobs to zero would never have reached it. NeoForge parses a modifier
+# through IGlobalLootModifier.CONDITIONAL_CODEC and simply does not register one whose conditions
+# fail, which leaves the entry still listed in global_loot_modifiers.json harmless.
+#
+# Same ordering rule as the two blocks above: a same-id file wins over whatever loaded before it and
+# loses to whatever loads after, and a mod's data sits in mod load order. All five copies are the
+# originals verbatim under `neoforge:false` rather than stubs, so if the condition is ever ignored
+# each file is a no-op instead of a broken definition.
+#
+# This removes the only way to CRAFT an altar. `data/buildaspell/loot_table/blocks/arcane_altar.json`
+# is left alone on purpose, so an altar we place still drops itself when broken.
+[[dependencies.${mod_id}]]
+    modId = "buildaspell"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# The pack's material chain is meant to start at looted rift crystals, which only holds while the
+# overworld stays ore-poor, so the largest ore source in the pack has its ore generation turned off:
+# Crystalcraft Unlimited ships 194 biome modifiers, and 185 of them are replaced by `neoforge:none`
+# copies under `data/crystalcraft_unlimited_java/neoforge/biome_modifier/`. That is every one whose
+# feature resolves to `minecraft:ore` bar two, so the material chain now starts at a rift barrel
+# with no mining fallback behind it.
+#
+# The set was taken by resolved feature type and not by generation step, which matters here: this
+# mod files `shattuckite_ore_feature` under `vegetal_decoration` and `aquamorganite_ore_feature`
+# under `underground_decoration`, so anything selecting on `underground_ores` would have quietly
+# left two ores generating. Nine modifiers are deliberately still live -- seven `minecraft:random_patch`
+# surface crystals, which are decoration and not part of any ore chain, and `meteorite` and `neon`,
+# which are ore-step blobs the mod itself does not tag as ore and which drop scrap rather than a
+# material. Those two are a judgement call left open, not an oversight.
+#
+# Per-feature, not per-mod: this is a 268-material mod and all of its blocks, items, recipes
+# and tags still exist untouched. Only worldgen is neutralised. And the same ordering rule -- without
+# this entry Crystalcraft's originals win and all 185 files do nothing, which looks identical on
+# disk to them working. `no-modded-ore` is what tells the two apart, and for this namespace it reads
+# block ids rather than the namespace tally, because `chevron_amethyst_cluster` is a kept decoration
+# that legitimately turns up in the overworld sample.
+[[dependencies.${mod_id}]]
+    modId = "crystalcraft_unlimited_java"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# Artifacts' cave campsites (a loot chest and a mimic) are switched off by a `neoforge:none` copy
+# of `data/artifacts/neoforge/biome_modifier/add_campsite.json`, which only wins loaded after it.
+[[dependencies.${mod_id}]]
+    modId = "artifacts"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# The five `dissolve_*_material` mixing recipes are `neoforge:false` copies: they only fed the banned
+# affix augmentor. The copies win only loaded after CEI.
+[[dependencies.${mod_id}]]
+    modId = "create_enchantment_industry"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# Modded armour grants nothing for being worn. Spell Engine defines a synced datapack registry,
+# `minecraft:equipment_set`, and seven mods file 36 sets into it: wearing two pieces gives
+# attributes and wearing four gives a spell. Gear comes from rifts, and a set bonus is an effect on
+# non-vanilla armour, so all 36 are replaced by copies whose `bonuses` list is empty.
+#
+# `bonuses` is `fieldOf` and not `optionalFieldOf` in EquipmentSet.Definition, so it has to be
+# present and empty rather than left out -- omitting it fails to parse and takes the whole set with
+# it. `name` and `items` are kept verbatim because they are required for the same reason. With the
+# bonuses gone the item list is inert, so if a mod later changes its own pieces the stale copy here
+# cannot break anything: a set that grants nothing does not care what is in it.
+#
+# Same ordering rule as the blocks above. A file under a namespace no installed mod ships loads as
+# nothing at all: Anarchy RPG was `rpg-minibosses` until 3.0 and its six sets are `anarchy_rpg:` now.
+#
+# The last four are a weaker guarantee than the rest of this file. archers_expansion, bards_rpg,
+# berserker_rpg and forcemaster_rpg do not ship their sets in their own `data/` but in built-in
+# packs registered through Fabric's registerBuiltinResourcePack as ALWAYS_ENABLED. That is a
+# separate pack from the mod's own resources and need not sit where mod load order puts it, so for
+# those six sets the ordering below is correct to declare but is not proof. Thirty of thirty-six is
+# what a partial win would look like, and it would look identical on disk to a whole one.
+[[dependencies.${mod_id}]]
+    modId = "armory_rpgs"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "witcher_rpg"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "anarchy_rpg"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "archers_expansion"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "bards_rpg"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "berserker_rpg"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "elemental_wizards_rpg"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "forcemaster_rpg"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# Puffish skill trees are off: data/skill_tree_rpgs/puffish_skills/config.json lists no categories.
+# Same ordering rule. Without this entry we land after skill_tree_rpgs only by the
+# sorter's tie-break; with the order reversed its trees come back. The rig's `skill-trees-off`
+# check reads which pack won.
+[[dependencies.${mod_id}]]
+    modId = "skill_tree_rpgs"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# See ${mod_id}.mixins.json for the list. AccessorMinecraftServer is the oldest of them, and is
+# there because a rift level has to be built after the server has already booted; the others carry
+# the loot, recipe and structure bans.
+[[mixins]]
+    config = "${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId = "openpartiesandclaims"
+    type = "optional"
+    versionRange = "[0.32.7,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "customnpcs"
+    type = "optional"
+    versionRange = "[1.21.1,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# One crit roll per hit: closes Spell Power's and critical_strike's own, each mixin only when its
+# mod is loaded. See SingleCrit.
+[[mixins]]
+    config = "${mod_id}.compat.mixins.json"
+
+# One constructor made public, for the sky's JPEG decode (SkyImageFiles).
+[[accessTransformers]]
+    file = "META-INF/accesstransformer.cfg"
+
+# Whole-file spell overrides must win over their optional suppliers in both data and asset packs.
+[[dependencies.${mod_id}]]
+    modId = "spell_engine"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "rogues"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# Memory: a filter in assets/minecraft/atlases/blocks.json drops the gui/ textures Nyf's Quiver adds to the
+# block atlas. A filter only removes what loaded before it.
+[[dependencies.${mod_id}]]
+    modId = "nyfsquiver"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "CLIENT"
+
+# Memory: "replace" overrides that stream these mods' big music files (tools/sound_stream). Same rule.
+[[dependencies.${mod_id}]]
+    modId = "spore"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId = "cataclysm"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId = "legendary_monsters"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId = "biomeswevegone"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId = "mowziesmobs"
+    type = "optional"
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "CLIENT"

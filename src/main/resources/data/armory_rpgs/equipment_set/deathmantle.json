@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "deathmantle",
+  "items": [
+    "armory_rpgs:deathmantle_armor_head",
+    "armory_rpgs:deathmantle_armor_chest",
+    "armory_rpgs:deathmantle_armor_legs",
+    "armory_rpgs:deathmantle_armor_feet"
+  ],
+  "bonuses": []
+}

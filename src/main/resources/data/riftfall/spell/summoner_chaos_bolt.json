@@ -1,0 +1,141 @@
+{
+  "school": "riftfall:summoning",
+  "active": {
+    "cast": {}
+  },
+  "range": 20.0,
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.enderman.teleport",
+      "volume": 0.55,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:one_handed_projectile_release",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 2909137151,
+            "scale": 0.35,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 12.0,
+            "shape": "CONE",
+            "anchor": "LAUNCH_POINT",
+            "extent": 0.2,
+            "min_speed": 0.03,
+            "max_speed": 0.06,
+            "alignment": "LOOK",
+            "angle": 35.0
+          }
+        },
+        {
+          "id": "minecraft:portal",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.08
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 2.6,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 2909137151,
+              "scale": 0.35,
+              "opacity": 0.85
+            },
+            "batch": {
+              "count": 6.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.06
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:entity.enderman.teleport",
+        "volume": 0.3,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ],
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 1.5
+      },
+      "direct_towards_target": false,
+      "projectile": {
+        "homing_angle": 0.0,
+        "divergence": 0.0,
+        "client_data": {
+          "light_level": 10,
+          "travel_particles": [
+            {
+              "id": "spell_engine:magic_spark",
+              "appearance": {
+                "color": 2909137151,
+                "scale": 0.35,
+                "opacity": 0.85
+              },
+              "batch": {
+                "count": 2.0,
+                "shape": "SPHERE",
+                "anchor": "ENTITY",
+                "extent": 0.0,
+                "min_speed": 0.0125,
+                "max_speed": 0.025
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "orientation": "TOWARDS_MOTION",
+                "rotate_degrees_per_tick": 0.0,
+                "fx": {
+                  "model_id": "riftfall:spell_projectile/shadow_bolt",
+                  "scale": 0.65,
+                  "light_emission": "GLOW"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

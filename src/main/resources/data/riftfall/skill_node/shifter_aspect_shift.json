@@ -1,0 +1,16 @@
+{
+  "id": "shifter_aspect_shift",
+  "class": "shifter",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:shifter_aspect_shift",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 14.0,
+  "base_cooldown_ticks": 120,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  },
+  "category": "form"
+}

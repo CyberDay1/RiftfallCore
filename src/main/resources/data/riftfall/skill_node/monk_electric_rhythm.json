@@ -1,0 +1,24 @@
+{
+  "id": "monk_electric_rhythm",
+  "class": "monk",
+  "ascendancy": "tempest_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/monk_electric_rhythm",
+  "shape": "proc",
+  "internal_cooldown_ticks": 60,
+  "bonus_per_rank": 0.05,
+  "reaction": {
+    "count": 3,
+    "count_window_ticks": 20
+  },
+  "surge": {
+    "seconds": 4.0,
+    "terms": [
+      {
+        "attribute": "apothic_attributes:crit_chance",
+        "operation": "add_value"
+      }
+    ]
+  }
+}

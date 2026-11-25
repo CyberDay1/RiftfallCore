@@ -1,0 +1,8 @@
+{
+  "id": "summoner_reduced_summon_cooldowns",
+  "class": "summoner",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:summon_haste",
+  "bonus_per_rank": 10.0
+}

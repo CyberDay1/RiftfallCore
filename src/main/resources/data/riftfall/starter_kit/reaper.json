@@ -1,0 +1,30 @@
+{
+  "class": "reaper",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "simplyswords:iron_scythe",
+      "fallback": "minecraft:iron_axe"
+    },
+    {
+      "slot": "head",
+      "item": "armory_rpgs:deathmantle_armor_head",
+      "fallback": "minecraft:chainmail_helmet"
+    },
+    {
+      "slot": "chest",
+      "item": "armory_rpgs:deathmantle_armor_chest",
+      "fallback": "minecraft:chainmail_chestplate"
+    },
+    {
+      "slot": "legs",
+      "item": "armory_rpgs:deathmantle_armor_legs",
+      "fallback": "minecraft:chainmail_leggings"
+    },
+    {
+      "slot": "feet",
+      "item": "armory_rpgs:deathmantle_armor_feet",
+      "fallback": "minecraft:chainmail_boots"
+    }
+  ]
+}

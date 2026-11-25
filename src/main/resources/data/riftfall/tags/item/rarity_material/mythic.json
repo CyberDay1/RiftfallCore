@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "apotheosis:godforged_pearl",
+      "required": false
+    }
+  ]
+}

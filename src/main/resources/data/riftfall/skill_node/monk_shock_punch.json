@@ -1,0 +1,17 @@
+{
+  "id": "monk_shock_punch",
+  "class": "monk",
+  "ascendancy": "iron_monk",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:monk_shock_punch",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 30.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  }
+}

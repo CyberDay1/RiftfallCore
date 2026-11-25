@@ -1,0 +1,10 @@
+{
+  "id": "monk_night_discipline",
+  "class": "monk",
+  "ascendancy": "shadow_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/monk_night_discipline",
+  "shape": "conditional",
+  "bonus_per_rank": 0.08
+}

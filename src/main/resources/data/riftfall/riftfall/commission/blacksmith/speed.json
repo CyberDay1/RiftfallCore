@@ -1,0 +1,14 @@
+{
+  "kind": "speed",
+  "weight": 6,
+  "min_tier": 3,
+  "minutes": 15,
+  "count": 1,
+  "xp": 40,
+  "rewards": [
+    {
+      "id": "riftfall:tempering_stock",
+      "count": 4
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "apotheosis:thunderstruck",
+    "categories": [
+        "apotheosis:melee_weapon",
+        "apotheosis:trident"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.0,
+            "weight": 0
+        }
+    },
+    "values": {
+        "apotheosis:common": {
+            "min": 2.0,
+            "max": 3.0,
+            "step": 1.0
+        },
+        "apotheosis:uncommon": {
+            "min": 2.0,
+            "max": 3.0,
+            "step": 1.0
+        },
+        "apotheosis:rare": {
+            "min": 2.0,
+            "max": 4.0,
+            "step": 1.0
+        },
+        "apotheosis:epic": {
+            "min": 3.0,
+            "max": 6.0,
+            "step": 1.0
+        },
+        "apotheosis:mythic": {
+            "min": 4.0,
+            "max": 8.0,
+            "step": 1.0
+        }
+    }
+}

@@ -1,0 +1,293 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/anchor-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/apiary-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/beermug-1-wout",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/bountyboard-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/cache-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/camel-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/coal-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/endtorch-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/gallows-1-wout",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/henge-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/henge_pb-1-k_jyu",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/lavagate-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/library-1-alex642",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/monolith-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/ostrich-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/pale_oak-1-mal",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/pb_woodfort-1-k_mal",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/pillars-1-grimm",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/pris_fountain-2-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/pris_fountain-2-k-v2",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/pris_fountain_pb-2-k_jyu",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/rockspire-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/spring-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/stonefort-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/swing-2-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/tent-4-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/tree-1-mal",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/treeplanter-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/trees-3-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/wall-1-whale",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/well-2-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/free/7/woodfort-1-k",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "riftfall:rift/terminator/poi"
+}

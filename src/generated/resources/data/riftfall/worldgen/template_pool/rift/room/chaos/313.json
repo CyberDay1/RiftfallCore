@@ -1,0 +1,23 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/room/chaos/313/thin_cave-1-rachaelrose",
+        "processors": "riftfall:room_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/room/chaos/313/twocaves-2-jyu",
+        "processors": "riftfall:room_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

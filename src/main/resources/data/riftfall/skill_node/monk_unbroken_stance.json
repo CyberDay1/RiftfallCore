@@ -1,0 +1,10 @@
+{
+  "id": "monk_unbroken_stance",
+  "class": "monk",
+  "ascendancy": "dragon_fist_master",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/monk_unbroken_stance",
+  "shape": "conditional",
+  "bonus_per_rank": 0.06
+}

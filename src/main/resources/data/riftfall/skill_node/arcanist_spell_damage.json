@@ -1,0 +1,8 @@
+{
+  "id": "arcanist_spell_damage",
+  "class": "arcanist",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:spell_damage",
+  "bonus_per_rank": 0.1
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "boss",
+  "weight": 8,
+  "entity_tag": "riftfall:rift_bosses",
+  "count": 1,
+  "xp": 50,
+  "rewards": [
+    {
+      "id": "riftfall:socket_chisel"
+    }
+  ]
+}

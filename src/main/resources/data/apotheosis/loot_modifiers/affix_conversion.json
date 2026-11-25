@@ -1,0 +1,22 @@
+{
+  "type": "apotheosis:affix_conversion",
+  "conditions": [
+    {
+      "condition": "riftfall:in_rift"
+    }
+  ],
+  "entries": [
+    {
+      "chance": 0.0,
+      "pattern": {
+        "path_regex": ".*blocks.*"
+      }
+    },
+    {
+      "chance": 0.35,
+      "pattern": {
+        "path_regex": ".*"
+      }
+    }
+  ]
+}

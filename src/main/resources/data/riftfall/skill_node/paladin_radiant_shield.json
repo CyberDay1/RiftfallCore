@@ -1,0 +1,17 @@
+{
+  "id": "paladin_radiant_shield",
+  "class": "paladin",
+  "ascendancy": "lightbearer",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:paladin_radiant_shield",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 40.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1
+  }
+}

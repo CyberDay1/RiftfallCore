@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "size=11": {
+      "model": "riftfall:block/poi_free"
+    },
+    "size=3": {
+      "model": "riftfall:block/poi_free"
+    },
+    "size=5": {
+      "model": "riftfall:block/poi_free"
+    },
+    "size=7": {
+      "model": "riftfall:block/poi_free"
+    },
+    "size=9": {
+      "model": "riftfall:block/poi_free"
+    }
+  }
+}

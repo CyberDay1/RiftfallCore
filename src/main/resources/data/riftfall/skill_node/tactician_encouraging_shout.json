@@ -1,0 +1,17 @@
+{
+  "id": "tactician_encouraging_shout",
+  "class": "tactician",
+  "ascendancy": "inspiring_commander",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:tactician_encouraging_shout",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 38.0,
+  "base_cooldown_ticks": 320,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "heal",
+    "magnitude_per_rank": 0.1
+  }
+}

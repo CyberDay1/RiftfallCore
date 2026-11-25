@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystalcraft_unlimited_java"
+    }
+  ],
+  "type": "minecraft:chest",
+  "random_sequence": "riftfall:chests/rift_theme/tidal",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "crystalcraft_unlimited_java:aquamarine",
+          "weight": 187,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:onyx", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:ametrine", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:alexandrite", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:moonstone", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:citrine", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:ice_opal", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:fire_opal", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:peridot", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:grandidierite", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:sunstone", "weight": 3 },
+        { "type": "minecraft:item", "name": "crystalcraft_unlimited_java:maradonyx", "weight": 3 }
+      ]
+    }
+  ]
+}

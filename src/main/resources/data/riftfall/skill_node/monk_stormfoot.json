@@ -1,0 +1,9 @@
+{
+  "id": "monk_stormfoot",
+  "class": "monk",
+  "ascendancy": "tempest_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "minecraft:generic.movement_speed",
+  "bonus_per_rank": 0.008
+}

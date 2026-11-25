@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "absolution",
+  "items": [
+    "armory_rpgs:absolution_robe_head",
+    "armory_rpgs:absolution_robe_chest",
+    "armory_rpgs:absolution_robe_legs",
+    "armory_rpgs:absolution_robe_feet"
+  ],
+  "bonuses": []
+}

@@ -1,0 +1,64 @@
+{
+  "school": "riftfall:holy",
+  "active": {
+    "cast": {}
+  },
+  "range": 12.0,
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.player.attack.sweep",
+      "volume": 0.4,
+      "pitch": 1.1
+    },
+    "animation": {
+      "id": "spell_engine:weapon_thrust_full",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": []
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "CUSTOM",
+        "custom": {
+          "intent": "HARMFUL",
+          "handler": "riftfall:assault_contact"
+        }
+      }
+    },
+    {
+      "target_modifiers": [
+        {
+          "conditions": [
+            {
+              "entity_type": "#c:bosses"
+            }
+          ],
+          "execute": "DENY"
+        }
+      ],
+      "action": {
+        "type": "VELOCITY",
+        "velocity": {
+          "push": {
+            "x": 0.0,
+            "y": 0.3,
+            "z": 0.8
+          }
+        }
+      }
+    }
+  ],
+  "deliver": {
+    "type": "CUSTOM",
+    "custom": {
+      "handler": "riftfall:assault/charge"
+    }
+  }
+}

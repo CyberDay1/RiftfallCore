@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "riftfall:block/processor_block_10",
+    "side": "riftfall:block/processor_block_10"
+  }
+}

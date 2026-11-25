@@ -1,0 +1,8 @@
+{
+  "id": "summoner_shield_strength_increased",
+  "class": "summoner",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:shield_strength",
+  "bonus_per_rank": 0.1
+}

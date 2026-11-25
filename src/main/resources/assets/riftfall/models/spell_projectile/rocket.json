@@ -1,0 +1,138 @@
+{
+  "textures": {
+    "body": "minecraft:block/iron_block",
+    "nose": "minecraft:block/red_concrete",
+    "fin": "minecraft:block/gray_concrete"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        5,
+        4
+      ],
+      "to": [
+        11,
+        11,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#body"
+        },
+        "south": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "west": {
+          "texture": "#body"
+        },
+        "up": {
+          "texture": "#body"
+        },
+        "down": {
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        6,
+        1
+      ],
+      "to": [
+        10,
+        10,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#nose"
+        },
+        "south": {
+          "texture": "#nose"
+        },
+        "east": {
+          "texture": "#nose"
+        },
+        "west": {
+          "texture": "#nose"
+        },
+        "up": {
+          "texture": "#nose"
+        },
+        "down": {
+          "texture": "#nose"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        2,
+        11
+      ],
+      "to": [
+        9,
+        14,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#fin"
+        },
+        "south": {
+          "texture": "#fin"
+        },
+        "east": {
+          "texture": "#fin"
+        },
+        "west": {
+          "texture": "#fin"
+        },
+        "up": {
+          "texture": "#fin"
+        },
+        "down": {
+          "texture": "#fin"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        7,
+        11
+      ],
+      "to": [
+        14,
+        9,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#fin"
+        },
+        "south": {
+          "texture": "#fin"
+        },
+        "east": {
+          "texture": "#fin"
+        },
+        "west": {
+          "texture": "#fin"
+        },
+        "up": {
+          "texture": "#fin"
+        },
+        "down": {
+          "texture": "#fin"
+        }
+      }
+    }
+  ],
+  "ambientocclusion": false
+}

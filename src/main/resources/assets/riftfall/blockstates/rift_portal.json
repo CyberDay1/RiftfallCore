@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "riftfall:block/rift_portal_ns"
+    },
+    "axis=z": {
+      "model": "riftfall:block/rift_portal_ew"
+    }
+  }
+}

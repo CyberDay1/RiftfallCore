@@ -1,0 +1,137 @@
+{
+  "materials": {
+    "1": [
+      { "block": "twigs:mossy_bricks", "weight": 4.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "minecraft:bricks", "weight": 2.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "minecraft:mossy_cobblestone", "weight": 2.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "quark:mossy_cobblestone_bricks", "weight": 1.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "2": [
+      { "block": "minecraft:mossy_cobblestone", "weight": 3.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "minecraft:cobblestone", "weight": 2.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "3": [
+      { "block": "stoneworks:mossy_andesite_bricks", "weight": 3.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "minecraft:mossy_stone_bricks", "weight": 1.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "4": [
+      { "block": "minecraft:cracked_stone_bricks", "weight": 2.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "stoneworks:mossy_cobbled_deepslate", "weight": 1.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "5": [
+      { "block": "twigs:mossy_cobblestone_bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "6": [
+      { "block": "minecraft:spruce_planks", "weight": 3.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "minecraft:oak_planks", "weight": 1.0,
+        "variants": { "directional_pillar": "minecraft:stripped_oak_log",
+                      "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "7": [
+      { "block": "minecraft:bricks", "weight": 3.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "minecraft:mud_bricks", "weight": 1.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "8": [
+      { "block": "minecraft:dirt_path", "weight": 1.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "minecraft:coarse_dirt", "weight": 2.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "minecraft:gravel", "weight": 2.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "9": [
+      { "block": "twigs:mossy_cobblestone_bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "10": [
+      { "block": "minecraft:bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "11": [
+      { "block": "minecraft:bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "12": [
+      { "block": "stoneworks:mossy_andesite_bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "13": [
+      { "block": "minecraft:mossy_cobblestone",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "14": [
+      { "block": "minecraft:bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "15": [
+      { "block": "minecraft:cobblestone",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ]
+  },
+  "fallback": "minecraft:bricks",
+  "noise_scale": [0.09, 0.09, 0.09],
+  "seed_adjustment": 7717,
+  "decorators": [
+{
+      "type": "riftfall:vine",
+      "attach_to_wall": true,
+      "attach_to_ceiling": false,
+      "rarity": 0.14
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:cobweb",
+      "requires_sides": 2,
+      "rarity": 0.03
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:poison_plate",
+        "darkutils:slowness_plate",
+        "darkutils:omen_plate"
+      ],
+      "decoy": "minecraft:stone_pressure_plate",
+      "room_kinds": ["approach", "chaos", "stable", "unstable", "boss"],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 3031
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "stone",
+      "home": "grandidierite",
+      "light": "minecraft:glowstone"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "stone",
+      "home": "grandidierite",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:glowstone",
+      "ceiling": "minecraft:glowstone",
+      "floor": "minecraft:glowstone",
+      "alcove": "minecraft:lantern",
+      "hanging": "minecraft:lantern[hanging=true]",
+      "seed": 3032
+    }
+  ]
+}

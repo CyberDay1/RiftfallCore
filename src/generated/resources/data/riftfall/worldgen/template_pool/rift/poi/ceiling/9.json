@@ -1,0 +1,95 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/apiary-1-alex642",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/brick_chadelier-1-mal",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/chandelier-1-muki",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/hang_chest-4-mal",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/hanging-5-jyu",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/hanging_diorite-1-team",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/hanging_greenhouse-1-alex642",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/hay_stack-1-alex642",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/produce_storage-1-alex642",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "riftfall:rift/poi/ceiling/9/suspended_library-1-alex642",
+        "processors": "riftfall:poi_theme",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "riftfall:rift/terminator/poi"
+}

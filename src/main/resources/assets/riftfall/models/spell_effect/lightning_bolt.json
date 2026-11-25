@@ -1,0 +1,130 @@
+{
+  "textures": {
+    "light": "minecraft:block/sea_lantern"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7.5
+      ],
+      "to": [
+        9,
+        8,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#light"
+        },
+        "south": {
+          "texture": "#light"
+        },
+        "east": {
+          "texture": "#light"
+        },
+        "west": {
+          "texture": "#light"
+        },
+        "up": {
+          "texture": "#light"
+        },
+        "down": {
+          "texture": "#light"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5
+      }
+    },
+    {
+      "from": [
+        7,
+        6,
+        7.5
+      ],
+      "to": [
+        9,
+        14,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#light"
+        },
+        "south": {
+          "texture": "#light"
+        },
+        "east": {
+          "texture": "#light"
+        },
+        "west": {
+          "texture": "#light"
+        },
+        "up": {
+          "texture": "#light"
+        },
+        "down": {
+          "texture": "#light"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        7,
+        12,
+        7.5
+      ],
+      "to": [
+        9,
+        20,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#light"
+        },
+        "south": {
+          "texture": "#light"
+        },
+        "east": {
+          "texture": "#light"
+        },
+        "west": {
+          "texture": "#light"
+        },
+        "up": {
+          "texture": "#light"
+        },
+        "down": {
+          "texture": "#light"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          12,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5
+      }
+    }
+  ]
+}

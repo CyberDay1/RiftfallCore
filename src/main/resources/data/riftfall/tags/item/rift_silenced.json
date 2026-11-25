@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "relics:magic_mirror",
+      "required": false
+    },
+    {
+      "id": "relics:blazing_flask",
+      "required": false
+    },
+    {
+      "id": "relics:space_dissector",
+      "required": false
+    }
+  ]
+}

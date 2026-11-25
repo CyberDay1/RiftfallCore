@@ -1,0 +1,423 @@
+{
+  "defaults": {
+    "key.anarchy_rpg.journal": "key.keyboard.k",
+    "key.apotheosis.open_world_tier_select": "key.keyboard.unknown",
+    "Quest Log": "key.keyboard.unknown",
+    "Scene reset": "key.keyboard.unknown",
+    "Scene1 start/pause": "key.keyboard.unknown",
+    "Scene2 start/pause": "key.keyboard.unknown",
+    "Scene3 start/pause": "key.keyboard.unknown",
+    "iris.keybind.reload": "key.keyboard.unknown",
+    "iris.keybind.shaderPackSelection": "key.keyboard.unknown",
+    "iris.keybind.toggleShaders": "key.keyboard.unknown",
+    "key.advancements": "key.keyboard.unknown",
+    "key.bctoggle.toggle_better_combat": "key.keyboard.unknown",
+    "key.buildaspell.ability_ring": "key.keyboard.unknown",
+    "key.buildaspell.cast_spell": "key.keyboard.unknown",
+    "key.buildaspell.import_spell": "key.keyboard.unknown",
+    "key.buildaspell.next_spell_slot": "key.keyboard.unknown",
+    "key.buildaspell.prev_spell_slot": "key.keyboard.unknown",
+    "key.buildaspell.spell_builder": "key.keyboard.unknown",
+    "key.buildaspell.spell_slot_1": "key.keyboard.unknown",
+    "key.buildaspell.spell_slot_2": "key.keyboard.unknown",
+    "key.buildaspell.spell_slot_3": "key.keyboard.unknown",
+    "key.buildaspell.spell_slot_4": "key.keyboard.unknown",
+    "key.buildaspell.spell_slot_5": "key.keyboard.unknown",
+    "key.buildaspell.toggle_mana_bar": "key.keyboard.unknown",
+    "key.ftbquests.quests": "key.keyboard.l",
+    "key.irons_spellbooks.spell_bar_modifier": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_1": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_10": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_11": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_12": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_13": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_14": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_15": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_2": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_3": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_4": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_5": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_6": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_7": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_8": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_quick_cast_9": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_wheel": "key.keyboard.unknown",
+    "key.irons_spellbooks.spell_wheel_toggle": "key.keyboard.unknown",
+    "key.irons_spellbooks.spellbook_cast": "key.keyboard.unknown",
+    "key.kubejs.kubedex": "key.keyboard.unknown",
+    "key.puffish_skills.open": "key.keyboard.unknown",
+    "key.riftfall.cast_slot_1": "key.keyboard.1:CONTROL",
+    "key.riftfall.cast_slot_2": "key.keyboard.2:CONTROL",
+    "key.riftfall.cast_slot_3": "key.keyboard.3:CONTROL",
+    "key.riftfall.cast_slot_4": "key.keyboard.4:CONTROL",
+    "key.riftfall.cast_slot_5": "key.keyboard.5:CONTROL",
+    "key.riftfall.cast_slot_6": "key.keyboard.6:CONTROL",
+    "key.riftfall.cast_slot_7": "key.keyboard.7:CONTROL",
+    "key.riftfall.cast_slot_8": "key.keyboard.8:CONTROL",
+    "key.riftfall.cast_ultimate": "key.keyboard.9:CONTROL",
+    "key.riftfall.sheet": "key.keyboard.j",
+    "key.simplytooltips.capture_gif": "key.keyboard.unknown",
+    "key.simplytooltips.cycle_tab": "key.keyboard.unknown",
+    "key.tacz.inspect.desc": "key.keyboard.unknown",
+    "key.toastcontrol.clear": "key.keyboard.unknown",
+    "key.walkers": "key.keyboard.unknown",
+    "key.walkers_ability": "key.keyboard.unknown",
+    "key.walkers_unlock": "key.keyboard.unknown",
+    "key.walkers_variants": "key.keyboard.unknown",
+    "keybindings.spell_engine.bypass_spell_hotbar": "key.keyboard.unknown",
+    "keybindings.spell_engine.spell_hotbar_1": "key.keyboard.unknown",
+    "keybindings.spell_engine.spell_hotbar_2": "key.keyboard.unknown",
+    "keybindings.spell_engine.spell_hotbar_3": "key.keyboard.unknown",
+    "keybindings.spell_engine.spell_hotbar_4": "key.keyboard.unknown",
+    "keybindings.spell_engine.spell_hotbar_5": "key.keyboard.unknown",
+    "keybindings.spell_engine.spell_hotbar_6": "key.keyboard.unknown",
+    "keybindings.spell_engine.spell_hotbar_7": "key.keyboard.unknown",
+    "keybindings.spell_engine.spell_hotbar_8": "key.keyboard.unknown",
+    "keybindings.spell_engine.spell_hotbar_9": "key.keyboard.unknown",
+    "placebo.toggleTrails": "key.keyboard.unknown",
+    "placebo.toggleWings": "key.keyboard.unknown",
+    "quark.keybind.camera_mode": "key.keyboard.unknown",
+    "quark.keybind.change_hotbar": "key.keyboard.unknown",
+    "quark.keybind.lock_rotation": "key.keyboard.unknown",
+    "key.op_scythes.effects_red_scythe": "key.keyboard.unknown",
+    "key.op_scythes.effects_orange_scythe": "key.keyboard.unknown",
+    "key.op_scythes.effects_yellow_scythe": "key.keyboard.unknown",
+    "key.op_scythes.effects_green_scythe": "key.keyboard.unknown",
+    "key.op_scythes.effects_blue_scythe": "key.keyboard.unknown",
+    "key.op_scythes.effects_purple_scythe": "key.keyboard.unknown",
+    "key.op_scythes.effects_pink_scythe": "key.keyboard.unknown",
+    "key.op_scythes.effects_rainbow_scythe": "key.keyboard.unknown",
+    "key.block_factorys_bosses.dodge_roll": "key.keyboard.unknown",
+    "key.scythes.scythe_ability": "key.keyboard.unknown",
+    "key.deep_aether.stratus_dash_ability.desc": "key.keyboard.unknown",
+    "key.legendary_monsters.mossy_chestplate_ability": "key.keyboard.unknown",
+    "key.legendary_monsters.roar_ability": "key.keyboard.unknown",
+    "key.cataclysm.helmet_ability": "key.keyboard.unknown",
+    "key.cataclysm.ability": "key.keyboard.unknown",
+    "key.cataclysm.boots_ability": "key.keyboard.unknown",
+    "key.cataclysm.chestplate_ability": "key.keyboard.unknown",
+    "key.legendary_monsters.helmet_ability": "key.keyboard.unknown",
+    "key.legendary_monsters.fiery_boots_ability": "key.keyboard.unknown",
+    "supplementaries.keybind.quiver": "key.keyboard.unknown",
+    "key.nyfsquiver.open_quiver": "key.keyboard.unknown",
+    "accessories.key.open_accessories_screen": "key.keyboard.unknown",
+    "key.curios.open.desc": "key.keyboard.unknown",
+    "key.aether.open_accessories.desc": "key.keyboard.unknown",
+    "key.deep_aether.toggle_skyjade_transparency": "key.keyboard.unknown",
+    "simplemagnets.keys.toggle": "key.keyboard.h"
+  },
+  "migrate_from": {
+    "key.anarchy_rpg.journal": [
+      "key.keyboard.j"
+    ],
+    "Quest Log": [
+      "key.keyboard.l"
+    ],
+    "Scene reset": [
+      "key.keyboard.keypad.0"
+    ],
+    "Scene1 start/pause": [
+      "key.keyboard.keypad.1"
+    ],
+    "Scene2 start/pause": [
+      "key.keyboard.keypad.2"
+    ],
+    "Scene3 start/pause": [
+      "key.keyboard.keypad.3"
+    ],
+    "iris.keybind.reload": [
+      "key.keyboard.r"
+    ],
+    "iris.keybind.shaderPackSelection": [
+      "key.keyboard.o"
+    ],
+    "iris.keybind.toggleShaders": [
+      "key.keyboard.k"
+    ],
+    "key.advancements": [
+      "key.keyboard.l"
+    ],
+    "key.bctoggle.toggle_better_combat": [],
+    "key.buildaspell.ability_ring": [
+      "key.keyboard.v"
+    ],
+    "key.buildaspell.cast_spell": [
+      "key.keyboard.r"
+    ],
+    "key.buildaspell.import_spell": [
+      "key.keyboard.i"
+    ],
+    "key.buildaspell.next_spell_slot": [
+      "key.mouse.5"
+    ],
+    "key.buildaspell.prev_spell_slot": [
+      "key.mouse.4"
+    ],
+    "key.buildaspell.spell_builder": [
+      "key.keyboard.g"
+    ],
+    "key.buildaspell.spell_slot_1": [
+      "key.keyboard.1"
+    ],
+    "key.buildaspell.spell_slot_2": [
+      "key.keyboard.2"
+    ],
+    "key.buildaspell.spell_slot_3": [
+      "key.keyboard.3"
+    ],
+    "key.buildaspell.spell_slot_4": [
+      "key.keyboard.4"
+    ],
+    "key.buildaspell.spell_slot_5": [
+      "key.keyboard.5"
+    ],
+    "key.buildaspell.toggle_mana_bar": [
+      "key.keyboard.m"
+    ],
+    "key.ftbquests.quests": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_bar_modifier": [
+      "key.keyboard.left.alt"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_1": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_10": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_11": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_12": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_13": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_14": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_15": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_2": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_3": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_4": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_5": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_6": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_7": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_8": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_quick_cast_9": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spell_wheel": [
+      "key.keyboard.r"
+    ],
+    "key.irons_spellbooks.spell_wheel_toggle": [
+      "key.keyboard.unknown"
+    ],
+    "key.irons_spellbooks.spellbook_cast": [
+      "key.keyboard.v"
+    ],
+    "key.kubejs.kubedex": [
+      "key.keyboard.k"
+    ],
+    "key.puffish_skills.open": [
+      "key.keyboard.k"
+    ],
+    "key.riftfall.cast_slot_1": [
+      "key.keyboard.unknown"
+    ],
+    "key.riftfall.cast_slot_2": [
+      "key.keyboard.unknown"
+    ],
+    "key.riftfall.cast_slot_3": [
+      "key.keyboard.unknown"
+    ],
+    "key.riftfall.cast_slot_4": [
+      "key.keyboard.unknown"
+    ],
+    "key.riftfall.cast_slot_5": [
+      "key.keyboard.unknown"
+    ],
+    "key.riftfall.cast_slot_6": [
+      "key.keyboard.unknown"
+    ],
+    "key.riftfall.cast_slot_7": [
+      "key.keyboard.unknown"
+    ],
+    "key.riftfall.cast_slot_8": [
+      "key.keyboard.unknown"
+    ],
+    "key.riftfall.cast_ultimate": [
+      "key.keyboard.unknown"
+    ],
+    "key.riftfall.sheet": [
+      "key.keyboard.h"
+    ],
+    "key.simplytooltips.capture_gif": [
+      "key.keyboard.h"
+    ],
+    "key.simplytooltips.cycle_tab": [
+      "key.keyboard.g"
+    ],
+    "key.tacz.inspect.desc": [
+      "key.keyboard.h",
+      "key.keyboard.left.shift",
+      "key.keyboard.right.shift"
+    ],
+    "key.toastcontrol.clear": [
+      "key.keyboard.j"
+    ],
+    "key.walkers": [
+      "key.keyboard.g"
+    ],
+    "key.walkers_ability": [
+      "key.keyboard.r"
+    ],
+    "key.walkers_unlock": [
+      "key.keyboard.u"
+    ],
+    "key.walkers_variants": [
+      "key.keyboard.v"
+    ],
+    "keybindings.spell_engine.bypass_spell_hotbar": [
+      "key.keyboard.left.alt"
+    ],
+    "keybindings.spell_engine.spell_hotbar_1": [
+      "key.keyboard.unknown"
+    ],
+    "keybindings.spell_engine.spell_hotbar_2": [
+      "key.keyboard.unknown"
+    ],
+    "keybindings.spell_engine.spell_hotbar_3": [
+      "key.keyboard.unknown"
+    ],
+    "keybindings.spell_engine.spell_hotbar_4": [
+      "key.keyboard.unknown"
+    ],
+    "keybindings.spell_engine.spell_hotbar_5": [
+      "key.keyboard.unknown"
+    ],
+    "keybindings.spell_engine.spell_hotbar_6": [
+      "key.keyboard.unknown"
+    ],
+    "keybindings.spell_engine.spell_hotbar_7": [
+      "key.keyboard.unknown"
+    ],
+    "keybindings.spell_engine.spell_hotbar_8": [
+      "key.keyboard.unknown"
+    ],
+    "keybindings.spell_engine.spell_hotbar_9": [
+      "key.keyboard.unknown"
+    ],
+    "placebo.toggleTrails": [
+      "key.keyboard.keypad.9"
+    ],
+    "placebo.toggleWings": [
+      "key.keyboard.keypad.8"
+    ],
+    "quark.keybind.camera_mode": [
+      "key.keyboard.f12"
+    ],
+    "quark.keybind.change_hotbar": [
+      "key.keyboard.z"
+    ],
+    "quark.keybind.lock_rotation": [
+      "key.keyboard.k"
+    ],
+    "key.op_scythes.effects_red_scythe": [
+      "key.keyboard.e"
+    ],
+    "key.op_scythes.effects_orange_scythe": [
+      "key.keyboard.e"
+    ],
+    "key.op_scythes.effects_yellow_scythe": [
+      "key.keyboard.e"
+    ],
+    "key.op_scythes.effects_green_scythe": [
+      "key.keyboard.e"
+    ],
+    "key.op_scythes.effects_blue_scythe": [
+      "key.keyboard.e"
+    ],
+    "key.op_scythes.effects_purple_scythe": [
+      "key.keyboard.e"
+    ],
+    "key.op_scythes.effects_pink_scythe": [
+      "key.keyboard.e"
+    ],
+    "key.op_scythes.effects_rainbow_scythe": [
+      "key.keyboard.e"
+    ],
+    "key.block_factorys_bosses.dodge_roll": [
+      "key.keyboard.z"
+    ],
+    "key.scythes.scythe_ability": [
+      "key.keyboard.r"
+    ],
+    "key.deep_aether.stratus_dash_ability.desc": [
+      "key.keyboard.r"
+    ],
+    "key.legendary_monsters.mossy_chestplate_ability": [
+      "key.keyboard.r"
+    ],
+    "key.legendary_monsters.roar_ability": [
+      "key.keyboard.r"
+    ],
+    "key.cataclysm.helmet_ability": [
+      "key.keyboard.c"
+    ],
+    "key.cataclysm.ability": [
+      "key.keyboard.v"
+    ],
+    "key.cataclysm.boots_ability": [
+      "key.keyboard.v"
+    ],
+    "key.cataclysm.chestplate_ability": [
+      "key.keyboard.y"
+    ],
+    "key.legendary_monsters.helmet_ability": [
+      "key.keyboard.c"
+    ],
+    "key.legendary_monsters.fiery_boots_ability": [
+      "key.keyboard.x"
+    ],
+    "supplementaries.keybind.quiver": [
+      "key.keyboard.v"
+    ],
+    "key.nyfsquiver.open_quiver": [
+      "key.keyboard.v"
+    ],
+    "accessories.key.open_accessories_screen": [
+      "key.keyboard.h"
+    ],
+    "key.curios.open.desc": [
+      "key.keyboard.g"
+    ],
+    "key.aether.open_accessories.desc": [
+      "key.keyboard.i"
+    ],
+    "key.deep_aether.toggle_skyjade_transparency": [
+      "key.keyboard.v"
+    ],
+    "simplemagnets.keys.toggle": [
+      "key.keyboard.unknown"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "paladin_damage_resistance",
+  "class": "paladin",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:damage_resistance",
+  "bonus_per_rank": 0.1
+}

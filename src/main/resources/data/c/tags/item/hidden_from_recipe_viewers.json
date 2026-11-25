@@ -1,0 +1,105 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "apotheosis:sigil_of_rebirth",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_enhancement",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_malice",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_supremacy",
+      "required": false
+    },
+    {
+      "id": "apotheosis:simple_reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:salvaging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gem_cutting_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:augmenting_table",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:raven_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:god_fused_pearl",
+      "required": false
+    },
+    {
+      "id": "create_enchantment_industry:gem_cutter",
+      "required": false
+    },
+    {
+      "id": "create_enchantment_industry:affix_augmentor",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gem_dust",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_socketing",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gem_case",
+      "required": false
+    },
+    {
+      "id": "apotheosis:ender_gem_case",
+      "required": false
+    },
+    {
+      "id": "create_enchantment_industry:brass_affix_template",
+      "required": false
+    },
+    {
+      "id": "create_enchantment_industry:crystal_affix_template",
+      "required": false
+    },
+    {
+      "id": "create_enchantment_industry:apotheotic_affix_template",
+      "required": false
+    },
+    {
+      "id": "apotheosis:iron_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gold_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "apotheosis:diamond_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "artifacts:lucky_scarf",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_unnaming",
+      "required": false
+    }
+  ]
+}

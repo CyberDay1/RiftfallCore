@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "voidscape:null_servant", "required": false },
+    { "id": "too_many_weapons:safey_is_a_sin", "required": false }
+  ]
+}

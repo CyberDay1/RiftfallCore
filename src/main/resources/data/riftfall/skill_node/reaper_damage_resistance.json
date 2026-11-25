@@ -1,0 +1,8 @@
+{
+  "id": "reaper_damage_resistance",
+  "class": "reaper",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:damage_resistance",
+  "bonus_per_rank": 0.05
+}

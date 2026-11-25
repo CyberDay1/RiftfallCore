@@ -1,0 +1,18 @@
+{
+  "id": "trickster_decoy_trap",
+  "class": "trickster",
+  "ascendancy": "illusionist",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:trickster_decoy_trap",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 320,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  },
+  "category": "trap"
+}

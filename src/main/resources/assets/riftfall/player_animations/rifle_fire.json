@@ -1,0 +1,53 @@
+{
+  "name": "rifle_fire",
+  "author": "Riftfall",
+  "emote": {
+    "isLoop": "false",
+    "returnTick": 0,
+    "beginTick": 1,
+    "endTick": 6,
+    "stopTick": 10,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 1,
+        "easing": "EASEINOUTQUAD",
+        "turn": 0,
+        "rightArm": {
+          "pitch": -90,
+          "yaw": -8
+        },
+        "leftArm": {
+          "pitch": -86,
+          "yaw": 25
+        }
+      },
+      {
+        "tick": 2,
+        "easing": "EASEINOUTQUAD",
+        "turn": 0,
+        "rightArm": {
+          "pitch": -96,
+          "yaw": -8
+        },
+        "leftArm": {
+          "pitch": -92,
+          "yaw": 25
+        }
+      },
+      {
+        "tick": 6,
+        "easing": "EASEINOUTQUAD",
+        "turn": 0,
+        "rightArm": {
+          "pitch": -90,
+          "yaw": -8
+        },
+        "leftArm": {
+          "pitch": -86,
+          "yaw": 25
+        }
+      }
+    ]
+  }
+}

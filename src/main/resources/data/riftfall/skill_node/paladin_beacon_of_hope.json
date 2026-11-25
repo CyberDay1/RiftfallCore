@@ -1,0 +1,23 @@
+{
+  "id": "paladin_beacon_of_hope",
+  "class": "paladin",
+  "ascendancy": "lightbearer",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:paladin_beacon_of_hope",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 4000,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "heal",
+    "magnitude_per_rank": 0.1
+  },
+  "category": "heal",
+  "per_enemy": {
+    "shield": 0.5,
+    "cap": 6,
+    "ally_radius": 8.0
+  }
+}

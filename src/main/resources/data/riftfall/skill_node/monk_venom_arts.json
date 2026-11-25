@@ -1,0 +1,9 @@
+{
+  "id": "monk_venom_arts",
+  "class": "monk",
+  "ascendancy": "shadow_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:venom_damage",
+  "bonus_per_rank": 0.12
+}

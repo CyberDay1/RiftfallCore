@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "riftfall:block/one_way_pane",
+    "pane": "riftfall:block/one_way_pane"
+  },
+  "comment": "tintindex per face = Direction#get3DDataValue, so the colour handler can pick the one the state faces. That is why there is one model and no rotation. The sprite is a flat fill and carries nothing but alpha: a block colour handler returns RGB only, so the transparency has to come from here. It is ours rather than white_stained_glass because vanilla's bakes in a border ring (edge alpha 163, interior 102) and every block drawing its own frame rules a wall into a grid.",
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": { "uv": [0, 0, 16, 16], "tintindex": 0, "texture": "#pane", "cullface": "down" },
+        "up": { "uv": [0, 0, 16, 16], "tintindex": 1, "texture": "#pane", "cullface": "up" },
+        "north": { "uv": [0, 0, 16, 16], "tintindex": 2, "texture": "#pane", "cullface": "north" },
+        "south": { "uv": [0, 0, 16, 16], "tintindex": 3, "texture": "#pane", "cullface": "south" },
+        "west": { "uv": [0, 0, 16, 16], "tintindex": 4, "texture": "#pane", "cullface": "west" },
+        "east": { "uv": [0, 0, 16, 16], "tintindex": 5, "texture": "#pane", "cullface": "east" }
+      }
+    }
+  ]
+}

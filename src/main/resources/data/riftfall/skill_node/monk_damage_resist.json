@@ -1,0 +1,9 @@
+{
+  "id": "monk_damage_resist",
+  "class": "monk",
+  "ascendancy": "iron_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:damage_resistance",
+  "bonus_per_rank": 0.06
+}

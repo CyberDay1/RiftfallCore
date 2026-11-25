@@ -1,0 +1,33 @@
+{
+    "type": "irons_apothic:imbued_spell_trigger",
+    "definition": {
+        "affix_type": "stat",
+        "weights": {
+            "quality": 0.0,
+            "weight": 0
+        },
+        "exclusive_set": []
+    },
+    "trigger": "PROJECTILE_HIT",
+    "target": "TARGET",
+    "values": {
+        "apotheosis:common": {
+            "cooldown": 2198
+        },
+        "apotheosis:uncommon": {
+            "cooldown": 1758
+        },
+        "apotheosis:rare": {
+            "cooldown": 1406
+        },
+        "apotheosis:epic": {
+            "cooldown": 1125
+        },
+        "apotheosis:mythic": {
+            "cooldown": 900
+        }
+    },
+    "types": [
+        "apotheosis:bow"
+    ]
+}

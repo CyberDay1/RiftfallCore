@@ -1,0 +1,17 @@
+{
+  "kind": "delivery",
+  "weight": 12,
+  "item_tag": "riftfall:theme_crystals",
+  "count": 12,
+  "xp": 30,
+  "max_tier": 11,
+  "rewards": [
+    {
+      "id": "riftfall:tempering_stock",
+      "count": 2
+    },
+    {
+      "id": "riftfall:common_runestone"
+    }
+  ]
+}

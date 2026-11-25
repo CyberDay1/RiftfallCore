@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witcher_rpg"
+    }
+  ],
+  "name": "grandmaster_feline",
+  "items": [
+    "witcher_rpg:grandmaster_feline_head",
+    "witcher_rpg:grandmaster_feline_chest",
+    "witcher_rpg:grandmaster_feline_legs",
+    "witcher_rpg:grandmaster_feline_feet",
+    "witcher_rpg:cat_school_medallion"
+  ],
+  "bonuses": []
+}

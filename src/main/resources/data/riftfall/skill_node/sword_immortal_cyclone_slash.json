@@ -1,0 +1,17 @@
+{
+  "id": "sword_immortal_cyclone_slash",
+  "class": "sword_immortal",
+  "ascendancy": "wind_blade_master",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_cyclone_slash",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 36.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "berserker_rpg"
+    }
+  ],
+  "name": "warlord",
+  "items": [
+    "berserker_rpg:warlord_head",
+    "berserker_rpg:warlord_chest",
+    "berserker_rpg:warlord_legs",
+    "berserker_rpg:warlord_feet"
+  ],
+  "bonuses": []
+}

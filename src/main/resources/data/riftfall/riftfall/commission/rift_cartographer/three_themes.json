@@ -1,0 +1,11 @@
+{
+  "kind": "variety",
+  "weight": 8,
+  "count": 3,
+  "xp": 60,
+  "rewards": [
+    {
+      "id": "riftfall:uncommon_runestone"
+    }
+  ]
+}

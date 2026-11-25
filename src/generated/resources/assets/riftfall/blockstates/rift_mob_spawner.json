@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "ominous=false,rift_mob_spawner_state=active": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=false,rift_mob_spawner_state=cooldown": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=false,rift_mob_spawner_state=ejecting_reward": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=false,rift_mob_spawner_state=inactive": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=false,rift_mob_spawner_state=waiting_for_players": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=false,rift_mob_spawner_state=waiting_for_reward_ejection": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=true,rift_mob_spawner_state=active": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=true,rift_mob_spawner_state=cooldown": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=true,rift_mob_spawner_state=ejecting_reward": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=true,rift_mob_spawner_state=inactive": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=true,rift_mob_spawner_state=waiting_for_players": {
+      "model": "riftfall:block/rift_mob_spawner"
+    },
+    "ominous=true,rift_mob_spawner_state=waiting_for_reward_ejection": {
+      "model": "riftfall:block/rift_mob_spawner"
+    }
+  }
+}

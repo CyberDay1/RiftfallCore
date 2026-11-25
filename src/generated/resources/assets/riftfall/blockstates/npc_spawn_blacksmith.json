@@ -1,0 +1,139 @@
+{
+  "variants": {
+    "facing=east,roam_radius=0": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 90
+    },
+    "facing=east,roam_radius=1": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 90
+    },
+    "facing=east,roam_radius=2": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 90
+    },
+    "facing=east,roam_radius=3": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 90
+    },
+    "facing=east,roam_radius=4": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 90
+    },
+    "facing=east,roam_radius=5": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 90
+    },
+    "facing=east,roam_radius=6": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 90
+    },
+    "facing=east,roam_radius=7": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 90
+    },
+    "facing=east,roam_radius=8": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 90
+    },
+    "facing=north,roam_radius=0": {
+      "model": "riftfall:block/npc_spawn_blacksmith"
+    },
+    "facing=north,roam_radius=1": {
+      "model": "riftfall:block/npc_spawn_blacksmith"
+    },
+    "facing=north,roam_radius=2": {
+      "model": "riftfall:block/npc_spawn_blacksmith"
+    },
+    "facing=north,roam_radius=3": {
+      "model": "riftfall:block/npc_spawn_blacksmith"
+    },
+    "facing=north,roam_radius=4": {
+      "model": "riftfall:block/npc_spawn_blacksmith"
+    },
+    "facing=north,roam_radius=5": {
+      "model": "riftfall:block/npc_spawn_blacksmith"
+    },
+    "facing=north,roam_radius=6": {
+      "model": "riftfall:block/npc_spawn_blacksmith"
+    },
+    "facing=north,roam_radius=7": {
+      "model": "riftfall:block/npc_spawn_blacksmith"
+    },
+    "facing=north,roam_radius=8": {
+      "model": "riftfall:block/npc_spawn_blacksmith"
+    },
+    "facing=south,roam_radius=0": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 180
+    },
+    "facing=south,roam_radius=1": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 180
+    },
+    "facing=south,roam_radius=2": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 180
+    },
+    "facing=south,roam_radius=3": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 180
+    },
+    "facing=south,roam_radius=4": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 180
+    },
+    "facing=south,roam_radius=5": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 180
+    },
+    "facing=south,roam_radius=6": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 180
+    },
+    "facing=south,roam_radius=7": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 180
+    },
+    "facing=south,roam_radius=8": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 180
+    },
+    "facing=west,roam_radius=0": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 270
+    },
+    "facing=west,roam_radius=1": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 270
+    },
+    "facing=west,roam_radius=2": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 270
+    },
+    "facing=west,roam_radius=3": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 270
+    },
+    "facing=west,roam_radius=4": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 270
+    },
+    "facing=west,roam_radius=5": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 270
+    },
+    "facing=west,roam_radius=6": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 270
+    },
+    "facing=west,roam_radius=7": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 270
+    },
+    "facing=west,roam_radius=8": {
+      "model": "riftfall:block/npc_spawn_blacksmith",
+      "y": 270
+    }
+  }
+}

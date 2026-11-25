@@ -1,0 +1,8 @@
+{
+  "id": "monk_iron_breath",
+  "class": "monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "apothic_attributes:healing_received",
+  "bonus_per_rank": 0.08
+}

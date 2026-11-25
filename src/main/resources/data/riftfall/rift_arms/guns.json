@@ -1,0 +1,181 @@
+{
+  "kind": "gun",
+  "boss_top_share": 0.5,
+  "grade": {
+    "damage_multiplier": 0.55,
+    "rarity_factors": [
+      1.0,
+      1.08,
+      1.16,
+      1.28,
+      1.4
+    ],
+    "fire_rate_bonus": [
+      0.0,
+      0.03,
+      0.06,
+      0.09,
+      0.12
+    ],
+    "recoil_cut": [
+      0.0,
+      0.08,
+      0.16,
+      0.24,
+      0.32
+    ],
+    "reload_cut": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "ads_cut": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "spread_cut": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ]
+  },
+  "bands": [
+    {
+      "name": "pistols_smgs_basic_rifles",
+      "min_tier": 1,
+      "max_tier": 4,
+      "entries": {
+        "tacz:glock_17": 10,
+        "tacz:m9a4": 10,
+        "tacz:taurus943": 8,
+        "tacz:m1911": 8,
+        "tacz:p320": 8,
+        "tacz:cz75": 6,
+        "tacz:b93r": 6,
+        "tacz:hk_mk23": 6,
+        "tacz:rhino357": 5,
+        "tacz:deagle": 3,
+        "tacz:deagle_golden": 3,
+        "tacz:timeless50": 3,
+        "tacz:uzi": 8,
+        "tacz:hk_mp5a5": 7,
+        "tacz:ump45": 6,
+        "tacz:vector45": 4,
+        "tacz:p90": 4,
+        "tacz:sks_tactical": 6,
+        "tacz:m16a1": 5,
+        "tacz:m16a4": 5,
+        "tacz:tec_9": 8,
+        "tacz:hk_mp7a1": 6,
+        "tacz:m1866": 5
+      }
+    },
+    {
+      "name": "assault_battle_rifles_shotguns",
+      "damage_scale": 0.62,
+      "min_tier": 3,
+      "max_tier": 10,
+      "entries": {
+        "tacz:ak47": 6,
+        "tacz:type_81": 6,
+        "tacz:m4a1": 6,
+        "tacz:hk416d": 5,
+        "tacz:g36k": 5,
+        "tacz:aug": 5,
+        "tacz:scar_l": 5,
+        "tacz:qbz_95": 5,
+        "tacz:qbz_191": 5,
+        "tacz:spr15hb": 4,
+        "tacz:fn_fal": 4,
+        "tacz:hk_g3": 4,
+        "tacz:scar_h": 3,
+        "tacz:mk14": 3,
+        "tacz:db_short": 5,
+        "tacz:db_long": 5,
+        "tacz:m870": 5,
+        "tacz:m1014": 4,
+        "tacz:spas_12": 3,
+        "tacz:aa12": 2,
+        "tacz:taurus500": 2,
+        "tacz:lonetrail": 2,
+        "tacz:ak12": 6,
+        "tacz:ak74m": 6,
+        "tacz:mk18": 6,
+        "tacz:mcx_spear_lt": 5,
+        "tacz:qr_24": 5,
+        "tacz:urgi": 5,
+        "tacz:hcar": 3,
+        "tacz:scar_mk20": 3,
+        "tacz:m1897": 5
+      }
+    },
+    {
+      "name": "snipers_lmgs_launchers",
+      "damage_scale": 0.62,
+      "min_tier": 5,
+      "entries": {
+        "tacz:kar98": 6,
+        "tacz:m700": 6,
+        "tacz:springfield1873": 5,
+        "tacz:ai_awp": 4,
+        "tacz:m107": 3,
+        "tacz:m95": 2,
+        "tacz:rpk": 6,
+        "tacz:m249": 5,
+        "tacz:fn_evolys": 4,
+        "tacz:minigun": 2,
+        "tacz:m320": 4,
+        "tacz:rpg7": 2,
+        "tacz:svd": 5,
+        "tacz:mrad": 4,
+        "tacz:hm50b": 3,
+        "tacz:pkm": 5
+      }
+    },
+    {
+      "name": "elite_rifles_snipers_lmgs",
+      "damage_scale": 0.55,
+      "min_tier": 8,
+      "entries": {
+        "tacz:ai_awp": 6,
+        "tacz:m107": 5,
+        "tacz:m95": 4,
+        "tacz:minigun": 3,
+        "tacz:rpg7": 3,
+        "tacz:scar_h": 5,
+        "tacz:mk14": 5,
+        "tacz:aa12": 4,
+        "tacz:hk416d": 4,
+        "tacz:fn_evolys": 4,
+        "tacz:m249": 4,
+        "tacz:rpk": 3,
+        "tacz:m320": 3,
+        "tacz:spas_12": 3,
+        "tacz:taurus500": 2,
+        "tacz:lonetrail": 2,
+        "tacz:mrad": 4,
+        "tacz:hm50b": 4,
+        "tacz:hcar": 4,
+        "tacz:scar_mk20": 4,
+        "tacz:pkm": 3
+      }
+    },
+    {
+      "name": "early_shotguns",
+      "damage_scale": 0.62,
+      "min_tier": 1,
+      "max_tier": 4,
+      "entries": {
+        "tacz:db_short": 2,
+        "tacz:m1897": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "class": "shifter",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "rogues:iron_double_axe",
+      "fallback": "minecraft:iron_axe"
+    },
+    {
+      "slot": "head",
+      "item": "rogues:rogue_armor_head"
+    },
+    {
+      "slot": "chest",
+      "item": "rogues:rogue_armor_chest"
+    },
+    {
+      "slot": "legs",
+      "item": "rogues:rogue_armor_legs"
+    },
+    {
+      "slot": "feet",
+      "item": "rogues:rogue_armor_feet"
+    }
+  ]
+}

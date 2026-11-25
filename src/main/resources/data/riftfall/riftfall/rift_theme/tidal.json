@@ -1,0 +1,259 @@
+{
+  "materials": {
+    "1": [
+      {
+        "block": "cataclysm:azure_seastone_bricks",
+        "weight": 4.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "cataclysm:azure_seastone_pillar"
+        }
+      },
+      {
+        "block": "upgrade_aquatic:prismarine_coralstone",
+        "weight": 2.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "minecraft:warped_hyphae"
+        }
+      },
+      {
+        "block": "minecraft:prismarine_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "minecraft:warped_hyphae"
+        }
+      }
+    ],
+    "2": [
+      {
+        "block": "cataclysm:azure_seastone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "cataclysm:azure_seastone_pillar"
+        }
+      }
+    ],
+    "3": [
+      {
+        "block": "cataclysm:azure_seastone_tiles",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "cataclysm:azure_seastone_pillar"
+        }
+      }
+    ],
+    "4": [
+      {
+        "block": "cataclysm:polished_azure_seastone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "cataclysm:azure_seastone_pillar"
+        }
+      }
+    ],
+    "5": [
+      {
+        "block": "minecraft:dark_prismarine",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "minecraft:warped_hyphae"
+        }
+      }
+    ],
+    "6": [
+      {
+        "block": "upgrade_aquatic:driftwood_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "upgrade_aquatic:stripped_driftwood_log"
+        }
+      }
+    ],
+    "7": [
+      {
+        "block": "cataclysm:azure_seastone_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "cataclysm:azure_seastone_pillar"
+        }
+      }
+    ],
+    "8": [
+      {
+        "block": "upgrade_aquatic:prismarine_coralstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "minecraft:warped_hyphae"
+        }
+      }
+    ],
+    "9": [
+      {
+        "block": "cataclysm:chiseled_azure_seastone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "cataclysm:azure_seastone_pillar"
+        }
+      }
+    ],
+    "10": [
+      {
+        "block": "cataclysm:polished_azure_seastone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "cataclysm:azure_seastone_pillar"
+        }
+      }
+    ],
+    "11": [
+      {
+        "block": "upgrade_aquatic:driftwood_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "upgrade_aquatic:stripped_driftwood_log"
+        }
+      }
+    ],
+    "12": [
+      {
+        "block": "minecraft:dark_prismarine",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "minecraft:warped_hyphae"
+        }
+      }
+    ],
+    "13": [
+      {
+        "block": "upgrade_aquatic:prismarine_coralstone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "minecraft:warped_hyphae"
+        }
+      }
+    ],
+    "14": [
+      {
+        "block": "cataclysm:azure_seastone_tiles",
+        "weight": 5.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "cataclysm:azure_seastone_pillar"
+        }
+      },
+      {
+        "block": "upgrade_aquatic:luminous_prismarine",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "minecraft:warped_hyphae"
+        }
+      }
+    ],
+    "15": [
+      {
+        "block": "cataclysm:azure_seastone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:cyan_stained_glass",
+          "glass_pane": "minecraft:cyan_stained_glass_pane",
+          "directional_pillar": "cataclysm:azure_seastone_pillar"
+        }
+      }
+    ]
+  },
+  "fallback": "minecraft:prismarine_bricks",
+  "noise_scale": [
+    0.065,
+    0.045,
+    0.065
+  ],
+  "seed_adjustment": 12007,
+  "decorators": [
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:chain[axis=y]",
+      "rarity": 0.025,
+      "seed": 12008,
+      "requires_up": true
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:soul_lantern[hanging=true]",
+      "rarity": 0.018,
+      "seed": 12009,
+      "requires_up": true
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:slowness_plate",
+        "darkutils:fatigue_plate",
+        "darkutils:weakness_plate"
+      ],
+      "decoy": "minecraft:stone_pressure_plate",
+      "room_kinds": [
+        "approach",
+        "chaos",
+        "stable",
+        "unstable",
+        "boss"
+      ],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 12007
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "stone",
+      "home": "aquamarine",
+      "light": "minecraft:sea_lantern"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "stone",
+      "home": "aquamarine",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:sea_lantern",
+      "ceiling": "minecraft:sea_lantern",
+      "floor": "minecraft:sea_lantern",
+      "hanging": "minecraft:soul_lantern[hanging=true]",
+      "seed": 12010
+    }
+  ]
+}

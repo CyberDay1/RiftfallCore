@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "size=11": {
+      "model": "riftfall:block/poi_ceiling"
+    },
+    "size=3": {
+      "model": "riftfall:block/poi_ceiling"
+    },
+    "size=5": {
+      "model": "riftfall:block/poi_ceiling"
+    },
+    "size=7": {
+      "model": "riftfall:block/poi_ceiling"
+    },
+    "size=9": {
+      "model": "riftfall:block/poi_ceiling"
+    }
+  }
+}

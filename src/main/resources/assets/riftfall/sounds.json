@@ -1,0 +1,194 @@
+{
+  "music.ambience.catacombs": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/dark_whispers/dw_short1_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.catacombs.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/dark_whispers/dw_short1_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.cave": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/elven_woods/ew_lvl1_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.cave.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/elven_woods/ew_lvl1_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.default": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/orchestral/harsh_times/loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.ender": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/echoes_from_beyond/efb_lvl1a_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.ender.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/echoes_from_beyond/efb_lvl1a_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.infernal": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/cinderlands/c_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.infernal.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/cinderlands/c_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.ruins": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/orchestral/legacy_in_ruins/loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.void": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/spectral_veil/sv_long1_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.void.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/spectral_veil/sv_long1_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.celestial": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/echoes_from_beyond/efb_lvl1a_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.celestial.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/echoes_from_beyond/efb_lvl1a_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.foundry": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/cinderlands/c_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.foundry.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/cinderlands/c_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.glacial": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/spectral_veil/sv_long1_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.glacial.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/spectral_veil/sv_long1_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.mycelial": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/elven_woods/ew_lvl1_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.mycelial.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/elven_woods/ew_lvl1_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.solar": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/orchestral/harsh_times/loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.tidal": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/echoes_from_beyond/efb_lvl1a_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music.ambience.tidal.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/ambience/echoes_from_beyond/efb_lvl1a_intro",
+        "stream": true
+      }
+    ]
+  },
+  "skill.gunner.fire": {
+    "sounds": [
+      {
+        "name": "riftfall:skill/gunner_fire",
+        "stream": false
+      }
+    ]
+  }
+}

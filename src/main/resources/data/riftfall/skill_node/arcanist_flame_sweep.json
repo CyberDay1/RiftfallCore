@@ -1,0 +1,17 @@
+{
+  "id": "arcanist_flame_sweep",
+  "class": "arcanist",
+  "ascendancy": "spellblade",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:arcanist_flame_sweep",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 34.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

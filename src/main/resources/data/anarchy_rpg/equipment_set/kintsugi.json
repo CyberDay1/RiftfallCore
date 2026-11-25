@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "anarchy_rpg"
+    }
+  ],
+  "name": "kintsugi",
+  "items": [
+    "anarchy_rpg:kintsugi_chest",
+    "anarchy_rpg:kintsugi_legs"
+  ],
+  "bonuses": []
+}

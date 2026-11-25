@@ -1,0 +1,57 @@
+{
+  "school": "spell_power:physical_melee",
+  "type": "PASSIVE",
+  "range": 0.0,
+  "passive": {
+    "triggers": [
+      {
+        "type": "DAMAGE_TAKEN",
+        "stage": "PRE",
+        "caster_conditions": [
+          {
+            "health_percent_above": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  "target": {
+    "type": "CASTER"
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "CUSTOM",
+        "custom": {
+          "handler": "riftfall:guard"
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 3282732799,
+              "scale": 0.35,
+              "opacity": 0.85
+            },
+            "batch": {
+              "count": 4.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.06
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:block.stone.break",
+        "volume": 0.16,
+        "pitch": 1.25,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

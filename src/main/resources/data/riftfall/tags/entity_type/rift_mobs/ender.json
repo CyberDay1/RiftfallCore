@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:shulker",
+    { "id": "enderscape:rubblemite", "required": false },
+    { "id": "endermanoverhaul:end_enderman", "required": false },
+    { "id": "endermanoverhaul:end_islands_enderman", "required": false },
+    { "id": "endermanoverhaul:badlands_enderman", "required": false },
+    { "id": "endermanoverhaul:cave_enderman", "required": false },
+    { "id": "endermanoverhaul:dark_oak_enderman", "required": false },
+    { "id": "endermanoverhaul:desert_enderman", "required": false },
+    { "id": "endermanoverhaul:ice_spikes_enderman", "required": false },
+    { "id": "endermanoverhaul:savanna_enderman", "required": false },
+    { "id": "endermanoverhaul:snowy_enderman", "required": false },
+    { "id": "endermanoverhaul:swamp_enderman", "required": false },
+    { "id": "endermanoverhaul:warped_forest_enderman", "required": false },
+    { "id": "endermanoverhaul:windswept_hills_enderman", "required": false },
+    { "id": "endermanoverhaul:scarab", "required": false },
+    { "id": "endermanoverhaul:spirit", "required": false },
+    { "id": "legendary_monsters:endersent", "required": false },
+    { "id": "legendary_monsters:shulker_mimic", "required": false },
+    { "id": "unique_mobs:obsidling", "required": false },
+    { "id": "voidscape:voidling", "required": false },
+    { "id": "monsterplus:opalescent_eye", "required": false },
+    { "id": "alexsmobs:mimicube", "required": false }
+  ]
+}

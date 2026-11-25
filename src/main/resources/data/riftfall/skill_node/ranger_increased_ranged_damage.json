@@ -1,0 +1,8 @@
+{
+  "id": "ranger_increased_ranged_damage",
+  "class": "ranger",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "ranged_weapon:damage",
+  "bonus_per_rank": 0.5
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phantom_void_pull",
+  "class": "phantom",
+  "ascendancy": "void_walker",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:phantom_void_pull",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 38.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  }
+}

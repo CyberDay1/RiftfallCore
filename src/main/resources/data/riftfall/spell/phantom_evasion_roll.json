@@ -1,0 +1,115 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 3.5,
+  "target": {
+    "type": "AREA",
+    "area": {
+      "vertical_range_multiplier": 0.5,
+      "include_caster": true
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "spell_engine:dodge",
+      "volume": 0.6,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:dodge",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": []
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "CUSTOM",
+        "apply_to_caster": true,
+        "custom": {
+          "intent": "HELPFUL",
+          "handler": "riftfall:travel/dash/4"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 2.6,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:area_effect_409",
+            "appearance": {
+              "color": 2808545279,
+              "color_variance": 0.08,
+              "facing": "CAMERA",
+              "scale": 1.1,
+              "opacity": 0.95
+            },
+            "batch": {
+              "count": 1.0,
+              "shape": "NONE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.0,
+              "max_speed": 0.0
+            }
+          },
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 336207871,
+              "color_variance": 0.08,
+              "scale": 3.0,
+              "opacity": 0.9
+            },
+            "batch": {
+              "count": 6.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.08
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "spell_engine:weapon_dagger_impact",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "randomness": 0.06
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "bards_rpg:eclipse_mantle",
+          "duration": 2.0,
+          "amplifier": 5
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "minecraft:resistance",
+          "duration": 2.0,
+          "amplifier": 0
+        }
+      }
+    }
+  ]
+}

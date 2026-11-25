@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#minecraft:pickaxes", "required": false },
+    { "id": "#minecraft:axes", "required": false },
+    { "id": "#minecraft:shovels", "required": false },
+    { "id": "#minecraft:hoes", "required": false },
+    { "id": "#c:tools/pickaxes", "required": false },
+    { "id": "#c:tools/axes", "required": false },
+    { "id": "#c:tools/shovels", "required": false },
+    { "id": "#c:tools/hoes", "required": false },
+    { "id": "#c:tools/mining_tool", "required": false },
+    { "id": "#c:tools/shear", "required": false },
+    { "id": "#c:tools/fishing_rod", "required": false },
+    { "id": "#c:tools/brush", "required": false },
+    { "id": "#c:tools/wrench", "required": false },
+    { "id": "#c:tools/igniter", "required": false },
+    { "id": "mininggadgets:mininggadget", "required": false },
+    { "id": "mininggadgets:mininggadget_fancy", "required": false },
+    { "id": "mininggadgets:mininggadget_simple", "required": false }
+  ]
+}

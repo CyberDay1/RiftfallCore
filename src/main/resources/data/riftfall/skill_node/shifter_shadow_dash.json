@@ -1,0 +1,16 @@
+{
+  "id": "shifter_shadow_dash",
+  "class": "shifter",
+  "ascendancy": "tiger_striker",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:shifter_shadow_dash",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 15.0,
+  "base_cooldown_ticks": 160,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  }
+}

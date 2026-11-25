@@ -1,0 +1,6 @@
+// 1.21.1	2026-11-24T13:50:49.8330837	Block Tags: riftfall
+cae94488865c8a7a54255eb694ef00d30e7c6f3d data/c/tags/block/ores.json
+f1bb201d1b6464407e0fd717aabc40eab5693c1a data/minecraft/tags/block/mineable/axe.json
+b9f81f8be9d49e419dfb9bbf72c5e1bfabb88edd data/minecraft/tags/block/mineable/pickaxe.json
+cae94488865c8a7a54255eb694ef00d30e7c6f3d data/minecraft/tags/block/needs_iron_tool.json
+5b32d075f7bc09c34b5e81aa7706a19faaec5ccb data/riftfall/tags/block/portal_frame.json

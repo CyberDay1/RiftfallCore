@@ -1,0 +1,737 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "too_many_weapons:tmw_tab_icon",
+      "required": false
+    },
+    {
+      "id": "refurbished_furniture:knife",
+      "required": false
+    },
+    {
+      "id": "refurbished_furniture:spatula",
+      "required": false
+    },
+    {
+      "id": "riftfall:key_forge",
+      "required": false
+    },
+    {
+      "id": "riftfall:rift_key",
+      "required": false
+    },
+    {
+      "id": "riftfall:rift_anchor",
+      "required": false
+    },
+    {
+      "id": "riftfall:rift_flare",
+      "required": false
+    },
+    {
+      "id": "riftfall:world_breaker",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_black",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_brown",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_cyan",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_green",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_light_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_light_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_lime",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_magenta",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_orange",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_pink",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_purple",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_red",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_black",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_brown",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_cyan",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_green",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_light_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_light_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_lime",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_magenta",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_orange",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_pink",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_purple",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_red",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_top_yellow",
+      "required": false
+    },
+    {
+      "id": "simplylight:edge_light_yellow",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_black_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_black_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_blue_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_blue_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_brown_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_brown_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_cyan_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_cyan_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_gray_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_gray_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_green_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_green_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_light_blue_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_light_blue_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_light_gray_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_light_gray_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_lime_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_lime_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_magenta_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_magenta_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_orange_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_orange_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_black",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_brown",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_cyan",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_green",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_light_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_light_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_lime",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_magenta",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_orange",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_pink",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_purple",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_red",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_panel_yellow",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_pink_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_pink_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_purple_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_purple_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_red_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_red_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_black",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_brown",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_cyan",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_green",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_light_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_light_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_lime",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_magenta",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_orange",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_pink",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_purple",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_red",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_slab_yellow",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_yellow_block",
+      "required": false
+    },
+    {
+      "id": "simplylight:illuminant_yellow_block_on",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_black",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_brown",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_cyan",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_green",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_light_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_light_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_lime",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_magenta",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_orange",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_pink",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_purple",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_red",
+      "required": false
+    },
+    {
+      "id": "simplylight:lamp_post_yellow",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_black",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_brown",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_cyan",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_green",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_light_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_light_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_lime",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_magenta",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_orange",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_pink",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_purple",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_red",
+      "required": false
+    },
+    {
+      "id": "simplylight:lightbulb_yellow",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_black",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_brown",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_cyan",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_green",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_light_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_light_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_lime",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_magenta",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_orange",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_pink",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_purple",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_red",
+      "required": false
+    },
+    {
+      "id": "simplylight:rodlamp_yellow",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_black",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_brown",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_cyan",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_green",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_light_blue",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_light_gray",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_lime",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_magenta",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_orange",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_pink",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_purple",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_red",
+      "required": false
+    },
+    {
+      "id": "simplylight:wall_lamp_yellow",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:backpack",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:copper_backpack",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:diamond_backpack",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:gold_backpack",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:iron_backpack",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:netherite_backpack",
+      "required": false
+    },
+    {
+      "id": "supplementaries:key",
+      "required": false
+    },
+    {
+      "id": "riftfall:looting_pick",
+      "required": false
+    },
+    {
+      "id": "riftfall:common_runestone",
+      "required": false
+    },
+    {
+      "id": "riftfall:uncommon_runestone",
+      "required": false
+    },
+    {
+      "id": "riftfall:rare_runestone",
+      "required": false
+    },
+    {
+      "id": "riftfall:exotic_runestone",
+      "required": false
+    },
+    {
+      "id": "aether:ambrosium_shard",
+      "required": false
+    },
+    {
+      "id": "create:goggles",
+      "required": false
+    },
+    {
+      "id": "aeronautics:aviators_goggles",
+      "required": false
+    }
+  ]
+}

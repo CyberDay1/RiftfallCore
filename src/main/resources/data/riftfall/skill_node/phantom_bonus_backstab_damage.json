@@ -1,0 +1,10 @@
+{
+  "id": "phantom_bonus_backstab_damage",
+  "class": "phantom",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/phantom_bonus_backstab_damage",
+  "shape": "conditional",
+  "internal_cooldown_ticks": 5,
+  "bonus_per_rank": 0.05
+}

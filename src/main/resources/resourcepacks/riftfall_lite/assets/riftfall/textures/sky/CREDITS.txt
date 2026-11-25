@@ -1,0 +1,18 @@
+NASA Deep Star Maps 2020
+Credit: NASA's Scientific Visualization Studio. Visualizer: Ernie Wright.
+https://svs.gsfc.nasa.gov/4851/
+Source: https://svs.gsfc.nasa.gov/vis/a000000/a004800/a004851/starmap_2020_8k.exr
+Usage: https://www.nasa.gov/nasa-brand-center/images-and-media/
+Runtime conversion: linear OpenEXR to tone-mapped sRGB, original 8192 x 4096 resolution, JPEG encoding.
+
+The Carina Nebula in infrared light
+Credit: ESO/J. Emerson/M. Irwin/J. Lewis
+https://www.eso.org/public/images/eso1828a/
+Source: https://cdn.eso.org/images/large/eso1828a.jpg
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+https://www.eso.org/public/copyright/
+Runtime conversion: aspect-preserving reduction to maximum 8192 pixels and JPEG encoding.
+In-game adaptations: projection, cyan/violet color grading, layered blending and animated distortion.
+Riftfall Lite: both images at half resolution.
+No AI modifications to either astronomy source. Neither organization endorses Riftfall.

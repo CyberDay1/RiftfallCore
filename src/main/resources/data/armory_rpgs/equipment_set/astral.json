@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "astral",
+  "items": [
+    "armory_rpgs:astral_robe_head",
+    "armory_rpgs:astral_robe_chest",
+    "armory_rpgs:astral_robe_legs",
+    "armory_rpgs:astral_robe_feet"
+  ],
+  "bonuses": []
+}

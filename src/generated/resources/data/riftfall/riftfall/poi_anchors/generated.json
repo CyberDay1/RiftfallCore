@@ -1,0 +1,3723 @@
+{
+  "riftfall:rift/room/approach/121/stair_landing": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        11,
+        10,
+        6
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        8,
+        16,
+        9
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        10,
+        19,
+        5
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/111/filler-1-pat": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        6,
+        3,
+        10
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        6,
+        3,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        12,
+        3,
+        6
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/111/greebles-1-jyu": [
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/9",
+      "pos": [
+        10,
+        4,
+        11
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        3,
+        12,
+        4
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        4,
+        6,
+        13
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/111/lavapassage-1-jj": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        7,
+        8,
+        8
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        8,
+        0,
+        7
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        5,
+        0,
+        7
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/111/tavern-1-warren": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        7,
+        2,
+        5
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        2,
+        2,
+        7
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        7,
+        2,
+        10
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/121/stair_spiral-1-grimm": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        5,
+        3,
+        7
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        12,
+        6,
+        8
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        1,
+        25,
+        3
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/131/floating_rock-1-rev": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        11,
+        19,
+        8
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        9,
+        3,
+        9
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        6,
+        3,
+        6
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/312/cascades-1-mal": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        32,
+        0,
+        16
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        24,
+        6,
+        21
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        7,
+        3,
+        5
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        4,
+        0,
+        24
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/333/fractal_cube": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        19,
+        3,
+        11
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        11,
+        5,
+        11
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        45,
+        20,
+        23
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        4,
+        3,
+        15
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        19,
+        2,
+        26
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        30,
+        3,
+        4
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        6,
+        3,
+        28
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        11,
+        15,
+        33
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        41,
+        3,
+        6
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        38,
+        3,
+        24
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        32,
+        33,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        5,
+        3,
+        41
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        11,
+        3,
+        26
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        26,
+        2,
+        41
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        6,
+        2,
+        10
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        9,
+        3,
+        30
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        27,
+        2,
+        20
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/333/library-1-ada": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        7,
+        35,
+        5
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        38,
+        5,
+        24
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        20,
+        3,
+        15
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        6,
+        27,
+        8
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        3,
+        15,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        7,
+        45,
+        39
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        35,
+        11,
+        40
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        3,
+        5,
+        9
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        9,
+        2,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        42,
+        3,
+        34
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        24,
+        10,
+        27
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        38,
+        3,
+        36
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        21,
+        22,
+        2
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        23,
+        11,
+        41
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        18,
+        2,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        39,
+        27,
+        21
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        20,
+        2,
+        7
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/333/winding_pat-1-team": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        34,
+        23,
+        4
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        26,
+        28,
+        25
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        26,
+        38,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        38,
+        26,
+        13
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        16,
+        10,
+        30
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        34,
+        37,
+        16
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        27,
+        21,
+        14
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        19,
+        9,
+        43
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/9",
+      "pos": [
+        8,
+        14,
+        35
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        15,
+        3,
+        29
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        19,
+        33,
+        6
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        10,
+        13,
+        23
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        40,
+        5,
+        40
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        22,
+        5,
+        5
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/7",
+      "pos": [
+        26,
+        36,
+        28
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        32,
+        35,
+        8
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        11,
+        26,
+        43
+      ]
+    }
+  ],
+  "riftfall:rift/room/chaos/333/winding_path-1-pat": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        42,
+        5,
+        8
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        34,
+        6,
+        34
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        7,
+        23,
+        17
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        39,
+        33,
+        40
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        41,
+        20,
+        38
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        41,
+        8,
+        17
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        43,
+        40,
+        7
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/7",
+      "pos": [
+        15,
+        20,
+        28
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        36,
+        40,
+        29
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        10,
+        12,
+        25
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        13,
+        16,
+        18
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        31,
+        8,
+        26
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        5,
+        6,
+        26
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        7,
+        17,
+        18
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        40,
+        5,
+        43
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        18,
+        26,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        21,
+        15,
+        42
+      ]
+    }
+  ],
+  "riftfall:rift/room/portal/333/portal-1-grimm": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        36,
+        2,
+        17
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        23,
+        19,
+        31
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/11",
+      "pos": [
+        9,
+        45,
+        23
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        43,
+        38,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        28,
+        18,
+        26
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        43,
+        45,
+        35
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        30,
+        1,
+        25
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        20,
+        19,
+        24
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        25,
+        1,
+        36
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        23,
+        19,
+        42
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        25,
+        1,
+        9
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        14,
+        0,
+        24
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        8,
+        1,
+        39
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        17,
+        12,
+        43
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        6,
+        25,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        28,
+        19,
+        19
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/9",
+      "pos": [
+        16,
+        43,
+        4
+      ]
+    }
+  ],
+  "riftfall:rift/room/portal/333/portal_flat-1-pat": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        39,
+        18,
+        9
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        12,
+        19,
+        41
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        18,
+        18,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        37,
+        19,
+        4
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        10,
+        19,
+        16
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        30,
+        19,
+        14
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        8,
+        46,
+        4
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        41,
+        18,
+        37
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        24,
+        21,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        17,
+        46,
+        9
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        38,
+        19,
+        25
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        30,
+        19,
+        24
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        38,
+        21,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        28,
+        46,
+        24
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        39,
+        45,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        25,
+        19,
+        40
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        3,
+        21,
+        19
+      ]
+    }
+  ],
+  "riftfall:rift/room/stable/333/bridges": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        38,
+        1,
+        23
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        15,
+        0,
+        39
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        28,
+        1,
+        37
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        33,
+        1,
+        41
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        38,
+        1,
+        31
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        16,
+        19,
+        37
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        38,
+        8,
+        34
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        25,
+        19,
+        42
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        7,
+        0,
+        40
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        39,
+        3,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        38,
+        0,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        20,
+        1,
+        8
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        6,
+        23,
+        41
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/11",
+      "pos": [
+        6,
+        12,
+        27
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/11",
+      "pos": [
+        9,
+        0,
+        11
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        39,
+        0,
+        12
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        26,
+        1,
+        42
+      ]
+    }
+  ],
+  "riftfall:rift/room/stable/333/caves-6-grimm": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        27,
+        18,
+        14
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        27,
+        20,
+        8
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        26,
+        17,
+        42
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/11",
+      "pos": [
+        11,
+        33,
+        16
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        11,
+        42,
+        13
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        34,
+        18,
+        14
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        11,
+        23,
+        30
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        20,
+        18,
+        25
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        17,
+        0,
+        7
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/7",
+      "pos": [
+        35,
+        32,
+        17
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        25,
+        0,
+        37
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        23,
+        17,
+        41
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        37,
+        31,
+        17
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        40,
+        33,
+        35
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        25,
+        3,
+        42
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        10,
+        18,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        11,
+        31,
+        32
+      ]
+    }
+  ],
+  "riftfall:rift/room/stable/333/muki_cave1": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        26,
+        5,
+        11
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        32,
+        40,
+        41
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/11",
+      "pos": [
+        21,
+        39,
+        26
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        9,
+        22,
+        15
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        11,
+        18,
+        40
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        6,
+        25,
+        10
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        7,
+        4,
+        19
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        7,
+        19,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        23,
+        31,
+        11
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        23,
+        19,
+        5
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        39,
+        31,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        10,
+        30,
+        28
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        27,
+        18,
+        23
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        14,
+        13,
+        14
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        9,
+        18,
+        35
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        38,
+        4,
+        33
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        10,
+        6,
+        13
+      ]
+    }
+  ],
+  "riftfall:rift/room/stable/333/opoen_cave-1-puzzledfartman": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        26,
+        1,
+        19
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/11",
+      "pos": [
+        28,
+        29,
+        27
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/9",
+      "pos": [
+        26,
+        39,
+        6
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/11",
+      "pos": [
+        11,
+        0,
+        35
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        41,
+        1,
+        25
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        36,
+        29,
+        42
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        25,
+        1,
+        23
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        41,
+        19,
+        40
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        16,
+        24,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        35,
+        30,
+        41
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        31,
+        1,
+        21
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        35,
+        1,
+        34
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        39,
+        0,
+        17
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        8,
+        0,
+        21
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        27,
+        0,
+        33
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        15,
+        26,
+        32
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        10,
+        1,
+        7
+      ]
+    }
+  ],
+  "riftfall:rift/room/stable/333/shell": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        21,
+        0,
+        7
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        33,
+        7,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        13,
+        0,
+        39
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        8,
+        0,
+        23
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        21,
+        43,
+        43
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        3,
+        4,
+        12
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        31,
+        1,
+        15
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        39,
+        1,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        36,
+        0,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        8,
+        46,
+        30
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        13,
+        1,
+        7
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        18,
+        1,
+        30
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        20,
+        1,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        41,
+        1,
+        7
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        7,
+        1,
+        32
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        37,
+        1,
+        31
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        35,
+        1,
+        8
+      ]
+    }
+  ],
+  "riftfall:rift/room/stable/333/topdown_1_grimm": [
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/9",
+      "pos": [
+        22,
+        26,
+        39
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        3,
+        43,
+        26
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        24,
+        29,
+        6
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        21,
+        1,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        14,
+        30,
+        34
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        19,
+        19,
+        43
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        17,
+        17,
+        6
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        37,
+        0,
+        39
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        14,
+        30,
+        30
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        12,
+        30,
+        25
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        5,
+        0,
+        9
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        18,
+        17,
+        28
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        27,
+        30,
+        41
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        35,
+        0,
+        24
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        33,
+        30,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        42,
+        30,
+        35
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        29,
+        30,
+        5
+      ]
+    }
+  ],
+  "riftfall:rift/room/stable/333/topdown_cave_standin": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        22,
+        19,
+        16
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        28,
+        18,
+        25
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        16,
+        29,
+        43
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        33,
+        25,
+        7
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        25,
+        19,
+        5
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        30,
+        19,
+        31
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        37,
+        18,
+        34
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        39,
+        19,
+        28
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/11",
+      "pos": [
+        20,
+        43,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        39,
+        18,
+        22
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        20,
+        45,
+        18
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        20,
+        19,
+        39
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        13,
+        30,
+        8
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        11,
+        18,
+        31
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        14,
+        19,
+        17
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        25,
+        19,
+        32
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        35,
+        19,
+        22
+      ]
+    }
+  ],
+  "riftfall:rift/room/stable/333/topdown_labrynth_1_grimm": [
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        9,
+        3,
+        37
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        38,
+        30,
+        25
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        14,
+        1,
+        5
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        35,
+        16,
+        40
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        31,
+        17,
+        10
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        39,
+        30,
+        19
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        13,
+        30,
+        13
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        28,
+        17,
+        37
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        32,
+        30,
+        17
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        34,
+        29,
+        11
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        5,
+        7,
+        34
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        5,
+        29,
+        7
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        23,
+        9,
+        10
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        22,
+        29,
+        35
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        22,
+        17,
+        32
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        37,
+        17,
+        12
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/11",
+      "pos": [
+        11,
+        30,
+        23
+      ]
+    }
+  ],
+  "riftfall:rift/room/unstable/313/hub_hub": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/11",
+      "pos": [
+        16,
+        1,
+        9
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        15,
+        3,
+        38
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        8,
+        3,
+        7
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        27,
+        3,
+        8
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        24,
+        3,
+        31
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        9,
+        2,
+        26
+      ]
+    }
+  ],
+  "riftfall:rift/room/unstable/313/hub_hub_0": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        14,
+        3,
+        34
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        11,
+        5,
+        14
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        39,
+        2,
+        18
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        16,
+        3,
+        42
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        29,
+        3,
+        15
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        20,
+        3,
+        37
+      ]
+    }
+  ],
+  "riftfall:rift/room/unstable/313/hub_hub_template": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        19,
+        2,
+        27
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        10,
+        3,
+        9
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        26,
+        2,
+        32
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        29,
+        3,
+        25
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        25,
+        2,
+        10
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        41,
+        3,
+        7
+      ]
+    }
+  ],
+  "riftfall:rift/room/unstable/313/mine_1_rachaelrose": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        27,
+        1,
+        34
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        17,
+        14,
+        36
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        24,
+        7,
+        45
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        43,
+        13,
+        12
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        3,
+        7,
+        4
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        34,
+        2,
+        39
+      ]
+    }
+  ],
+  "riftfall:rift/room/unstable/323/hub-hub-bub-4-mal": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        37,
+        19,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        20,
+        16,
+        20
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        6,
+        18,
+        10
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        37,
+        5,
+        11
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        29,
+        10,
+        18
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        40,
+        19,
+        35
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        7,
+        19,
+        18
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        37,
+        19,
+        31
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/7",
+      "pos": [
+        38,
+        8,
+        10
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        39,
+        19,
+        9
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        22,
+        5,
+        3
+      ]
+    }
+  ],
+  "riftfall:rift/room/unstable/333/glow-1-rachaelrose": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        6,
+        19,
+        29
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        29,
+        36,
+        34
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        15,
+        9,
+        26
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/9",
+      "pos": [
+        29,
+        10,
+        24
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        8,
+        21,
+        16
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        16,
+        9,
+        17
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        28,
+        34,
+        40
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        29,
+        34,
+        8
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        30,
+        19,
+        8
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        34,
+        44,
+        33
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        38,
+        10,
+        38
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "east_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        43,
+        38,
+        26
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        43,
+        15,
+        3
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        24,
+        10,
+        14
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        8,
+        10,
+        26
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        36,
+        10,
+        25
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        20,
+        10,
+        32
+      ]
+    }
+  ],
+  "riftfall:rift/room/unstable/333/main_feat-number-signature": [
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        28,
+        9,
+        32
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        25,
+        10,
+        28
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        37,
+        10,
+        27
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        24,
+        10,
+        13
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/3",
+      "pos": [
+        23,
+        45,
+        29
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        33,
+        10,
+        26
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        28,
+        12,
+        35
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "west_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        33,
+        17,
+        4
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/7",
+      "pos": [
+        22,
+        9,
+        22
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "south_up",
+      "pool": "riftfall:rift/poi/inwall/3",
+      "pos": [
+        19,
+        16,
+        43
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_1",
+      "joint": "rollable",
+      "orientation": "down_north",
+      "pool": "riftfall:rift/poi/ceiling/5",
+      "pos": [
+        42,
+        21,
+        20
+      ]
+    },
+    {
+      "final_state": "minecraft:air",
+      "joint": "rollable",
+      "orientation": "north_up",
+      "pool": "riftfall:rift/poi/inwall/5",
+      "pos": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        18,
+        10,
+        30
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        17,
+        10,
+        14
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        18,
+        10,
+        6
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/3",
+      "pos": [
+        38,
+        10,
+        39
+      ]
+    },
+    {
+      "final_state": "riftfall:processor_block_3",
+      "joint": "rollable",
+      "orientation": "up_north",
+      "pool": "riftfall:rift/poi/free/5",
+      "pos": [
+        23,
+        10,
+        37
+      ]
+    }
+  ]
+}

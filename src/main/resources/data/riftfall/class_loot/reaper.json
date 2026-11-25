@@ -1,0 +1,17 @@
+{
+  "class": "reaper",
+  "families": [
+    {
+      "name": "scythes",
+      "items": [
+        "simplyswords:iron_scythe"
+      ],
+      "words": [
+        "scythe",
+        "scythes",
+        "reaper",
+        "sickle"
+      ]
+    }
+  ]
+}

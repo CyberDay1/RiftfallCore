@@ -1,0 +1,19 @@
+{
+  "id": "cleric_guardian_light",
+  "class": "cleric",
+  "ascendancy": "oracle",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:cleric_guardian_light",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 44.0,
+  "base_cooldown_ticks": 360,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "summon",
+    "owner_scaling_per_rank": 0.1,
+    "duration_seconds_per_rank": 1.0
+  },
+  "category": "heal"
+}

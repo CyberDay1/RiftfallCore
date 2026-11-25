@@ -1,0 +1,17 @@
+{
+  "id": "tactician_flank_command",
+  "class": "tactician",
+  "ascendancy": "battle_strategist",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:tactician_flank_command",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 38.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

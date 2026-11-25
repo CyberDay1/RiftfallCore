@@ -1,0 +1,8 @@
+{
+  "id": "cleric_healing_done",
+  "class": "cleric",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:healing_done",
+  "bonus_per_rank": 0.1
+}

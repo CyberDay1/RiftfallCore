@@ -1,0 +1,11 @@
+{
+  "kind": "tier",
+  "weight": 10,
+  "count": 2,
+  "xp": 50,
+  "rewards": [
+    {
+      "id": "riftfall:common_runestone"
+    }
+  ]
+}

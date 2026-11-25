@@ -1,0 +1,17 @@
+{
+  "id": "tactician_anthem_of_victory",
+  "class": "tactician",
+  "ascendancy": "inspiring_commander",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:tactician_anthem_of_victory",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 4000,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

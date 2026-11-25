@@ -1,0 +1,8 @@
+{
+  "id": "reaper_lifesteal_increased",
+  "class": "reaper",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "apothic_attributes:life_steal",
+  "bonus_per_rank": 0.05
+}

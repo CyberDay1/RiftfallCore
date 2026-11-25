@@ -1,0 +1,18 @@
+{
+  "id": "shifter_poison_cloud",
+  "class": "shifter",
+  "ascendancy": "serpent_mystic",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:shifter_poison_cloud",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 42.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.06,
+    "duration_seconds_per_rank": 0.4
+  }
+}

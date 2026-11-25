@@ -1,0 +1,18 @@
+{
+  "id": "gunner_rocket_barrage",
+  "class": "gunner",
+  "ascendancy": "demolitionist",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:gunner_rocket_barrage",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 41.0,
+  "base_cooldown_ticks": 360,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  },
+  "category": "explosive"
+}

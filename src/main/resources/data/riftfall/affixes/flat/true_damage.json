@@ -1,0 +1,32 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "riftfall:true_damage",
+    "categories": [
+        "apotheosis:melee_weapon",
+        "apotheosis:trident"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [
+            "riftfall:flat/guard",
+            "riftfall:tiered/scavenging"
+        ],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "apotheosis:epic": {
+            "min": 0.03,
+            "max": 0.0425,
+            "step": 0.001563
+        },
+        "apotheosis:mythic": {
+            "min": 0.04,
+            "max": 0.05,
+            "step": 0.00125
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "class": "ranger",
+  "families": [
+    {
+      "name": "bows",
+      "items": [
+        "archers:mechanic_shortbow"
+      ],
+      "slots": [
+        "bow"
+      ]
+    },
+    {
+      "name": "crossbows",
+      "slots": [
+        "crossbow"
+      ]
+    }
+  ]
+}

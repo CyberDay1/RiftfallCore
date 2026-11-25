@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "riftfall:block/processor_block_6_slab"
+    },
+    "type=double": {
+      "model": "riftfall:block/processor_block_6"
+    },
+    "type=top": {
+      "model": "riftfall:block/processor_block_6_slab_top"
+    }
+  }
+}

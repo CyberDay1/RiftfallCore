@@ -1,0 +1,19 @@
+{
+  "type": "riftfall:resident_conversion",
+  "role": "quarry_specialist",
+  "min_rank": "journeyman",
+  "inputs": [
+    {
+      "tag": "riftfall:rarity_material/uncommon",
+      "count": 4
+    },
+    {
+      "tag": "riftfall:theme_crystals",
+      "count": 4
+    }
+  ],
+  "shards": 8,
+  "result": {
+    "id": "riftfall:uncommon_runestone"
+  }
+}

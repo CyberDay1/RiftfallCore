@@ -1,0 +1,39 @@
+{
+  "class": "tactician",
+  "families": [
+    {
+      "name": "polearms",
+      "items": [
+        "simplyswords:iron_spear"
+      ],
+      "words": [
+        "spear",
+        "lance",
+        "pike",
+        "glaive",
+        "halberd",
+        "javelin",
+        "partisan",
+        "naginata",
+        "polearm",
+        "trident",
+        "guisarme",
+        "voulge",
+        "poleaxe",
+        "ranseur",
+        "bardiche"
+      ],
+      "slots": [
+        "trident"
+      ]
+    },
+    {
+      "name": "warhammers and flails",
+      "words": [
+        "warhammer",
+        "flail",
+        "banner"
+      ]
+    }
+  ]
+}

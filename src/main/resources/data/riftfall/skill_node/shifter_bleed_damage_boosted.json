@@ -1,0 +1,8 @@
+{
+  "id": "shifter_bleed_damage_boosted",
+  "class": "shifter",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:bleed_damage",
+  "bonus_per_rank": 0.1
+}

@@ -1,0 +1,27 @@
+{
+  "type": "riftfall:resident_conversion",
+  "role": "quarry_specialist",
+  "min_rank": "master",
+  "inputs": [
+    {
+      "tag": "riftfall:rare_crystals",
+      "count": 1
+    },
+    {
+      "tag": "riftfall:rarity_material/epic",
+      "count": 2
+    },
+    {
+      "tag": "riftfall:rarity_material/mythic",
+      "count": 1
+    }
+  ],
+  "shards": 32,
+  "result": {
+    "id": "riftfall:exotic_runestone"
+  },
+  "work_order": {
+    "runs": 2,
+    "minutes": 120
+  }
+}

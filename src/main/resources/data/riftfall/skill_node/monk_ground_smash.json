@@ -1,0 +1,18 @@
+{
+  "id": "monk_ground_smash",
+  "class": "monk",
+  "ascendancy": "iron_monk",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "rpg_series:ground_slam",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "power_multiplier": 1.333333,
+  "mana_cost": 30.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  }
+}

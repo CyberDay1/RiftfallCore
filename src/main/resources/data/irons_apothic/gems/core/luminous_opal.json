@@ -1,0 +1,53 @@
+{
+    "type": "apotheosis:gem",
+    "min_purity": "cracked",
+    "unique": true,
+    "weights": {
+        "weight": 100,
+        "quality": 0.1
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:healing_done",
+            "gem_class": {
+                "key": "magic_gear",
+                "types": [
+                    "irons_apothic:staff",
+                    "irons_apothic:spellbook"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.009,
+                "chipped": 0.012,
+                "flawed": 0.017,
+                "normal": 0.021,
+                "flawless": 0.026,
+                "perfect": 0.03
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:healing_done",
+            "gem_class": {
+                "key": "armor",
+                "types": [
+                    "apotheosis:helmet",
+                    "apotheosis:chestplate",
+                    "apotheosis:leggings",
+                    "apotheosis:boots"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.009,
+                "chipped": 0.012,
+                "flawed": 0.017,
+                "normal": 0.021,
+                "flawless": 0.026,
+                "perfect": 0.03
+            }
+        }
+    ]
+}

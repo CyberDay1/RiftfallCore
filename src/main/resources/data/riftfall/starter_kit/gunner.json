@@ -1,0 +1,43 @@
+{
+  "class": "gunner",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "tacz:modern_kinetic_gun",
+      "own_stats": true,
+      "components": {
+        "minecraft:custom_data": "{GunId: \"tacz:m16a1\", GunFireMode: \"AUTO\", GunCurrentAmmoCount: 20, HasBulletInBarrel: true}"
+      },
+      "fallback": "minecraft:crossbow"
+    },
+    {
+      "slot": "inventory",
+      "item": "tacz:ammo_box",
+      "count": 1,
+      "fallback": "minecraft:chest",
+      "components": {
+        "minecraft:custom_data": "{Level: 1, AmmoId: \"tacz:556x45\", AmmoCount: 360}"
+      }
+    },
+    {
+      "slot": "head",
+      "item": "archers:archer_armor_head",
+      "fallback": "minecraft:chainmail_helmet"
+    },
+    {
+      "slot": "chest",
+      "item": "archers:archer_armor_chest",
+      "fallback": "minecraft:chainmail_chestplate"
+    },
+    {
+      "slot": "legs",
+      "item": "archers:archer_armor_legs",
+      "fallback": "minecraft:chainmail_leggings"
+    },
+    {
+      "slot": "feet",
+      "item": "archers:archer_armor_feet",
+      "fallback": "minecraft:chainmail_boots"
+    }
+  ]
+}

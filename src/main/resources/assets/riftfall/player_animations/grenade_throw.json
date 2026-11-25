@@ -1,0 +1,41 @@
+{
+  "name": "grenade_throw",
+  "author": "Riftfall",
+  "emote": {
+    "isLoop": "false",
+    "returnTick": 0,
+    "beginTick": 1,
+    "endTick": 8,
+    "stopTick": 12,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 1,
+        "easing": "EASEINOUTQUAD",
+        "turn": 0,
+        "leftArm": {
+          "pitch": -120,
+          "yaw": -12
+        }
+      },
+      {
+        "tick": 4,
+        "easing": "EASEINOUTQUAD",
+        "turn": 0,
+        "leftArm": {
+          "pitch": -65,
+          "yaw": -12
+        }
+      },
+      {
+        "tick": 8,
+        "easing": "EASEINOUTQUAD",
+        "turn": 0,
+        "leftArm": {
+          "pitch": -10,
+          "yaw": 0
+        }
+      }
+    ]
+  }
+}

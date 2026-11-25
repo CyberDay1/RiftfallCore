@@ -1,0 +1,131 @@
+{
+    "parent": "riftfall:item/rift_key_t1",
+    "overrides": [
+        {
+            "predicate": {
+                "riftfall:tier": 2
+            },
+            "model": "riftfall:item/rift_key_t2"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 3
+            },
+            "model": "riftfall:item/rift_key_t3"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 4
+            },
+            "model": "riftfall:item/rift_key_t4"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 5
+            },
+            "model": "riftfall:item/rift_key_t5"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 6
+            },
+            "model": "riftfall:item/rift_key_t6"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 7
+            },
+            "model": "riftfall:item/rift_key_t7"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 8
+            },
+            "model": "riftfall:item/rift_key_t8"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 9
+            },
+            "model": "riftfall:item/rift_key_t9"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 10
+            },
+            "model": "riftfall:item/rift_key_t10"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 11
+            },
+            "model": "riftfall:item/rift_key_t11"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 12
+            },
+            "model": "riftfall:item/rift_key_t12"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 13
+            },
+            "model": "riftfall:item/rift_key_t13"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 14
+            },
+            "model": "riftfall:item/rift_key_t14"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 15
+            },
+            "model": "riftfall:item/rift_key_t15"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 16
+            },
+            "model": "riftfall:item/rift_key_t16"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 17
+            },
+            "model": "riftfall:item/rift_key_t17"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 18
+            },
+            "model": "riftfall:item/rift_key_t18"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 19
+            },
+            "model": "riftfall:item/rift_key_t19"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 20
+            },
+            "model": "riftfall:item/rift_key_t20"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 21
+            },
+            "model": "riftfall:item/rift_key_t21"
+        },
+        {
+            "predicate": {
+                "riftfall:tier": 22
+            },
+            "model": "riftfall:item/rift_key_t22"
+        }
+    ]
+}

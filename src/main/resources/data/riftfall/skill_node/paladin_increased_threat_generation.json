@@ -1,0 +1,8 @@
+{
+  "id": "paladin_increased_threat_generation",
+  "class": "paladin",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:threat_generation",
+  "bonus_per_rank": 0.1
+}

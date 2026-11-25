@@ -1,0 +1,9 @@
+{
+  "id": "monk_evasion",
+  "class": "monk",
+  "ascendancy": "shadow_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "irons_lib:dodge_chance",
+  "bonus_per_rank": 0.06
+}

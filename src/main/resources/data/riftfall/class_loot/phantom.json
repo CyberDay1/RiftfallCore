@@ -1,0 +1,32 @@
+{
+  "class": "phantom",
+  "families": [
+    {
+      "name": "daggers",
+      "items": [
+        "rogues:iron_dagger"
+      ],
+      "words": [
+        "dagger",
+        "daggers",
+        "knife",
+        "knives",
+        "dirk",
+        "stiletto",
+        "sai",
+        "kunai",
+        "shiv",
+        "tanto"
+      ]
+    },
+    {
+      "name": "sickles and claws",
+      "words": [
+        "sickle",
+        "claw",
+        "claws",
+        "katar"
+      ]
+    }
+  ]
+}

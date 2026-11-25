@@ -1,0 +1,53 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "crystalcraft_unlimited_java:alexandrite",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:aquamarine",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:ametrine",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:citrine",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:fire_opal",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:grandidierite",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:ice_opal",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:maradonyx",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:moonstone",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:onyx",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:peridot",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:sunstone",
+      "required": false
+    }
+  ]
+}

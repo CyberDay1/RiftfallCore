@@ -1,0 +1,8 @@
+{
+  "id": "sword_immortal_blade_intent",
+  "class": "sword_immortal",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "apothic_attributes:crit_chance",
+  "bonus_per_rank": 0.02
+}

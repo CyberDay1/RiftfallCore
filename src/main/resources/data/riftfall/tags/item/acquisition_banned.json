@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "enderscape:healing",
+      "required": false
+    },
+    {
+      "id": "glixtors_random_additions:mac_10",
+      "required": false
+    },
+    {
+      "id": "glixtors_random_additions:handheld_jetpack",
+      "required": false
+    },
+    {
+      "id": "glixtors_random_additions:alter_of_power",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_rebirth",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_enhancement",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_malice",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_supremacy",
+      "required": false
+    },
+    {
+      "id": "apotheosis:simple_reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:salvaging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gem_cutting_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:augmenting_table",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:raven_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "create_enchantment_industry:gem_cutter",
+      "required": false
+    },
+    {
+      "id": "create_enchantment_industry:affix_augmentor",
+      "required": false
+    },
+    {
+      "id": "apotheosis:iron_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gold_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "apotheosis:diamond_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "artifacts:lucky_scarf",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_unnaming",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:jewelcrafting_station",
+      "required": false
+    }
+  ]
+}

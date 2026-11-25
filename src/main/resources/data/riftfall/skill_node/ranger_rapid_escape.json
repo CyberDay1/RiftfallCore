@@ -1,0 +1,16 @@
+{
+  "id": "ranger_rapid_escape",
+  "class": "ranger",
+  "ascendancy": "windstrider",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:ranger_rapid_escape",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 15.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  }
+}

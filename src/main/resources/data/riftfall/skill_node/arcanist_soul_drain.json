@@ -1,0 +1,18 @@
+{
+  "id": "arcanist_soul_drain",
+  "class": "arcanist",
+  "ascendancy": "void_scholar",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:arcanist_soul_drain",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 36.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "heal",
+    "magnitude_per_rank": 0.1
+  },
+  "category": "heal"
+}

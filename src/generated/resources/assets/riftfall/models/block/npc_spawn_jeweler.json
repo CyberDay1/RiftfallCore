@@ -1,0 +1,6 @@
+{
+  "parent": "riftfall:block/npc_spawn_marker",
+  "textures": {
+    "role": "minecraft:block/cyan_concrete"
+  }
+}

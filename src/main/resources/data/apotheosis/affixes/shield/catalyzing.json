@@ -1,0 +1,38 @@
+{
+    "type": "apotheosis:catalyzing",
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "apotheosis:common": {
+            "min": 60.0,
+            "max": 120.0,
+            "step": 20.0
+        },
+        "apotheosis:uncommon": {
+            "min": 100.0,
+            "max": 180.0,
+            "step": 20.0
+        },
+        "apotheosis:rare": {
+            "min": 140.0,
+            "max": 260.0,
+            "step": 20.0
+        },
+        "apotheosis:epic": {
+            "min": 200.0,
+            "max": 400.0,
+            "step": 20.0
+        },
+        "apotheosis:mythic": {
+            "min": 300.0,
+            "max": 600.0,
+            "step": 20.0
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "class": "sword_immortal",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "simplyswords:iron_katana",
+      "fallback": "minecraft:iron_sword"
+    },
+    {
+      "slot": "head",
+      "item": "forcemaster_rpg:oriene_head",
+      "fallback": "minecraft:chainmail_helmet"
+    },
+    {
+      "slot": "chest",
+      "item": "forcemaster_rpg:oriene_chest",
+      "fallback": "minecraft:chainmail_chestplate"
+    },
+    {
+      "slot": "legs",
+      "item": "forcemaster_rpg:oriene_legs",
+      "fallback": "minecraft:chainmail_leggings"
+    },
+    {
+      "slot": "feet",
+      "item": "forcemaster_rpg:oriene_feet",
+      "fallback": "minecraft:chainmail_boots"
+    }
+  ]
+}

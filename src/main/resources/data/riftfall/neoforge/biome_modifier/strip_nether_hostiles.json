@@ -1,0 +1,4 @@
+{
+  "type": "riftfall:strip_modded_hostiles",
+  "biomes": "#minecraft:is_nether"
+}

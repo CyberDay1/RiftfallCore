@@ -1,0 +1,69 @@
+{
+  "materials": {
+    "1": [
+      { "block": "minecraft:stone_bricks", "weight": 5.0 },
+      { "block": "stoneworks:stone_plates", "weight": 2.0 },
+      { "block": "supplementaries:stone_tile", "weight": 1.0 },
+      { "block": "atmul:dimstone", "weight": 0.3 }
+    ],
+    "2": ["minecraft:cobblestone"],
+    "3": [
+      { "block": "minecraft:smooth_stone", "weight": 3.0 },
+      { "block": "stoneworks:stone_tiles", "weight": 1.0 }
+    ],
+    "4": [
+      { "block": "minecraft:polished_andesite", "weight": 3.0 },
+      { "block": "minecraft:gray_concrete", "weight": 1.0 }
+    ],
+    "5": ["stoneworks:stone_plates"],
+    "6": ["minecraft:oak_planks"],
+    "7": ["minecraft:stone_bricks"],
+    "8": ["minecraft:andesite"],
+    "9": ["minecraft:chiseled_stone_bricks"],
+    "10": ["minecraft:smooth_stone"],
+    "11": ["minecraft:polished_diorite"],
+    "12": ["minecraft:polished_granite"],
+    "13": ["supplementaries:stone_tile"],
+    "14": ["minecraft:stone"],
+    "15": ["minecraft:cobblestone"]
+  },
+  "fallback": "minecraft:stone",
+  "noise_scale": [0.075, 0.075, 0.075],
+  "decorators": [
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:slowness_plate",
+        "darkutils:weakness_plate",
+        "darkutils:hunger_plate"
+      ],
+      "decoy": "minecraft:stone_pressure_plate",
+      "room_kinds": ["approach", "chaos", "stable", "unstable", "boss"],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 1201
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "stone",
+      "home": "alexandrite",
+      "light": "minecraft:glowstone"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "stone",
+      "home": "alexandrite",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:glowstone",
+      "ceiling": "minecraft:glowstone",
+      "floor": "minecraft:glowstone",
+      "alcove": "minecraft:lantern",
+      "hanging": "minecraft:lantern[hanging=true]",
+      "seed": 1202
+    }
+  ]
+}

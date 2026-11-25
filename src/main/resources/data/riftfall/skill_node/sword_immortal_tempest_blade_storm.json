@@ -1,0 +1,17 @@
+{
+  "id": "sword_immortal_tempest_blade_storm",
+  "class": "sword_immortal",
+  "ascendancy": "wind_blade_master",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_tempest_blade_storm",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 3600,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  }
+}

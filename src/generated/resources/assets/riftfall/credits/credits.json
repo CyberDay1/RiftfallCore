@@ -1,0 +1,659 @@
+{
+  "builder_count": 23,
+  "roll": [
+    {
+      "kind": "title",
+      "text": "Riftfall"
+    },
+    {
+      "key": "screen.riftfall.credits.created_by",
+      "kind": "line"
+    },
+    {
+      "kind": "name",
+      "text": "CyberDay1"
+    },
+    {
+      "kind": "gap"
+    },
+    {
+      "key": "screen.riftfall.credits.wotr",
+      "kind": "heading"
+    },
+    {
+      "kind": "note",
+      "text": "The procedural dungeon piece library used by Riftfall Core originates in the Wanderers of the Rift project, and is used here with the permission of that project's lead."
+    },
+    {
+      "kind": "note",
+      "text": "Wanderers of the Rift is licensed AGPL-3.0, and the piece library is covered by that licence along with the rest of the project. Riftfall Core is released under the AGPL-3.0-or-later in turn, so the pieces stay under the licence their authors published them under."
+    },
+    {
+      "args": [
+        "494",
+        "23"
+      ],
+      "key": "screen.riftfall.credits.total",
+      "kind": "line"
+    },
+    {
+      "kind": "gap"
+    },
+    {
+      "builds": [
+        "Alt",
+        "Altwall",
+        "Arch",
+        "Bamboo Cap",
+        "Bars",
+        "Brick",
+        "Brickhall",
+        "Bush",
+        "Cave",
+        "Caveee",
+        "Cavey",
+        "Cavey Cave",
+        "Caveychaos",
+        "Choco Slab",
+        "Copper",
+        "Deepslate",
+        "Doorway",
+        "Fences",
+        "Flatcave",
+        "Gazebo",
+        "General",
+        "Glass",
+        "Greeble",
+        "Greebles",
+        "Hall",
+        "Hanging",
+        "Henge",
+        "House",
+        "Lakey Cave",
+        "Lanterns",
+        "Logs",
+        "Moss Pillar",
+        "Ocean Temple",
+        "Open Cave",
+        "Openopencave",
+        "Outpost",
+        "Overhang",
+        "Pale Oak",
+        "Pile",
+        "Pillar",
+        "Planks",
+        "Portal",
+        "Prismarine Fountain",
+        "Prison",
+        "Quartz Hut",
+        "Reststop",
+        "Sculk Altar",
+        "Second",
+        "Shelter",
+        "Simple",
+        "Smalloverhang",
+        "Smolltree",
+        "Stablechaoscave",
+        "Stonebricks",
+        "Stoney",
+        "Tallcave",
+        "Tallhallway",
+        "Talltallcave",
+        "Tinycave",
+        "Two Caves",
+        "Twolayercave",
+        "Twolayers",
+        "Walls",
+        "Waterfall Cave",
+        "Wood"
+      ],
+      "kind": "builder",
+      "name": "jyu",
+      "pieces": 115
+    },
+    {
+      "builds": [
+        "Anchor",
+        "Aot Large",
+        "Aot Medium",
+        "Aot Small",
+        "Apiary",
+        "Appletree",
+        "Barrow",
+        "Berry",
+        "Bird",
+        "Bountyboard",
+        "Brew",
+        "Bridge",
+        "Bush",
+        "Cache",
+        "Camel",
+        "Campbench",
+        "Chance",
+        "Chicken",
+        "Coal",
+        "Coaster",
+        "Dino",
+        "Drinkshack",
+        "Ducky",
+        "Endcrystal",
+        "Endmushroom",
+        "Endtorch",
+        "Flowerbed",
+        "Golem",
+        "Grave",
+        "Henge",
+        "Hobbit",
+        "House",
+        "Jelly",
+        "Jungpyrm",
+        "Keg",
+        "Lamppost",
+        "Lavagate",
+        "Lorry",
+        "Monolith",
+        "Nethertree",
+        "Ostrich",
+        "Outdoor Dining",
+        "Pale Oak",
+        "Parkour",
+        "Picnic",
+        "Plantation",
+        "Prismarine Fountain",
+        "Pumpkin",
+        "Qblock",
+        "Ribcage",
+        "Ritual",
+        "Rockspire",
+        "Sculpfountain",
+        "Slowboi",
+        "Softserve",
+        "Spring",
+        "Sqweek",
+        "Stand",
+        "Stonefort",
+        "Swan",
+        "Swing",
+        "Tank",
+        "Tent",
+        "Tentbase",
+        "Torri",
+        "Totoro",
+        "Tower",
+        "Treeplanter",
+        "Trees",
+        "Vertfarm",
+        "Vineyard",
+        "Wagon",
+        "Well",
+        "Woodfort",
+        "Wouldyoustillloveme"
+      ],
+      "kind": "builder",
+      "name": "k",
+      "pieces": 108
+    },
+    {
+      "builds": [
+        "All The Fish",
+        "Bathroom",
+        "Blocktet",
+        "Chicken",
+        "Diamond",
+        "Egg",
+        "Falling Floor",
+        "First",
+        "Fish",
+        "Fishbowl",
+        "Flour",
+        "Flower",
+        "Forest",
+        "Glow",
+        "Hall",
+        "Horse",
+        "Main Jump",
+        "Mine",
+        "Mushroom",
+        "Nap Time",
+        "Stable",
+        "Storeroom",
+        "Sweet Treats",
+        "Talljump",
+        "Tears",
+        "Testhub",
+        "Thin Cave",
+        "Think",
+        "Toilet",
+        "Tower",
+        "Tree",
+        "Um",
+        "Village",
+        "Void Cracks",
+        "Water Cave",
+        "Waterjump"
+      ],
+      "kind": "builder",
+      "name": "rachaelrose",
+      "pieces": 55
+    },
+    {
+      "builds": [
+        "4lava",
+        "Altar",
+        "Altwall House",
+        "Bamboo Cap",
+        "Boom",
+        "Cactus",
+        "Caves",
+        "Choco Slab",
+        "Corner Wall",
+        "Creeper Man",
+        "Creeper Men",
+        "Diorite Pillar",
+        "Double T",
+        "Drop Lava",
+        "Endstone Hut",
+        "Etho",
+        "Fence Chests",
+        "Haaaay",
+        "Hollow Trunk",
+        "Lantern Pillar",
+        "Log",
+        "Middle Wall",
+        "Moss Pillar",
+        "Pale Oak House",
+        "Pillar",
+        "Pillars",
+        "Portal",
+        "Purpur Hunt",
+        "Quartz Hut",
+        "Sculk Altar",
+        "Sculk Pillar",
+        "Snowy Shelter",
+        "Stair Spiral",
+        "Stalactite",
+        "Topdown",
+        "Topdown Labyrinth",
+        "Trapdoor",
+        "Warehouse",
+        "Waterwall"
+      ],
+      "kind": "builder",
+      "name": "grimm",
+      "pieces": 51
+    },
+    {
+      "builds": [
+        "Airship",
+        "Brick Chandelier",
+        "Cascades",
+        "Cavey Hole",
+        "City Stair",
+        "Cracked Geode",
+        "Deadtree",
+        "Diorite Ruin",
+        "Halfsunk Chest",
+        "Hang Chest",
+        "Hub Hub Bub",
+        "Lamppost",
+        "Nethertree",
+        "Old Ruin",
+        "Pale Oak",
+        "Rest Stop",
+        "Ruin",
+        "Sculk Pillar",
+        "Sneaky Caves",
+        "Stump",
+        "Stumps",
+        "Swing",
+        "Temple Pillars",
+        "Tree",
+        "Tropical Fish",
+        "Winding Flower Tree",
+        "Winding Path",
+        "Woodfort"
+      ],
+      "kind": "builder",
+      "name": "mal",
+      "notes": [
+        "Hub Hub Bub Mine: a modified copy of Hub Hub Bub that places as an ore room in its slot; Riftfall added the mine dressing"
+      ],
+      "pieces": 42
+    },
+    {
+      "builds": [
+        "Altar",
+        "Beermug",
+        "Big Fish",
+        "Books",
+        "Bouncey Castle",
+        "Cave Pillar",
+        "Fountain",
+        "Gallows",
+        "Grave",
+        "Guillotine",
+        "Jail",
+        "Lantern",
+        "Mine Ball",
+        "Mineshaft",
+        "Overhang",
+        "Palm Island",
+        "Piggybank",
+        "Plane",
+        "Ruins",
+        "Sewer",
+        "Ship",
+        "Stable",
+        "Tunnel",
+        "Twist"
+      ],
+      "kind": "builder",
+      "name": "wout",
+      "pieces": 25
+    },
+    {
+      "builds": [
+        "Amethyst Pile",
+        "Apiary",
+        "Bamboo Farm",
+        "Banner Shop",
+        "Book Store",
+        "Brewery",
+        "Candle Store",
+        "Glow Berry Farm",
+        "Hanging Coffin",
+        "Hanging Greenhouse",
+        "Hay Stack",
+        "Library",
+        "Nether Farm",
+        "Nether Wart Farm",
+        "Plant Shop",
+        "Pottery Shop",
+        "Produce Storage",
+        "Pumpkin Melon Pile",
+        "Smithing Station",
+        "Suspended Library",
+        "Sweet Berry Farm"
+      ],
+      "kind": "builder",
+      "name": "alex642",
+      "pieces": 22
+    },
+    {
+      "builds": [
+        "2 8ths",
+        "Arch",
+        "Fence Cross",
+        "Hanging Diorite",
+        "Holy Cave",
+        "Pale Oak",
+        "Pale Oak House",
+        "Pale Oak Stumps",
+        "Ruin Something",
+        "Shrine",
+        "Stumps",
+        "Trapdoor",
+        "Winding Path"
+      ],
+      "kind": "builder",
+      "name": "team",
+      "pieces": 13
+    },
+    {
+      "builds": [
+        "Amethyst",
+        "Filler",
+        "Fountain",
+        "Portal Flat",
+        "Stalactite",
+        "Winding Path"
+      ],
+      "kind": "builder",
+      "name": "pat",
+      "pieces": 10
+    },
+    {
+      "builds": [
+        "Girder And Barrel",
+        "Gold Pig",
+        "Igloo",
+        "Overlapping Hallways",
+        "Pillars",
+        "Spiraling Snake",
+        "Tavern",
+        "Turning Trails",
+        "Twisting Hallway"
+      ],
+      "kind": "builder",
+      "name": "warren",
+      "pieces": 10
+    },
+    {
+      "builds": [
+        "Cave Mine",
+        "Lavapassage",
+        "Ocean Temple",
+        "Pale Stump",
+        "Pale Tree",
+        "Sculk",
+        "Sculk Platform"
+      ],
+      "kind": "builder",
+      "name": "jj",
+      "pieces": 8
+    },
+    {
+      "builds": [
+        "False Idols",
+        "Menger Sponge",
+        "Plumbers Nightmare",
+        "Ruined Bridge",
+        "Swimmypool",
+        "Thingy",
+        "Upside Down Passage"
+      ],
+      "kind": "builder",
+      "name": "wh4i3_kiara",
+      "pieces": 7
+    },
+    {
+      "builds": [
+        "Exit",
+        "Objective"
+      ],
+      "kind": "builder",
+      "name": "div0",
+      "pieces": 5
+    },
+    {
+      "builds": [
+        "Cave",
+        "Open Cave",
+        "Tree",
+        "Waterfall",
+        "Waterfall Cave"
+      ],
+      "kind": "builder",
+      "name": "kammy",
+      "pieces": 5
+    },
+    {
+      "builds": [
+        "Bush",
+        "Library",
+        "Staircase",
+        "Tree"
+      ],
+      "kind": "builder",
+      "name": "ada",
+      "pieces": 4
+    },
+    {
+      "builds": [
+        "Cave",
+        "Chandelier",
+        "Skull",
+        "Wall"
+      ],
+      "kind": "builder",
+      "name": "muki",
+      "pieces": 4
+    },
+    {
+      "builds": [
+        "Nether Fortress",
+        "Room",
+        "Town"
+      ],
+      "kind": "builder",
+      "name": "ejb",
+      "pieces": 3
+    },
+    {
+      "builds": [
+        "Floating Rock",
+        "Lava Path"
+      ],
+      "kind": "builder",
+      "name": "rev",
+      "pieces": 2
+    },
+    {
+      "builds": [
+        "Hidden Gold"
+      ],
+      "kind": "builder",
+      "name": "bounce",
+      "pieces": 1
+    },
+    {
+      "builds": [
+        "Beanstalk"
+      ],
+      "kind": "builder",
+      "name": "bullzey",
+      "pieces": 1
+    },
+    {
+      "builds": [
+        "Open Cave"
+      ],
+      "kind": "builder",
+      "name": "puzzledfartman",
+      "pieces": 1
+    },
+    {
+      "builds": [
+        "Bakery"
+      ],
+      "kind": "builder",
+      "name": "rsh",
+      "pieces": 1
+    },
+    {
+      "builds": [
+        "Wall"
+      ],
+      "kind": "builder",
+      "name": "whale",
+      "pieces": 1
+    },
+    {
+      "kind": "gap"
+    },
+    {
+      "key": "screen.riftfall.credits.unidentified",
+      "kind": "heading"
+    },
+    {
+      "items": [
+        "Bridges",
+        "Filled",
+        "Fountain",
+        "Fractal Cube",
+        "Hub Hub",
+        "Shell"
+      ],
+      "kind": "list"
+    },
+    {
+      "key": "screen.riftfall.credits.unidentified.note",
+      "kind": "note"
+    },
+    {
+      "kind": "gap"
+    },
+    {
+      "key": "screen.riftfall.credits.built_for",
+      "kind": "heading"
+    },
+    {
+      "kind": "line",
+      "text": "Approach landing"
+    },
+    {
+      "kind": "line",
+      "text": "Boss arena"
+    },
+    {
+      "kind": "line",
+      "text": "Authored dungeon rooms"
+    },
+    {
+      "kind": "line",
+      "text": "Labyrinth stand-in"
+    },
+    {
+      "kind": "line",
+      "text": "Shattered Home layouts"
+    },
+    {
+      "kind": "gap"
+    },
+    {
+      "key": "screen.riftfall.credits.models",
+      "kind": "heading"
+    },
+    {
+      "kind": "line",
+      "text": "\"Heroes Blade\" by Sylvamy"
+    },
+    {
+      "kind": "note",
+      "text": "Creative Commons Attribution 4.0 (CC BY 4.0)"
+    },
+    {
+      "kind": "gap"
+    },
+    {
+      "key": "screen.riftfall.credits.sky",
+      "kind": "heading"
+    },
+    {
+      "key": "screen.riftfall.sky_credits.stars",
+      "kind": "line"
+    },
+    {
+      "key": "screen.riftfall.sky_credits.stars_map",
+      "kind": "line"
+    },
+    {
+      "key": "screen.riftfall.sky_credits.carina",
+      "kind": "line"
+    },
+    {
+      "key": "screen.riftfall.sky_credits.adapted",
+      "kind": "note"
+    },
+    {
+      "key": "screen.riftfall.sky_credits.no_endorsement",
+      "kind": "note"
+    },
+    {
+      "key": "screen.riftfall.credits.end",
+      "kind": "end"
+    }
+  ],
+  "source": "ATTRIBUTION.md",
+  "total_pieces": 494
+}

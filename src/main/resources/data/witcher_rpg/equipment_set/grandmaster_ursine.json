@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witcher_rpg"
+    }
+  ],
+  "name": "grandmaster_ursine",
+  "items": [
+    "witcher_rpg:grandmaster_ursine_head",
+    "witcher_rpg:grandmaster_ursine_chest",
+    "witcher_rpg:grandmaster_ursine_legs",
+    "witcher_rpg:grandmaster_ursine_feet",
+    "witcher_rpg:bear_school_medallion"
+  ],
+  "bonuses": []
+}

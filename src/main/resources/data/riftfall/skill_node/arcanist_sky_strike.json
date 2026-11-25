@@ -1,0 +1,16 @@
+{
+  "id": "arcanist_sky_strike",
+  "class": "arcanist",
+  "ascendancy": "storm_savant",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:arcanist_sky_strike",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 34.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  }
+}

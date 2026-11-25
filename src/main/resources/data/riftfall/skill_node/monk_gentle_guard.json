@@ -1,0 +1,9 @@
+{
+  "id": "monk_gentle_guard",
+  "class": "monk",
+  "ascendancy": "spirit_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:shielded_reduction",
+  "bonus_per_rank": 0.05
+}

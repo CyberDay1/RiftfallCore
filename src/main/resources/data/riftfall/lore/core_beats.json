@@ -1,0 +1,23 @@
+{
+ "version": 1,
+ "source": "lore-draft-v3.md section 6, beats 3 to 19; owner's revision of 2026-11-10 (no contractions)",
+ "tiles": {
+  "forge_100x100": "A forge, and a smith already at his anvil. Good. You will want an edge that holds. He does not remember how he got here. Neither do you. That is something you share. Be kind to him.",
+  "ashen_quarry": "Good stone, and hands that know how to cut it. Let them settle at their benches. They will help you shape what comes next.",
+  "03_brook_crossing": "A brook. You used to cross here, on these stones. Walk it. If you find small things they left behind, keep them. You will not remember any of it. That is all right. We remember enough for both of us.",
+  "02_stillwater_field": "You may notice their calendars disagree. Each piece kept its own time while it was away. Do not trouble over dates. They were never what mattered to you.",
+  "10_stonefield_crossing": "The roads are joining up. Look how much more of us there is. People arrive with the land, speaking of places that are no longer there. Let them speak. They will settle once they have work, and everyone here has work.",
+  "observatory_100x100": "A telescope, and an apprentice who can read the charts. Good. You will not have to wander the dark anymore; let him point the way. The tears in our sky are only us, reaching. There is nothing above to fear.",
+  "06_waystation_alpha": "They are holding on harder now. That is how you know we are close. Someone has come who knows how they move. Learn from him. The pieces held hardest are the ones that matter most.",
+  "05_forsaken_outpost": "Some of the far places were guarded. Those guards did what they believed was right. You do not need to think badly of them, or of yourself. They had their reasons. So did you. Do not forget that.",
+  "supply_depot": "Stores, and someone to keep them. Your belongings will come back to you now. If he lists what he lost, let him; he is the kind who keeps a ledger of such things. Everyone here lost something.",
+  "windworn_plateau": "If they tell you they saw us burning through their sky, believe them. We are not hiding. We have nothing to hide. Look how green we are. Look how bright.",
+  "09_orchard_rest": "There are apples now. Eat one. You have earned it. You have earned all of this.",
+  "fungal_grotto": "Nearly. I can feel all of it now, out to the edges. We are nearly whole.",
+  "flooded_cloister": "You may hear that people prayed for this to stop. They were frightened, and frightened people pray to anyone. Notice that they prayed to you, and not to us. Nobody has prayed to us in a very long time.",
+  "rootbound_archive": "Some of them have found a name for us. It is not the one we had. We had a better one, once. They do not know what it is to sit that high, or what it costs to fall. Bring me the next.",
+  "frostpine_ridge": "You read what they wrote. Good. I never liked lying to you. We were never whole, you and I. I was, once, and I will be again. One more. Please. You do not remember anywhere else to go.",
+  "fallen_aqueduct": "Look at it. A forge, a quarry, a glass to search by, a yard to drill in. Hands for every job. Everything a hunter needs, chosen just for you. Rest now. You built this."
+ },
+ "wilderness": "Have you noticed the edges? There is so much room out there. I was a long time in a small place. There is no hurry. But there is room."
+}

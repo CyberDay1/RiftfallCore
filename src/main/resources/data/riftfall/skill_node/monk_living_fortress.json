@@ -1,0 +1,17 @@
+{
+  "id": "monk_living_fortress",
+  "class": "monk",
+  "ascendancy": "iron_monk",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:monk_living_fortress",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 140.0,
+  "base_cooldown_ticks": 4400,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1
+  }
+}

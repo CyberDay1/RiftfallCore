@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "apotheosis:mysterious_scrap_metal",
+      "required": false
+    }
+  ]
+}

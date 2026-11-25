@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "powah"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystalcraft_unlimited_java"
+    }
+  ],
+  "type": "powah:energizing",
+  "energy": 10000,
+  "ingredients": [
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "item": "crystalcraft_unlimited_java:citrine"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "powah:steel_energized"
+  }
+}

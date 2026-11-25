@@ -1,0 +1,16 @@
+{
+  "id": "arcanist_frost_shard",
+  "class": "arcanist",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:arcanist_frost_shard",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 30.0,
+  "base_cooldown_ticks": 160,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  }
+}

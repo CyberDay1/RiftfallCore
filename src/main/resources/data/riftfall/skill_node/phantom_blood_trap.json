@@ -1,0 +1,24 @@
+{
+  "id": "phantom_blood_trap",
+  "class": "phantom",
+  "ascendancy": "nightstalker",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:phantom_blood_trap",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.06,
+    "duration_seconds_per_rank": 0.4
+  },
+  "category": "trap",
+  "dot": {
+    "type": "bleed",
+    "coefficient": 0.8,
+    "seconds": 10.0
+  }
+}

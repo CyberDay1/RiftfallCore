@@ -1,0 +1,9 @@
+{
+  "id": "monk_burning_spirit",
+  "class": "monk",
+  "ascendancy": "dragon_fist_master",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:burn_damage",
+  "bonus_per_rank": 0.1
+}

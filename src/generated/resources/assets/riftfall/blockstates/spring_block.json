@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "has_item=false,strength=0": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=false,strength=1": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=false,strength=2": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=false,strength=3": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=false,strength=4": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=false,strength=5": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=false,strength=6": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=false,strength=7": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=false,strength=8": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=false,strength=9": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=0": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=1": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=2": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=3": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=4": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=5": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=6": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=7": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=8": {
+      "model": "riftfall:block/spring_block"
+    },
+    "has_item=true,strength=9": {
+      "model": "riftfall:block/spring_block"
+    }
+  }
+}

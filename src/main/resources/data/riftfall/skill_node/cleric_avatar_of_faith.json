@@ -1,0 +1,18 @@
+{
+  "id": "cleric_avatar_of_faith",
+  "class": "cleric",
+  "ascendancy": "battle_saint",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:cleric_avatar_of_faith",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 3600,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "heal",
+    "magnitude_per_rank": 0.1
+  },
+  "category": "heal"
+}

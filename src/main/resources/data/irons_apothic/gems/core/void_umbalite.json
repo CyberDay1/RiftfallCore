@@ -1,0 +1,31 @@
+{
+    "type": "apotheosis:gem",
+    "min_purity": "cracked",
+    "unique": true,
+    "weights": {
+        "weight": 100,
+        "quality": 0.1
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:mana_regen",
+            "gem_class": {
+                "key": "magic_gear",
+                "types": [
+                    "irons_apothic:staff",
+                    "irons_apothic:spellbook"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.038,
+                "chipped": 0.05,
+                "flawed": 0.069,
+                "normal": 0.088,
+                "flawless": 0.106,
+                "perfect": 0.125
+            }
+        }
+    ]
+}

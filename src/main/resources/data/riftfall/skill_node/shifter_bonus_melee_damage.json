@@ -1,0 +1,8 @@
+{
+  "id": "shifter_bonus_melee_damage",
+  "class": "shifter",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "minecraft:generic.attack_damage",
+  "bonus_per_rank": 0.5
+}

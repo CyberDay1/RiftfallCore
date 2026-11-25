@@ -1,0 +1,17 @@
+{
+  "id": "arcanist_frost_cut",
+  "class": "arcanist",
+  "ascendancy": "spellblade",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:arcanist_frost_cut",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 15.0,
+  "base_cooldown_ticks": 160,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  }
+}

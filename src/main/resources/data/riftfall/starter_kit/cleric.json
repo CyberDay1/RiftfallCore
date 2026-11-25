@@ -1,0 +1,26 @@
+{
+  "class": "cleric",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "paladins:holy_staff",
+      "fallback": "minecraft:wooden_sword"
+    },
+    {
+      "slot": "head",
+      "item": "paladins:priest_robe_head"
+    },
+    {
+      "slot": "chest",
+      "item": "paladins:priest_robe_chest"
+    },
+    {
+      "slot": "legs",
+      "item": "paladins:priest_robe_legs"
+    },
+    {
+      "slot": "feet",
+      "item": "paladins:priest_robe_feet"
+    }
+  ]
+}

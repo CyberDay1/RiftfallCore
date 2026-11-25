@@ -1,0 +1,13 @@
+{
+  "kind": "mob",
+  "weight": 6,
+  "theme": "riftfall:mycelial",
+  "entity_tag": "riftfall:rift_mob_elites",
+  "count": 20,
+  "xp": 50,
+  "rewards": [
+    {
+      "id": "riftfall:uncommon_runestone"
+    }
+  ]
+}

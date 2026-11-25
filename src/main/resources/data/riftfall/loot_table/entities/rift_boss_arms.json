@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "riftfall:entities/rift_boss_arms",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        { "type": "riftfall:rift_arms", "kind": "gun", "boss": true, "weight": 1 },
+        { "type": "minecraft:empty", "weight": 1 }
+      ]
+    },
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 },
+      "entries": [
+        { "type": "riftfall:rift_arms", "kind": "attachment", "boss": true }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        { "type": "riftfall:rift_shards", "grade": "boss" }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "riftfall:shattered_world_shard" }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.05 } ],
+      "entries": [
+        { "type": "riftfall:unique_weapon", "min_tier": 5 }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.04 } ],
+      "entries": [
+        { "type": "minecraft:item", "name": "riftfall:common_runestone", "weight": 6 },
+        { "type": "minecraft:item", "name": "riftfall:uncommon_runestone", "weight": 3 },
+        { "type": "minecraft:item", "name": "riftfall:rare_runestone", "weight": 1 }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.03 } ],
+      "entries": [
+        { "type": "minecraft:item", "name": "riftfall:socket_chisel" }
+      ]
+    }
+  ]
+}

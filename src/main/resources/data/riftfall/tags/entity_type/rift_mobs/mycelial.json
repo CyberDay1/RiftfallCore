@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bogged",
+    "minecraft:spider",
+    "minecraft:slime",
+    {"id": "spore:inf_human", "required": false},
+    {"id": "spore:spitter", "required": false},
+    {"id": "spore:leaper", "required": false},
+    {"id": "spore:brute", "required": false}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "gunner_reload_speed_increased",
+  "class": "gunner",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:fire_rate",
+  "bonus_per_rank": 0.05
+}

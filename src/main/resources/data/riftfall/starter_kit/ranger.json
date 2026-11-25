@@ -1,0 +1,36 @@
+{
+  "class": "ranger",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "archers:mechanic_shortbow",
+      "fallback": "minecraft:bow"
+    },
+    {
+      "slot": "head",
+      "item": "archers:ranger_armor_head"
+    },
+    {
+      "slot": "chest",
+      "item": "archers:ranger_armor_chest"
+    },
+    {
+      "slot": "legs",
+      "item": "archers:ranger_armor_legs"
+    },
+    {
+      "slot": "feet",
+      "item": "archers:ranger_armor_feet"
+    },
+    {
+      "slot": "inventory",
+      "item": "minecraft:arrow",
+      "count": 64
+    },
+    {
+      "slot": "inventory",
+      "item": "minecraft:arrow",
+      "count": 64
+    }
+  ]
+}

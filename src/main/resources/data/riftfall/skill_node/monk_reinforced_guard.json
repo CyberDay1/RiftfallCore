@@ -1,0 +1,17 @@
+{
+  "id": "monk_reinforced_guard",
+  "class": "monk",
+  "ascendancy": "iron_monk",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:monk_reinforced_guard",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 34.0,
+  "base_cooldown_ticks": 440,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1
+  }
+}

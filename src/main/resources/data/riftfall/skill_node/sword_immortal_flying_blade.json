@@ -1,0 +1,16 @@
+{
+  "id": "sword_immortal_flying_blade",
+  "class": "sword_immortal",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_flying_blade",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 30.0,
+  "base_cooldown_ticks": 160,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

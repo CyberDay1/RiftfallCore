@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bards_rpg"
+    }
+  ],
+  "name": "storyteller",
+  "items": [
+    "bards_rpg:storyteller_garb_head",
+    "bards_rpg:storyteller_garb_chest",
+    "bards_rpg:storyteller_garb_legs",
+    "bards_rpg:storyteller_garb_feet"
+  ],
+  "bonuses": []
+}

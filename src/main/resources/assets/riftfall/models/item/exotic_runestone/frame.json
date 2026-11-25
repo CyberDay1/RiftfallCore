@@ -1,0 +1,712 @@
+{
+  "ambientocclusion": false,
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "ivory": "riftfall:item/runestones/ivory",
+    "ivory_side": "riftfall:item/runestones/ivory_side",
+    "gold": "riftfall:item/runestones/gold",
+    "foundation": "riftfall:item/runestones/foundation",
+    "light": "riftfall:item/runestones/light",
+    "particle": "riftfall:item/runestones/ivory",
+    "glyph_outline": "riftfall:item/runestones/exotic_outline",
+    "glyph_light": "riftfall:item/runestones/exotic_glyph"
+  },
+  "loader": "neoforge:composite",
+  "children": {
+    "surface": {
+      "loader": "neoforge:obj",
+      "model": "riftfall:models/item/exotic_runestone/frame.obj",
+      "automatic_culling": false,
+      "shade_quads": true,
+      "flip_v": true,
+      "emissive_ambient": false,
+      "render_type": "minecraft:cutout",
+      "textures": {
+        "ivory": "riftfall:item/runestones/ivory",
+        "ivory_side": "riftfall:item/runestones/ivory_side",
+        "gold": "riftfall:item/runestones/gold",
+        "foundation": "riftfall:item/runestones/foundation",
+        "light": "riftfall:item/runestones/light",
+        "particle": "riftfall:item/runestones/ivory",
+        "glyph_outline": "riftfall:item/runestones/exotic_outline",
+        "glyph_light": "riftfall:item/runestones/exotic_glyph"
+      }
+    },
+    "inlays": {
+      "elements": [
+        {
+          "name": "Outer light front top",
+          "from": [
+            4.46,
+            12.094999999999999,
+            8.4032
+          ],
+          "to": [
+            11.54,
+            12.17,
+            8.432
+          ],
+          "faces": {
+            "north": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.075
+              ]
+            },
+            "south": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.075
+              ]
+            },
+            "east": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                0.075
+              ]
+            },
+            "west": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                0.075
+              ]
+            },
+            "up": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.04
+              ]
+            },
+            "down": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.04
+              ]
+            }
+          },
+          "rotation": {
+            "axis": "z",
+            "angle": 45,
+            "origin": [
+              8,
+              8,
+              8.0
+            ]
+          },
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          }
+        },
+        {
+          "name": "Outer light front bottom",
+          "from": [
+            4.46,
+            3.83,
+            8.4032
+          ],
+          "to": [
+            11.54,
+            3.9050000000000002,
+            8.432
+          ],
+          "faces": {
+            "north": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.075
+              ]
+            },
+            "south": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.075
+              ]
+            },
+            "east": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                0.075
+              ]
+            },
+            "west": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                0.075
+              ]
+            },
+            "up": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.04
+              ]
+            },
+            "down": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.04
+              ]
+            }
+          },
+          "rotation": {
+            "axis": "z",
+            "angle": 45,
+            "origin": [
+              8,
+              8,
+              8.0
+            ]
+          },
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          }
+        },
+        {
+          "name": "Outer light front left",
+          "from": [
+            3.83,
+            4.46,
+            8.4032
+          ],
+          "to": [
+            3.9050000000000002,
+            11.54,
+            8.432
+          ],
+          "faces": {
+            "north": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                7.08
+              ]
+            },
+            "south": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                7.08
+              ]
+            },
+            "east": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                7.08
+              ]
+            },
+            "west": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                7.08
+              ]
+            },
+            "up": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                0.04
+              ]
+            },
+            "down": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                0.04
+              ]
+            }
+          },
+          "rotation": {
+            "axis": "z",
+            "angle": 45,
+            "origin": [
+              8,
+              8,
+              8.0
+            ]
+          },
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          }
+        },
+        {
+          "name": "Outer light front right",
+          "from": [
+            12.094999999999999,
+            4.46,
+            8.4032
+          ],
+          "to": [
+            12.17,
+            11.54,
+            8.432
+          ],
+          "faces": {
+            "north": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                7.08
+              ]
+            },
+            "south": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                7.08
+              ]
+            },
+            "east": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                7.08
+              ]
+            },
+            "west": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                7.08
+              ]
+            },
+            "up": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                0.04
+              ]
+            },
+            "down": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                0.04
+              ]
+            }
+          },
+          "rotation": {
+            "axis": "z",
+            "angle": 45,
+            "origin": [
+              8,
+              8,
+              8.0
+            ]
+          },
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          }
+        },
+        {
+          "name": "Outer light back top",
+          "from": [
+            4.46,
+            12.094999999999999,
+            7.568
+          ],
+          "to": [
+            11.54,
+            12.17,
+            7.5968
+          ],
+          "faces": {
+            "north": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.075
+              ]
+            },
+            "south": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.075
+              ]
+            },
+            "east": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                0.075
+              ]
+            },
+            "west": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                0.075
+              ]
+            },
+            "up": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.04
+              ]
+            },
+            "down": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.04
+              ]
+            }
+          },
+          "rotation": {
+            "axis": "z",
+            "angle": 45,
+            "origin": [
+              8,
+              8,
+              8.0
+            ]
+          },
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          }
+        },
+        {
+          "name": "Outer light back bottom",
+          "from": [
+            4.46,
+            3.83,
+            7.568
+          ],
+          "to": [
+            11.54,
+            3.9050000000000002,
+            7.5968
+          ],
+          "faces": {
+            "north": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.075
+              ]
+            },
+            "south": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.075
+              ]
+            },
+            "east": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                0.075
+              ]
+            },
+            "west": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                0.075
+              ]
+            },
+            "up": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.04
+              ]
+            },
+            "down": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                7.08,
+                0.04
+              ]
+            }
+          },
+          "rotation": {
+            "axis": "z",
+            "angle": 45,
+            "origin": [
+              8,
+              8,
+              8.0
+            ]
+          },
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          }
+        },
+        {
+          "name": "Outer light back left",
+          "from": [
+            3.83,
+            4.46,
+            7.568
+          ],
+          "to": [
+            3.9050000000000002,
+            11.54,
+            7.5968
+          ],
+          "faces": {
+            "north": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                7.08
+              ]
+            },
+            "south": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                7.08
+              ]
+            },
+            "east": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                7.08
+              ]
+            },
+            "west": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                7.08
+              ]
+            },
+            "up": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                0.04
+              ]
+            },
+            "down": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                0.04
+              ]
+            }
+          },
+          "rotation": {
+            "axis": "z",
+            "angle": 45,
+            "origin": [
+              8,
+              8,
+              8.0
+            ]
+          },
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          }
+        },
+        {
+          "name": "Outer light back right",
+          "from": [
+            12.094999999999999,
+            4.46,
+            7.568
+          ],
+          "to": [
+            12.17,
+            11.54,
+            7.5968
+          ],
+          "faces": {
+            "north": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                7.08
+              ]
+            },
+            "south": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                7.08
+              ]
+            },
+            "east": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                7.08
+              ]
+            },
+            "west": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.04,
+                7.08
+              ]
+            },
+            "up": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                0.04
+              ]
+            },
+            "down": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.075,
+                0.04
+              ]
+            }
+          },
+          "rotation": {
+            "axis": "z",
+            "angle": 45,
+            "origin": [
+              8,
+              8,
+              8.0
+            ]
+          },
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          }
+        }
+      ],
+      "textures": {
+        "ivory": "riftfall:item/runestones/ivory",
+        "ivory_side": "riftfall:item/runestones/ivory_side",
+        "gold": "riftfall:item/runestones/gold",
+        "foundation": "riftfall:item/runestones/foundation",
+        "light": "riftfall:item/runestones/light",
+        "particle": "riftfall:item/runestones/ivory",
+        "glyph_outline": "riftfall:item/runestones/exotic_outline",
+        "glyph_light": "riftfall:item/runestones/exotic_glyph"
+      },
+      "render_type": "minecraft:cutout",
+      "ambientocclusion": false
+    }
+  },
+  "item_render_order": [
+    "surface",
+    "inlays"
+  ]
+}

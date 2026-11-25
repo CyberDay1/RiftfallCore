@@ -1,0 +1,75 @@
+{
+    "type": "apotheosis:gem",
+    "min_purity": "cracked",
+    "unique": true,
+    "weights": {
+        "weight": 100,
+        "quality": 0.1
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:ability_haste",
+            "gem_class": {
+                "key": "weapons",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident",
+                    "apotheosis:bow",
+                    "riftfall:gun"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.6,
+                "chipped": 0.8,
+                "flawed": 1.1,
+                "normal": 1.4,
+                "flawless": 1.7,
+                "perfect": 2.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:ability_haste",
+            "gem_class": {
+                "key": "magic_gear",
+                "types": [
+                    "irons_apothic:staff",
+                    "irons_apothic:spellbook"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.6,
+                "chipped": 0.8,
+                "flawed": 1.1,
+                "normal": 1.4,
+                "flawless": 1.7,
+                "perfect": 2.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:ability_haste",
+            "gem_class": {
+                "key": "armor",
+                "types": [
+                    "apotheosis:helmet",
+                    "apotheosis:chestplate",
+                    "apotheosis:leggings",
+                    "apotheosis:boots"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.6,
+                "chipped": 0.8,
+                "flawed": 1.1,
+                "normal": 1.4,
+                "flawless": 1.7,
+                "perfect": 2.0
+            }
+        }
+    ]
+}

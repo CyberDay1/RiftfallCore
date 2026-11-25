@@ -1,0 +1,46 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "riftfall:max_mana",
+    "categories": [
+        "apotheosis:chestplate",
+        "apotheosis:helmet",
+        "irons_apothic:spellbook",
+        "irons_apothic:staff"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "apotheosis:common": {
+            "min": 1.75,
+            "max": 3.5,
+            "step": 0.21875
+        },
+        "apotheosis:uncommon": {
+            "min": 2.625,
+            "max": 4.8125,
+            "step": 0.2734375
+        },
+        "apotheosis:rare": {
+            "min": 3.9375,
+            "max": 6.125,
+            "step": 0.2734375
+        },
+        "apotheosis:epic": {
+            "min": 5.25,
+            "max": 7.4375,
+            "step": 0.2734375
+        },
+        "apotheosis:mythic": {
+            "min": 7.0,
+            "max": 8.75,
+            "step": 0.21875
+        }
+    }
+}

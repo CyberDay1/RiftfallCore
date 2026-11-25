@@ -1,0 +1,23 @@
+{
+  "id": "sword_immortal_hemorrhage_burst",
+  "class": "sword_immortal",
+  "ascendancy": "crimson_blade_reaver",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_hemorrhage_burst",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 38.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.1,
+    "duration_seconds_per_rank": 0.4
+  },
+  "dot": {
+    "type": "bleed",
+    "coefficient": 2.0,
+    "seconds": 10.0
+  }
+}

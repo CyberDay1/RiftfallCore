@@ -1,0 +1,125 @@
+{
+  "materials": {
+    "1": [
+      { "block": "quark:limestone_bricks", "weight": 3.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "naturalist:shellstone_bricks", "weight": 2.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "supplementaries:ash_bricks", "weight": 1.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "atmul:dim_sandstone", "weight": 0.25,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "2": [
+      { "block": "quark:limestone",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "3": [
+      { "block": "naturalist:cut_shellstone",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "4": [
+      { "block": "quark:limestone", "weight": 2.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } },
+      { "block": "naturalist:smooth_shellstone", "weight": 1.0,
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "5": [
+      { "block": "supplementaries:ash_bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "6": [
+      { "block": "minecraft:dark_oak_planks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "7": [
+      { "block": "quark:limestone_bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "8": [
+      { "block": "minecraft:sandstone",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "9": [
+      { "block": "naturalist:cut_shellstone",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "10": [
+      { "block": "quark:limestone_bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "11": [
+      { "block": "quark:limestone",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "12": [
+      { "block": "naturalist:shellstone_bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "13": [
+      { "block": "supplementaries:ash_bricks",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "14": [
+      { "block": "minecraft:sandstone",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ],
+    "15": [
+      { "block": "quark:limestone",
+        "variants": { "glass": "minecraft:brown_stained_glass", "glass_pane": "minecraft:brown_stained_glass_pane" } }
+    ]
+  },
+  "fallback": "minecraft:sandstone",
+  "noise_scale": [0.05, 0.11, 0.05],
+  "seed_adjustment": 4241,
+  "decorators": [
+{
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:cobweb",
+      "requires_sides": 2,
+      "rarity": 0.06
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:chain",
+      "requires_up": true,
+      "rarity": 0.02,
+      "seed": 4243
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:wither_plate",
+        "darkutils:weakness_plate",
+        "darkutils:misfortune_plate"
+      ],
+      "decoy": "minecraft:stone_pressure_plate",
+      "room_kinds": ["approach", "chaos", "stable", "unstable", "boss"],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 4241
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "deepslate",
+      "home": "onyx",
+      "light": "minecraft:ochre_froglight"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "deepslate",
+      "home": "onyx",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:ochre_froglight",
+      "ceiling": "minecraft:ochre_froglight",
+      "floor": "minecraft:ochre_froglight",
+      "alcove": "minecraft:soul_lantern",
+      "hanging": "minecraft:soul_lantern[hanging=true]",
+      "seed": 4251
+    }
+  ]
+}

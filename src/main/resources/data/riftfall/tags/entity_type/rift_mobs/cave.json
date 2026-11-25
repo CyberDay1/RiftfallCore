@@ -1,0 +1,115 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:silverfish",
+    "minecraft:drowned",
+    {
+      "id": "zoniex:blood_eagle",
+      "required": false
+    },
+    {
+      "id": "luminous_monsters:miner_zombie",
+      "required": false
+    },
+    {
+      "id": "luminous_monsters:miner_skeleton",
+      "required": false
+    },
+    {
+      "id": "luminous_monsters:icy_skeleton",
+      "required": false
+    },
+    {
+      "id": "luminous_monsters:cherry_skeleton",
+      "required": false
+    },
+    {
+      "id": "monsterplus:crystal_zombie",
+      "required": false
+    },
+    {
+      "id": "monsterplus:glow_skeleton",
+      "required": false
+    },
+    {
+      "id": "monsterplus:abyssologer",
+      "required": false
+    },
+    {
+      "id": "primitive_creatures:golem_2",
+      "required": false
+    },
+    {
+      "id": "primitive_creatures:tfc",
+      "required": false
+    },
+    {
+      "id": "magma_monsters:magma_monster_grunt",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:sculk_centipede",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:sculk_leech",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:sculk_snapper",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:shattered",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:shriek_worm",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:sludge",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:centipede_head",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:rocky_roller",
+      "required": false
+    },
+    {
+      "id": "quark:forgotten",
+      "required": false
+    },
+    {
+      "id": "unique_mobs:ice_spider",
+      "required": false
+    },
+    {
+      "id": "unique_mobs:frozen_zombie",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:diamond_termite",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:mother_spider",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:bloody_gadfly",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cryomancer",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_spider",
+      "required": false
+    }
+  ]
+}

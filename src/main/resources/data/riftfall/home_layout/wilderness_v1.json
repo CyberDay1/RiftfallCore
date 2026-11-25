@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "art_revision": 2,
+  "tile_size": 100,
+  "edge_ground_y": 10,
+  "roads": false,
+  "intended_use": "Random wilderness beyond the crafted 5x5, expanding in outer spiral rings.",
+  "runtime_expansion_connected": true,
+  "tiles": [
+    {
+      "id": "wild_open_grassland",
+      "name": "Open Grassland",
+      "description": "Low uneven pasture folds, open grass, sparse scrub and small field-stone clusters.",
+      "template": "riftfall:home/wilderness_v1/wild_open_grassland",
+      "size": [
+        100,
+        72,
+        100
+      ],
+      "roads": false,
+      "buildings": false,
+      "trees": [],
+      "boulder_groups": 3,
+      "fallen_logs": 0,
+      "water_columns": 0,
+      "finishing_clutter_added": 106,
+      "terrain_height_range": [
+        10,
+        13
+      ]
+    },
+    {
+      "id": "wild_rocky_scrub",
+      "name": "Rocky Scrub",
+      "description": "Broken low outcrops scattered through grassy scrub, with short gravel skirts and loose stones.",
+      "template": "riftfall:home/wilderness_v1/wild_rocky_scrub",
+      "size": [
+        100,
+        72,
+        100
+      ],
+      "roads": false,
+      "buildings": false,
+      "trees": [],
+      "boulder_groups": 6,
+      "fallen_logs": 0,
+      "water_columns": 0,
+      "finishing_clutter_added": 128,
+      "terrain_height_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "id": "wild_pine_woodland",
+      "name": "Pine Woodland",
+      "description": "Irregular groups of pines and grassy gaps, with needle beds around roots and fallen timber.",
+      "template": "riftfall:home/wilderness_v1/wild_pine_woodland",
+      "size": [
+        100,
+        72,
+        100
+      ],
+      "roads": false,
+      "buildings": false,
+      "trees": [
+        {
+          "x": 28,
+          "z": 78,
+          "height": 18,
+          "radius": 5
+        },
+        {
+          "x": 22,
+          "z": 40,
+          "height": 21,
+          "radius": 4
+        },
+        {
+          "x": 77,
+          "z": 53,
+          "height": 19,
+          "radius": 4
+        },
+        {
+          "x": 39,
+          "z": 84,
+          "height": 17,
+          "radius": 5
+        },
+        {
+          "x": 59,
+          "z": 58,
+          "height": 19,
+          "radius": 4
+        },
+        {
+          "x": 80,
+          "z": 40,
+          "height": 18,
+          "radius": 4
+        },
+        {
+          "x": 43,
+          "z": 20,
+          "height": 15,
+          "radius": 4
+        },
+        {
+          "x": 32,
+          "z": 19,
+          "height": 16,
+          "radius": 4
+        },
+        {
+          "x": 70,
+          "z": 37,
+          "height": 17,
+          "radius": 5
+        },
+        {
+          "x": 26,
+          "z": 33,
+          "height": 15,
+          "radius": 5
+        },
+        {
+          "x": 58,
+          "z": 19,
+          "height": 14,
+          "radius": 4
+        },
+        {
+          "x": 34,
+          "z": 45,
+          "height": 13,
+          "radius": 5
+        },
+        {
+          "x": 49,
+          "z": 76,
+          "height": 14,
+          "radius": 5
+        },
+        {
+          "x": 88,
+          "z": 38,
+          "height": 20,
+          "radius": 4
+        },
+        {
+          "x": 18,
+          "z": 25,
+          "height": 18,
+          "radius": 4
+        },
+        {
+          "x": 41,
+          "z": 41,
+          "height": 13,
+          "radius": 4
+        },
+        {
+          "x": 16,
+          "z": 55,
+          "height": 15,
+          "radius": 5
+        },
+        {
+          "x": 82,
+          "z": 31,
+          "height": 13,
+          "radius": 5
+        },
+        {
+          "x": 40,
+          "z": 57,
+          "height": 13,
+          "radius": 4
+        },
+        {
+          "x": 47,
+          "z": 30,
+          "height": 19,
+          "radius": 5
+        },
+        {
+          "x": 76,
+          "z": 67,
+          "height": 18,
+          "radius": 4
+        },
+        {
+          "x": 48,
+          "z": 59,
+          "height": 20,
+          "radius": 4
+        },
+        {
+          "x": 27,
+          "z": 86,
+          "height": 13,
+          "radius": 4
+        },
+        {
+          "x": 59,
+          "z": 77,
+          "height": 18,
+          "radius": 5
+        },
+        {
+          "x": 11,
+          "z": 65,
+          "height": 16,
+          "radius": 5
+        },
+        {
+          "x": 66,
+          "z": 14,
+          "height": 15,
+          "radius": 5
+        },
+        {
+          "x": 66,
+          "z": 48,
+          "height": 14,
+          "radius": 5
+        },
+        {
+          "x": 70,
+          "z": 25,
+          "height": 13,
+          "radius": 5
+        },
+        {
+          "x": 79,
+          "z": 16,
+          "height": 20,
+          "radius": 4
+        },
+        {
+          "x": 88,
+          "z": 64,
+          "height": 13,
+          "radius": 4
+        }
+      ],
+      "boulder_groups": 1,
+      "fallen_logs": 3,
+      "water_columns": 0,
+      "finishing_clutter_added": 155,
+      "terrain_height_range": [
+        10,
+        13
+      ]
+    },
+    {
+      "id": "wild_shallow_wetland",
+      "name": "Shallow Wetland",
+      "description": "Uneven shallow pools in a low reed bed, with muddy shore pockets and scattered wet grasses.",
+      "template": "riftfall:home/wilderness_v1/wild_shallow_wetland",
+      "size": [
+        100,
+        72,
+        100
+      ],
+      "roads": false,
+      "buildings": false,
+      "trees": [],
+      "boulder_groups": 0,
+      "fallen_logs": 0,
+      "water_columns": 1098,
+      "finishing_clutter_added": 86,
+      "terrain_height_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "wild_dry_badlands",
+      "name": "Dry Badlands",
+      "description": "Low weathered dry ground, shallow sandy washes, small ochre soil pockets and exposed pale seams.",
+      "template": "riftfall:home/wilderness_v1/wild_dry_badlands",
+      "size": [
+        100,
+        72,
+        100
+      ],
+      "roads": false,
+      "buildings": false,
+      "trees": [],
+      "boulder_groups": 3,
+      "fallen_logs": 0,
+      "water_columns": 0,
+      "finishing_clutter_added": 111,
+      "terrain_height_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "id": "wild_flower_meadow",
+      "name": "Flower Meadow",
+      "description": "Gentle meadow folds with uneven flower colonies, clover patches and open grassy gaps.",
+      "template": "riftfall:home/wilderness_v1/wild_flower_meadow",
+      "size": [
+        100,
+        72,
+        100
+      ],
+      "roads": false,
+      "buildings": false,
+      "trees": [],
+      "boulder_groups": 1,
+      "fallen_logs": 0,
+      "water_columns": 0,
+      "finishing_clutter_added": 103,
+      "terrain_height_range": [
+        10,
+        12
+      ]
+    }
+  ]
+}

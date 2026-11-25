@@ -1,0 +1,138 @@
+{
+  "ambientocclusion": false,
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "ivory": "riftfall:item/runestones/ivory",
+    "ivory_side": "riftfall:item/runestones/ivory_side",
+    "gold": "riftfall:item/runestones/gold",
+    "foundation": "riftfall:item/runestones/foundation",
+    "light": "riftfall:item/runestones/light",
+    "particle": "riftfall:item/runestones/ivory",
+    "glyph_outline": "riftfall:item/runestones/exotic_outline",
+    "glyph_light": "riftfall:item/runestones/exotic_glyph"
+  },
+  "loader": "neoforge:composite",
+  "children": {
+    "surface": {
+      "loader": "neoforge:obj",
+      "model": "riftfall:models/item/exotic_runestone/tip_2.obj",
+      "automatic_culling": false,
+      "shade_quads": true,
+      "flip_v": true,
+      "emissive_ambient": false,
+      "render_type": "minecraft:cutout",
+      "textures": {
+        "ivory": "riftfall:item/runestones/ivory",
+        "ivory_side": "riftfall:item/runestones/ivory_side",
+        "gold": "riftfall:item/runestones/gold",
+        "foundation": "riftfall:item/runestones/foundation",
+        "light": "riftfall:item/runestones/light",
+        "particle": "riftfall:item/runestones/ivory",
+        "glyph_outline": "riftfall:item/runestones/exotic_outline",
+        "glyph_light": "riftfall:item/runestones/exotic_glyph"
+      }
+    },
+    "inlays": {
+      "elements": [
+        {
+          "name": "Tip light",
+          "from": [
+            7.84,
+            1.79,
+            7.712
+          ],
+          "to": [
+            8.16,
+            2.11,
+            8.288
+          ],
+          "faces": {
+            "north": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.32,
+                0.32
+              ]
+            },
+            "south": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.32,
+                0.32
+              ]
+            },
+            "east": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.8,
+                0.32
+              ]
+            },
+            "west": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.8,
+                0.32
+              ]
+            },
+            "up": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.32,
+                0.8
+              ]
+            },
+            "down": {
+              "texture": "#light",
+              "uv": [
+                0,
+                0,
+                0.32,
+                0.8
+              ]
+            }
+          },
+          "rotation": {
+            "axis": "z",
+            "angle": 45,
+            "origin": [
+              8.0,
+              1.95,
+              8.0
+            ]
+          },
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          }
+        }
+      ],
+      "textures": {
+        "ivory": "riftfall:item/runestones/ivory",
+        "ivory_side": "riftfall:item/runestones/ivory_side",
+        "gold": "riftfall:item/runestones/gold",
+        "foundation": "riftfall:item/runestones/foundation",
+        "light": "riftfall:item/runestones/light",
+        "particle": "riftfall:item/runestones/ivory",
+        "glyph_outline": "riftfall:item/runestones/exotic_outline",
+        "glyph_light": "riftfall:item/runestones/exotic_glyph"
+      },
+      "render_type": "minecraft:cutout",
+      "ambientocclusion": false
+    }
+  },
+  "item_render_order": [
+    "surface",
+    "inlays"
+  ]
+}

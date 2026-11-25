@@ -1,0 +1,120 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 32.0,
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "release": {
+    "sound": {
+      "id": "riftfall:skill.gunner.fire",
+      "volume": 0.65,
+      "pitch": 1.0
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 4292448767,
+            "scale": 0.14,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 3.0,
+            "shape": "CONE",
+            "anchor": "LAUNCH_POINT",
+            "extent": 0.0,
+            "min_speed": 0.025,
+            "max_speed": 0.05,
+            "alignment": "LOOK",
+            "angle": 4.0
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 2.6,
+          "knockback": 2.0
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "minecraft:cloud",
+            "appearance": {},
+            "batch": {
+              "count": 5.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.02,
+              "max_speed": 0.04
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:entity.breeze.wind_burst",
+        "volume": 0.3,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ],
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 2.5
+      },
+      "direct_towards_target": false,
+      "projectile": {
+        "homing_angle": 0.0,
+        "divergence": 0.0,
+        "client_data": {
+          "light_level": 10,
+          "travel_particles": [
+            {
+              "id": "spell_engine:magic_spark",
+              "appearance": {
+                "color": 4292448767,
+                "scale": 0.1,
+                "opacity": 0.85
+              },
+              "batch": {
+                "count": 1.0,
+                "shape": "SPHERE",
+                "anchor": "ENTITY",
+                "extent": 0.0,
+                "min_speed": 0.0025,
+                "max_speed": 0.005
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "orientation": "TOWARDS_MOTION",
+                "rotate_degrees_per_tick": 0.0,
+                "fx": {
+                  "model_id": "riftfall:spell_projectile/bullet",
+                  "scale": 0.25,
+                  "light_emission": "GLOW"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "alexsmobs:enderiophage", "required": false },
+    { "id": "born_in_chaos_v1:corpse_fish", "required": false },
+    { "id": "born_in_chaos_v1:glutton_fish", "required": false },
+    { "id": "endermanoverhaul:flower_fields_enderman", "required": false },
+    { "id": "monsterplus:ancient_hero", "required": false },
+    { "id": "monsterplus:lava_squid", "required": false },
+    { "id": "monsterplus:soul", "required": false },
+    { "id": "monsterplus:wisp", "required": false },
+    { "id": "quark:foxhound", "required": false },
+    { "id": "spore:inf_diseased_villager", "required": false },
+    { "id": "spore:inf_drowned", "required": false },
+    { "id": "spore:inf_human", "required": false },
+    { "id": "spore:inf_pillager", "required": false },
+    { "id": "spore:inf_player", "required": false },
+    { "id": "spore:inf_villager", "required": false },
+    { "id": "spore:inf_wanderer", "required": false },
+    { "id": "spore:inf_witch", "required": false }
+  ]
+}

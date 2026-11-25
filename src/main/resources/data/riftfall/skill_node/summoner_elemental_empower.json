@@ -1,0 +1,19 @@
+{
+  "id": "summoner_elemental_empower",
+  "class": "summoner",
+  "ascendancy": "elemental_binder",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:summoner_elemental_empower",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 360,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "summon",
+    "owner_scaling_per_rank": 0.0,
+    "duration_seconds_per_rank": 0.0
+  },
+  "category": "summon"
+}

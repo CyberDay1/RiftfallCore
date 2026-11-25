@@ -1,0 +1,17 @@
+{
+  "id": "tactician_perfect_execution",
+  "class": "tactician",
+  "ascendancy": "battle_strategist",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:tactician_perfect_execution",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 3800,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

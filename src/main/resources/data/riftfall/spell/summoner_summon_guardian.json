@@ -1,0 +1,218 @@
+{
+  "school": "riftfall:summoning",
+  "active": {
+    "cast": {}
+  },
+  "range": 0.0,
+  "target": {
+    "type": "CASTER"
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:block.stone.break",
+      "volume": 0.55,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:dual_handed_ground_release",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 3282732799,
+            "scale": 0.35,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 12.0,
+            "shape": "PILLAR",
+            "anchor": "ENTITY",
+            "extent": 0.2,
+            "min_speed": 0.03,
+            "max_speed": 0.06
+          }
+        },
+        {
+          "id": "minecraft:poof",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.08
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SUMMON",
+        "summon": {
+          "entity_type_id": "elemental_wizards_rpg:earth_golem",
+          "behaviour": {
+            "movement": {
+              "follow": {
+                "stop_distance": 3.0,
+                "teleport_after_distance": 32.0
+              },
+              "is_pushable": false
+            },
+            "targeting": {
+              "automatic_targeting": "HOSTILE",
+              "detection_range": {
+                "mode": "MAXIMUM_ACTION_RANGE"
+              }
+            },
+            "lifespan": {
+              "spawn_ticks": 20,
+              "active_seconds": 12,
+              "despawn_ticks": 20
+            },
+            "actions": [
+              {
+                "type": "SPELL_CAST",
+                "spell_cast": {
+                  "spell_id": "elemental_wizards_rpg:terra_stone_throw",
+                  "range": {
+                    "min": 0.4
+                  }
+                }
+              },
+              {
+                "type": "SPELL_CAST",
+                "spell_cast": {
+                  "spell_id": "elemental_wizards_rpg:terra_earth_golem_spike_line",
+                  "cooldown": 60,
+                  "range": {
+                    "min": 0.5,
+                    "max": 1.125
+                  }
+                }
+              },
+              {
+                "type": "MELEE_ATTACK",
+                "melee_attack": {
+                  "max_range": 4.0,
+                  "speed": 0.55,
+                  "duration": 33,
+                  "windup": 0.24242425,
+                  "radius": 3.0
+                }
+              }
+            ]
+          },
+          "attribute_scaling": {
+            "entries": [
+              {
+                "attribute_id": "minecraft:generic.max_health",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 1.2
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.armor",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 5.0,
+                    "coefficient": 0.075
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.attack_damage",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 0.35
+                  }
+                ]
+              },
+              {
+                "attribute_id": "spell_power:earth",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 2.0,
+                    "coefficient": 0.1
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.attack_knockback",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 0.1
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.knockback_resistance",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 2.5,
+                    "coefficient": 0.025
+                  }
+                ]
+              }
+            ]
+          },
+          "placements": [
+            {
+              "location_offset_by_look": 2.0,
+              "apply_yaw": true
+            }
+          ]
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 3282732799,
+              "scale": 0.35,
+              "opacity": 0.85
+            },
+            "batch": {
+              "count": 6.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.06
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:block.stone.break",
+        "volume": 0.3,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

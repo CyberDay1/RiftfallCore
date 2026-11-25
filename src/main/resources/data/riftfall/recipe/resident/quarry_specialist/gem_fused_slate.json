@@ -1,0 +1,19 @@
+{
+  "type": "riftfall:resident_conversion",
+  "role": "quarry_specialist",
+  "inputs": [
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "count": 8
+    },
+    {
+      "item": "riftfall:gem_grit",
+      "count": 1
+    }
+  ],
+  "shards": 2,
+  "result": {
+    "id": "apotheosis:gem_fused_slate",
+    "count": 8
+  }
+}

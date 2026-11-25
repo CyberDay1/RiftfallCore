@@ -1,0 +1,305 @@
+{
+  "source": "art\\unseated\\v19-cowl-halo-paint\\unseated-sovereign-v19.blend",
+  "frames": 240,
+  "loop_ticks": 240,
+  "texture": "src\\main\\resources\\assets\\riftfall\\textures\\entity\\unseated\\sovereign.png",
+  "texture_size": [
+    4096,
+    4096
+  ],
+  "bake_margin": 8,
+  "vertex_paint_slivers": 117,
+  "format": "WCM3",
+  "triangles": 191328,
+  "bytes": 5626061,
+  "min": [
+    -4.7441020011901855,
+    0.1424962282180786,
+    -2.686229944229126
+  ],
+  "max": [
+    4.738828659057617,
+    14.473512649536133,
+    3.8203518390655518
+  ],
+  "parts": [
+    {
+      "name": "ARM L elbow pivot",
+      "vertices": 13020
+    },
+    {
+      "name": "ARM L shoulder pivot",
+      "vertices": 25236
+    },
+    {
+      "name": "ARM R elbow pivot",
+      "vertices": 13020
+    },
+    {
+      "name": "ARM R shoulder pivot",
+      "vertices": 25236
+    },
+    {
+      "name": "Chest Orbit 0 | continuous revolution",
+      "vertices": 47460
+    },
+    {
+      "name": "Chest Orbit 1 | continuous revolution",
+      "vertices": 48888
+    },
+    {
+      "name": "Chest Orbit 2 | continuous revolution",
+      "vertices": 35664
+    },
+    {
+      "name": "HALO | suspended behind sovereign",
+      "vertices": 6348
+    },
+    {
+      "name": "HAND L | palm / bind",
+      "vertices": 3846
+    },
+    {
+      "name": "HAND R | palm / bind",
+      "vertices": 3846
+    },
+    {
+      "name": "HEART | existing World Core",
+      "vertices": 11904
+    },
+    {
+      "name": "L DIGIT 1 base",
+      "vertices": 720
+    },
+    {
+      "name": "L DIGIT 1 distal",
+      "vertices": 720
+    },
+    {
+      "name": "L DIGIT 2 base",
+      "vertices": 720
+    },
+    {
+      "name": "L DIGIT 2 distal",
+      "vertices": 720
+    },
+    {
+      "name": "L DIGIT 3 base",
+      "vertices": 720
+    },
+    {
+      "name": "L DIGIT 3 distal",
+      "vertices": 720
+    },
+    {
+      "name": "L DIGIT 4 base",
+      "vertices": 720
+    },
+    {
+      "name": "L DIGIT 4 distal",
+      "vertices": 720
+    },
+    {
+      "name": "L THUMB base",
+      "vertices": 720
+    },
+    {
+      "name": "L THUMB distal",
+      "vertices": 720
+    },
+    {
+      "name": "Original Heart plate 00",
+      "vertices": 2400
+    },
+    {
+      "name": "Original Heart plate 01",
+      "vertices": 2880
+    },
+    {
+      "name": "Original Heart plate 02",
+      "vertices": 2880
+    },
+    {
+      "name": "Original Heart plate 03",
+      "vertices": 2652
+    },
+    {
+      "name": "Original Heart plate 04",
+      "vertices": 2400
+    },
+    {
+      "name": "Original Heart plate 05",
+      "vertices": 2400
+    },
+    {
+      "name": "Original Heart plate 06",
+      "vertices": 2400
+    },
+    {
+      "name": "Original Heart plate 07",
+      "vertices": 2400
+    },
+    {
+      "name": "Original Heart plate 08",
+      "vertices": 3132
+    },
+    {
+      "name": "Original Heart plate 09",
+      "vertices": 2880
+    },
+    {
+      "name": "Original Heart plate 10",
+      "vertices": 2880
+    },
+    {
+      "name": "Original Heart plate 11",
+      "vertices": 3132
+    },
+    {
+      "name": "Original Heart plate 12",
+      "vertices": 2880
+    },
+    {
+      "name": "Original Heart plate 13",
+      "vertices": 2880
+    },
+    {
+      "name": "Original Heart plate 14",
+      "vertices": 2400
+    },
+    {
+      "name": "Original Heart plate 15",
+      "vertices": 2400
+    },
+    {
+      "name": "Original Heart plate 16",
+      "vertices": 2652
+    },
+    {
+      "name": "Original Heart plate 17",
+      "vertices": 2880
+    },
+    {
+      "name": "Original Heart plate 18",
+      "vertices": 2400
+    },
+    {
+      "name": "Original Heart plate 19",
+      "vertices": 3132
+    },
+    {
+      "name": "Original Heart plate 20",
+      "vertices": 2880
+    },
+    {
+      "name": "Original Heart plate 21",
+      "vertices": 2880
+    },
+    {
+      "name": "Original Heart plate 22",
+      "vertices": 1920
+    },
+    {
+      "name": "R DIGIT 1 base",
+      "vertices": 720
+    },
+    {
+      "name": "R DIGIT 1 distal",
+      "vertices": 720
+    },
+    {
+      "name": "R DIGIT 2 base",
+      "vertices": 720
+    },
+    {
+      "name": "R DIGIT 2 distal",
+      "vertices": 720
+    },
+    {
+      "name": "R DIGIT 3 base",
+      "vertices": 720
+    },
+    {
+      "name": "R DIGIT 3 distal",
+      "vertices": 720
+    },
+    {
+      "name": "R DIGIT 4 base",
+      "vertices": 720
+    },
+    {
+      "name": "R DIGIT 4 distal",
+      "vertices": 720
+    },
+    {
+      "name": "R THUMB base",
+      "vertices": 720
+    },
+    {
+      "name": "R THUMB distal",
+      "vertices": 720
+    },
+    {
+      "name": "ROOT | units = blocks",
+      "vertices": 263376
+    }
+  ],
+  "materials": [
+    {
+      "name": "Core vertex paint stone",
+      "kind": 0
+    },
+    {
+      "name": "Core vertex paint light",
+      "kind": 1
+    },
+    {
+      "name": "Painted ivory",
+      "kind": 0
+    },
+    {
+      "name": "Painted violet",
+      "kind": 0
+    },
+    {
+      "name": "Painted gold",
+      "kind": 0
+    },
+    {
+      "name": "04 Pale antique gold",
+      "kind": 0
+    },
+    {
+      "name": "Painted joint",
+      "kind": 0
+    },
+    {
+      "name": "Sovereign deep plum stone",
+      "kind": 0
+    },
+    {
+      "name": "Sovereign engraved gold",
+      "kind": 0
+    },
+    {
+      "name": "Mineral cloth | matte thin drapery",
+      "kind": 0
+    },
+    {
+      "name": "Weathered broken stone edges",
+      "kind": 0
+    },
+    {
+      "name": "Native max Core orbit electrum",
+      "kind": 0
+    },
+    {
+      "name": "Native max Core orbit inlay",
+      "kind": 2
+    },
+    {
+      "name": "Mask recessed shadow",
+      "kind": 0
+    }
+  ]
+}

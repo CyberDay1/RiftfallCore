@@ -1,0 +1,17 @@
+{
+  "id": "tactician_battlefield_control",
+  "class": "tactician",
+  "ascendancy": "battle_strategist",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:tactician_battlefield_control",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 320,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  }
+}

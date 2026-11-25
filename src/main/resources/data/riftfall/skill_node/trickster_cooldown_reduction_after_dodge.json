@@ -1,0 +1,11 @@
+{
+  "id": "trickster_cooldown_reduction_after_dodge",
+  "class": "trickster",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/trickster_cooldown_reduction_after_dodge",
+  "shape": "proc",
+  "internal_cooldown_ticks": 20,
+  "bonus_base": 0.25,
+  "bonus_per_rank": 0.25
+}

@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "riftfall:block/rift_tear"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "riftfall:block/rift_tear_frame"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "riftfall:block/rift_tear_wall"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "riftfall:block/world_breaker_cracks"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "riftfall:block/world_breaker_ground_light"
+    }
+  ]
+}

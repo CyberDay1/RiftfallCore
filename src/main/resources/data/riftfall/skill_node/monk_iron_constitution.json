@@ -1,0 +1,9 @@
+{
+  "id": "monk_iron_constitution",
+  "class": "monk",
+  "ascendancy": "iron_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "minecraft:generic.max_health",
+  "bonus_per_rank": 2.0
+}

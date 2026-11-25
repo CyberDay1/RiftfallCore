@@ -1,0 +1,9 @@
+{
+  "id": "monk_fist_of_the_dragon",
+  "class": "monk",
+  "ascendancy": "dragon_fist_master",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "apothic_attributes:crit_damage",
+  "bonus_per_rank": 0.12
+}

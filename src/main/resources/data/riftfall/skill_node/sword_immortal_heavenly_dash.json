@@ -1,0 +1,17 @@
+{
+  "id": "sword_immortal_heavenly_dash",
+  "class": "sword_immortal",
+  "ascendancy": "heavenly_blade_saint",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_heavenly_dash",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 30.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  },
+  "category": "movement"
+}

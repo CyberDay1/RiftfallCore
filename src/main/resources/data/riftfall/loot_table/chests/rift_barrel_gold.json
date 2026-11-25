@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "riftfall:chests/rift_barrel_gold",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "riftfall:gear",
+          "weight": 50,
+          "pay_if": [{ "condition": "riftfall:barrel_gear_chance" }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        },
+        { "type": "riftfall:rift_arms", "kind": "gun", "weight": 4, "pay_if": [{ "condition": "riftfall:barrel_gear_chance" }] },
+        { "type": "riftfall:rift_arms", "kind": "attachment", "weight": 6, "pay_if": [{ "condition": "riftfall:barrel_gear_chance" }] }
+      ]
+    }
+  ]
+}

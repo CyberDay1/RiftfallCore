@@ -1,0 +1,16 @@
+{
+  "id": "sword_immortal_energy_shield",
+  "class": "sword_immortal",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_energy_shield",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 31.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1
+  }
+}

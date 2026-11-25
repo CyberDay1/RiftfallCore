@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "riftfall:block/processor_block_15",
+    "side": "riftfall:block/processor_block_15",
+    "top": "riftfall:block/processor_block_15"
+  }
+}

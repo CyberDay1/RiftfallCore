@@ -1,0 +1,30 @@
+{
+  "class": "tactician",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "simplyswords:iron_spear",
+      "fallback": "minecraft:iron_sword"
+    },
+    {
+      "slot": "head",
+      "item": "rogues:warrior_armor_head",
+      "fallback": "minecraft:chainmail_helmet"
+    },
+    {
+      "slot": "chest",
+      "item": "rogues:warrior_armor_chest",
+      "fallback": "minecraft:chainmail_chestplate"
+    },
+    {
+      "slot": "legs",
+      "item": "rogues:warrior_armor_legs",
+      "fallback": "minecraft:chainmail_leggings"
+    },
+    {
+      "slot": "feet",
+      "item": "rogues:warrior_armor_feet",
+      "fallback": "minecraft:chainmail_boots"
+    }
+  ]
+}

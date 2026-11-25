@@ -1,0 +1,49 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "riftfall:resistance",
+    "categories": [
+        "apotheosis:boots",
+        "apotheosis:chestplate",
+        "apotheosis:helmet",
+        "apotheosis:leggings",
+        "apotheosis:shield",
+        "riftfall:necklace",
+        "riftfall:trinket"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.011,
+            "max": 0.022,
+            "step": 0.001375
+        },
+        "apotheosis:uncommon": {
+            "min": 0.0165,
+            "max": 0.03025,
+            "step": 0.001719
+        },
+        "apotheosis:rare": {
+            "min": 0.02475,
+            "max": 0.0385,
+            "step": 0.001719
+        },
+        "apotheosis:epic": {
+            "min": 0.033,
+            "max": 0.04675,
+            "step": 0.001719
+        },
+        "apotheosis:mythic": {
+            "min": 0.044,
+            "max": 0.055,
+            "step": 0.001375
+        }
+    }
+}

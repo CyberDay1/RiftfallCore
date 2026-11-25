@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderstorage"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystalcraft_unlimited_java"
+    }
+  ],
+  "type": "enderstorage:create_recipe",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "C": {
+      "tag": "c:chests/wooden"
+    },
+    "O": {
+      "tag": "c:obsidians"
+    },
+    "P": {
+      "tag": "c:ender_pearls"
+    },
+    "W": {
+      "tag": "c:wools"
+    },
+    "M": {
+      "item": "crystalcraft_unlimited_java:moonstone"
+    }
+  },
+  "pattern": [
+    "MWM",
+    "OCO",
+    "BPB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderstorage:ender_chest"
+  }
+}

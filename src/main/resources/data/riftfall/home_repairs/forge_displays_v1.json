@@ -1,0 +1,13 @@
+{
+  "revision": 1,
+  "tile": "forge_100x100",
+  "frames": [
+    {
+      "position": [50, 25, 51],
+      "facing": "up",
+      "rotation": 4,
+      "from": "better_weaponry:amethyst_hammer",
+      "to": "better_weaponry:iron_hammer"
+    }
+  ]
+}

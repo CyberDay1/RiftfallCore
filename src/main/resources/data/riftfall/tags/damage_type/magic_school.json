@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "spell_power:arcane", "required": false },
+    { "id": "spell_power:fire", "required": false },
+    { "id": "spell_power:frost", "required": false },
+    { "id": "spell_power:healing", "required": false },
+    { "id": "spell_power:lightning", "required": false },
+    { "id": "spell_power:soul", "required": false }
+  ]
+}

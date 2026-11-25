@@ -1,0 +1,35 @@
+{
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "riftfall:block/rift_portal",
+    "portal": "riftfall:block/rift_portal",
+    "depth": "riftfall:block/rift_portal_depth",
+    "core": "riftfall:block/rift_portal_core"
+  },
+  "elements": [
+    {
+      "from": [7.5, 0, 0],
+      "to": [8.5, 16, 16],
+      "faces": {
+        "east": { "uv": [0, 0, 16, 16], "tintindex": 0, "texture": "#core" },
+        "west": { "uv": [0, 0, 16, 16], "tintindex": 0, "texture": "#core" }
+      }
+    },
+    {
+      "from": [6.5, 0, 0],
+      "to": [9.5, 16, 16],
+      "faces": {
+        "east": { "uv": [0, 0, 16, 16], "tintindex": 0, "texture": "#depth" },
+        "west": { "uv": [0, 0, 16, 16], "tintindex": 0, "texture": "#depth" }
+      }
+    },
+    {
+      "from": [5, 0, 0],
+      "to": [11, 16, 16],
+      "faces": {
+        "east": { "uv": [0, 0, 16, 16], "tintindex": 0, "texture": "#portal" },
+        "west": { "uv": [0, 0, 16, 16], "tintindex": 0, "texture": "#portal" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9677 @@
+{
+  "riftfall:rift/room/approach/121/portcullis_climb": {
+    "size": [
+      15,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 13,
+        "face": "north"
+      }
+    ]
+  },
+  "riftfall:rift/room/approach/121/stair_landing": {
+    "size": [
+      15,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 13,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/boss/333/boss_arena": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 13,
+        "face": "west"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/111/filler-1-pat": {
+    "size": [
+      15,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/111/lavapassage-1-jj": {
+    "size": [
+      15,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/111/tavern-1-warren": {
+    "size": [
+      15,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/111/upside_down_passage-1-wh4i3": {
+    "size": [
+      15,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/121/stair_spiral-1-grimm": {
+    "size": [
+      15,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/121/tallhallway-1-jyu": {
+    "size": [
+      15,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/121/tears-1-rachaelrose": {
+    "size": [
+      15,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/121/um-1-rachaelrose": {
+    "size": [
+      15,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/131/floating_rock-1-rev": {
+    "size": [
+      15,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/131/spiraling_snake-1-warren": {
+    "size": [
+      15,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/131/talljump-1-rachaelrose": {
+    "size": [
+      15,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/131/talljump-2-rachaelrose": {
+    "size": [
+      15,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/131/waterjump-1-rachaelrose": {
+    "size": [
+      15,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/211/lava_path-1-rev": {
+    "size": [
+      31,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/211/sneaky_caves-1-mal": {
+    "size": [
+      31,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/211/two_caves-1-jyu": {
+    "size": [
+      31,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/212/bakery-1-rsh": {
+    "size": [
+      31,
+      15,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/212/fountain-1-pat": {
+    "size": [
+      31,
+      15,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/212/swimmypool-1-kiara": {
+    "size": [
+      31,
+      15,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/221/scriptorium_stair": {
+    "size": [
+      31,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/221/twist-1-wout": {
+    "size": [
+      31,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/221/twolayercave-1-jyu": {
+    "size": [
+      31,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/222/chicken-2-rachaelrose": {
+    "size": [
+      31,
+      31,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/222/chicken_2_rachaelrose": {
+    "size": [
+      31,
+      31,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/222/fish-1-rachaelrose": {
+    "size": [
+      31,
+      31,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/222/main_jump-1-rachaelrose": {
+    "size": [
+      31,
+      31,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/222/thingy-1-kiara": {
+    "size": [
+      31,
+      31,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/231/caveychaos-1-jyu": {
+    "size": [
+      31,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/231/staircase-1-ada": {
+    "size": [
+      31,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/232/hall-1-rachaelrose": {
+    "size": [
+      31,
+      47,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/232/hall_1_rachaelrose": {
+    "size": [
+      31,
+      47,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/232/stalactite-1-pat": {
+    "size": [
+      31,
+      47,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/232/stalactite-1-pat-grimm": {
+    "size": [
+      31,
+      47,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          1,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/311/think-1-rachaelrose": {
+    "size": [
+      47,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/311/twisting_hallway-1-warren": {
+    "size": [
+      47,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/311/void_cracks-1-rachaelrose": {
+    "size": [
+      47,
+      15,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/312/brickhall-1-jyu": {
+    "size": [
+      47,
+      15,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/312/colonnade_baths": {
+    "size": [
+      47,
+      15,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/312/water_cave-1-rachaelrose": {
+    "size": [
+      47,
+      15,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/313/thin_cave-1-rachaelrose": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/313/twocaves-2-jyu": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/321/fallingfoor-1-rachaelrose": {
+    "size": [
+      47,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/321/plumbers_nightmare-1-wh4i3": {
+    "size": [
+      47,
+      31,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/322/suspended_gantry": {
+    "size": [
+      47,
+      31,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/322/tree-1-ada": {
+    "size": [
+      47,
+      31,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/323/overlapping_hallways-1-warren": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/323/stablechaoscave-1-jyu": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/331/girder_and_barrel-1-warren": {
+    "size": [
+      47,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/331/talltallcave-1-jyu": {
+    "size": [
+      47,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/331/timber_terraces": {
+    "size": [
+      47,
+      47,
+      15
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/332/city_stair-3-mal": {
+    "size": [
+      47,
+      47,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/332/flower-1-rachaelrose": {
+    "size": [
+      47,
+      47,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/332/flower-1-rahcaelrose": {
+    "size": [
+      47,
+      47,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/333/fractal_cube": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/333/library-1-ada": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/333/menger_sponge-1-wh4i3": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/chaos/333/winding_path-1-mal": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          2,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          2,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/ore/222/geode_chamber": {
+    "size": [
+      31,
+      31,
+      31
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/ore/313/seam_gallery": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/ore/323/crystal_hollow": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/ore/333/crystal_cavern": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          0,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          0,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "east"
+      },
+      {
+        "at": [
+          2,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/portal/333/feature-num-sign": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/portal/333/portal-1-grimm": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/portal/333/portal-1-jyu": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/beanstalk_1_bullzey": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/cave-1-kammy": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/cave_mine-1-jj": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/cave_pillar-1-wout": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/caves-1-grimm": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/caves-2-grimm": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/caves-3-grimm": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/caves-3-grimms": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/caves-4-grimm": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/caves-5-grimm": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/caves-6-grimm": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/cavey_cave-1-jyu": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/drained_cistern": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/false_idols-1-wh4i3_kiara": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/filled_1_temp": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/forst-1-rachael": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/lakey_cave-1-jyu": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/muki_cave1": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/open_cave-1-jyu": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/open_cave-1-kammy": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/openopencave-1-jyu": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/pillar-1-jyu": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/terraced_excavation": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/topdown_cave_standin": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/tree-1-kammy": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/waterfall-1-kammy": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/waterfall_cave-1-jyu": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/stable/333/waterfall_cave-1-kammy": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/313/flatcave-1-jyu": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/313/freight_exchange": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/313/horse_1_rachaelrose": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/313/room-2-ejb": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/313/stable_1_rachaelrose": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/313/town-2-ejb": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/313/turning_trails-1-warren": {
+    "size": [
+      47,
+      15,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/flour-1-rachaelrose": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/flour_1_rachaelrose": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/hub-hub-bub-4-mine": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/hub_hub_bub-4-mal": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/ossuary_procession": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/ruins-1-wout": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/tallcave-1-jyu": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          0,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          0,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          0,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/village-1-rachael": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/village-1-rachaelrose": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/village-2-rachael": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/village-2-rachaelrose": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/village-3-rachael": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/323/village-3-rachaelrose": {
+    "size": [
+      47,
+      31,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/333/broken_archive": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/333/counterweight_foundry": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/333/hall-1-jyu": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/333/nether_fortress-1-ejb": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/333/ruined_bridge-1-wh4i3": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  },
+  "riftfall:rift/room/unstable/333/winding_flower_tree-1-mal": {
+    "size": [
+      47,
+      47,
+      47
+    ],
+    "sockets": [
+      {
+        "at": [
+          0,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "west"
+      },
+      {
+        "at": [
+          1,
+          1,
+          0
+        ],
+        "elevation": 6,
+        "face": "north"
+      },
+      {
+        "at": [
+          1,
+          1,
+          2
+        ],
+        "elevation": 6,
+        "face": "south"
+      },
+      {
+        "at": [
+          2,
+          1,
+          1
+        ],
+        "elevation": 6,
+        "face": "east"
+      }
+    ]
+  }
+}

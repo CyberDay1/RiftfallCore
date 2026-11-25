@@ -1,0 +1,11 @@
+{
+  "kind": "theme",
+  "weight": 8,
+  "count": 1,
+  "xp": 40,
+  "rewards": [
+    {
+      "id": "apotheosis:sigil_of_withdrawal"
+    }
+  ]
+}

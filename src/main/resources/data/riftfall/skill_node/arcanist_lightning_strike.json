@@ -1,0 +1,16 @@
+{
+  "id": "arcanist_lightning_strike",
+  "class": "arcanist",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:arcanist_lightning_strike",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 30.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "tactician_cooldowns_reduced",
+  "class": "tactician",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:ability_haste",
+  "bonus_per_rank": 6.0
+}

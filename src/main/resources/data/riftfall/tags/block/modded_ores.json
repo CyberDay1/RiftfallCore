@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:ores",
+      "required": false
+    },
+    {
+      "id": "jewelry:gem_vein",
+      "required": false
+    },
+    {
+      "id": "jewelry:deepslate_gem_vein",
+      "required": false
+    },
+    {
+      "id": "diamethysts:diamethyst_block_budding",
+      "required": false
+    }
+  ]
+}

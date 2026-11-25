@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "buildinggadgets2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystalcraft_unlimited_java"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "buildinggadgets2",
+  "key": {
+    "d": {
+      "item": "crystalcraft_unlimited_java:alexandrite"
+    },
+    "i": {
+      "tag": "c:ingots/iron"
+    },
+    "l": {
+      "tag": "c:gems/lapis"
+    },
+    "r": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "iri",
+    "dld",
+    "ili"
+  ],
+  "result": {
+    "count": 1,
+    "id": "buildinggadgets2:gadget_exchanging"
+  }
+}

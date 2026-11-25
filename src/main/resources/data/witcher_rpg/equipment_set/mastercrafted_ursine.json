@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witcher_rpg"
+    }
+  ],
+  "name": "mastercrafted_ursine",
+  "items": [
+    "witcher_rpg:mastercrafted_ursine_head",
+    "witcher_rpg:mastercrafted_ursine_chest",
+    "witcher_rpg:mastercrafted_ursine_legs",
+    "witcher_rpg:mastercrafted_ursine_feet"
+  ],
+  "bonuses": []
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "archers_expansion"
+    }
+  ],
+  "name": "bounty_hunter",
+  "items": [
+    "archers_expansion:bounty_hunter_head",
+    "archers_expansion:bounty_hunter_chest",
+    "archers_expansion:bounty_hunter_legs",
+    "archers_expansion:bounty_hunter_feet"
+  ],
+  "bonuses": []
+}

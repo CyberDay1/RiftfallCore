@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "anarchy_rpg"
+    }
+  ],
+  "name": "savant_red",
+  "items": [
+    "anarchy_rpg:sanguine_fire_chest",
+    "anarchy_rpg:sanguine_fire_legs"
+  ],
+  "bonuses": []
+}

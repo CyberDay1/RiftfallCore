@@ -1,0 +1,263 @@
+{
+  "materials": {
+    "1": [
+      {
+        "block": "enderscape:celestial_bricks",
+        "weight": 4.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:stripped_celestial_stem"
+        }
+      },
+      {
+        "block": "enderscape:murublight_bricks",
+        "weight": 2.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:dusk_purpur_pillar"
+        }
+      },
+      {
+        "block": "minecraft:mossy_stone_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "2": [
+      {
+        "block": "minecraft:mossy_cobblestone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "3": [
+      {
+        "block": "enderscape:celestial_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:stripped_celestial_stem"
+        }
+      }
+    ],
+    "4": [
+      {
+        "block": "enderscape:murublight_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:dusk_purpur_pillar"
+        }
+      }
+    ],
+    "5": [
+      {
+        "block": "minecraft:mossy_stone_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "6": [
+      {
+        "block": "enderscape:celestial_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:stripped_celestial_stem"
+        }
+      }
+    ],
+    "7": [
+      {
+        "block": "enderscape:celestial_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:stripped_celestial_stem"
+        }
+      }
+    ],
+    "8": [
+      {
+        "block": "minecraft:mossy_cobblestone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "9": [
+      {
+        "block": "enderscape:murublight_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:dusk_purpur_pillar"
+        }
+      }
+    ],
+    "10": [
+      {
+        "block": "enderscape:celestial_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:stripped_celestial_stem"
+        }
+      }
+    ],
+    "11": [
+      {
+        "block": "deep_aether:yagroot_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "minecraft:warped_stem"
+        }
+      }
+    ],
+    "12": [
+      {
+        "block": "minecraft:warped_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "minecraft:warped_stem"
+        }
+      }
+    ],
+    "13": [
+      {
+        "block": "minecraft:mossy_stone_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "14": [
+      {
+        "block": "enderscape:celestial_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:stripped_celestial_stem"
+        }
+      }
+    ],
+    "15": [
+      {
+        "block": "enderscape:murublight_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:lime_stained_glass",
+          "glass_pane": "minecraft:lime_stained_glass_pane",
+          "directional_pillar": "enderscape:dusk_purpur_pillar"
+        }
+      }
+    ]
+  },
+  "fallback": "minecraft:mossy_stone_bricks",
+  "noise_scale": [
+    0.055,
+    0.055,
+    0.055
+  ],
+  "seed_adjustment": 16001,
+  "decorators": [
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:brown_mushroom",
+      "rarity": 0.035,
+      "seed": 16002,
+      "requires_down": true
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:red_mushroom",
+      "rarity": 0.02,
+      "seed": 16003,
+      "requires_down": true
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:soul_lantern[hanging=true]",
+      "rarity": 0.018,
+      "seed": 16004,
+      "requires_up": true
+    },
+    {
+      "type": "riftfall:vine",
+      "attach_to_wall": true,
+      "attach_to_ceiling": true,
+      "rarity": 0.09
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:poison_plate",
+        "darkutils:slowness_plate",
+        "darkutils:hunger_plate"
+      ],
+      "decoy": "minecraft:stone_pressure_plate",
+      "room_kinds": [
+        "approach",
+        "chaos",
+        "stable",
+        "unstable",
+        "boss"
+      ],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 16001
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "stone",
+      "home": "peridot",
+      "light": "minecraft:shroomlight"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "stone",
+      "home": "peridot",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:shroomlight",
+      "ceiling": "minecraft:shroomlight",
+      "floor": "minecraft:shroomlight",
+      "hanging": "minecraft:soul_lantern[hanging=true]",
+      "seed": 16005
+    }
+  ]
+}

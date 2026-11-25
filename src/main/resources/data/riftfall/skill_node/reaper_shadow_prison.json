@@ -1,0 +1,17 @@
+{
+  "id": "reaper_shadow_prison",
+  "class": "reaper",
+  "ascendancy": "void_harvester",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:reaper_shadow_prison",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 320,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  }
+}

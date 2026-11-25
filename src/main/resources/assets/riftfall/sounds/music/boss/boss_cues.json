@@ -1,0 +1,258 @@
+{
+  "music.boss.aotj.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/aotj/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.aotj.loop_i": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/aotj/loop_i",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.aotj.loop_ii": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/aotj/loop_ii",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.aotj.outro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/aotj/outro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.cotd.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/cotd/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.cotd.loop_i": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/cotd/loop_i",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.cotd.loop_ii": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/cotd/loop_ii",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.cotd.outro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/cotd/outro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.dotb_a.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/dotb_a/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.dotb_a.loop_i": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/dotb_a/loop_i",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.dotb_a.loop_ii": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/dotb_a/loop_ii",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.dotb_a.outro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/dotb_a/outro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.dotb_b.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/dotb_b/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.dotb_b.loop_i": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/dotb_b/loop_i",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.dotb_b.loop_ii": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/dotb_b/loop_ii",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.dotb_b.outro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/dotb_b/outro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.it.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/it/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.it.loop_i": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/it/loop_i",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.it.loop_ii": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/it/loop_ii",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.it.outro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/it/outro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.ntli.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/ntli/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.ntli.loop_i": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/ntli/loop_i",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.ntli.loop_ii": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/ntli/loop_ii",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.ntli.outro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/ntli/outro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.tboa.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/tboa/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.tboa.loop_i": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/tboa/loop_i",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.tboa.loop_ii": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/tboa/loop_ii",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.tboa.outro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/tboa/outro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.teoas.loop_i": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/teoas/loop_i",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.tota.intro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/tota/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.tota.loop_i": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/tota/loop_i",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.tota.outro": {
+    "sounds": [
+      {
+        "name": "riftfall:music/boss/tota/outro",
+        "stream": true
+      }
+    ]
+  }
+}

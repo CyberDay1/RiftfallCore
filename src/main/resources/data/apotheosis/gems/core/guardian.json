@@ -1,0 +1,72 @@
+{
+    "type": "apotheosis:gem",
+    "min_purity": "cracked",
+    "unique": true,
+    "weights": {
+        "weight": 100,
+        "quality": 0.1
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:threat_generation",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.015,
+                "chipped": 0.02,
+                "flawed": 0.028,
+                "normal": 0.035,
+                "flawless": 0.043,
+                "perfect": 0.05
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:guard",
+            "gem_class": {
+                "key": "shield",
+                "types": [
+                    "apotheosis:shield"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.009,
+                "chipped": 0.012,
+                "flawed": 0.017,
+                "normal": 0.021,
+                "flawless": 0.026,
+                "perfect": 0.03
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.armor",
+            "gem_class": {
+                "key": "armor",
+                "types": [
+                    "apotheosis:helmet",
+                    "apotheosis:chestplate",
+                    "apotheosis:leggings",
+                    "apotheosis:boots"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.3,
+                "chipped": 0.4,
+                "flawed": 0.55,
+                "normal": 0.7,
+                "flawless": 0.85,
+                "perfect": 1.0
+            }
+        }
+    ]
+}

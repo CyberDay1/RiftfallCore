@@ -1,0 +1,31 @@
+{
+  "class": "trickster",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "simplyswords:iron_chakram",
+      "fallback": "minecraft:stone_sword"
+    },
+    {
+      "slot": "offhand",
+      "item": "rogues:iron_dagger",
+      "fallback": "minecraft:stone_sword"
+    },
+    {
+      "slot": "head",
+      "item": "rogues:rogue_armor_head"
+    },
+    {
+      "slot": "chest",
+      "item": "rogues:rogue_armor_chest"
+    },
+    {
+      "slot": "legs",
+      "item": "rogues:rogue_armor_legs"
+    },
+    {
+      "slot": "feet",
+      "item": "rogues:rogue_armor_feet"
+    }
+  ]
+}

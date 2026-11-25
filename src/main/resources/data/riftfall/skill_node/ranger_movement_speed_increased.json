@@ -1,0 +1,8 @@
+{
+  "id": "ranger_movement_speed_increased",
+  "class": "ranger",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "minecraft:generic.movement_speed",
+  "bonus_per_rank": 0.005
+}

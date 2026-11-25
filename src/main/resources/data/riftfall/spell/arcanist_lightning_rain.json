@@ -1,0 +1,1008 @@
+{
+  "school": "riftfall:arcana",
+  "active": {
+    "cast": {}
+  },
+  "range": 20.0,
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "reposition_vertically": -4.0
+    }
+  },
+  "deliver": {
+    "type": "CLOUD",
+    "clouds": [
+      {
+        "spawn_ticks": 1,
+        "despawn_ticks": 0,
+        "impact_tick_interval": 20,
+        "time_to_live_seconds": 4.0,
+        "volume": {
+          "radius": 4.0,
+          "area": {
+            "vertical_range_multiplier": 1.0
+          }
+        },
+        "client_data": {
+          "particle_spawn_interval": 5,
+          "interval_particles": [
+            {
+              "id": "minecraft:electric_spark",
+              "appearance": {},
+              "batch": {
+                "count": 5.0,
+                "shape": "PILLAR",
+                "anchor": "GROUND",
+                "extent": 0.0,
+                "min_speed": 0.02,
+                "max_speed": 0.04
+              }
+            }
+          ],
+          "model_fx": [
+            {
+              "model_id": "riftfall:spell_effect/lightning_bolt",
+              "duration": 80,
+              "scale": 2.5,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "x": 1.6,
+                  "y": 1.8,
+                  "z": 0.0
+                },
+                {
+                  "operation": "scale",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "scale",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 4,
+                  "end": 6,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 20,
+                  "end": 20,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 24,
+                  "end": 26,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 40,
+                  "end": 40,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 44,
+                  "end": 46,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 60,
+                  "end": 60,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 64,
+                  "end": 66,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_effect/lightning_bolt",
+              "duration": 80,
+              "scale": 2.5,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "x": 1.8385,
+                  "y": 1.8,
+                  "z": 1.8385
+                },
+                {
+                  "operation": "scale",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "scale",
+                  "start": 1,
+                  "end": 1,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 5,
+                  "end": 7,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 21,
+                  "end": 21,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 25,
+                  "end": 27,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 41,
+                  "end": 41,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 45,
+                  "end": 47,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 61,
+                  "end": 61,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 65,
+                  "end": 67,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_effect/lightning_bolt",
+              "duration": 80,
+              "scale": 2.5,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "x": 0.0,
+                  "y": 1.8,
+                  "z": 1.6
+                },
+                {
+                  "operation": "scale",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "scale",
+                  "start": 2,
+                  "end": 2,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 6,
+                  "end": 8,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 22,
+                  "end": 22,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 26,
+                  "end": 28,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 42,
+                  "end": 42,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 46,
+                  "end": 48,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 62,
+                  "end": 62,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 66,
+                  "end": 68,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_effect/lightning_bolt",
+              "duration": 80,
+              "scale": 2.5,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "x": -1.8385,
+                  "y": 1.8,
+                  "z": 1.8385
+                },
+                {
+                  "operation": "scale",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "scale",
+                  "start": 3,
+                  "end": 3,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 7,
+                  "end": 9,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 23,
+                  "end": 23,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 27,
+                  "end": 29,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 43,
+                  "end": 43,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 47,
+                  "end": 49,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 63,
+                  "end": 63,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 67,
+                  "end": 69,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_effect/lightning_bolt",
+              "duration": 80,
+              "scale": 2.5,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "x": -1.6,
+                  "y": 1.8,
+                  "z": 0.0
+                },
+                {
+                  "operation": "scale",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "scale",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 4,
+                  "end": 6,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 20,
+                  "end": 20,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 24,
+                  "end": 26,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 40,
+                  "end": 40,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 44,
+                  "end": 46,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 60,
+                  "end": 60,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 64,
+                  "end": 66,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_effect/lightning_bolt",
+              "duration": 80,
+              "scale": 2.5,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "x": -1.8385,
+                  "y": 1.8,
+                  "z": -1.8385
+                },
+                {
+                  "operation": "scale",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "scale",
+                  "start": 1,
+                  "end": 1,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 5,
+                  "end": 7,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 21,
+                  "end": 21,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 25,
+                  "end": 27,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 41,
+                  "end": 41,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 45,
+                  "end": 47,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 61,
+                  "end": 61,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 65,
+                  "end": 67,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_effect/lightning_bolt",
+              "duration": 80,
+              "scale": 2.5,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "x": -0.0,
+                  "y": 1.8,
+                  "z": -1.6
+                },
+                {
+                  "operation": "scale",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "scale",
+                  "start": 2,
+                  "end": 2,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 6,
+                  "end": 8,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 22,
+                  "end": 22,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 26,
+                  "end": 28,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 42,
+                  "end": 42,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 46,
+                  "end": 48,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 62,
+                  "end": 62,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 66,
+                  "end": 68,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_effect/lightning_bolt",
+              "duration": 80,
+              "scale": 2.5,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "x": 1.8385,
+                  "y": 1.8,
+                  "z": -1.8385
+                },
+                {
+                  "operation": "scale",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "scale",
+                  "start": 3,
+                  "end": 3,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 7,
+                  "end": 9,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 23,
+                  "end": 23,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 27,
+                  "end": 29,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 43,
+                  "end": 43,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 47,
+                  "end": 49,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 63,
+                  "end": 63,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 67,
+                  "end": 69,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_effect/lightning_bolt",
+              "duration": 80,
+              "scale": 2.5,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "x": 0.0,
+                  "y": 1.8,
+                  "z": -0.0
+                },
+                {
+                  "operation": "scale",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "scale",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 4,
+                  "end": 6,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 20,
+                  "end": 20,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 24,
+                  "end": 26,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 40,
+                  "end": 40,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 44,
+                  "end": 46,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                },
+                {
+                  "operation": "scale",
+                  "start": 60,
+                  "end": 60,
+                  "easing": "LINEAR",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                {
+                  "operation": "scale",
+                  "start": 64,
+                  "end": 66,
+                  "easing": "LINEAR",
+                  "x": -1,
+                  "y": -1,
+                  "z": -1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.player.attack.sweep",
+      "volume": 0.55,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:one_handed_area_release_ground_left_to_right",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 1943011327,
+            "scale": 0.35,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 12.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "extent": 0.2,
+            "min_speed": 0.03,
+            "max_speed": 0.06
+          }
+        },
+        {
+          "id": "minecraft:electric_spark",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.08
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.8,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "minecraft:electric_spark",
+            "appearance": {},
+            "batch": {
+              "count": 2.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.02,
+              "max_speed": 0.04
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:entity.player.attack.sweep",
+        "volume": 0.12,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

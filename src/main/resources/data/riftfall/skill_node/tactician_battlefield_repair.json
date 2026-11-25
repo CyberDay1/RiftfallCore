@@ -1,0 +1,18 @@
+{
+  "id": "tactician_battlefield_repair",
+  "class": "tactician",
+  "ascendancy": "siege_marshal",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:tactician_battlefield_repair",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 45.0,
+  "base_cooldown_ticks": 320,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "heal",
+    "magnitude_per_rank": 0.1
+  },
+  "category": "heal"
+}

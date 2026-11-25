@@ -1,0 +1,16 @@
+{
+  "id": "gunner_seismic_charge",
+  "class": "gunner",
+  "ascendancy": "demolitionist",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:gunner_seismic_charge",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 320,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  }
+}

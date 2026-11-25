@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "activated=false": {
+      "model": "riftfall:block/objective_block"
+    },
+    "activated=true": {
+      "model": "riftfall:block/objective_block"
+    }
+  }
+}

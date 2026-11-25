@@ -1,0 +1,3086 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "world_breaker_crystal": "riftfall:block/world_breaker_crystal",
+    "world_breaker_dais_side": "riftfall:block/world_breaker_dais_side",
+    "world_breaker_dais_top": "riftfall:block/world_breaker_dais_top",
+    "world_breaker_inlay_ember2": "riftfall:block/world_breaker_inlay_ember2",
+    "particle": "riftfall:block/world_breaker_obsidian",
+    "world_breaker_obsidian": "riftfall:block/world_breaker_obsidian",
+    "world_breaker_slit_idle": "riftfall:block/world_breaker_slit_idle",
+    "world_breaker_socket_side": "riftfall:block/world_breaker_socket_side",
+    "world_breaker_socket_top_idle": "riftfall:block/world_breaker_socket_top_idle",
+    "world_breaker_bridge_ember2": "riftfall:block/world_breaker_bridge_ember2"
+  },
+  "elements": [
+    {
+      "name": "foot",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_obsidian"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_obsidian",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "body",
+      "from": [
+        1,
+        2,
+        1
+      ],
+      "to": [
+        15,
+        4,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            12,
+            15,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            1,
+            12,
+            15,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            1,
+            12,
+            15,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            1,
+            12,
+            15,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#world_breaker_dais_top"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#world_breaker_dais_top"
+        }
+      }
+    },
+    {
+      "name": "pad_nw",
+      "from": [
+        0,
+        2,
+        0
+      ],
+      "to": [
+        4,
+        5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            11,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            12,
+            11,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            11,
+            4,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            11,
+            4,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "texture": "#world_breaker_obsidian"
+        },
+        "down": {
+          "uv": [
+            0,
+            12,
+            4,
+            16
+          ],
+          "texture": "#world_breaker_obsidian"
+        }
+      }
+    },
+    {
+      "name": "pad_ne",
+      "from": [
+        12,
+        2,
+        0
+      ],
+      "to": [
+        16,
+        5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            11,
+            4,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            12,
+            11,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            12,
+            11,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            11,
+            4,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            12,
+            0,
+            16,
+            4
+          ],
+          "texture": "#world_breaker_obsidian"
+        },
+        "down": {
+          "uv": [
+            12,
+            12,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_obsidian"
+        }
+      }
+    },
+    {
+      "name": "pad_sw",
+      "from": [
+        0,
+        2,
+        12
+      ],
+      "to": [
+        4,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            11,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            11,
+            4,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            11,
+            4,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            12,
+            11,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            12,
+            4,
+            16
+          ],
+          "texture": "#world_breaker_obsidian"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "texture": "#world_breaker_obsidian"
+        }
+      }
+    },
+    {
+      "name": "pad_se",
+      "from": [
+        12,
+        2,
+        12
+      ],
+      "to": [
+        16,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            11,
+            4,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            11,
+            4,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            12,
+            11,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            12,
+            11,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            12,
+            12,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_obsidian"
+        },
+        "down": {
+          "uv": [
+            12,
+            0,
+            16,
+            4
+          ],
+          "texture": "#world_breaker_obsidian"
+        }
+      }
+    },
+    {
+      "name": "merlon_n",
+      "from": [
+        6,
+        2,
+        0
+      ],
+      "to": [
+        10,
+        6,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            10,
+            10,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            14,
+            10,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            6,
+            10,
+            10,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            10,
+            2,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            6,
+            0,
+            10,
+            2
+          ],
+          "texture": "#world_breaker_obsidian"
+        },
+        "down": {
+          "uv": [
+            6,
+            14,
+            10,
+            16
+          ],
+          "texture": "#world_breaker_obsidian"
+        }
+      }
+    },
+    {
+      "name": "merlon_e",
+      "from": [
+        14,
+        2,
+        6
+      ],
+      "to": [
+        16,
+        6,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            10,
+            2,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            6,
+            10,
+            10,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            14,
+            10,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            6,
+            10,
+            10,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            14,
+            6,
+            16,
+            10
+          ],
+          "texture": "#world_breaker_obsidian"
+        },
+        "down": {
+          "uv": [
+            14,
+            6,
+            16,
+            10
+          ],
+          "texture": "#world_breaker_obsidian"
+        }
+      }
+    },
+    {
+      "name": "merlon_s",
+      "from": [
+        6,
+        2,
+        14
+      ],
+      "to": [
+        10,
+        6,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            10,
+            10,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            10,
+            2,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            6,
+            10,
+            10,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            14,
+            10,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            6,
+            14,
+            10,
+            16
+          ],
+          "texture": "#world_breaker_obsidian"
+        },
+        "down": {
+          "uv": [
+            6,
+            0,
+            10,
+            2
+          ],
+          "texture": "#world_breaker_obsidian"
+        }
+      }
+    },
+    {
+      "name": "merlon_w",
+      "from": [
+        0,
+        2,
+        6
+      ],
+      "to": [
+        2,
+        6,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            10,
+            16,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "east": {
+          "uv": [
+            6,
+            10,
+            10,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            10,
+            2,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "west": {
+          "uv": [
+            6,
+            10,
+            10,
+            14
+          ],
+          "texture": "#world_breaker_dais_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            6,
+            2,
+            10
+          ],
+          "texture": "#world_breaker_obsidian"
+        },
+        "down": {
+          "uv": [
+            0,
+            6,
+            2,
+            10
+          ],
+          "texture": "#world_breaker_obsidian"
+        }
+      }
+    },
+    {
+      "name": "slit_n",
+      "from": [
+        7,
+        2.5,
+        -0.01
+      ],
+      "to": [
+        9,
+        5.5,
+        -0.01
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            10.5,
+            9,
+            13.5
+          ],
+          "texture": "#world_breaker_slit_idle"
+        }
+      }
+    },
+    {
+      "name": "slit_e",
+      "from": [
+        16.01,
+        2.5,
+        7
+      ],
+      "to": [
+        16.01,
+        5.5,
+        9
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7,
+            10.5,
+            9,
+            13.5
+          ],
+          "texture": "#world_breaker_slit_idle"
+        }
+      }
+    },
+    {
+      "name": "slit_s",
+      "from": [
+        7,
+        2.5,
+        16.01
+      ],
+      "to": [
+        9,
+        5.5,
+        16.01
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7,
+            10.5,
+            9,
+            13.5
+          ],
+          "texture": "#world_breaker_slit_idle"
+        }
+      }
+    },
+    {
+      "name": "slit_w",
+      "from": [
+        -0.01,
+        2.5,
+        7
+      ],
+      "to": [
+        -0.01,
+        5.5,
+        9
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7,
+            10.5,
+            9,
+            13.5
+          ],
+          "texture": "#world_breaker_slit_idle"
+        }
+      }
+    },
+    {
+      "name": "socket",
+      "from": [
+        5,
+        4,
+        5
+      ],
+      "to": [
+        11,
+        5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            11,
+            11,
+            12
+          ],
+          "texture": "#world_breaker_socket_side"
+        },
+        "east": {
+          "uv": [
+            5,
+            11,
+            11,
+            12
+          ],
+          "texture": "#world_breaker_socket_side"
+        },
+        "south": {
+          "uv": [
+            5,
+            11,
+            11,
+            12
+          ],
+          "texture": "#world_breaker_socket_side"
+        },
+        "west": {
+          "uv": [
+            5,
+            11,
+            11,
+            12
+          ],
+          "texture": "#world_breaker_socket_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_socket_top_idle"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#world_breaker_socket_top_idle"
+        }
+      }
+    },
+    {
+      "name": "inlay",
+      "from": [
+        1,
+        4.01,
+        1
+      ],
+      "to": [
+        15,
+        4.01,
+        15
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#world_breaker_inlay_ember2"
+        }
+      },
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "name": "shard_nw",
+      "from": [
+        0.75,
+        5,
+        0.75
+      ],
+      "to": [
+        3.25,
+        9,
+        3.25
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          2,
+          5,
+          2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            7,
+            15.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            12.75,
+            7,
+            15.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            7,
+            3.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            7,
+            3.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            0.75,
+            3.25,
+            3.25
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            12.75,
+            3.25,
+            15.25
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_lean_x_nw",
+      "from": [
+        0.5,
+        5,
+        2.5
+      ],
+      "to": [
+        1.5,
+        9,
+        3.5
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          1,
+          5,
+          3
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            7,
+            15.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            7,
+            13.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            7,
+            1.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            7,
+            3.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            2.5,
+            1.5,
+            3.5
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            12.5,
+            1.5,
+            13.5
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_lean_z_nw",
+      "from": [
+        2.5,
+        5,
+        0.5
+      ],
+      "to": [
+        3.5,
+        8,
+        1.5
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [
+          3,
+          5,
+          1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            8,
+            13.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            14.5,
+            8,
+            15.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            8,
+            3.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            8,
+            1.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            0.5,
+            3.5,
+            1.5
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            14.5,
+            3.5,
+            15.5
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_ne",
+      "from": [
+        12.75,
+        5,
+        0.75
+      ],
+      "to": [
+        15.25,
+        9,
+        3.25
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          14,
+          5,
+          2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            7,
+            3.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            12.75,
+            7,
+            15.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            12.75,
+            7,
+            15.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            7,
+            3.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            12.75,
+            0.75,
+            15.25,
+            3.25
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            12.75,
+            15.25,
+            15.25
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_lean_x_ne",
+      "from": [
+        14.5,
+        5,
+        2.5
+      ],
+      "to": [
+        15.5,
+        9,
+        3.5
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          15,
+          5,
+          3
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0.5,
+            7,
+            1.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            7,
+            13.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            7,
+            15.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            7,
+            3.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            14.5,
+            2.5,
+            15.5,
+            3.5
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            14.5,
+            12.5,
+            15.5,
+            13.5
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_lean_z_ne",
+      "from": [
+        12.5,
+        5,
+        0.5
+      ],
+      "to": [
+        13.5,
+        8,
+        1.5
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [
+          13,
+          5,
+          1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            8,
+            3.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            14.5,
+            8,
+            15.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            8,
+            13.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            8,
+            1.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            0.5,
+            13.5,
+            1.5
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            14.5,
+            13.5,
+            15.5
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_sw",
+      "from": [
+        0.75,
+        5,
+        12.75
+      ],
+      "to": [
+        3.25,
+        9,
+        15.25
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          2,
+          5,
+          14
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            7,
+            15.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            0.75,
+            7,
+            3.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            7,
+            3.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            7,
+            15.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            12.75,
+            3.25,
+            15.25
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            0.75,
+            3.25,
+            3.25
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_lean_x_sw",
+      "from": [
+        0.5,
+        5,
+        12.5
+      ],
+      "to": [
+        1.5,
+        9,
+        13.5
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          1,
+          5,
+          13
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            7,
+            15.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            7,
+            3.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            7,
+            1.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            7,
+            13.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            12.5,
+            1.5,
+            13.5
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            2.5,
+            1.5,
+            3.5
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_lean_z_sw",
+      "from": [
+        2.5,
+        5,
+        14.5
+      ],
+      "to": [
+        3.5,
+        8,
+        15.5
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "x",
+        "origin": [
+          3,
+          5,
+          15
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            8,
+            13.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            0.5,
+            8,
+            1.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            8,
+            3.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            14.5,
+            8,
+            15.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            14.5,
+            3.5,
+            15.5
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            0.5,
+            3.5,
+            1.5
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_se",
+      "from": [
+        12.75,
+        5,
+        12.75
+      ],
+      "to": [
+        15.25,
+        9,
+        15.25
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          14,
+          5,
+          14
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            7,
+            3.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            0.75,
+            7,
+            3.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            12.75,
+            7,
+            15.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            7,
+            15.25,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            12.75,
+            12.75,
+            15.25,
+            15.25
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            0.75,
+            15.25,
+            3.25
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_lean_x_se",
+      "from": [
+        14.5,
+        5,
+        12.5
+      ],
+      "to": [
+        15.5,
+        9,
+        13.5
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          15,
+          5,
+          13
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0.5,
+            7,
+            1.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            7,
+            3.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            7,
+            15.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            7,
+            13.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            14.5,
+            12.5,
+            15.5,
+            13.5
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            14.5,
+            2.5,
+            15.5,
+            3.5
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "shard_lean_z_se",
+      "from": [
+        12.5,
+        5,
+        14.5
+      ],
+      "to": [
+        13.5,
+        8,
+        15.5
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "x",
+        "origin": [
+          13,
+          5,
+          15
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            8,
+            3.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            0.5,
+            8,
+            1.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            8,
+            13.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            14.5,
+            8,
+            15.5,
+            11
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            14.5,
+            13.5,
+            15.5
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            0.5,
+            13.5,
+            1.5
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "settle_shard_nw",
+      "from": [
+        0.75,
+        10,
+        0.75
+      ],
+      "to": [
+        3.25,
+        14,
+        3.25
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          2,
+          10,
+          2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            2,
+            15.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            12.75,
+            2,
+            15.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            2,
+            3.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            2,
+            3.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            0.75,
+            3.25,
+            3.25
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            12.75,
+            3.25,
+            15.25
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "settle_point_nw",
+      "from": [
+        1.4,
+        14,
+        1.4
+      ],
+      "to": [
+        2.6,
+        16,
+        2.6
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          2,
+          14,
+          2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13.4,
+            0,
+            14.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            13.4,
+            0,
+            14.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            1.4,
+            0,
+            2.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            1.4,
+            0,
+            2.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            1.4,
+            1.4,
+            2.6,
+            2.6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            1.4,
+            13.4,
+            2.6,
+            14.6
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "settle_shard_ne",
+      "from": [
+        12.75,
+        10,
+        0.75
+      ],
+      "to": [
+        15.25,
+        14,
+        3.25
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          14,
+          10,
+          2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            2,
+            3.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            12.75,
+            2,
+            15.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            12.75,
+            2,
+            15.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            2,
+            3.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            12.75,
+            0.75,
+            15.25,
+            3.25
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            12.75,
+            15.25,
+            15.25
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "settle_point_ne",
+      "from": [
+        13.4,
+        14,
+        1.4
+      ],
+      "to": [
+        14.6,
+        16,
+        2.6
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          14,
+          14,
+          2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1.4,
+            0,
+            2.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            13.4,
+            0,
+            14.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            13.4,
+            0,
+            14.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            1.4,
+            0,
+            2.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            13.4,
+            1.4,
+            14.6,
+            2.6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            13.4,
+            13.4,
+            14.6,
+            14.6
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "settle_shard_sw",
+      "from": [
+        0.75,
+        10,
+        12.75
+      ],
+      "to": [
+        3.25,
+        14,
+        15.25
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          2,
+          10,
+          14
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            2,
+            15.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            0.75,
+            2,
+            3.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            2,
+            3.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            2,
+            15.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            12.75,
+            3.25,
+            15.25
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            0.75,
+            3.25,
+            3.25
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "settle_point_sw",
+      "from": [
+        1.4,
+        14,
+        13.4
+      ],
+      "to": [
+        2.6,
+        16,
+        14.6
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          2,
+          14,
+          14
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13.4,
+            0,
+            14.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            1.4,
+            0,
+            2.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            1.4,
+            0,
+            2.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            13.4,
+            0,
+            14.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            1.4,
+            13.4,
+            2.6,
+            14.6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            1.4,
+            1.4,
+            2.6,
+            2.6
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "settle_shard_se",
+      "from": [
+        12.75,
+        10,
+        12.75
+      ],
+      "to": [
+        15.25,
+        14,
+        15.25
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          14,
+          10,
+          14
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            2,
+            3.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            0.75,
+            2,
+            3.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            12.75,
+            2,
+            15.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            2,
+            15.25,
+            6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            12.75,
+            12.75,
+            15.25,
+            15.25
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            0.75,
+            15.25,
+            3.25
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "settle_point_se",
+      "from": [
+        13.4,
+        14,
+        13.4
+      ],
+      "to": [
+        14.6,
+        16,
+        14.6
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          14,
+          14,
+          14
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1.4,
+            0,
+            2.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "east": {
+          "uv": [
+            1.4,
+            0,
+            2.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "south": {
+          "uv": [
+            13.4,
+            0,
+            14.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "west": {
+          "uv": [
+            13.4,
+            0,
+            14.6,
+            2
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "up": {
+          "uv": [
+            13.4,
+            13.4,
+            14.6,
+            14.6
+          ],
+          "texture": "#world_breaker_crystal"
+        },
+        "down": {
+          "uv": [
+            13.4,
+            1.4,
+            14.6,
+            2.6
+          ],
+          "texture": "#world_breaker_crystal"
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_0_5_0",
+      "from": [
+        4,
+        2,
+        0.99
+      ],
+      "to": [
+        6,
+        4,
+        0.99
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            0,
+            16,
+            6.4
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_0_5_1",
+      "from": [
+        4,
+        2.01,
+        0
+      ],
+      "to": [
+        6,
+        2.01,
+        1
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            6.4,
+            16,
+            9.6
+          ],
+          "rotation": 180
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_0_5_2",
+      "from": [
+        4,
+        0,
+        -0.01
+      ],
+      "to": [
+        6,
+        2,
+        -0.01
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            9.6,
+            16,
+            16
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_0_11_0",
+      "from": [
+        10,
+        2,
+        0.99
+      ],
+      "to": [
+        12,
+        4,
+        0.99
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            0,
+            16,
+            6.4
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_0_11_1",
+      "from": [
+        10,
+        2.01,
+        0
+      ],
+      "to": [
+        12,
+        2.01,
+        1
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            6.4,
+            16,
+            9.6
+          ],
+          "rotation": 180
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_0_11_2",
+      "from": [
+        10,
+        0,
+        -0.01
+      ],
+      "to": [
+        12,
+        2,
+        -0.01
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            9.6,
+            16,
+            16
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_1_5_0",
+      "from": [
+        15.01,
+        2,
+        4
+      ],
+      "to": [
+        15.01,
+        4,
+        6
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            0,
+            16,
+            6.4
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_1_5_1",
+      "from": [
+        15,
+        2.01,
+        4
+      ],
+      "to": [
+        16,
+        2.01,
+        6
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            6.4,
+            16,
+            9.6
+          ],
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_1_5_2",
+      "from": [
+        16.01,
+        0,
+        4
+      ],
+      "to": [
+        16.01,
+        2,
+        6
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            9.6,
+            16,
+            16
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_1_11_0",
+      "from": [
+        15.01,
+        2,
+        10
+      ],
+      "to": [
+        15.01,
+        4,
+        12
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            0,
+            16,
+            6.4
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_1_11_1",
+      "from": [
+        15,
+        2.01,
+        10
+      ],
+      "to": [
+        16,
+        2.01,
+        12
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            6.4,
+            16,
+            9.6
+          ],
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_1_11_2",
+      "from": [
+        16.01,
+        0,
+        10
+      ],
+      "to": [
+        16.01,
+        2,
+        12
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            9.6,
+            16,
+            16
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_2_5_0",
+      "from": [
+        10,
+        2,
+        15.01
+      ],
+      "to": [
+        12,
+        4,
+        15.01
+      ],
+      "shade": false,
+      "faces": {
+        "south": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            0,
+            16,
+            6.4
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_2_5_1",
+      "from": [
+        10,
+        2.01,
+        15
+      ],
+      "to": [
+        12,
+        2.01,
+        16
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            6.4,
+            16,
+            9.6
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_2_5_2",
+      "from": [
+        10,
+        0,
+        16.01
+      ],
+      "to": [
+        12,
+        2,
+        16.01
+      ],
+      "shade": false,
+      "faces": {
+        "south": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            9.6,
+            16,
+            16
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_2_11_0",
+      "from": [
+        4,
+        2,
+        15.01
+      ],
+      "to": [
+        6,
+        4,
+        15.01
+      ],
+      "shade": false,
+      "faces": {
+        "south": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            0,
+            16,
+            6.4
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_2_11_1",
+      "from": [
+        4,
+        2.01,
+        15
+      ],
+      "to": [
+        6,
+        2.01,
+        16
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            6.4,
+            16,
+            9.6
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_2_11_2",
+      "from": [
+        4,
+        0,
+        16.01
+      ],
+      "to": [
+        6,
+        2,
+        16.01
+      ],
+      "shade": false,
+      "faces": {
+        "south": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            9.6,
+            16,
+            16
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_3_5_0",
+      "from": [
+        0.9900000000000002,
+        2,
+        10
+      ],
+      "to": [
+        0.9900000000000002,
+        4,
+        12
+      ],
+      "shade": false,
+      "faces": {
+        "west": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            0,
+            16,
+            6.4
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_3_5_1",
+      "from": [
+        0,
+        2.01,
+        10
+      ],
+      "to": [
+        1,
+        2.01,
+        12
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            6.4,
+            16,
+            9.6
+          ],
+          "rotation": 90
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_3_5_2",
+      "from": [
+        -0.010000000000001563,
+        0,
+        10
+      ],
+      "to": [
+        -0.010000000000001563,
+        2,
+        12
+      ],
+      "shade": false,
+      "faces": {
+        "west": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            9.6,
+            16,
+            16
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_3_11_0",
+      "from": [
+        0.9900000000000002,
+        2,
+        4
+      ],
+      "to": [
+        0.9900000000000002,
+        4,
+        6
+      ],
+      "shade": false,
+      "faces": {
+        "west": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            0,
+            16,
+            6.4
+          ],
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_3_11_1",
+      "from": [
+        0,
+        2.01,
+        4
+      ],
+      "to": [
+        1,
+        2.01,
+        6
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            6.4,
+            16,
+            9.6
+          ],
+          "rotation": 90
+        }
+      }
+    },
+    {
+      "name": "fracture_bridge_3_11_2",
+      "from": [
+        -0.010000000000001563,
+        0,
+        4
+      ],
+      "to": [
+        -0.010000000000001563,
+        2,
+        6
+      ],
+      "shade": false,
+      "faces": {
+        "west": {
+          "texture": "#world_breaker_bridge_ember2",
+          "uv": [
+            0,
+            9.6,
+            16,
+            16
+          ],
+          "rotation": 0
+        }
+      }
+    }
+  ]
+}

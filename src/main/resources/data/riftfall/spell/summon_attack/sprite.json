@@ -1,0 +1,59 @@
+{
+  "school": "spell_power:healing",
+  "range": 12,
+  "active": {
+    "cast": {
+      "duration": 0.25
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "required": true
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:block.amethyst_block.chime",
+      "volume": 0.25
+    }
+  },
+  "deliver": {
+    "type": "DIRECT"
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "HEAL",
+        "heal": {
+          "spell_power_coefficient": 1.0
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 2045619711,
+              "scale": 0.35,
+              "opacity": 0.85
+            },
+            "batch": {
+              "count": 3.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.06
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 2.0
+    }
+  }
+}

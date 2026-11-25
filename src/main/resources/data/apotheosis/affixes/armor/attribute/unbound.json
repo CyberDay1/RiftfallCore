@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:false"
+        }
+    ],
+    "type": "apotheosis:attribute",
+    "attribute": "neoforge:creative_flight",
+    "categories": [
+        "apotheosis:chestplate"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [
+            "apotheosis:armor/attribute/winged"
+        ],
+        "weights": {
+            "quality": 0.0,
+            "weight": 0
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "apotheosis:mythic": 1.0
+    }
+}

@@ -1,0 +1,483 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 0.0,
+  "target": {
+    "type": "CASTER"
+  },
+  "deliver": {
+    "type": "CLOUD",
+    "clouds": [
+      {
+        "spawn_ticks": 1,
+        "despawn_ticks": 0,
+        "impact_tick_interval": 20,
+        "time_to_live_seconds": 8.0,
+        "volume": {
+          "radius": 4.0,
+          "area": {
+            "vertical_range_multiplier": 1.0
+          }
+        },
+        "client_data": {
+          "particle_spawn_interval": 5,
+          "interval_particles": [
+            {
+              "id": "minecraft:cloud",
+              "appearance": {},
+              "batch": {
+                "count": 5.0,
+                "shape": "PILLAR",
+                "anchor": "GROUND",
+                "extent": 0.0,
+                "min_speed": 0.02,
+                "max_speed": 0.04
+              }
+            }
+          ],
+          "model_fx": [
+            {
+              "model_id": "riftfall:spell_projectile/spirit_blade",
+              "duration": 160,
+              "scale": 1.25,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "rotate",
+                  "y": 0
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 160,
+                  "easing": "LINEAR",
+                  "y": 1920
+                },
+                {
+                  "operation": "translate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 1.4,
+                  "y": 0.2
+                },
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": -15
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_projectile/spirit_blade",
+              "duration": 160,
+              "scale": 1.25,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "rotate",
+                  "y": 120
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 160,
+                  "easing": "LINEAR",
+                  "y": 1920
+                },
+                {
+                  "operation": "translate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 1.4,
+                  "y": 0.2
+                },
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": -15
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_projectile/spirit_blade",
+              "duration": 160,
+              "scale": 1.25,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "rotate",
+                  "y": 240
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 160,
+                  "easing": "LINEAR",
+                  "y": 1920
+                },
+                {
+                  "operation": "translate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 1.4,
+                  "y": 0.2
+                },
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": -15
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_projectile/spirit_blade",
+              "duration": 160,
+              "scale": 1.25,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "rotate",
+                  "y": 35
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 160,
+                  "easing": "LINEAR",
+                  "y": 1920
+                },
+                {
+                  "operation": "translate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 2.12,
+                  "y": 0.8999999999999999
+                },
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": -15
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_projectile/spirit_blade",
+              "duration": 160,
+              "scale": 1.25,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "rotate",
+                  "y": 155
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 160,
+                  "easing": "LINEAR",
+                  "y": 1920
+                },
+                {
+                  "operation": "translate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 2.12,
+                  "y": 0.8999999999999999
+                },
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": -15
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_projectile/spirit_blade",
+              "duration": 160,
+              "scale": 1.25,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "rotate",
+                  "y": 275
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 160,
+                  "easing": "LINEAR",
+                  "y": 1920
+                },
+                {
+                  "operation": "translate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 2.12,
+                  "y": 0.8999999999999999
+                },
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": -15
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_projectile/spirit_blade",
+              "duration": 160,
+              "scale": 1.25,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "rotate",
+                  "y": 70
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 160,
+                  "easing": "LINEAR",
+                  "y": 1920
+                },
+                {
+                  "operation": "translate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 2.84,
+                  "y": 1.5999999999999999
+                },
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": -15
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_projectile/spirit_blade",
+              "duration": 160,
+              "scale": 1.25,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "rotate",
+                  "y": 190
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 160,
+                  "easing": "LINEAR",
+                  "y": 1920
+                },
+                {
+                  "operation": "translate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 2.84,
+                  "y": 1.5999999999999999
+                },
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": -15
+                }
+              ]
+            },
+            {
+              "model_id": "riftfall:spell_projectile/spirit_blade",
+              "duration": 160,
+              "scale": 1.25,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "GLOW",
+              "initial": [
+                {
+                  "operation": "rotate",
+                  "y": 310
+                }
+              ],
+              "animations": [
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 160,
+                  "easing": "LINEAR",
+                  "y": 1920
+                },
+                {
+                  "operation": "translate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": 2.84,
+                  "y": 1.5999999999999999
+                },
+                {
+                  "operation": "rotate",
+                  "start": 0,
+                  "end": 0,
+                  "easing": "LINEAR",
+                  "x": -15
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.breeze.wind_burst",
+      "volume": 0.55,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:one_handed_area_release_ground_left_to_right",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 3371499519,
+            "scale": 0.35,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 12.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "extent": 0.2,
+            "min_speed": 0.03,
+            "max_speed": 0.06
+          }
+        },
+        {
+          "id": "minecraft:cloud",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.08
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.45,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "minecraft:cloud",
+            "appearance": {},
+            "batch": {
+              "count": 2.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.02,
+              "max_speed": 0.04
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:entity.breeze.wind_burst",
+        "volume": 0.12,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

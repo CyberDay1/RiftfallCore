@@ -1,0 +1,17 @@
+{
+  "id": "summoner_feral_roar",
+  "class": "summoner",
+  "ascendancy": "beast_caller",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:summoner_feral_roar",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 41.0,
+  "base_cooldown_ticks": 360,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

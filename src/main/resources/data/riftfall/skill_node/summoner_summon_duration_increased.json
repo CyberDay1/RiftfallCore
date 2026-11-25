@@ -1,0 +1,8 @@
+{
+  "id": "summoner_summon_duration_increased",
+  "class": "summoner",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:summon_duration",
+  "bonus_per_rank": 2.0
+}

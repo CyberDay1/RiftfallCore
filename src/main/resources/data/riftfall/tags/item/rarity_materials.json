@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#riftfall:rarity_material/common",
+    "#riftfall:rarity_material/uncommon",
+    "#riftfall:rarity_material/rare",
+    "#riftfall:rarity_material/epic",
+    "#riftfall:rarity_material/mythic"
+  ]
+}

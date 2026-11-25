@@ -1,0 +1,45 @@
+[*]
+background: riftfall:quest/map
+chapter_panel_background: riftfall:quest/chapter
+key_reference_background: riftfall:quest/page
+selected_chapter_highlight_1: #705F526E
+selected_chapter_highlight_2: #304B425D
+text_color: #EEEAF6
+hover_text_color: #F1DCA8
+disabled_text_color: #929AAF
+widget_border: #4C5066
+widget_background: #C0171E2E
+symbol_in: #DEC68D
+symbol_out: #A4BED6
+button: riftfall:quest/button
+panel: riftfall:quest/panel
+disabled_button: riftfall:quest/disabled
+hover_button: riftfall:quest/hover
+context_menu: riftfall:quest/page
+scroll_bar_background: riftfall:quest/track
+scroll_bar: riftfall:quest/thumb
+container_slot: riftfall:quest/slot
+text_box: riftfall:quest/text_box
+tasks_text_color: #A4BED6
+rewards_text_color: #DEC68D
+quest_view_background: riftfall:quest/page
+quest_view_border: #004C5066
+quest_view_title: #DEC68D
+quest_completed_color: #E6DEC68D
+quest_started_color: #D9A4BED6
+quest_not_started_color: #C38D91A8
+quest_locked_color: #9970798F
+dependency_line_completed_color: #CCB99B63
+dependency_line_uncompleted_color: #AA79798E
+dependency_line_unavailable_color: #66535C72
+dependency_line_requires_color: #B7D1E3
+dependency_line_required_for_color: #E3C88F
+dependency_line_selected_speed: 0.25
+dependency_line_unselected_speed: 0.0
+dependency_line_thickness: 0.14
+pin_icon_on: ftbquests:textures/gui/pin.png; color=#DEC68D
+pin_icon_off: ftbquests:textures/gui/pin.png; color=#929AAF
+guide_icon: ftbquests:textures/gui/guide.png; color=#DEC68D
+collect_rewards_icon: ftbquests:textures/gui/collect_rewards.png; color=#DEC68D
+checkmark_task_active: riftfall:quest/check
+checkmark_task_inactive: riftfall:quest/check_inactive

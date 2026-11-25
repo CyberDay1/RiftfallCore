@@ -1,0 +1,16 @@
+{
+  "id": "gunner_tactical_roll",
+  "class": "gunner",
+  "ascendancy": "sniper",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:gunner_tactical_roll",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 34.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  }
+}

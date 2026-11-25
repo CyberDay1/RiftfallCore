@@ -1,0 +1,127 @@
+{
+  "materials": {
+    "1": [
+      { "block": "stoneworks:purpur_bricks", "weight": 3.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "minecraft:purpur_block", "weight": 2.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "minecraft:end_stone_bricks", "weight": 2.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "cataclysm:void_infused_end_stone_bricks", "weight": 0.3,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "2": [
+      { "block": "stoneworks:cobbled_purpur",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "3": [
+      { "block": "stoneworks:polished_purpur", "weight": 3.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "minecraft:end_stone_bricks", "weight": 1.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "4": [
+      { "block": "stoneworks:purpur_tiles", "weight": 2.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } },
+      { "block": "minecraft:deepslate_tiles", "weight": 1.0,
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "5": [
+      { "block": "biomeswevegone:purple_sandstone",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "6": [
+      { "block": "minecraft:warped_planks",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "7": [
+      { "block": "minecraft:purpur_block",
+        "variants": { "directional_pillar": "minecraft:purpur_pillar",
+                      "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "8": [
+      { "block": "stoneworks:raw_purpur",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "9": [
+      { "block": "stoneworks:polished_purpur",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "10": [
+      { "block": "minecraft:end_stone_bricks",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "11": [
+      { "block": "minecraft:purpur_block",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "12": [
+      { "block": "minecraft:deepslate_tiles",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "13": [
+      { "block": "minecraft:polished_deepslate",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "14": [
+      { "block": "minecraft:end_stone",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ],
+    "15": [
+      { "block": "minecraft:end_stone_bricks",
+        "variants": { "glass": "minecraft:purple_stained_glass", "glass_pane": "minecraft:purple_stained_glass_pane" } }
+    ]
+  },
+  "fallback": "minecraft:end_stone_bricks",
+  "noise_scale": [0.04, 0.04, 0.04],
+  "seed_adjustment": 9091,
+  "decorators": [
+{
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:end_rod",
+      "requires_down": true,
+      "rarity": 0.015
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:chain",
+      "requires_up": true,
+      "rarity": 0.025,
+      "seed": 9093
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:frost_plate",
+        "darkutils:levitation_plate",
+        "darkutils:darkness_plate"
+      ],
+      "decoy": "minecraft:polished_blackstone_pressure_plate",
+      "room_kinds": ["approach", "chaos", "stable", "unstable", "boss"],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 9091
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "deepslate",
+      "home": "maradonyx",
+      "light": "minecraft:pearlescent_froglight"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "deepslate",
+      "home": "maradonyx",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:pearlescent_froglight",
+      "ceiling": "minecraft:pearlescent_froglight",
+      "floor": "minecraft:pearlescent_froglight",
+      "hanging": "minecraft:end_rod[facing=down]",
+      "seed": 9094
+    }
+  ]
+}

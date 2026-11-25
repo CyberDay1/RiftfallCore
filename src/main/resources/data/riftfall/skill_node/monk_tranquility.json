@@ -1,0 +1,9 @@
+{
+  "id": "monk_tranquility",
+  "class": "monk",
+  "ascendancy": "spirit_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:self_healing",
+  "bonus_per_rank": 0.1
+}

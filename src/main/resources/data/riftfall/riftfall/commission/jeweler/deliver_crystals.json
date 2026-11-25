@@ -1,0 +1,13 @@
+{
+  "kind": "delivery",
+  "weight": 12,
+  "item_tag": "riftfall:theme_crystals",
+  "count": 8,
+  "xp": 30,
+  "rewards": [
+    {
+      "id": "riftfall:gem_grit",
+      "count": 6
+    }
+  ]
+}

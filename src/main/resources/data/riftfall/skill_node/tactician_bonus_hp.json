@@ -1,0 +1,8 @@
+{
+  "id": "tactician_bonus_hp",
+  "class": "tactician",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "minecraft:generic.max_health",
+  "bonus_per_rank": 2.0
+}

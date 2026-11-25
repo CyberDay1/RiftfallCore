@@ -1,0 +1,80 @@
+{
+ "credit": "Made with Blockbench",
+ "ambientocclusion": false,
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "0": "riftfall:item/shattered_world_shard",
+  "particle": "riftfall:item/shattered_world_shard"
+ },
+ "elements": [
+  {
+   "name": "corner",
+   "from": [
+    7,
+    -1,
+    7.5
+   ],
+   "to": [
+    9,
+    1,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      4,
+      10,
+      2,
+      12
+     ],
+     "texture": "#0"
+    },
+    "east": {
+     "uv": [
+      0,
+      10,
+      1,
+      12
+     ],
+     "texture": "#0"
+    },
+    "south": {
+     "uv": [
+      2,
+      10,
+      4,
+      12
+     ],
+     "texture": "#0"
+    },
+    "west": {
+     "uv": [
+      0,
+      10,
+      1,
+      12
+     ],
+     "texture": "#0"
+    },
+    "up": {
+     "uv": [
+      1,
+      0,
+      2,
+      1
+     ],
+     "texture": "#0"
+    },
+    "down": {
+     "uv": [
+      1,
+      1,
+      2,
+      2
+     ],
+     "texture": "#0"
+    }
+   }
+  }
+ ]
+}

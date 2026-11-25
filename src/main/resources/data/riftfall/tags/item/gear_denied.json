@@ -1,0 +1,225 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "friendsandfoes:wildfire_crown",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:anchor_handle",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:chorus_blade",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:dinosaur_bone_club",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:knights_sword",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:monstrous_anchor",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:resurrected_javelin",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:shattered_greatsword",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:somber_key",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:soul_great_sword",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:the_great_frost",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:void_sword",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:wand_of_clouds",
+      "required": false
+    },
+        {
+      "id": "quark:flamerang",
+      "required": false
+    },
+    {
+      "id": "voidscape:astral_axe",
+      "required": false
+    },
+    {
+      "id": "voidscape:astral_boots",
+      "required": false
+    },
+    {
+      "id": "voidscape:astral_bow",
+      "required": false
+    },
+    {
+      "id": "voidscape:astral_chest",
+      "required": false
+    },
+    {
+      "id": "voidscape:astral_helmet",
+      "required": false
+    },
+    {
+      "id": "voidscape:astral_legs",
+      "required": false
+    },
+    {
+      "id": "voidscape:astral_sword",
+      "required": false
+    },
+    {
+      "id": "voidscape:astral_xbow",
+      "required": false
+    },
+    {
+      "id": "voidscape:corrupt_axe",
+      "required": false
+    },
+    {
+      "id": "voidscape:corrupt_boots",
+      "required": false
+    },
+    {
+      "id": "voidscape:corrupt_bow",
+      "required": false
+    },
+    {
+      "id": "voidscape:corrupt_chest",
+      "required": false
+    },
+    {
+      "id": "voidscape:corrupt_helmet",
+      "required": false
+    },
+    {
+      "id": "voidscape:corrupt_legs",
+      "required": false
+    },
+    {
+      "id": "voidscape:corrupt_sword",
+      "required": false
+    },
+    {
+      "id": "voidscape:corrupt_xbow",
+      "required": false
+    },
+    {
+      "id": "voidscape:ichor_axe",
+      "required": false
+    },
+    {
+      "id": "voidscape:ichor_boots",
+      "required": false
+    },
+    {
+      "id": "voidscape:ichor_bow",
+      "required": false
+    },
+    {
+      "id": "voidscape:ichor_chest",
+      "required": false
+    },
+    {
+      "id": "voidscape:ichor_helmet",
+      "required": false
+    },
+    {
+      "id": "voidscape:ichor_legs",
+      "required": false
+    },
+    {
+      "id": "voidscape:ichor_sword",
+      "required": false
+    },
+    {
+      "id": "voidscape:ichor_xbow",
+      "required": false
+    },
+    {
+      "id": "voidscape:titanite_axe",
+      "required": false
+    },
+    {
+      "id": "voidscape:titanite_boots",
+      "required": false
+    },
+    {
+      "id": "voidscape:titanite_bow",
+      "required": false
+    },
+    {
+      "id": "voidscape:titanite_chest",
+      "required": false
+    },
+    {
+      "id": "voidscape:titanite_helmet",
+      "required": false
+    },
+    {
+      "id": "voidscape:titanite_legs",
+      "required": false
+    },
+    {
+      "id": "voidscape:titanite_sword",
+      "required": false
+    },
+    {
+      "id": "voidscape:titanite_xbow",
+      "required": false
+    },
+    {
+      "id": "voidscape:voidic_crystal_axe",
+      "required": false
+    },
+    {
+      "id": "voidscape:voidic_crystal_boots",
+      "required": false
+    },
+    {
+      "id": "voidscape:voidic_crystal_bow",
+      "required": false
+    },
+    {
+      "id": "voidscape:voidic_crystal_chest",
+      "required": false
+    },
+    {
+      "id": "voidscape:voidic_crystal_helmet",
+      "required": false
+    },
+    {
+      "id": "voidscape:voidic_crystal_legs",
+      "required": false
+    },
+    {
+      "id": "voidscape:voidic_crystal_shield",
+      "required": false
+    },
+    {
+      "id": "voidscape:voidic_crystal_sword",
+      "required": false
+    },
+    {
+      "id": "voidscape:voidic_crystal_xbow",
+      "required": false
+    }
+  ]
+}

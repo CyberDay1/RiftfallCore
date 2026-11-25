@@ -1,0 +1,9 @@
+{
+  "id": "monk_spirit_reservoir",
+  "class": "monk",
+  "ascendancy": "spirit_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:mana_regen",
+  "bonus_per_rank": 1.2
+}

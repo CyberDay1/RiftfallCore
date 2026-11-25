@@ -1,0 +1,26 @@
+{
+  "class": "monk",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "withersweapons:knuckles",
+      "fallback": "minecraft:stone_sword"
+    },
+    {
+      "slot": "head",
+      "item": "forcemaster_rpg:aken_head"
+    },
+    {
+      "slot": "chest",
+      "item": "forcemaster_rpg:aken_chest"
+    },
+    {
+      "slot": "legs",
+      "item": "forcemaster_rpg:aken_legs"
+    },
+    {
+      "slot": "feet",
+      "item": "forcemaster_rpg:aken_feet"
+    }
+  ]
+}

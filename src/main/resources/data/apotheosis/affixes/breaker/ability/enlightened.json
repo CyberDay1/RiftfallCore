@@ -1,0 +1,38 @@
+{
+    "type": "apotheosis:enlightened",
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "apotheosis:common": {
+            "min": 17.0,
+            "max": 16.0,
+            "step": -1.0
+        },
+        "apotheosis:uncommon": {
+            "min": 14.0,
+            "max": 13.0,
+            "step": -1.0
+        },
+        "apotheosis:rare": {
+            "min": 12.0,
+            "max": 8.0,
+            "step": -1.0
+        },
+        "apotheosis:epic": {
+            "min": 10.0,
+            "max": 5.0,
+            "step": -1.0
+        },
+        "apotheosis:mythic": {
+            "min": 5.0,
+            "max": 0.0,
+            "step": -1.0
+        }
+    }
+}

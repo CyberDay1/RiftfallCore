@@ -1,0 +1,102 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ae2:quartz_cluster",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_zinc_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:alexandrite_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:ametrine_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:citrine_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:deepslate_alexandrite_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:deepslate_ametrine_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:deepslate_aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:deepslate_citrine_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:deepslate_grand_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:deepslate_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:grandidierite_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:onyx_ore",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:peridot_ore",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:gloomslate_diamond_ore",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:gloomslate_emerald_ore",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:sculk_stone_diamond_ore",
+      "required": false
+    },
+    "minecraft:amethyst_cluster",
+    {
+      "id": "powah:deepslate_uraninite_ore",
+      "required": false
+    },
+    {
+      "id": "powah:deepslate_uraninite_ore_dense",
+      "required": false
+    },
+    {
+      "id": "powah:deepslate_uraninite_ore_poor",
+      "required": false
+    },
+    "riftfall:deepslate_fire_opal_ore",
+    "riftfall:deepslate_ice_opal_ore",
+    "riftfall:deepslate_maradonyx_ore",
+    "riftfall:deepslate_moonstone_ore",
+    "riftfall:deepslate_onyx_ore",
+    "riftfall:deepslate_sunstone_ore",
+    "riftfall:fire_opal_ore",
+    "riftfall:ice_opal_ore",
+    "riftfall:maradonyx_ore",
+    "riftfall:moonstone_ore",
+    "riftfall:riftstone",
+    "riftfall:sunstone_ore"
+  ]
+}

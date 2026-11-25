@@ -1,0 +1,18 @@
+{
+  "id": "ranger_haste_field",
+  "class": "ranger",
+  "ascendancy": "windstrider",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:ranger_haste_field",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 46.0,
+  "base_cooldown_ticks": 360,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.06,
+    "duration_seconds_per_rank": 0.4
+  }
+}

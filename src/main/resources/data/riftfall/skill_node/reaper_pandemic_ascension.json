@@ -1,0 +1,34 @@
+{
+  "id": "reaper_pandemic_ascension",
+  "class": "reaper",
+  "ascendancy": "plaguelord",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:reaper_pandemic_ascension",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 4000,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.1,
+    "duration_seconds_per_rank": 0.4
+  },
+  "dot": {
+    "type": "venom",
+    "coefficient": 0.8,
+    "seconds": 8.0
+  },
+  "stored": {
+    "release": "recast",
+    "window_ticks": 160,
+    "arm_ticks": 10,
+    "on_expire": "fizzle",
+    "per_hit": 1.0,
+    "cap": 10,
+    "decay_after_ticks": 60,
+    "decay_every_ticks": 20,
+    "per_unit": 0.1
+  }
+}

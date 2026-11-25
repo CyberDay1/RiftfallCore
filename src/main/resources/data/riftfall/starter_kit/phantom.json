@@ -1,0 +1,31 @@
+{
+  "class": "phantom",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "rogues:iron_dagger",
+      "fallback": "minecraft:stone_sword"
+    },
+    {
+      "slot": "offhand",
+      "item": "rogues:iron_dagger",
+      "fallback": "minecraft:stone_sword"
+    },
+    {
+      "slot": "head",
+      "item": "rogues:assassin_armor_head"
+    },
+    {
+      "slot": "chest",
+      "item": "rogues:assassin_armor_chest"
+    },
+    {
+      "slot": "legs",
+      "item": "rogues:assassin_armor_legs"
+    },
+    {
+      "slot": "feet",
+      "item": "rogues:assassin_armor_feet"
+    }
+  ]
+}

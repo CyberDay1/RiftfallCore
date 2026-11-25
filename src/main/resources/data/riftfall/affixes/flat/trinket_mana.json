@@ -1,0 +1,43 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "riftfall:max_mana",
+    "categories": [
+        "riftfall:necklace"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "apotheosis:common": {
+            "min": 3.0,
+            "max": 6.0,
+            "step": 0.375
+        },
+        "apotheosis:uncommon": {
+            "min": 4.5,
+            "max": 8.25,
+            "step": 0.46875
+        },
+        "apotheosis:rare": {
+            "min": 6.75,
+            "max": 10.5,
+            "step": 0.46875
+        },
+        "apotheosis:epic": {
+            "min": 9.0,
+            "max": 12.75,
+            "step": 0.46875
+        },
+        "apotheosis:mythic": {
+            "min": 12.0,
+            "max": 15.0,
+            "step": 0.375
+        }
+    }
+}

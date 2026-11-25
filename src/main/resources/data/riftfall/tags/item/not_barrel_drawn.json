@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "irons_jewelry:ring", "required": false },
+    { "id": "irons_jewelry:necklace", "required": false }
+  ]
+}

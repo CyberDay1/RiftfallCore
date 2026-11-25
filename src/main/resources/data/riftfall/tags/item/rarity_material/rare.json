@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "apotheosis:luminous_crystal_shard",
+      "required": false
+    }
+  ]
+}

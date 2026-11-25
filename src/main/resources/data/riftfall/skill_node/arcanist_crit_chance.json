@@ -1,0 +1,8 @@
+{
+  "id": "arcanist_crit_chance",
+  "class": "arcanist",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "apothic_attributes:crit_chance",
+  "bonus_per_rank": 0.05
+}

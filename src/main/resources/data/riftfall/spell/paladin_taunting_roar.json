@@ -1,0 +1,66 @@
+{
+  "school": "riftfall:holy",
+  "active": {
+    "cast": {}
+  },
+  "range": 8.0,
+  "target": {
+    "type": "AREA",
+    "area": {
+      "vertical_range_multiplier": 0.5,
+      "include_caster": false
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.ravager.roar",
+      "volume": 0.55,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:one_handed_shout_release",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 3838019583,
+            "scale": 0.35,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 12.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "extent": 0.2,
+            "min_speed": 0.03,
+            "max_speed": 0.06
+          }
+        },
+        {
+          "id": "minecraft:sonic_boom",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.08
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "AGGRO",
+        "aggro": {}
+      }
+    }
+  ]
+}

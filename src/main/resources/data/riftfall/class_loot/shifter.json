@@ -1,0 +1,24 @@
+{
+  "class": "shifter",
+  "families": [
+    {
+      "name": "axes and claws",
+      "items": [
+        "rogues:iron_double_axe"
+      ],
+      "words": [
+        "axe",
+        "battleaxe",
+        "greataxe",
+        "waraxe",
+        "berserker",
+        "claw",
+        "claws",
+        "fang",
+        "fangs",
+        "talon",
+        "talons"
+      ]
+    }
+  ]
+}

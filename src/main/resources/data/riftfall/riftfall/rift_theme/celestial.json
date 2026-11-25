@@ -1,0 +1,273 @@
+{
+  "materials": {
+    "1": [
+      {
+        "block": "aether:angelic_stone",
+        "weight": 5.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "aether:pillar"
+        }
+      },
+      {
+        "block": "deep_aether:gilded_holystone_bricks",
+        "weight": 2.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "deep_aether:holystone_pillar"
+        }
+      },
+      {
+        "block": "minecraft:quartz_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar",
+          "slab": "minecraft:quartz_slab",
+          "stairs": "minecraft:quartz_stairs"
+        }
+      }
+    ],
+    "2": [
+      {
+        "block": "deep_aether:holystone_tiles",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "deep_aether:holystone_pillar"
+        }
+      }
+    ],
+    "3": [
+      {
+        "block": "deep_aether:gilded_holystone_tiles",
+        "weight": 3.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "deep_aether:holystone_pillar"
+        }
+      },
+      {
+        "block": "minecraft:smooth_quartz",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "4": [
+      {
+        "block": "minecraft:smooth_quartz",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "5": [
+      {
+        "block": "deep_aether:holystone_tiles",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "deep_aether:holystone_pillar"
+        }
+      }
+    ],
+    "6": [
+      {
+        "block": "deep_aether:sunroot_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "deep_aether:stripped_sunroot_log"
+        }
+      }
+    ],
+    "7": [
+      {
+        "block": "deep_aether:gilded_holystone_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "deep_aether:holystone_pillar"
+        }
+      }
+    ],
+    "8": [
+      {
+        "block": "minecraft:quartz_block",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "9": [
+      {
+        "block": "minecraft:chiseled_quartz_block",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar",
+          "slab": "minecraft:quartz_slab",
+          "stairs": "minecraft:quartz_stairs"
+        }
+      }
+    ],
+    "10": [
+      {
+        "block": "aether:angelic_stone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "aether:pillar"
+        }
+      }
+    ],
+    "11": [
+      {
+        "block": "deep_aether:sunroot_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "deep_aether:stripped_sunroot_log"
+        }
+      }
+    ],
+    "12": [
+      {
+        "block": "deep_aether:gilded_holystone_tiles",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "deep_aether:holystone_pillar"
+        }
+      }
+    ],
+    "13": [
+      {
+        "block": "minecraft:smooth_quartz",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "minecraft:quartz_pillar"
+        }
+      }
+    ],
+    "14": [
+      {
+        "block": "aether:angelic_stone",
+        "weight": 5.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "aether:pillar"
+        }
+      },
+      {
+        "block": "aether:light_angelic_stone",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "aether:pillar"
+        }
+      }
+    ],
+    "15": [
+      {
+        "block": "deep_aether:holystone_tiles",
+        "weight": 1.0,
+        "variants": {
+          "glass": "minecraft:yellow_stained_glass",
+          "glass_pane": "minecraft:yellow_stained_glass_pane",
+          "directional_pillar": "deep_aether:holystone_pillar"
+        }
+      }
+    ]
+  },
+  "fallback": "minecraft:quartz_block",
+  "noise_scale": [
+    0.045,
+    0.07,
+    0.045
+  ],
+  "seed_adjustment": 11003,
+  "decorators": [
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:end_rod",
+      "rarity": 0.012,
+      "seed": 11004,
+      "requires_down": true
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:lantern[hanging=true]",
+      "rarity": 0.018,
+      "seed": 11005,
+      "requires_up": true
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:levitation_plate",
+        "darkutils:weakness_plate",
+        "darkutils:slowness_plate"
+      ],
+      "decoy": "minecraft:stone_pressure_plate",
+      "room_kinds": [
+        "approach",
+        "chaos",
+        "stable",
+        "unstable",
+        "boss"
+      ],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 11003
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "stone",
+      "home": "ametrine",
+      "light": "minecraft:glowstone"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "stone",
+      "home": "ametrine",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:glowstone",
+      "ceiling": "minecraft:glowstone",
+      "floor": "minecraft:glowstone",
+      "alcove": "minecraft:lantern",
+      "hanging": "minecraft:lantern[hanging=true]",
+      "seed": 11006
+    }
+  ]
+}

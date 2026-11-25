@@ -1,0 +1,18 @@
+{
+  "id": "summoner_plague_wave",
+  "class": "summoner",
+  "ascendancy": "necromancer",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:summoner_plague_wave",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 42.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.06,
+    "duration_seconds_per_rank": 0.4
+  }
+}

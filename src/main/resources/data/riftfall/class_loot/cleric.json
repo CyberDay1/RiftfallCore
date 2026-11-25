@@ -1,0 +1,33 @@
+{
+  "class": "cleric",
+  "families": [
+    {
+      "name": "holy staves and wands",
+      "items": [
+        "paladins:holy_staff",
+        "simple_staves:woodenwand"
+      ],
+      "words": [
+        "staff",
+        "wand",
+        "sceptre",
+        "scepter",
+        "censer",
+        "holy"
+      ]
+    },
+    {
+      "name": "maces and hammers",
+      "words": [
+        "mace",
+        "flail",
+        "morning",
+        "hammer",
+        "warhammer"
+      ],
+      "slots": [
+        "mace"
+      ]
+    }
+  ]
+}

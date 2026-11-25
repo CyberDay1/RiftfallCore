@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "riftfall:block/key_forge"
+    },
+    "facing=east": {
+      "model": "riftfall:block/key_forge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "riftfall:block/key_forge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "riftfall:block/key_forge",
+      "y": 270
+    }
+  }
+}

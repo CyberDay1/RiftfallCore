@@ -1,0 +1,8 @@
+{
+  "id": "tactician_damage_resistance_increased",
+  "class": "tactician",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:damage_resistance",
+  "bonus_per_rank": 0.05
+}

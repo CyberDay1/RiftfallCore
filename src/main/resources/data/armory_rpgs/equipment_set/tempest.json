@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "tempest",
+  "items": [
+    "armory_rpgs:tempest_robe_head",
+    "armory_rpgs:tempest_robe_chest",
+    "armory_rpgs:tempest_robe_legs",
+    "armory_rpgs:tempest_robe_feet"
+  ],
+  "bonuses": []
+}

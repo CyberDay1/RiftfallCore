@@ -1,0 +1,33 @@
+{
+    "type": "apotheosis:spectral",
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "apotheosis:common": {
+            "min": 0.06,
+            "max": 0.19
+        },
+        "apotheosis:uncommon": {
+            "min": 0.09,
+            "max": 0.26
+        },
+        "apotheosis:rare": {
+            "min": 0.13,
+            "max": 0.36
+        },
+        "apotheosis:epic": {
+            "min": 0.2,
+            "max": 0.5
+        },
+        "apotheosis:mythic": {
+            "min": 0.3,
+            "max": 0.7
+        }
+    }
+}

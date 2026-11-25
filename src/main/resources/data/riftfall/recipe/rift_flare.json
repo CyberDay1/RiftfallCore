@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    " B ",
+    " B "
+  ],
+  "key": {
+    "S": {
+      "item": "riftfall:rift_shard"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "id": "riftfall:rift_flare",
+    "count": 2
+  }
+}

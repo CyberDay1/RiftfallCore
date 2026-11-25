@@ -1,0 +1,17 @@
+{
+  "id": "sword_immortal_celestial_spirit_tempest",
+  "class": "sword_immortal",
+  "ascendancy": "spirit_blade_sage",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_celestial_spirit_tempest",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 4000,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1
+  }
+}

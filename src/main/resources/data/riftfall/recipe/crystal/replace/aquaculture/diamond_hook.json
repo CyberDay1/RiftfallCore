@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aquaculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystalcraft_unlimited_java"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DHD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "crystalcraft_unlimited_java:aquamarine"
+    },
+    "H": {
+      "item": "aquaculture:iron_hook"
+    }
+  },
+  "result": {
+    "id": "aquaculture:diamond_hook"
+  }
+}

@@ -1,0 +1,930 @@
+{
+ "version": 1,
+ "source": "lore-draft-v3.md",
+ "notes": [
+  {
+   "id": "sanctuary_1",
+   "tile": "sanctuary_100x100",
+   "rank": 1,
+   "slot": 1,
+   "look": "book",
+   "title": "For the One Who Wakes Here",
+   "pages": [
+    "You are awake. Good.\n\nYou will not remember how you came here, or much from before. Do not strain to remember. We remember enough for both of us.",
+    "This ground is home. We were whole once. This is what held when everything broke. Stay a while. You are safe here.\n\nThe stone at the center is the Core. It remembers what we lost. Bring it the pieces, and it will set them back where they belong.",
+    "A keeper holds each piece in the far places. Loosen its hold and bring the piece home. We wish there were an easier way.",
+    "If you fall out there, we will bring you home. Every time. You may come back a little lighter. Do not go looking for what you left behind.",
+    "Every piece is a piece of home. Each one makes us a little more whole: ground to walk on, a roof to rest under, people to keep you company.\n\nNothing that comes home is lost. Rest when you need to. Come back when you can. Home will wait."
+   ]
+  },
+  {
+   "id": "sanctuary_2",
+   "tile": "sanctuary_100x100",
+   "rank": 1,
+   "slot": 2,
+   "look": "sign",
+   "author": "The Core",
+   "lines": [
+    "EVERY PIECE",
+    "IS A PIECE",
+    "OF HOME"
+   ]
+  },
+  {
+   "id": "forge_1",
+   "tile": "forge_100x100",
+   "rank": 2,
+   "slot": 1,
+   "look": "book",
+   "title": "Penk's Work Book",
+   "author": "O. Penk, smith",
+   "pages": [
+    "Penk's Work Book. Penlow Reach. From melt 203.\n\nMelt 203. Guild board renewed my mark. Wrote \"best edge in the Reach\" on the paper. Tam wants it framed. Not framing it.",
+    "Melt 204. Hinges, two pair, for the Widow Tamsett. Paid in eggs. Fair.\n\nMelt 205. Plow point for Orrin Cale. Third this year. Told him to stop plowing the quarry road.",
+    "Melt 206. Nails, one keg, for the chapel roof. Guild rate.\n\nMelt 207. Bell-pin for the Founder's hall. Brask to collect after the reckoning. Paid in advance, in full, in guild scrip.",
+    "Bell-pin done. On the bench. Brask late."
+   ]
+  },
+  {
+   "id": "forge_2",
+   "tile": "forge_100x100",
+   "rank": 2,
+   "slot": 2,
+   "look": "letter",
+   "author": "Tam, Penk's apprentice",
+   "pages": [
+    "Master Penk,\n\nI took the long tongs to the Hobb fair to get the jaw fixed. Back by second bell.\n\nDon't use the short ones on the big stock. You'll burn your hand again and then you'll say it was me.\n\nTam"
+   ]
+  },
+  {
+   "id": "ashen_quarry_1",
+   "tile": "ashen_quarry",
+   "rank": 3,
+   "slot": 1,
+   "look": "book",
+   "title": "Shift Log, North Cut",
+   "author": "Kettrick, foreman",
+   "pages": [
+    "Shift log, Kettrick's crew, north cut.\n\n3rd smoke. Twelve carts of black stone to the kilns. Vosk cut his hand on a wedge. Not bad. Sent him to Mother Abe.",
+    "4th smoke. Eleven carts. Hot under the Ember today, so we started before it was up.",
+    "5th smoke. Wedges going soft. Asked the yard for new.\n\nThe Seams sent a cutter up from below with Old Moll's cutting wheels. A girl, Dessa. Moll wants black stone to dress the wheels. Says the girl's to stay up top a while. Put her in the tool shelter.",
+    "6th smoke. Sent four to open the east face like the yard asked. They came back at midday. Said the east face wasn't there. I said what do you mean, not there. They said not there.\n\nGoing to look myself after shift. Will write it up tomorrow."
+   ]
+  },
+  {
+   "id": "ashen_quarry_2",
+   "tile": "ashen_quarry",
+   "rank": 3,
+   "slot": 2,
+   "look": "sign",
+   "author": "The yard",
+   "lines": [
+    "EAST FACE",
+    "CLOSED",
+    "BY ORDER",
+    "OF THE YARD"
+   ]
+  },
+  {
+   "id": "03_brook_crossing_1",
+   "tile": "03_brook_crossing",
+   "rank": 4,
+   "slot": 1,
+   "look": "letter",
+   "author": "Hollis, a child",
+   "pages": [
+    "Dear Tib,\n\nMam says I can come over on Saint Cassel's if the brook is down and I take the stepping stones and not the log. I am going to take the log.\n\nI have still got the frog. He is called Bishop. He ate a whole worm.",
+    "If the gate is on the latch I will know you are in. If it is shut I will leave this under the flat stone. It is shut, so here it is.\n\nFrom Hollis\n\nP.S. Bring the marbles."
+   ]
+  },
+  {
+   "id": "03_brook_crossing_2",
+   "tile": "03_brook_crossing",
+   "rank": 4,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "USE THE",
+    "STONES",
+    "NOT THE LOG",
+    "- THE PARISH"
+   ]
+  },
+  {
+   "id": "08_sedge_meadow_1",
+   "tile": "08_sedge_meadow",
+   "rank": 5,
+   "slot": 1,
+   "look": "book",
+   "title": "Oda's Count",
+   "author": "Oda, herder",
+   "pages": [
+    "Oda's count. Lambing done.\n\nBig moon full. Forty-one ewes, thirty-eight lambs, the gray ram. Two lambs to the fox. Grandmother Rain, keep the fox fed somewhere else.",
+    "Little moon full. Forty-one, thirty-eight, the ram. Moved them down to the sedge for the soft grass.",
+    "Big moon full. All there. Pasture's short. The sedge used to reach the alders. Now the alders are close. I keep walking them round in a smaller ring.\n\nLittle moon full. All there. The dog won't go past the alders. I don't blame her.",
+    "Counted twice today and got the same both times. The ewes are fine. It's the field that's short."
+   ]
+  },
+  {
+   "id": "08_sedge_meadow_2",
+   "tile": "08_sedge_meadow",
+   "rank": 5,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "SHUT THE GATE",
+    "COUNT THEM IN",
+    "COUNT THEM",
+    "OUT"
+   ]
+  },
+  {
+   "id": "02_stillwater_field_1",
+   "tile": "02_stillwater_field",
+   "rank": 6,
+   "slot": 1,
+   "look": "book",
+   "title": "Stillwater Almanac, Year 1,206 since the Draining",
+   "author": "Printed almanac",
+   "pages": [
+    "The months, for those new to the Mere: Seedfast, Thaw, Greening, Ewe, Long Day, Hayrick, Wasp, Gleaning, Rake, Firstfrost, Rime, Deepnight, and Quiet, which has nine days and no work done in it.",
+    "Greening. Sow beans when the mere is clear as glass at dawn. Barley after the third rain. Do not sow on a Stillday.\n\nLong Day. The Mere-Keeper is seen at the reeds on the longest evening. Leave the first loaf on the jetty. Do not wait to see it taken."
+   ]
+  },
+  {
+   "id": "04_birch_hollow_1",
+   "tile": "04_birch_hollow",
+   "rank": 7,
+   "slot": 1,
+   "look": "sign",
+   "lines": [
+    "CORRAN IIII II",
+    "BEL IIII IIII",
+    "OLD JUN III",
+    "NO FELLS TODAY"
+   ]
+  },
+  {
+   "id": "04_birch_hollow_2",
+   "tile": "04_birch_hollow",
+   "rank": 7,
+   "slot": 2,
+   "look": "letter",
+   "author": "Corran",
+   "pages": [
+    "Bel,\n\nDon't take the far track past the split birch. It used to go down to the charcoal huts. It goes to the edge now, and the edge is all light.",
+    "I stood there till my eyes ran. No smell of smoke from the huts. No sound at all, not even birds.\n\nLeave the axes. We'll fell on this side for now.\n\nCorran"
+   ]
+  },
+  {
+   "id": "07_clover_rise_1",
+   "tile": "07_clover_rise",
+   "rank": 8,
+   "slot": 1,
+   "look": "card",
+   "title": "Invitation Card",
+   "author": "Liesl Marrow and Tobin Aske",
+   "pages": [
+    "Liesl Marrow and Tobin Aske\nask the pleasure of your company\nat their joining under the Two Hands\non Sixthday, the ninth of Sweetmonth,\nin the four hundred and twelfth year of the Accord,\nat the stone on Clover Rise.",
+    "Dancing after. Bring a cup.\n\nNo gifts, but if you must, Tobin's mother needs a new kettle."
+   ]
+  },
+  {
+   "id": "07_clover_rise_2",
+   "tile": "07_clover_rise",
+   "rank": 8,
+   "slot": 2,
+   "look": "letter",
+   "author": "Liesl, to her sister",
+   "pages": [
+    "Thirdday, sixth of Sweetmonth.\n\nMina,\n\nThe carter didn't come up from Lowerby again, so no barrel and no fiddler. Tobin says we'll sing. You know how Tobin sings.",
+    "Mam says you don't put off a joining for want of a fiddler, so it's still the ninth.\n\nCome up early if the road's open. Nobody from your end has been through since Secondday.\n\nL."
+   ]
+  },
+  {
+   "id": "10_stonefield_crossing_1",
+   "tile": "10_stonefield_crossing",
+   "rank": 9,
+   "slot": 1,
+   "look": "book",
+   "title": "Report of the Warden of the Third Road",
+   "author": "H. Corbet, road warden",
+   "pages": [
+    "To the Clerk at Amberholt.\nStonefield crossing, 22nd of the Hay Month, in the 9th year of Queen Ysa.\n\nSir,",
+    "Some sixty people came east along the Third Road with carts and livestock. We do not usually see families leaving the fields at haymaking.\n\nThey came from beyond Morrin and Low Sallet. They say the fields are gone.",
+    "Their accounts differ. One described a fire without smoke; another said the land rose into the sky. A girl said it went quiet, then vanished. All agree there is no road back.\n\nI have lodged them in the crossing barn. The well is holding, but we cannot feed this many for long.",
+    "I sent Dunn west on the gray mare to inspect Low Sallet. It is a day's ride. On the second day the mare returned alone, still saddled and without a mark on her.",
+    "At dusk, white cracks open in the western sky. Each lasts about half a minute. The next appears somewhere else.\n\nPlease send orders, bread, and a second man.",
+    "Your servant,\nH. Corbet, Warden"
+   ]
+  },
+  {
+   "id": "10_stonefield_crossing_2",
+   "tile": "10_stonefield_crossing",
+   "rank": 9,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "TO AMBERHOLT",
+    "2 DAYS EAST",
+    "LOW SALLET",
+    "1 DAY WEST"
+   ]
+  },
+  {
+   "id": "observatory_1",
+   "tile": "observatory_100x100",
+   "rank": 10,
+   "slot": 1,
+   "look": "book",
+   "title": "Observations at the Glass on Cressen Hill",
+   "author": "Ilsabet Varro, astronomer",
+   "pages": [
+    "Third rising. Clear sky. The stars of the Harp are all where the chart puts them.\n\nA pale seam appeared below the Harp, low in the north. No head or tail: not a comet. It closed before I could sketch it. I counted thirty while it was open.",
+    "Fifth rising. More seams throughout the night. Some fork, some curve, some open straight. Pale centers, blue edges. One near dawn was the color of a forge.\n\nThey change position each time. I am marking locations with crosses, not drawing shapes.",
+    "Ninth rising. Three stars of the Harp are missing. I waited for them to clear the horizon. They did not appear.",
+    "Twelfth rising. The north chart is on its fourth drawing. Each new cross replaces a star that no longer shines. There is too little of the Harp left to recognize.",
+    "The first seam appeared the night the keeper under Cressen fell and the Under-Lamp went dark beneath the hill. I cannot prove a connection. I have recorded the dates together.",
+    "Thirteenth rising. The crosses form a slant across the north sky. Extended upward, the line reaches the Empty Chair.",
+    "Every child knows the Empty Chair: five stars in a ring, a dark gap for the sixth. In the old story, one star tried to take the highest chair. The others threw it down.",
+    "I have taught that story for twenty years as a lesson in manners. Now I have drawn a line along the path of its fall.",
+    "Fifteenth rising. Caught a seam in the big glass. There was another sky beyond it, and a warmer light coming through. I will have the glass ready tonight."
+   ]
+  },
+  {
+   "id": "observatory_2",
+   "tile": "observatory_100x100",
+   "rank": 10,
+   "slot": 2,
+   "look": "map",
+   "title": "North Chart, Fourth Drawing",
+   "author": "Varro",
+   "pages": [
+    "North chart, fourth drawing. The Harp crossed out. Forty-one marks show where seams opened. A ruled line through them reaches the Empty Chair."
+   ]
+  },
+  {
+   "id": "observatory_3",
+   "tile": "observatory_100x100",
+   "rank": 10,
+   "slot": 3,
+   "look": "letter",
+   "author": "Varro, to her apprentice Pell",
+   "pages": [
+    "Pell,\n\nIf I'm not down by fifth bell, take the charts to the town archive. All of them, the bad drawings too. Somebody should know what the sky did.\n\nAnd eat something.\n\nI. V."
+   ]
+  },
+  {
+   "id": "crystal_hollow_1",
+   "tile": "crystal_hollow",
+   "rank": 11,
+   "slot": 1,
+   "look": "book",
+   "title": "Cutting Book",
+   "author": "Dessa, apprentice cutter",
+   "pages": [
+    "Dessa's cutting book. Third Seam.\n\nOld Moll says never cut a stone that's singing. Wait till it's done.",
+    "Blue from the Third Seam cuts clean along the long face. Rose needs the fine wheel. Leave the smoke-colored stones alone; they cloud when you cut them.",
+    "Eighth lamp-fill. Nobody has seen the Stoker in the deep drift for three fills. Since the Heartstone went quiet, every seam has been humming the same note. Moll has never heard the Choir do that.",
+    "Ninth lamp-fill. The hum rises before a piece goes. The north drift turned white while Gerd was in it. He got out before the wall vanished. His tools went with it.\n\nTenth. I can hear it coming now. When the note rises, I leave.",
+    "Moll won't leave the cutting room. She says she wants to hear the end of the song.\n\nShe's sending me up to Kettrick's quarry with the good wheels. Says they need dressing with black stone, and somebody young should make the climb.",
+    "I know she's trying to get me out. I'm going because she asked.\n\nLeaving this book on the bench for when I'm back."
+   ]
+  },
+  {
+   "id": "crystal_hollow_2",
+   "tile": "crystal_hollow",
+   "rank": 11,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "IF IT HUMS",
+    "WALK AWAY",
+    "DON'T RUN",
+    "DON'T STOP"
+   ]
+  },
+  {
+   "id": "06_waystation_alpha_1",
+   "tile": "06_waystation_alpha",
+   "rank": 12,
+   "slot": 1,
+   "look": "book",
+   "title": "Waybook of the Red Wagons",
+   "author": "The companies of the road; pins by Joss",
+   "pages": [
+    "Waybook, Tull's Cross relay station.\nEvery company is to record the stations it cannot raise.\n\nDay 31 of the summer road. Nothing from Harlsby on the radio. The driver we sent has not returned.\n\nDay 33. No reply from Ost or Little Ost.",
+    "Day 34. The Red Wagons turned back at Merrin. The bridge ended halfway across the river. There was no far bank.\n\nDay 35. Sedd, Callom and the salt pans silent.",
+    "Day 36. Fenn too. Joss, who drills the convoy guard, has marked every missing station in red. They form a ring around Haddow, closer to the hill each day.",
+    "The Stone Lord slept beneath that hill. On day 30 the hill people heard fighting under it, then nothing. The hill has been cold since. They say whatever the Lord guarded is gone.",
+    "Day 37. Tull's Cross is the last station still answering. Joss has left its pin white.",
+    "Day 38. The Red Wagons are moving inward. The edge advances about a day's drive each day. The middle is the last ground left."
+   ]
+  },
+  {
+   "id": "06_waystation_alpha_2",
+   "tile": "06_waystation_alpha",
+   "rank": 12,
+   "slot": 2,
+   "look": "map",
+   "title": "Joss's Map",
+   "pages": [
+    "Red pins: stations not answering. White pins: stations still answering. One white pin left, at Tull's Cross."
+   ]
+  },
+  {
+   "id": "01_meadow_ruin_1",
+   "tile": "01_meadow_ruin",
+   "rank": 13,
+   "slot": 1,
+   "look": "sign",
+   "lines": [
+    "TELLA'S PEOPLE",
+    "FROM TARROW",
+    "TARROW IS",
+    "GONE"
+   ]
+  },
+  {
+   "id": "01_meadow_ruin_2",
+   "tile": "01_meadow_ruin",
+   "rank": 13,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "WENT INWARD",
+    "TO KING'S HILL",
+    "FOLLOW US",
+    "8 OF US"
+   ]
+  },
+  {
+   "id": "01_meadow_ruin_3",
+   "tile": "01_meadow_ruin",
+   "rank": 13,
+   "slot": 3,
+   "look": "letter",
+   "author": "Bram, for Tella's people",
+   "pages": [
+    "We are the last on this side. The ones who sheltered here before us scratched their names on the stones, and we added ours. Old Kingdom walls. A ruin long before any of this.",
+    "They said go to King's Hill, the King will hold it. We came up the King's Hill road this morning and met people coming down.",
+    "They said the King fell three nights ago. Nobody coming down could say to what.\n\nThere is nowhere further in than this. We are staying. The walls are good. Mother has made a fire.",
+    "Bram, for Tella's people"
+   ]
+  },
+  {
+   "id": "05_forsaken_outpost_1",
+   "tile": "05_forsaken_outpost",
+   "rank": 14,
+   "slot": 1,
+   "look": "book",
+   "title": "Duty Log, the Kept Stair",
+   "author": "Captain Ilse Marrick",
+   "pages": [
+    "Duty log, Kept Stair outpost.\nOn roster: eleven. Standing order: hold the Warden's door.\n\n19th of Ashing, first watch. Aurel Danesson checked the door seals. The Warden stirred below us; we felt it through the floor. All well.",
+    "Second watch. Quiet.\n\nThird watch. Light at the foot of the Stair, beyond our door. Fighting below for most of the watch. We held our post as ordered. Nothing came up.",
+    "Fourth watch. From the landing we saw a seam standing open at the bottom of the Stair. A stranger stepped into it, carrying something bright. The seam closed behind them.",
+    "At my swearing-in they brought the Kept Flame up for us to see. I remember how it leaned toward the person carrying it. The light in the stranger's hand moved the same way.",
+    "There has been light under the Warden's door every night of my service. Tonight there is none. The floor has been still since the fighting stopped.\n\nAurel says the Warden is sleeping. It keeps the others steady. I have not contradicted him.",
+    "20th of Ashing. This record is for the Kept. We held the door. Whatever came for the Flame found a way past it.\n\nIlse Marrick, Captain"
+   ]
+  },
+  {
+   "id": "05_forsaken_outpost_2",
+   "tile": "05_forsaken_outpost",
+   "rank": 14,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "THE WARDEN",
+    "SLEEPS",
+    "KEEP THE DOOR"
+   ]
+  },
+  {
+   "id": "supply_depot_1",
+   "tile": "supply_depot",
+   "rank": 15,
+   "slot": 1,
+   "look": "book",
+   "title": "Requisition, Form 9",
+   "author": "P. Ludd, quartermaster-sergeant",
+   "pages": [
+    "Reach Stores. Requisition, form 9.\nMelt 211.\n\nAll trucks, fuel, rope and sealed empty drums. Anything that floats.\n\nPurpose: move the people of Hobb, Penlow and the chapel lanes to the shelter at the Founder's hall.",
+    "Approved. P. Ludd, QM-Sgt.\n\nMelt 212. Cancel the trucks for Hobb. There is no Hobb to send them to.\n\nMelt 213. Bell-pin to collect from Penk's forge for the Founder's hall. Strike that too. The forge is gone.",
+    "Keep the drums on the order. The river people say water remains a little longer than the ground beneath it.\n\nFor the record, not the form:",
+    "Penk's forge stood two miles inward of Hobb. His apprentice was at the fair when it vanished. The boy walked home to an empty patch of ground. Hobb was still standing then.",
+    "The forge went first. So did the ropewalk, the armory and Cale's farm. The chapel and school were left behind.\n\nI have kept stores for nineteen years. I know what a supply order looks like.",
+    "Melt 214. No supplies left. No stores left to request them from. Filed the form.\n\nLudd"
+   ]
+  },
+  {
+   "id": "supply_depot_2",
+   "tile": "supply_depot",
+   "rank": 15,
+   "slot": 2,
+   "look": "letter",
+   "author": "A depot clerk, to Ludd",
+   "pages": [
+    "Ludd,\n\nPenk's lad is up in the loft. Says he went to the Hobb fair and came back and the forge wasn't there. He's twelve.\n\nKeep him busy. Have him count rope or something."
+   ]
+  },
+  {
+   "id": "riftscar_basin_1",
+   "tile": "riftscar_basin",
+   "rank": 16,
+   "slot": 1,
+   "look": "book",
+   "title": "The Watch of Lights",
+   "author": "Teo-under-Seven",
+   "pages": [
+    "Our sky has no sun. The lights above the Basin are neighboring worlds. The Watch names them, charts them, and passes the record to the next keeper.\n\nDark 3,110. The Low Green went out.",
+    "Dark 3,114. Carrow's Lamp and both the Twins gone.\n\nDark 3,120. The Bright Fold gone.",
+    "Seams have appeared beside the lights since the Watch began. They open briefly, close, then appear somewhere else. Until now, we recorded them as weather.",
+    "Now a seam leaves a gap in the light beside it. More open around the same world, taking a little each time, until there is nothing left to chart.",
+    "A small green light appeared after the Low Green vanished. It has grown brighter with every loss. I checked the old charts. It is not on them.",
+    "The first page of the Watch records a different sort of loss: a light thrown down across the sky, while the high lights closed ranks above it. Our first keepers called it the Dropped Light.\n\nThey stopped looking when it fell out of sight. I have begun again.",
+    "Dark 3,125. The Hinge has gone quiet. Seams are opening around the Basin now. Through the nearest one, I saw the green light without a glass. It was land."
+   ]
+  },
+  {
+   "id": "riftscar_basin_2",
+   "tile": "riftscar_basin",
+   "rank": 16,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "WATCH KEPT",
+    "DARK 3,126",
+    "ALL LIGHTS OUT",
+    "BUT THE GREEN"
+   ]
+  },
+  {
+   "id": "windworn_plateau_1",
+   "tile": "windworn_plateau",
+   "rank": 17,
+   "slot": 1,
+   "look": "book",
+   "title": "A Pilgrim's Book",
+   "author": "Sef, pilgrim of the Noon",
+   "pages": [
+    "Third day of the Long Noon. Left the lower terraces with bread, water and a blessing. Every pilgrim climbs the Windworn once. I want to see the cracks the priests will not discuss.",
+    "Fifth day. The priests call them a test. They also told us the Bearer could not fall. Everyone saw it fall, and saw its Noonstone carried away. The light changed that day. By evening the cracks had begun.",
+    "Sixth day. Slept at the neglected shrine of the Second Noon. Its wall shows two Noons in the first sky. The second reaches for the first one's place. The high lights throw it down.",
+    "The fallen Noon is painted green. All the others are gold. I used to think the painter had run short of pigment.\n\nSeventh day. At the summit, a seam opened close enough to throw a stone through. I waited for another and looked inside.",
+    "There was a scrap of green land with houses on it. Other pieces joined its edges: different stone, different trees. A bright stone stood in the middle.\n\nSomeone carried a light to that stone. It took the light and brightened. Only then did the land grow.",
+    "The person stood watching it. They looked happy, like someone coming home. I want that in the record too.\n\nEighth day. The terraces are vanishing from the far rim inward. I can see the roads ending below me. I am staying here.",
+    "We baked bread in the sun here. The Noon was kind to us."
+   ]
+  },
+  {
+   "id": "windworn_plateau_2",
+   "tile": "windworn_plateau",
+   "rank": 17,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "PILGRIM, YOU",
+    "HAVE CLIMBED",
+    "THE WINDWORN",
+    "REST. LOOK UP."
+   ]
+  },
+  {
+   "id": "09_orchard_rest_1",
+   "tile": "09_orchard_rest",
+   "rank": 18,
+   "slot": 1,
+   "look": "book",
+   "title": "The Trees at Rest",
+   "author": "Maud Ellery, orchard keeper",
+   "pages": [
+    "The trees at Rest, kept by Maud Ellery.\n\nRow one. The Annet, planted for my mother. Sour till the frost, then the best eating there is.\n\nThe Corbie, planted the year we lost the boy. Hardly fruits. I keep it anyway.",
+    "Row two. Ashe's Early and Ashe's Late, grafted from old Ashe's trees before he died. Ask for them by name at market, and say where you got them.\n\nRow three. The young ones. No names yet. You name a tree when it first fruits; that's the rule.",
+    "§oLater, a shakier hand:§r\n\nI've been round with a basket picking everything, ripe or not. The fruit doesn't matter. I wanted them picked by someone who knew what they were.",
+    "Row three never fruited. I named them anyway: Hen, Little, Whistle and Bess.",
+    "If you're keeping them now, they want pruning in the cold month. Don't let anyone tell you the Corbie isn't worth it."
+   ]
+  },
+  {
+   "id": "09_orchard_rest_2",
+   "tile": "09_orchard_rest",
+   "rank": 18,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "REST ORCHARD",
+    "TAKE ONE",
+    "FOR THE ROAD",
+    "- M. ELLERY"
+   ]
+  },
+  {
+   "id": "sunken_gardens_1",
+   "tile": "sunken_gardens",
+   "rank": 19,
+   "slot": 1,
+   "look": "book",
+   "title": "Sowing, for Whoever Tends This Next",
+   "author": "Neve Saltry, gardener",
+   "pages": [
+    "Ninth neap. Sea-kale in along the low wall where the spray reaches. It likes salt. Samphire in the wet beds. Tide-lettuce on the steps. Mind the steps, they're slippery.",
+    "The sisters at the cloister keep a list. One day it will say \"the Saltry gardens\". I'm sowing anyway.\n\nThings come up whether or not I'm here to see it. I find I mind that less than I thought.",
+    "So, for whoever tends this next:\n\nWater at slack tide, not before. Pinch out the kale when it bolts. The fig on the south wall is older than my grandmother; she'll fruit if you leave her alone.",
+    "I don't know where you are, or what your weather does. I hope the salt gets there.\n\nNeve Saltry"
+   ]
+  },
+  {
+   "id": "sunken_gardens_2",
+   "tile": "sunken_gardens",
+   "rank": 19,
+   "slot": 2,
+   "look": "letter",
+   "pages": [
+    "Seeds, dry, sorted. Kale is the strongest. If nothing else takes, the kale will."
+   ]
+  },
+  {
+   "id": "fungal_grotto_1",
+   "tile": "fungal_grotto",
+   "rank": 20,
+   "slot": 1,
+   "look": "book",
+   "title": "Casebook of Ama",
+   "author": "Ama of the Seventh Ring, healer",
+   "pages": [
+    "Flush 40. Third case of the loosening sickness.\n\nIlo, cap-farmer. Unsteady on his feet, no fever. Says the ground will not stay under him.",
+    "I inspected his house. The threads beneath its floor are pale and loose. They no longer bind the soil.\n\nThe Knot holds the weave together. The Elder Mat guarded it. The Readers found the Mat's wound and the empty hollow where the Knot had rested.",
+    "Since the Knot was taken, the outer weave has failed. Our bodies depend on it as the soil does. I believe this is causing the sickness.",
+    "Treatment: rest, warmth and spore-tea gave no relief. Binding Ilo to a living mat steadied him until the mat began to loosen too.\n\nFlush 44. I have the same symptoms. No fever. The floor shifts beneath my chair.",
+    "I am leaving the casebook open. The ground will no longer hold my patients."
+   ]
+  },
+  {
+   "id": "fungal_grotto_2",
+   "tile": "fungal_grotto",
+   "rank": 20,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "SEVENTH RING",
+    "QUIET PLEASE",
+    "SICK RESTING"
+   ]
+  },
+  {
+   "id": "reedwater_mill_1",
+   "tile": "reedwater_mill",
+   "rank": 21,
+   "slot": 1,
+   "look": "book",
+   "title": "Ashby Family Recipes",
+   "author": "Gran Peg Ashby, Hal Ashby and a child",
+   "pages": [
+    "Ashby family recipes.\nKept by Gran Peg, and anyone else who can write neatly.\n\nTide bread. Barley meal from our own stones, a handful of reedseed, sea water rather than fresh. That's the secret. Don't tell the Dunnocks. Bake while the tide is coming in.",
+    "Eel pie: Hal's way now. Not my way, but he's stopped asking.\n\nNeap pudding, for when the wheel is idle and there's nobody to feed but us.",
+    "§oIn Hal's hand:§r Gran, the sisters came to take our names for their book. They said it was in case anything happened to the mill.\n\n§oGran's reply:§r Hal, the flour's milled. Bake it. You can give the sisters a loaf when they come back.",
+    "§oA child's hand:§r Gran says write down the bread so we don't forget. Barley, reedseed, sea water. Bake when the tide comes in. I wrote it down."
+   ]
+  },
+  {
+   "id": "reedwater_mill_2",
+   "tile": "reedwater_mill",
+   "rank": 21,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "ASHBY MILL",
+    "FLOUR & MEAL",
+    "MILLED ON THE",
+    "INCOMING TIDE"
+   ]
+  },
+  {
+   "id": "flooded_cloister_1",
+   "tile": "flooded_cloister",
+   "rank": 22,
+   "slot": 1,
+   "look": "book",
+   "title": "The Book of Things Taken",
+   "author": "The Order of the Patient Water; last pages by Sister Agna",
+   "pages": [
+    "We write down what is taken.\n\nFirst day after the Sleeping Tide was struck and the Tidestone carried away: the far reefs, the Gull Rocks, the light at Shenna Point.",
+    "Third day: Wenmouth and its harbor. All but the last arch of the causeway.\n\nSixth day: the Dunnock farms. The Saltry gardens, with Neve Saltry and her fig.\n\nSeventh day: the Ashby mill, with Hal inside.",
+    "Ninth day: the market half of the town.\n\nA seam opens above each place, and the place rises into it. Through the opening we hear a voice. It sounds pleased. We have heard it say, \"Every piece is a piece of home.\"",
+    "Tenth day. Sister Calla read the Climber at vespers. In our oldest teaching, the Climber tried to take the highest seat. Those above threw it into the deep. It has been seeking a way back ever since.",
+    "We teach that story as a lesson in patience. Calla read it twice. Then she asked us to think about the voice.",
+    "We have begun praying for the one who carries the pieces. Calla calls them the Restorer, after the work the voice says they are doing.",
+    "Restorer, stop. Whatever the voice has told you, stop.",
+    "Eleventh day. The cloister will be next. We have moved the books to the high room. Sister Calla is staying with them.\n\nIf you read this, Restorer, we are still praying for you. That is what the Patient Water asks of us.\n\nSister Agna"
+   ]
+  },
+  {
+   "id": "flooded_cloister_2",
+   "tile": "flooded_cloister",
+   "rank": 22,
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "PATIENT WATER",
+    "ENTER QUIETLY",
+    "ALL ARE",
+    "WELCOME"
+   ]
+  },
+  {
+   "id": "rootbound_archive_1",
+   "tile": "rootbound_archive",
+   "rank": 23,
+   "slot": 1,
+   "look": "book",
+   "title": "Finding of the Rootbound Readers",
+   "author": "The Readers, entered in the register in Growth 4,402",
+   "pages": [
+    "Question: why is the weave failing?\n\nFinding: the Knot has been taken. The Elder Mat that guarded it is dead. Agreed by all.",
+    "Question: who took it?\n\nFinding: a stranger entered the Mat's hollow through a seam and left by the same opening. Agreed by all.",
+    "Question: where was the Knot carried?\n\nFinding: to a small green place with a stone at its center. The stone calls itself a core. It is made from the cores of other worlds.",
+    "We have read traces of forty worlds in the spore-drift. Each lost its core after a stranger entered through a seam. Each saw the same green place beyond the openings that followed.",
+    "Question: what is the stone?\n\nThe oldest accounts give it different names: the Empty Chair on Cressen Hill, the Dropped Light in the Basin, the Second Noon on the Terraces. The coast teaches the Climber. We tell of the Root That Grew Upward.",
+    "All describe one of the gods trying to take the highest seat. The others cast it down and stripped away its name. What survived the fall was small.",
+    "We enter the fallen god as the Unseated, and those who cast it down as the Seated. We call the green place the Foothold. It is gathering ground and strength for another ascent.",
+    "The stolen cores restore its former shape. The people brought with the land are chosen for the work they can do.\n\nQuestion: does it know what it is doing?\n\nFinding: yes. Agreed by all.",
+    "Question: does the stranger know?\n\nFinding: no. Majority agreement.\n\nDissent of Reader Oren: not yet. The Unseated has misled them. It would not need to lie if the truth could make no difference."
+   ]
+  },
+  {
+   "id": "rootbound_archive_2",
+   "tile": "rootbound_archive",
+   "rank": 23,
+   "slot": 2,
+   "look": "book",
+   "author": "Oren of the Root Ring, Reader",
+   "pages": [
+    "To the Restorer, from Oren of the Root Ring.\n\nWe hear the voice through the seams. It calls your work restoring, so I have used the name Sister Calla gave you.",
+    "I do not accuse you. You will likely find this letter on the green ground, our archive set somewhere convenient. The stone keeps what it can use.\n\nIf it takes this room, it will want the books. I doubt it will trouble to read them first.",
+    "What do you remember from before it found you? If the answer is nothing, consider how easily it could tell you where you belong.\n\nOren"
+   ]
+  },
+  {
+   "id": "frostpine_ridge_1",
+   "tile": "frostpine_ridge",
+   "rank": 24,
+   "slot": 1,
+   "look": "book",
+   "title": "Hut Log, Ninth Spear",
+   "author": "The Ninth Spear; last page by Ivo",
+   "pages": [
+    "Hut log, Ninth Spear. The Lady's Gate.\n\nDark half, night 39. Snow. A stranger came through a seam in the gate cave at the second hour. Halde killed them on the ice. Before she could reach the body, the light took it back.",
+    "Night 40. Snow. The same stranger returned. Halde recognized them; they showed no sign of knowing her. She killed them again. Again the light took them.",
+    "Halde has the stove going. Ivo's foot is better. At moonrise the Lady sang beneath the ice. All well below.\n\nNight 41. Ivo carved Halde a spoon. She says it's a ladle. He says she can carve the next one herself.",
+    "Later. The seam has opened for a third night. Halde says the stranger looks less certain each time, as though they no longer remember why they came.",
+    "She called them the saddest thing she has ever had to fight. Then she took her spear and went down. She is the best of us.\n\nThe fighting has reached the lower gate. Ivo has gone to help her. I am closing the log and following him.",
+    "§oAnother hand, unsteady:§r\n\nVery quiet now. The Lady has stopped singing.\n\nIf you are reading this, you won. I suppose the hut will be yours too.",
+    "The stove smokes in an east wind. Bank it on that side. Halde's spoon is on the shelf."
+   ]
+  },
+  {
+   "id": "frostpine_ridge_2",
+   "tile": "frostpine_ridge",
+   "rank": 24,
+   "slot": 2,
+   "look": "stick",
+   "title": "Halde's Spoon",
+   "pages": [
+    "Carved by Ivo. Halde says it's a ladle."
+   ]
+  },
+  {
+   "id": "fallen_aqueduct_1",
+   "tile": "fallen_aqueduct",
+   "rank": 25,
+   "slot": 1,
+   "look": "book",
+   "title": "Inspection Log, Outer Arches",
+   "author": "Aqueduct keepers under Imre Solt",
+   "pages": [
+    "Arch 9. Mortar sound. Moss on the downstream face; scrape in spring.\n\nArch 10. Hairline crack, filled. Water at three-quarters. The city is drinking more than last turning.",
+    "Arch 11 commissioned. The near islands' springs are dry, so we reach for the outer ones. Chief Solt says this one will be enough.\n\nArch 11 complete. Water full. City asking for more."
+   ]
+  },
+  {
+   "id": "fallen_aqueduct_2",
+   "tile": "fallen_aqueduct",
+   "rank": 25,
+   "slot": 2,
+   "look": "book",
+   "author": "Imre Solt, Chief of Waters",
+   "pages": [
+    "To whoever carries for the green place.\n\nI was Chief of Waters in Vell for thirty-one years. I built this aqueduct across eleven islands. By the end, every spring it reached was dry.",
+    "Vell was my city. I loved it. When the near springs failed, I built farther out. I told the islanders the water was for everyone. At the time, I believed that was enough.",
+    "Every new arch brought thanks, then another request. I kept finding ways to bring the water.\n\nWhen a seam opened above Vell, I heard the voice from your green place. I knew that tone: patient, grateful, certain the next delivery would be enough.",
+    "There is one difference. The people asking me believed it would be enough. I have listened to your voice through three seams. I do not think it believes what it tells you.",
+    "Knowing did not make it easy to stop. By then, the city depended on what I brought. I had helped make that true.\n\nI wish someone had told me while there were still springs left.",
+    "Soon it will tell you that home is whole. Then it will ask you to look beyond the edges.\n\nImre Solt, Chief of Waters.\n\nThe twelfth arch was never built. It would not have been the last."
+   ]
+  },
+  {
+   "id": "fallen_aqueduct_3",
+   "tile": "fallen_aqueduct",
+   "rank": 25,
+   "slot": 3,
+   "look": "sign",
+   "lines": [
+    "WATER FOR",
+    "THE CITY",
+    "FROM THE",
+    "OUTER ISLANDS"
+   ]
+  }
+ ],
+ "wilderness": [
+  {
+   "id": "wild_01",
+   "tile": "wilderness",
+   "slot": 1,
+   "look": "letter",
+   "pages": [
+    "Gone up to the high pasture till lambing. Key's under the pot. Brin"
+   ]
+  },
+  {
+   "id": "wild_02",
+   "tile": "wilderness",
+   "slot": 2,
+   "look": "sign",
+   "lines": [
+    "SPRING WATER",
+    "BOIL FIRST"
+   ]
+  },
+  {
+   "id": "wild_03",
+   "tile": "wilderness",
+   "slot": 3,
+   "look": "letter",
+   "pages": [
+    "Fourth Moon, rest day. Everyone's up the hill counting the cracks. Not me. Somebody has to milk."
+   ]
+  },
+  {
+   "id": "wild_04",
+   "tile": "wilderness",
+   "slot": 4,
+   "look": "letter",
+   "pages": [
+    "Ledger closed for the year. Balance carried forward."
+   ]
+  },
+  {
+   "id": "wild_05",
+   "tile": "wilderness",
+   "slot": 5,
+   "look": "letter",
+   "pages": [
+    "To my sister in the lowlands: the light's on our side of the river now. Don't come. Love, K."
+   ]
+  },
+  {
+   "id": "wild_06",
+   "tile": "wilderness",
+   "slot": 6,
+   "look": "letter",
+   "pages": [
+    "Nine bells rang at noon. Should be twelve. Three towers not answering."
+   ]
+  },
+  {
+   "id": "wild_07",
+   "tile": "wilderness",
+   "slot": 7,
+   "look": "letter",
+   "pages": [
+    "Flour. Lamp oil. Thread, blue. Something for Ma's birthday."
+   ]
+  },
+  {
+   "id": "wild_08",
+   "tile": "wilderness",
+   "slot": 8,
+   "look": "sign",
+   "lines": [
+    "SCHOOL",
+    "CLOSED",
+    "TODAY"
+   ]
+  },
+  {
+   "id": "wild_09",
+   "tile": "wilderness",
+   "slot": 9,
+   "look": "letter",
+   "pages": [
+    "The Archon fell at dawn. The priests say it rises on the third day. It is the third day."
+   ]
+  },
+  {
+   "id": "wild_10",
+   "tile": "wilderness",
+   "slot": 10,
+   "look": "letter",
+   "pages": [
+    "If you find this, the goat's name is Patience, and she bites."
+   ]
+  },
+  {
+   "id": "wild_11",
+   "tile": "wilderness",
+   "slot": 11,
+   "look": "letter",
+   "pages": [
+    "We tried to sail away from it. We reached the edge of the sea. There was nothing beyond it to sail into."
+   ]
+  },
+  {
+   "id": "wild_12",
+   "tile": "wilderness",
+   "slot": 12,
+   "look": "letter",
+   "pages": [
+    "Mother, I'm sorry about the plates."
+   ]
+  },
+  {
+   "id": "wild_13",
+   "tile": "wilderness",
+   "slot": 13,
+   "look": "letter",
+   "pages": [
+    "Planted the beans anyway."
+   ]
+  },
+  {
+   "id": "wild_14",
+   "tile": "wilderness",
+   "slot": 14,
+   "look": "letter",
+   "pages": [
+    "The names of everyone on Tanner Street, in case no one else kept a list: Aldo, Biss, Cato, Dree, the twins, Old Wen, Mags, Rue."
+   ]
+  },
+  {
+   "id": "wild_15",
+   "tile": "wilderness",
+   "slot": 15,
+   "look": "clock",
+   "title": "A Stopped Clock",
+   "pages": [
+    "Wind every rest day. Last wound by Ada."
+   ]
+  },
+  {
+   "id": "wild_16",
+   "tile": "wilderness",
+   "slot": 16,
+   "look": "letter",
+   "pages": [
+    "The stone's gone from the square. The children keep putting their hands where it sat. It's still warm."
+   ]
+  },
+  {
+   "id": "wild_17",
+   "tile": "wilderness",
+   "slot": 17,
+   "look": "sign",
+   "lines": [
+    "NO ONE PAST",
+    "THIS DOOR",
+    "BY ORDER OF",
+    "THE KEEPER"
+   ]
+  },
+  {
+   "id": "wild_18",
+   "tile": "wilderness",
+   "slot": 18,
+   "look": "letter",
+   "pages": [
+    "The stranger came through the light a third time and didn't recognize us. Lio says that makes it worse. I was glad they didn't remember my face."
+   ]
+  },
+  {
+   "id": "wild_19",
+   "tile": "wilderness",
+   "slot": 19,
+   "look": "letter",
+   "pages": [
+    "Grandmother says this happened once before, the other way round: something fell out of the sky, and the sky closed over it. She says it should have stayed closed."
+   ]
+  },
+  {
+   "id": "wild_20",
+   "tile": "wilderness",
+   "slot": 20,
+   "look": "letter",
+   "pages": [
+    "It took the mill and the miller and left the church standing. Even the priest noticed."
+   ]
+  }
+ ]
+}

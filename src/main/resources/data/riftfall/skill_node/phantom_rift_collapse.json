@@ -1,0 +1,20 @@
+{
+  "id": "phantom_rift_collapse",
+  "class": "phantom",
+  "ascendancy": "void_walker",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:phantom_rift_collapse",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 140.0,
+  "base_cooldown_ticks": 4000,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "movement"
+  },
+  "stored": {
+    "release": "expire",
+    "window_ticks": 20
+  }
+}

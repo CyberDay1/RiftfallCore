@@ -1,0 +1,33 @@
+{
+    "type": "apotheosis:psychic",
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "apotheosis:common": {
+            "min": 0.29,
+            "max": 0.38
+        },
+        "apotheosis:uncommon": {
+            "min": 0.35,
+            "max": 0.51
+        },
+        "apotheosis:rare": {
+            "min": 0.42,
+            "max": 0.68
+        },
+        "apotheosis:epic": {
+            "min": 0.5,
+            "max": 0.9
+        },
+        "apotheosis:mythic": {
+            "min": 0.6,
+            "max": 1.2
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+	"parent": "minecraft:block/block",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"particle": "riftfall:block/world_breaker_crystal_lit",
+		"world_breaker_crystal_lit": "riftfall:block/world_breaker_crystal_lit"
+	},
+	"elements": [
+		{
+			"name": "tip_shard",
+			"from": [6.75, -3, 6.75],
+			"to": [9.25, 1, 9.25],
+			"rotation": {
+				"angle": 45,
+				"axis": "y",
+				"origin": [8, 0, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [6.75, 15, 9.25, 16],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"east": {
+					"uv": [6.75, 15, 9.25, 16],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"south": {
+					"uv": [6.75, 15, 9.25, 16],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"west": {
+					"uv": [6.75, 15, 9.25, 16],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"up": {
+					"uv": [6.75, 6.75, 9.25, 9.25],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"down": {
+					"uv": [6.75, 6.75, 9.25, 9.25],
+					"texture": "#world_breaker_crystal_lit"
+				}
+			},
+			"neoforge_data": {
+				"block_light": 15,
+				"sky_light": 15
+			}
+		},
+		{
+			"name": "tip_point",
+			"from": [7.4, 1, 7.4],
+			"to": [8.6, 3, 8.6],
+			"rotation": {
+				"angle": 45,
+				"axis": "y",
+				"origin": [8, 0, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [7.4, 13, 8.6, 15],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"east": {
+					"uv": [7.4, 13, 8.6, 15],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"south": {
+					"uv": [7.4, 13, 8.6, 15],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"west": {
+					"uv": [7.4, 13, 8.6, 15],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"up": {
+					"uv": [7.4, 7.4, 8.6, 8.6],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"down": {
+					"uv": [7.4, 7.4, 8.6, 8.6],
+					"texture": "#world_breaker_crystal_lit"
+				}
+			},
+			"neoforge_data": {
+				"block_light": 15,
+				"sky_light": 15
+			}
+		}
+	]
+}

@@ -1,0 +1,104 @@
+{
+  "textures": {
+    "flame": "minecraft:block/fire_0"
+  },
+  "elements": [
+    {
+      "from": [
+        -8,
+        -6,
+        -6
+      ],
+      "to": [
+        24,
+        22,
+        -5.9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#flame"
+        },
+        "south": {
+          "texture": "#flame"
+        },
+        "east": {
+          "texture": "#flame"
+        },
+        "west": {
+          "texture": "#flame"
+        },
+        "up": {
+          "texture": "#flame"
+        },
+        "down": {
+          "texture": "#flame"
+        }
+      }
+    },
+    {
+      "from": [
+        -8,
+        -6,
+        -6
+      ],
+      "to": [
+        -7.9,
+        22,
+        18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#flame"
+        },
+        "south": {
+          "texture": "#flame"
+        },
+        "east": {
+          "texture": "#flame"
+        },
+        "west": {
+          "texture": "#flame"
+        },
+        "up": {
+          "texture": "#flame"
+        },
+        "down": {
+          "texture": "#flame"
+        }
+      }
+    },
+    {
+      "from": [
+        23.9,
+        -6,
+        -6
+      ],
+      "to": [
+        24,
+        22,
+        18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#flame"
+        },
+        "south": {
+          "texture": "#flame"
+        },
+        "east": {
+          "texture": "#flame"
+        },
+        "west": {
+          "texture": "#flame"
+        },
+        "up": {
+          "texture": "#flame"
+        },
+        "down": {
+          "texture": "#flame"
+        }
+      }
+    }
+  ],
+  "ambientocclusion": false
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "archers_expansion"
+    }
+  ],
+  "name": "polar_stalker",
+  "items": [
+    "archers_expansion:polar_stalker_head",
+    "archers_expansion:polar_stalker_chest",
+    "archers_expansion:polar_stalker_legs",
+    "archers_expansion:polar_stalker_feet"
+  ],
+  "bonuses": []
+}

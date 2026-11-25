@@ -1,0 +1,17 @@
+{
+  "id": "cleric_purify",
+  "class": "cleric",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:cleric_purify",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 41.0,
+  "base_cooldown_ticks": 360,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "heal",
+    "magnitude_per_rank": 0.1
+  },
+  "category": "heal"
+}

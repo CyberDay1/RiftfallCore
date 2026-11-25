@@ -1,0 +1,8 @@
+{
+  "id": "phantom_reduced_stealth_cooldown",
+  "class": "phantom",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:stealth_haste",
+  "bonus_per_rank": 10.0
+}

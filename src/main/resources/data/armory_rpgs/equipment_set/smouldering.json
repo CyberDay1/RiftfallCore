@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "smouldering",
+  "items": [
+    "armory_rpgs:smouldering_robe_head",
+    "armory_rpgs:smouldering_robe_chest",
+    "armory_rpgs:smouldering_robe_legs",
+    "armory_rpgs:smouldering_robe_feet"
+  ],
+  "bonuses": []
+}

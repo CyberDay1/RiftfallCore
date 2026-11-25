@@ -1,0 +1,28 @@
+{
+  "id": "reaper_reapers_judgment",
+  "class": "reaper",
+  "ascendancy": "executioner",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:reaper_reapers_judgment",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 3600,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  },
+  "stored": {
+    "release": "recast",
+    "window_ticks": 160,
+    "arm_ticks": 10,
+    "on_expire": "fizzle",
+    "per_hit": 1.0,
+    "cap": 10,
+    "decay_after_ticks": 60,
+    "decay_every_ticks": 20,
+    "per_unit": 0.1
+  }
+}

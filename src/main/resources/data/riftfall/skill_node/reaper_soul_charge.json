@@ -1,0 +1,16 @@
+{
+  "id": "reaper_soul_charge",
+  "class": "reaper",
+  "ascendancy": "drainreaver",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:reaper_soul_charge",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 15.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  }
+}

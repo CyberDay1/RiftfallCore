@@ -1,0 +1,137 @@
+{
+  "textures": {
+    "shaft": "minecraft:block/oak_planks",
+    "head": "minecraft:block/iron_block",
+    "feather": "minecraft:block/white_wool"
+  },
+  "elements": [
+    {
+      "from": [
+        7.5,
+        7.5,
+        2
+      ],
+      "to": [
+        8.5,
+        8.5,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#shaft"
+        },
+        "south": {
+          "texture": "#shaft"
+        },
+        "east": {
+          "texture": "#shaft"
+        },
+        "west": {
+          "texture": "#shaft"
+        },
+        "up": {
+          "texture": "#shaft"
+        },
+        "down": {
+          "texture": "#shaft"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        7,
+        0
+      ],
+      "to": [
+        9.5,
+        9,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#head"
+        },
+        "south": {
+          "texture": "#head"
+        },
+        "east": {
+          "texture": "#head"
+        },
+        "west": {
+          "texture": "#head"
+        },
+        "up": {
+          "texture": "#head"
+        },
+        "down": {
+          "texture": "#head"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        7.5,
+        11
+      ],
+      "to": [
+        10,
+        8.5,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather"
+        },
+        "south": {
+          "texture": "#feather"
+        },
+        "east": {
+          "texture": "#feather"
+        },
+        "west": {
+          "texture": "#feather"
+        },
+        "up": {
+          "texture": "#feather"
+        },
+        "down": {
+          "texture": "#feather"
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        6,
+        11
+      ],
+      "to": [
+        8.5,
+        10,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather"
+        },
+        "south": {
+          "texture": "#feather"
+        },
+        "east": {
+          "texture": "#feather"
+        },
+        "west": {
+          "texture": "#feather"
+        },
+        "up": {
+          "texture": "#feather"
+        },
+        "down": {
+          "texture": "#feather"
+        }
+      }
+    }
+  ]
+}

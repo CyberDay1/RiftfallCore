@@ -1,0 +1,24 @@
+{
+  "id": "monk_combo_discipline",
+  "class": "monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/monk_combo_discipline",
+  "shape": "proc",
+  "internal_cooldown_ticks": 100,
+  "bonus_per_rank": 0.1,
+  "reaction": {
+    "on": "cast",
+    "count": 3,
+    "count_window_ticks": 200
+  },
+  "surge": {
+    "seconds": 6.0,
+    "terms": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

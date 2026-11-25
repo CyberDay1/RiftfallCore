@@ -1,0 +1,72 @@
+{
+    "type": "apotheosis:gem",
+    "min_purity": "cracked",
+    "unique": true,
+    "weights": {
+        "weight": 100,
+        "quality": 0.1
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:life_steal",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.009,
+                "chipped": 0.012,
+                "flawed": 0.017,
+                "normal": 0.021,
+                "flawless": 0.026,
+                "perfect": 0.03
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.armor_toughness",
+            "gem_class": {
+                "key": "armor",
+                "types": [
+                    "apotheosis:helmet",
+                    "apotheosis:chestplate",
+                    "apotheosis:leggings",
+                    "apotheosis:boots"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.12,
+                "chipped": 0.16,
+                "flawed": 0.22,
+                "normal": 0.28,
+                "flawless": 0.34,
+                "perfect": 0.4
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.armor_toughness",
+            "gem_class": {
+                "key": "shield",
+                "types": [
+                    "apotheosis:shield"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.12,
+                "chipped": 0.16,
+                "flawed": 0.22,
+                "normal": 0.28,
+                "flawless": 0.34,
+                "perfect": 0.4
+            }
+        }
+    ]
+}

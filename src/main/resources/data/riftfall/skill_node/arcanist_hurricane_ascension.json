@@ -1,0 +1,27 @@
+{
+  "id": "arcanist_hurricane_ascension",
+  "class": "arcanist",
+  "ascendancy": "storm_savant",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:arcanist_hurricane_ascension",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 3600,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  },
+  "stored": {
+    "release": "expire",
+    "window_ticks": 70,
+    "arm_ticks": 30,
+    "anchor": "aim",
+    "aim_range": 24.0,
+    "radius": 6.0,
+    "pulse_ticks": 10,
+    "pull": 0.4
+  }
+}

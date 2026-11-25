@@ -1,0 +1,21 @@
+{
+  "type": "riftfall:resident_conversion",
+  "role": "quarry_specialist",
+  "min_rank": "master",
+  "specialisation": "crystalwright",
+  "inputs": [
+    {
+      "item": "riftfall:common_runestone",
+      "count": 1
+    },
+    {
+      "tag": "riftfall:theme_crystals",
+      "count": 2
+    }
+  ],
+  "shards": 6,
+  "result": {
+    "id": "riftfall:socket_chisel"
+  },
+  "replaces": "riftfall:resident/quarry_specialist/socket_chisel"
+}

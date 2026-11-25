@@ -1,0 +1,117 @@
+{
+  "school": "spell_power:physical_melee",
+  "type": "PASSIVE",
+  "passive": {
+    "triggers": []
+  },
+  "range": 4.0,
+  "target": {
+    "type": "AREA",
+    "area": {
+      "vertical_range_multiplier": 0.5,
+      "include_caster": false
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "rogues:mortal_strike_impact",
+      "volume": 0.55,
+      "pitch": 0.9,
+      "randomness": 0.06
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:smoke_medium",
+          "appearance": {
+            "color": 336207871,
+            "color_variance": 0.08,
+            "scale": 3.0,
+            "opacity": 0.9
+          },
+          "batch": {
+            "count": 18.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.12,
+            "max_speed": 0.2,
+            "vertical_origin": 0.3
+          }
+        },
+        {
+          "id": "spell_engine:magic_star",
+          "appearance": {
+            "color": 2808545279,
+            "color_variance": 0.08,
+            "scale": 2.6
+          },
+          "batch": {
+            "count": 6.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.09
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 3.0,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:area_effect_741",
+            "appearance": {
+              "color": 2808545279,
+              "color_variance": 0.08,
+              "facing": "CAMERA",
+              "scale": 1.4,
+              "opacity": 0.95
+            },
+            "batch": {
+              "count": 1.0,
+              "shape": "NONE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.0,
+              "max_speed": 0.0
+            }
+          },
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 336207871,
+              "color_variance": 0.08,
+              "scale": 3.0,
+              "opacity": 0.9
+            },
+            "batch": {
+              "count": 5.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.08
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "rogues:mortal_strike_impact",
+        "volume": 0.4,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

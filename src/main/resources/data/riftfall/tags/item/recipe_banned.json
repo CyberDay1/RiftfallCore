@@ -1,0 +1,106 @@
+{
+  "replace": false,
+  "values": [
+    "#riftfall:acquisition_banned",
+    {
+      "id": "apotheosis:simple_reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:salvaging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gem_cutting_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:augmenting_table",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:raven_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gem_case",
+      "required": false
+    },
+    {
+      "id": "apotheosis:ender_gem_case",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_socketing",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_rebirth",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_enhancement",
+      "required": false
+    },
+    {
+      "id": "create_enchantment_industry:gem_cutter",
+      "required": false
+    },
+    {
+      "id": "create_enchantment_industry:affix_augmentor",
+      "required": false
+    },
+    {
+      "id": "apotheosis:iron_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gold_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "apotheosis:diamond_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_unnaming",
+      "required": false
+    },
+    {
+      "id": "aether:golden_dart_shooter",
+      "required": false
+    },
+    {
+      "id": "aether:poison_dart_shooter",
+      "required": false
+    },
+    {
+      "id": "aether:enchanted_dart_shooter",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursed_bow",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:sonorous_staff",
+      "required": false
+    },
+    {
+      "id": "#better_weaponry:shurikens",
+      "required": false
+    },
+    {
+      "id": "extraspellattributes:undyingsoul",
+      "required": false
+    },
+    {
+      "id": "witcher_rpg:master_spell_book",
+      "required": false
+    }
+  ]
+}

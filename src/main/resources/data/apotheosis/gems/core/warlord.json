@@ -1,0 +1,53 @@
+{
+    "type": "apotheosis:gem",
+    "min_purity": "cracked",
+    "unique": true,
+    "weights": {
+        "weight": 100,
+        "quality": 0.1
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:crit_damage",
+            "gem_class": {
+                "key": "weapons",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident",
+                    "apotheosis:bow",
+                    "riftfall:gun"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.023,
+                "chipped": 0.03,
+                "flawed": 0.041,
+                "normal": 0.053,
+                "flawless": 0.064,
+                "perfect": 0.075
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:crit_damage",
+            "gem_class": {
+                "key": "magic_gear",
+                "types": [
+                    "irons_apothic:staff",
+                    "irons_apothic:spellbook"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.023,
+                "chipped": 0.03,
+                "flawed": 0.041,
+                "normal": 0.053,
+                "flawless": 0.064,
+                "perfect": 0.075
+            }
+        }
+    ]
+}

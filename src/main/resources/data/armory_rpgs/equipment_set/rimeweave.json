@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "rimeweave",
+  "items": [
+    "armory_rpgs:rimeweave_robe_head",
+    "armory_rpgs:rimeweave_robe_chest",
+    "armory_rpgs:rimeweave_robe_legs",
+    "armory_rpgs:rimeweave_robe_feet"
+  ],
+  "bonuses": []
+}

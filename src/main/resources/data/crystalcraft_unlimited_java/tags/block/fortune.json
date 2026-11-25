@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "riftfall:ice_opal_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:fire_opal_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:sunstone_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:maradonyx_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:moonstone_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:deepslate_onyx_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:deepslate_fire_opal_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:deepslate_sunstone_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:deepslate_maradonyx_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:deepslate_moonstone_ore",
+      "required": false
+    },
+    {
+      "id": "riftfall:deepslate_ice_opal_ore",
+      "required": false
+    }
+  ]
+}

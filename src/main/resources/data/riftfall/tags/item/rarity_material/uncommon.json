@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "apotheosis:timeworn_fabric",
+      "required": false
+    }
+  ]
+}

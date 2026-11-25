@@ -1,0 +1,16 @@
+{
+  "id": "shifter_storm_talon_descent",
+  "class": "shifter",
+  "ascendancy": "sky_raptor",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:shifter_storm_talon_descent",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 3600,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "movement"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "riftfall:block/world_core/pedestal",
+  "textures": {
+    "particle": "chipped:block/calcite/cracked_flat_calcite_tiles",
+    "top": "chipped:block/calcite/cracked_flat_calcite_tiles",
+    "side": "chipped:block/calcite/cracked_calcite_bricks",
+    "floor": "chipped:block/calcite/calcite_mini_tiles",
+    "rune": "chipped:block/calcite/runic_carved_calcite"
+  }
+}

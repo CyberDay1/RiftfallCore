@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:enderman",
+    "minecraft:endermite",
+    { "id": "legendary_monsters:chorusling", "required": false },
+    { "id": "legendary_monsters:fractured", "required": false },
+    { "id": "legendary_monsters:fractured_apostle", "required": false },
+    { "id": "unique_mobs:assassin_enderman", "required": false },
+    { "id": "unique_mobs:enraged_enderman", "required": false },
+    { "id": "unique_mobs:ender_creeper", "required": false },
+    { "id": "unique_mobs:ender_skeleton", "required": false },
+    { "id": "unique_mobs:ender_zombie", "required": false },
+    { "id": "unique_mobs:obsidling", "required": false },
+    { "id": "cataclysm:endermaptera", "required": false },
+    { "id": "monsterplus:ender_eye", "required": false },
+    { "id": "eternal_starlight:lonestar_skeleton", "required": false },
+    { "id": "eternal_starlight:nightfall_spider", "required": false },
+    { "id": "eternal_starlight:stranghoul", "required": false },
+    { "id": "eternal_starlight:thirst_walker", "required": false },
+    { "id": "eternal_starlight:gleech", "required": false },
+    { "id": "eternal_starlight:tangled", "required": false },
+    { "id": "eternal_starlight:seeker", "required": false },
+    { "id": "alexsmobs:farseer", "required": false },
+    { "id": "alexsmobs:straddler", "required": false }
+  ]
+}

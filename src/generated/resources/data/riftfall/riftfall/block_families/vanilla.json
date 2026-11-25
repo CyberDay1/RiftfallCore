@@ -1,0 +1,317 @@
+{
+  "minecraft:acacia_planks": {
+    "button": "minecraft:acacia_button",
+    "fence": "minecraft:acacia_fence",
+    "fence_gate": "minecraft:acacia_fence_gate",
+    "pressure_plate": "minecraft:acacia_pressure_plate",
+    "slab": "minecraft:acacia_slab",
+    "stairs": "minecraft:acacia_stairs",
+    "trapdoor": "minecraft:acacia_trapdoor"
+  },
+  "minecraft:andesite": {
+    "slab": "minecraft:andesite_slab",
+    "stairs": "minecraft:andesite_stairs",
+    "wall": "minecraft:andesite_wall"
+  },
+  "minecraft:bamboo_mosaic": {
+    "slab": "minecraft:bamboo_mosaic_slab",
+    "stairs": "minecraft:bamboo_mosaic_stairs"
+  },
+  "minecraft:bamboo_planks": {
+    "button": "minecraft:bamboo_button",
+    "fence": "minecraft:bamboo_fence",
+    "fence_gate": "minecraft:bamboo_fence_gate",
+    "pressure_plate": "minecraft:bamboo_pressure_plate",
+    "slab": "minecraft:bamboo_slab",
+    "stairs": "minecraft:bamboo_stairs",
+    "trapdoor": "minecraft:bamboo_trapdoor"
+  },
+  "minecraft:birch_planks": {
+    "button": "minecraft:birch_button",
+    "fence": "minecraft:birch_fence",
+    "fence_gate": "minecraft:birch_fence_gate",
+    "pressure_plate": "minecraft:birch_pressure_plate",
+    "slab": "minecraft:birch_slab",
+    "stairs": "minecraft:birch_stairs",
+    "trapdoor": "minecraft:birch_trapdoor"
+  },
+  "minecraft:blackstone": {
+    "slab": "minecraft:blackstone_slab",
+    "stairs": "minecraft:blackstone_stairs",
+    "wall": "minecraft:blackstone_wall"
+  },
+  "minecraft:bricks": {
+    "slab": "minecraft:brick_slab",
+    "stairs": "minecraft:brick_stairs",
+    "wall": "minecraft:brick_wall"
+  },
+  "minecraft:cherry_planks": {
+    "button": "minecraft:cherry_button",
+    "fence": "minecraft:cherry_fence",
+    "fence_gate": "minecraft:cherry_fence_gate",
+    "pressure_plate": "minecraft:cherry_pressure_plate",
+    "slab": "minecraft:cherry_slab",
+    "stairs": "minecraft:cherry_stairs",
+    "trapdoor": "minecraft:cherry_trapdoor"
+  },
+  "minecraft:cobbled_deepslate": {
+    "slab": "minecraft:cobbled_deepslate_slab",
+    "stairs": "minecraft:cobbled_deepslate_stairs",
+    "wall": "minecraft:cobbled_deepslate_wall"
+  },
+  "minecraft:cobblestone": {
+    "slab": "minecraft:cobblestone_slab",
+    "stairs": "minecraft:cobblestone_stairs",
+    "wall": "minecraft:cobblestone_wall"
+  },
+  "minecraft:crimson_planks": {
+    "button": "minecraft:crimson_button",
+    "fence": "minecraft:crimson_fence",
+    "fence_gate": "minecraft:crimson_fence_gate",
+    "pressure_plate": "minecraft:crimson_pressure_plate",
+    "slab": "minecraft:crimson_slab",
+    "stairs": "minecraft:crimson_stairs",
+    "trapdoor": "minecraft:crimson_trapdoor"
+  },
+  "minecraft:cut_copper": {
+    "slab": "minecraft:cut_copper_slab",
+    "stairs": "minecraft:cut_copper_stairs"
+  },
+  "minecraft:cut_red_sandstone": {
+    "slab": "minecraft:cut_red_sandstone_slab"
+  },
+  "minecraft:cut_sandstone": {
+    "slab": "minecraft:cut_sandstone_slab"
+  },
+  "minecraft:dark_oak_planks": {
+    "button": "minecraft:dark_oak_button",
+    "fence": "minecraft:dark_oak_fence",
+    "fence_gate": "minecraft:dark_oak_fence_gate",
+    "pressure_plate": "minecraft:dark_oak_pressure_plate",
+    "slab": "minecraft:dark_oak_slab",
+    "stairs": "minecraft:dark_oak_stairs",
+    "trapdoor": "minecraft:dark_oak_trapdoor"
+  },
+  "minecraft:dark_prismarine": {
+    "slab": "minecraft:dark_prismarine_slab",
+    "stairs": "minecraft:dark_prismarine_stairs"
+  },
+  "minecraft:deepslate_bricks": {
+    "slab": "minecraft:deepslate_brick_slab",
+    "stairs": "minecraft:deepslate_brick_stairs",
+    "wall": "minecraft:deepslate_brick_wall"
+  },
+  "minecraft:deepslate_tiles": {
+    "slab": "minecraft:deepslate_tile_slab",
+    "stairs": "minecraft:deepslate_tile_stairs",
+    "wall": "minecraft:deepslate_tile_wall"
+  },
+  "minecraft:diorite": {
+    "slab": "minecraft:diorite_slab",
+    "stairs": "minecraft:diorite_stairs",
+    "wall": "minecraft:diorite_wall"
+  },
+  "minecraft:end_stone_bricks": {
+    "slab": "minecraft:end_stone_brick_slab",
+    "stairs": "minecraft:end_stone_brick_stairs",
+    "wall": "minecraft:end_stone_brick_wall"
+  },
+  "minecraft:exposed_cut_copper": {
+    "slab": "minecraft:exposed_cut_copper_slab",
+    "stairs": "minecraft:exposed_cut_copper_stairs"
+  },
+  "minecraft:granite": {
+    "slab": "minecraft:granite_slab",
+    "stairs": "minecraft:granite_stairs",
+    "wall": "minecraft:granite_wall"
+  },
+  "minecraft:jungle_planks": {
+    "button": "minecraft:jungle_button",
+    "fence": "minecraft:jungle_fence",
+    "fence_gate": "minecraft:jungle_fence_gate",
+    "pressure_plate": "minecraft:jungle_pressure_plate",
+    "slab": "minecraft:jungle_slab",
+    "stairs": "minecraft:jungle_stairs",
+    "trapdoor": "minecraft:jungle_trapdoor"
+  },
+  "minecraft:mangrove_planks": {
+    "button": "minecraft:mangrove_button",
+    "fence": "minecraft:mangrove_fence",
+    "fence_gate": "minecraft:mangrove_fence_gate",
+    "pressure_plate": "minecraft:mangrove_pressure_plate",
+    "slab": "minecraft:mangrove_slab",
+    "stairs": "minecraft:mangrove_stairs",
+    "trapdoor": "minecraft:mangrove_trapdoor"
+  },
+  "minecraft:mossy_cobblestone": {
+    "slab": "minecraft:mossy_cobblestone_slab",
+    "stairs": "minecraft:mossy_cobblestone_stairs",
+    "wall": "minecraft:mossy_cobblestone_wall"
+  },
+  "minecraft:mossy_stone_bricks": {
+    "slab": "minecraft:mossy_stone_brick_slab",
+    "stairs": "minecraft:mossy_stone_brick_stairs",
+    "wall": "minecraft:mossy_stone_brick_wall"
+  },
+  "minecraft:mud_bricks": {
+    "slab": "minecraft:mud_brick_slab",
+    "stairs": "minecraft:mud_brick_stairs",
+    "wall": "minecraft:mud_brick_wall"
+  },
+  "minecraft:nether_bricks": {
+    "fence": "minecraft:nether_brick_fence",
+    "slab": "minecraft:nether_brick_slab",
+    "stairs": "minecraft:nether_brick_stairs",
+    "wall": "minecraft:nether_brick_wall"
+  },
+  "minecraft:oak_planks": {
+    "button": "minecraft:oak_button",
+    "fence": "minecraft:oak_fence",
+    "fence_gate": "minecraft:oak_fence_gate",
+    "pressure_plate": "minecraft:oak_pressure_plate",
+    "slab": "minecraft:oak_slab",
+    "stairs": "minecraft:oak_stairs",
+    "trapdoor": "minecraft:oak_trapdoor"
+  },
+  "minecraft:oxidized_cut_copper": {
+    "slab": "minecraft:oxidized_cut_copper_slab",
+    "stairs": "minecraft:oxidized_cut_copper_stairs"
+  },
+  "minecraft:polished_andesite": {
+    "slab": "minecraft:polished_andesite_slab",
+    "stairs": "minecraft:polished_andesite_stairs"
+  },
+  "minecraft:polished_blackstone": {
+    "button": "minecraft:polished_blackstone_button",
+    "pressure_plate": "minecraft:polished_blackstone_pressure_plate",
+    "slab": "minecraft:polished_blackstone_slab",
+    "stairs": "minecraft:polished_blackstone_stairs",
+    "wall": "minecraft:polished_blackstone_wall"
+  },
+  "minecraft:polished_blackstone_bricks": {
+    "slab": "minecraft:polished_blackstone_brick_slab",
+    "stairs": "minecraft:polished_blackstone_brick_stairs",
+    "wall": "minecraft:polished_blackstone_brick_wall"
+  },
+  "minecraft:polished_deepslate": {
+    "slab": "minecraft:polished_deepslate_slab",
+    "stairs": "minecraft:polished_deepslate_stairs",
+    "wall": "minecraft:polished_deepslate_wall"
+  },
+  "minecraft:polished_diorite": {
+    "slab": "minecraft:polished_diorite_slab",
+    "stairs": "minecraft:polished_diorite_stairs"
+  },
+  "minecraft:polished_granite": {
+    "slab": "minecraft:polished_granite_slab",
+    "stairs": "minecraft:polished_granite_stairs"
+  },
+  "minecraft:polished_tuff": {
+    "slab": "minecraft:polished_tuff_slab",
+    "stairs": "minecraft:polished_tuff_stairs",
+    "wall": "minecraft:polished_tuff_wall"
+  },
+  "minecraft:prismarine": {
+    "slab": "minecraft:prismarine_slab",
+    "stairs": "minecraft:prismarine_stairs",
+    "wall": "minecraft:prismarine_wall"
+  },
+  "minecraft:prismarine_bricks": {
+    "slab": "minecraft:prismarine_brick_slab",
+    "stairs": "minecraft:prismarine_brick_stairs"
+  },
+  "minecraft:purpur_block": {
+    "slab": "minecraft:purpur_slab",
+    "stairs": "minecraft:purpur_stairs"
+  },
+  "minecraft:quartz_block": {
+    "slab": "minecraft:quartz_slab",
+    "stairs": "minecraft:quartz_stairs"
+  },
+  "minecraft:red_nether_bricks": {
+    "slab": "minecraft:red_nether_brick_slab",
+    "stairs": "minecraft:red_nether_brick_stairs",
+    "wall": "minecraft:red_nether_brick_wall"
+  },
+  "minecraft:red_sandstone": {
+    "slab": "minecraft:red_sandstone_slab",
+    "stairs": "minecraft:red_sandstone_stairs",
+    "wall": "minecraft:red_sandstone_wall"
+  },
+  "minecraft:sandstone": {
+    "slab": "minecraft:sandstone_slab",
+    "stairs": "minecraft:sandstone_stairs",
+    "wall": "minecraft:sandstone_wall"
+  },
+  "minecraft:smooth_quartz": {
+    "slab": "minecraft:smooth_quartz_slab",
+    "stairs": "minecraft:smooth_quartz_stairs"
+  },
+  "minecraft:smooth_red_sandstone": {
+    "slab": "minecraft:smooth_red_sandstone_slab",
+    "stairs": "minecraft:smooth_red_sandstone_stairs"
+  },
+  "minecraft:smooth_sandstone": {
+    "slab": "minecraft:smooth_sandstone_slab",
+    "stairs": "minecraft:smooth_sandstone_stairs"
+  },
+  "minecraft:spruce_planks": {
+    "button": "minecraft:spruce_button",
+    "fence": "minecraft:spruce_fence",
+    "fence_gate": "minecraft:spruce_fence_gate",
+    "pressure_plate": "minecraft:spruce_pressure_plate",
+    "slab": "minecraft:spruce_slab",
+    "stairs": "minecraft:spruce_stairs",
+    "trapdoor": "minecraft:spruce_trapdoor"
+  },
+  "minecraft:stone": {
+    "button": "minecraft:stone_button",
+    "pressure_plate": "minecraft:stone_pressure_plate",
+    "slab": "minecraft:stone_slab",
+    "stairs": "minecraft:stone_stairs"
+  },
+  "minecraft:stone_bricks": {
+    "slab": "minecraft:stone_brick_slab",
+    "stairs": "minecraft:stone_brick_stairs",
+    "wall": "minecraft:stone_brick_wall"
+  },
+  "minecraft:tuff": {
+    "slab": "minecraft:tuff_slab",
+    "stairs": "minecraft:tuff_stairs",
+    "wall": "minecraft:tuff_wall"
+  },
+  "minecraft:tuff_bricks": {
+    "slab": "minecraft:tuff_brick_slab",
+    "stairs": "minecraft:tuff_brick_stairs",
+    "wall": "minecraft:tuff_brick_wall"
+  },
+  "minecraft:warped_planks": {
+    "button": "minecraft:warped_button",
+    "fence": "minecraft:warped_fence",
+    "fence_gate": "minecraft:warped_fence_gate",
+    "pressure_plate": "minecraft:warped_pressure_plate",
+    "slab": "minecraft:warped_slab",
+    "stairs": "minecraft:warped_stairs",
+    "trapdoor": "minecraft:warped_trapdoor"
+  },
+  "minecraft:waxed_cut_copper": {
+    "slab": "minecraft:waxed_cut_copper_slab",
+    "stairs": "minecraft:waxed_cut_copper_stairs"
+  },
+  "minecraft:waxed_exposed_cut_copper": {
+    "slab": "minecraft:waxed_exposed_cut_copper_slab",
+    "stairs": "minecraft:waxed_exposed_cut_copper_stairs"
+  },
+  "minecraft:waxed_oxidized_cut_copper": {
+    "slab": "minecraft:waxed_oxidized_cut_copper_slab",
+    "stairs": "minecraft:waxed_oxidized_cut_copper_stairs"
+  },
+  "minecraft:waxed_weathered_cut_copper": {
+    "slab": "minecraft:waxed_weathered_cut_copper_slab",
+    "stairs": "minecraft:waxed_weathered_cut_copper_stairs"
+  },
+  "minecraft:weathered_cut_copper": {
+    "slab": "minecraft:weathered_cut_copper_slab",
+    "stairs": "minecraft:weathered_cut_copper_stairs"
+  }
+}

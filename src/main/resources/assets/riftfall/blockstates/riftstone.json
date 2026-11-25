@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "host=stone,natural=false": {
+      "model": "minecraft:block/stone"
+    },
+    "host=deepslate,natural=false": {
+      "model": "minecraft:block/deepslate"
+    },
+    "host=stone,natural=true": {
+      "model": "minecraft:block/stone"
+    },
+    "host=deepslate,natural=true": {
+      "model": "minecraft:block/deepslate"
+    }
+  }
+}

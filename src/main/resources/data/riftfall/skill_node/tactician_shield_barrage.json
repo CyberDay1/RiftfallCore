@@ -1,0 +1,17 @@
+{
+  "id": "tactician_shield_barrage",
+  "class": "tactician",
+  "ascendancy": "defender_general",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:tactician_shield_barrage",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 40.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "delivery",
+  "weight": 8,
+  "min_tier": 7,
+  "item_tag": "riftfall:theme_crystals",
+  "count": 24,
+  "xp": 50,
+  "rewards": [
+    {
+      "id": "riftfall:faceted_crystal"
+    }
+  ]
+}

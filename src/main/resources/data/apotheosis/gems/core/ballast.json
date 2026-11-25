@@ -1,0 +1,91 @@
+{
+    "type": "apotheosis:gem",
+    "min_purity": "cracked",
+    "unique": true,
+    "weights": {
+        "weight": 100,
+        "quality": 0.1
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.attack_damage",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.525,
+                "chipped": 0.7,
+                "flawed": 0.963,
+                "normal": 1.225,
+                "flawless": 1.488,
+                "perfect": 1.75
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "ranged_weapon:damage",
+            "gem_class": {
+                "key": "ranged_weapon",
+                "types": [
+                    "apotheosis:bow",
+                    "riftfall:gun"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.375,
+                "chipped": 0.5,
+                "flawed": 0.688,
+                "normal": 0.875,
+                "flawless": 1.063,
+                "perfect": 1.25
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.knockback_resistance",
+            "gem_class": {
+                "key": "armor",
+                "types": [
+                    "apotheosis:helmet",
+                    "apotheosis:chestplate",
+                    "apotheosis:leggings",
+                    "apotheosis:boots"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.009,
+                "chipped": 0.012,
+                "flawed": 0.017,
+                "normal": 0.021,
+                "flawless": 0.026,
+                "perfect": 0.03
+            }
+        },
+        {
+            "type": "apotheosis:durability",
+            "gem_class": {
+                "key": "tools",
+                "types": [
+                    "apotheosis:breaker",
+                    "apotheosis:shears"
+                ]
+            },
+            "values": {
+                "cracked": 0.1,
+                "chipped": 0.15,
+                "flawed": 0.25,
+                "normal": 0.35,
+                "flawless": 0.45,
+                "perfect": 0.6
+            }
+        }
+    ]
+}

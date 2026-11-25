@@ -1,0 +1,30 @@
+{
+  "id": "phantom_blood_moon_carnage",
+  "class": "phantom",
+  "ascendancy": "nightstalker",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:phantom_blood_moon_carnage",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 3800,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.1,
+    "duration_seconds_per_rank": 0.4
+  },
+  "dot": {
+    "type": "bleed",
+    "coefficient": 0.8,
+    "seconds": 10.0
+  },
+  "stored": {
+    "release": "expire",
+    "window_ticks": 20,
+    "per_hit": 1.0,
+    "cap": 8,
+    "per_unit": 0.25
+  }
+}

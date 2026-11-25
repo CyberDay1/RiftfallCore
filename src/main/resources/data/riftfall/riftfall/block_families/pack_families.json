@@ -1,0 +1,460 @@
+{
+  "minecraft:obsidian":          { "slab": "block_variants:obsidian_slab",
+                                   "stairs": "block_variants:obsidian_stairs",
+                                   "wall": "block_variants:obsidian_wall",
+                                   "fence": "cataclysm:obsidian_fence",
+                                   "pressure_plate": "quark:obsidian_pressure_plate",
+                                   "trapdoor": "glassential:obsidian_trapdoor",
+                                   "directional_pillar": "cataclysm:obsidian_pillar" },
+  "minecraft:crying_obsidian":   { "slab": "block_variants:crying_obsidian_slab",
+                                   "stairs": "block_variants:crying_obsidian_stairs",
+                                   "wall": "block_variants:crying_obsidian_wall",
+                                   "fence": "cataclysm:obsidian_fence",
+                                   "directional_pillar": "cataclysm:obsidian_pillar" },
+  "minecraft:purpur_block":      { "wall": "block_variants:purpur_wall" },
+  "minecraft:gray_concrete":     { "slab": "moreconcrete:gray_concrete_slab",
+                                   "stairs": "moreconcrete:gray_concrete_stairs",
+                                   "wall": "moreconcrete:gray_concrete_wall",
+                                   "fence": "moreconcrete:gray_concrete_fence",
+                                   "fence_gate": "moreconcrete:gray_concrete_fence_gate",
+                                   "button": "moreconcrete:gray_concrete_button",
+                                   "pressure_plate": "moreconcrete:gray_concrete_pressure_plate" },
+
+  "cataclysm:obsidian_bricks":   { "slab": "cataclysm:obsidian_brick_slab",
+                                   "stairs": "cataclysm:obsidian_brick_stairs",
+                                   "wall": "cataclysm:obsidian_brick_wall",
+                                   "fence": "cataclysm:obsidian_fence",
+                                   "directional_pillar": "cataclysm:obsidian_pillar" },
+  "cataclysm:polished_obsidian": { "slab": "cataclysm:polished_obsidian_slab",
+                                   "stairs": "cataclysm:polished_obsidian_stairs",
+                                   "wall": "cataclysm:polished_obsidian_wall",
+                                   "fence": "cataclysm:obsidian_fence",
+                                   "directional_pillar": "cataclysm:obsidian_pillar" },
+  "cataclysm:void_stone":        { "slab": "cataclysm:polished_obsidian_slab",
+                                   "stairs": "cataclysm:polished_obsidian_stairs",
+                                   "wall": "cataclysm:polished_obsidian_wall",
+                                   "directional_pillar": "cataclysm:obsidian_pillar" },
+  "cataclysm:void_infused_end_stone_bricks": { "slab": "minecraft:end_stone_brick_slab",
+                                   "stairs": "minecraft:end_stone_brick_stairs",
+                                   "wall": "minecraft:end_stone_brick_wall",
+                                   "directional_pillar": "cataclysm:end_stone_pillar" },
+  "cataclysm:purpur_tiles":      { "slab": "cataclysm:purpur_tile_slab",
+                                   "stairs": "cataclysm:purpur_tile_stairs",
+                                   "wall": "cataclysm:purpur_tile_wall",
+                                   "directional_pillar": "cataclysm:purpur_tile_pillar" },
+
+  "enderscape:dusk_purpur_block":{ "slab": "enderscape:dusk_purpur_slab",
+                                   "stairs": "enderscape:dusk_purpur_stairs",
+                                   "wall": "enderscape:dusk_purpur_wall",
+                                   "directional_pillar": "enderscape:dusk_purpur_pillar" },
+  "enderscape:murublight_bricks":{ "slab": "enderscape:murublight_brick_slab",
+                                   "stairs": "enderscape:murublight_brick_stairs",
+                                   "wall": "enderscape:murublight_brick_wall",
+                                   "directional_pillar": "enderscape:dusk_purpur_pillar" },
+  "enderscape:cut_shadoline":    { "slab": "enderscape:cut_shadoline_slab",
+                                   "stairs": "enderscape:cut_shadoline_stairs",
+                                   "wall": "enderscape:cut_shadoline_wall",
+                                   "directional_pillar": "enderscape:shadoline_pillar" },
+  "enderscape:polished_kurodite":{ "slab": "enderscape:polished_kurodite_slab",
+                                   "stairs": "enderscape:polished_kurodite_stairs",
+                                   "wall": "enderscape:polished_kurodite_wall",
+                                   "button": "enderscape:polished_kurodite_button",
+                                   "pressure_plate": "enderscape:polished_kurodite_pressure_plate",
+                                   "directional_pillar": "enderscape:shadoline_pillar" },
+
+  "eternal_starlight:polished_abysslate_bricks": { "slab": "eternal_starlight:polished_abysslate_brick_slab",
+                                   "stairs": "eternal_starlight:polished_abysslate_brick_stairs",
+                                   "wall": "eternal_starlight:polished_abysslate_brick_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+  "eternal_starlight:torreya_tiles": { "slab": "eternal_starlight:torreya_tile_slab",
+                                   "stairs": "eternal_starlight:torreya_tile_stairs",
+                                   "wall": "eternal_starlight:torreya_tile_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+  "eternal_starlight:amaramber_bricks": { "slab": "eternal_starlight:amaramber_brick_slab",
+                                   "stairs": "eternal_starlight:amaramber_brick_stairs",
+                                   "wall": "eternal_starlight:amaramber_brick_wall",
+                                   "directional_pillar": "minecraft:purpur_pillar" },
+
+  "deep_aether:yagroot_planks":  { "slab": "deep_aether:yagroot_slab",
+                                   "stairs": "deep_aether:yagroot_stairs",
+                                   "wall": "deep_aether:yagroot_wall",
+                                   "fence": "deep_aether:yagroot_fence",
+                                   "fence_gate": "deep_aether:yagroot_fence_gate",
+                                   "button": "deep_aether:yagroot_button",
+                                   "pressure_plate": "deep_aether:yagroot_pressure_plate",
+                                   "trapdoor": "deep_aether:yagroot_trapdoor" },
+
+  "stoneworks:purpur_bricks":    { "slab": "stoneworks:purpur_brick_slab",
+                                   "stairs": "stoneworks:purpur_brick_stairs",
+                                   "wall": "stoneworks:purpur_brick_wall",
+                                   "directional_pillar": "minecraft:purpur_pillar" },
+  "stoneworks:polished_purpur":  { "slab": "stoneworks:polished_purpur_slab",
+                                   "stairs": "stoneworks:polished_purpur_stairs",
+                                   "wall": "stoneworks:polished_purpur_wall",
+                                   "directional_pillar": "minecraft:purpur_pillar" },
+  "stoneworks:purpur_tiles":     { "slab": "stoneworks:purpur_tile_slab",
+                                   "stairs": "stoneworks:purpur_tile_stairs",
+                                   "wall": "stoneworks:purpur_tile_wall",
+                                   "directional_pillar": "minecraft:purpur_pillar" },
+  "stoneworks:cobbled_purpur":   { "slab": "stoneworks:cobbled_purpur_slab",
+                                   "stairs": "stoneworks:cobbled_purpur_stairs",
+                                   "wall": "stoneworks:cobbled_purpur_wall",
+                                   "directional_pillar": "minecraft:purpur_pillar" },
+  "stoneworks:raw_purpur":       { "slab": "stoneworks:raw_purpur_slab",
+                                   "stairs": "stoneworks:raw_purpur_stairs",
+                                   "wall": "stoneworks:raw_purpur_wall",
+                                   "directional_pillar": "minecraft:purpur_pillar" },
+  "biomeswevegone:purple_sandstone": { "slab": "biomeswevegone:purple_sandstone_slab",
+                                   "stairs": "biomeswevegone:purple_sandstone_stairs",
+                                   "wall": "biomeswevegone:purple_sandstone_wall",
+                                   "directional_pillar": "minecraft:purpur_pillar" },
+
+  "deeperdarker:sculk_stone":         { "slab": "deeperdarker:sculk_stone_slab",
+                                   "stairs": "deeperdarker:sculk_stone_stairs",
+                                   "wall": "deeperdarker:sculk_stone_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+  "deeperdarker:cobbled_sculk_stone": { "slab": "deeperdarker:cobbled_sculk_stone_slab",
+                                   "stairs": "deeperdarker:cobbled_sculk_stone_stairs",
+                                   "wall": "deeperdarker:cobbled_sculk_stone_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+  "deeperdarker:sculk_stone_bricks":  { "slab": "deeperdarker:sculk_stone_brick_slab",
+                                   "stairs": "deeperdarker:sculk_stone_brick_stairs",
+                                   "wall": "deeperdarker:sculk_stone_brick_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+  "deeperdarker:polished_sculk_stone": { "slab": "deeperdarker:polished_sculk_stone_slab",
+                                   "stairs": "deeperdarker:polished_sculk_stone_stairs",
+                                   "wall": "deeperdarker:polished_sculk_stone_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+  "deeperdarker:sculk_stone_tiles":   { "slab": "deeperdarker:sculk_stone_tile_slab",
+                                   "stairs": "deeperdarker:sculk_stone_tile_stairs",
+                                   "wall": "deeperdarker:sculk_stone_tile_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+  "deeperdarker:cut_sculk_stone":     { "slab": "deeperdarker:cut_sculk_stone_slab",
+                                   "stairs": "deeperdarker:cut_sculk_stone_stairs",
+                                   "wall": "deeperdarker:cut_sculk_stone_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+  "irons_spellbooks:voidstone":       { "slab": "eternal_starlight:voidstone_slab",
+                                   "stairs": "eternal_starlight:voidstone_stairs",
+                                   "wall": "eternal_starlight:voidstone_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+
+  "quark:limestone":             { "slab": "quark:limestone_slab",
+                                   "stairs": "quark:limestone_stairs",
+                                   "wall": "quark:limestone_wall",
+                                   "directional_pillar": "minecraft:bone_block" },
+  "quark:limestone_bricks":      { "slab": "quark:limestone_bricks_slab",
+                                   "stairs": "quark:limestone_bricks_stairs",
+                                   "wall": "quark:limestone_bricks_wall",
+                                   "directional_pillar": "minecraft:bone_block" },
+  "naturalist:shellstone_bricks":{ "slab": "naturalist:shellstone_brick_slab",
+                                   "stairs": "naturalist:shellstone_brick_stairs",
+                                   "wall": "naturalist:shellstone_brick_wall",
+                                   "directional_pillar": "minecraft:bone_block" },
+  "naturalist:cut_shellstone":   { "slab": "naturalist:cut_shellstone_slab",
+                                   "stairs": "naturalist:cut_shellstone_stairs",
+                                   "wall": "naturalist:cut_shellstone_wall",
+                                   "directional_pillar": "minecraft:bone_block" },
+  "naturalist:smooth_shellstone":{ "slab": "naturalist:smooth_shellstone_slab",
+                                   "stairs": "naturalist:smooth_shellstone_stairs",
+                                   "wall": "naturalist:smooth_shellstone_wall",
+                                   "directional_pillar": "minecraft:bone_block" },
+  "supplementaries:ash_bricks":  { "slab": "supplementaries:ash_bricks_slab",
+                                   "stairs": "supplementaries:ash_bricks_stairs",
+                                   "wall": "supplementaries:ash_bricks_wall",
+                                   "directional_pillar": "minecraft:polished_basalt" },
+  "supplementaries:stone_tile":  { "slab": "supplementaries:stone_tile_slab",
+                                   "stairs": "supplementaries:stone_tile_stairs",
+                                   "wall": "supplementaries:stone_tile_wall",
+                                   "directional_pillar": "minecraft:polished_basalt" },
+
+  "twigs:mossy_bricks":          { "slab": "twigs:mossy_brick_slab",
+                                   "stairs": "twigs:mossy_brick_stairs",
+                                   "wall": "twigs:mossy_brick_wall",
+                                   "directional_pillar": "minecraft:stripped_mangrove_log" },
+  "twigs:mossy_cobblestone_bricks": { "slab": "twigs:mossy_cobblestone_brick_slab",
+                                   "stairs": "twigs:mossy_cobblestone_brick_stairs",
+                                   "wall": "twigs:mossy_cobblestone_brick_wall",
+                                   "directional_pillar": "minecraft:polished_basalt" },
+  "quark:mossy_cobblestone_bricks": { "slab": "quark:mossy_cobblestone_bricks_slab",
+                                   "stairs": "quark:mossy_cobblestone_bricks_stairs",
+                                   "wall": "quark:mossy_cobblestone_bricks_wall",
+                                   "directional_pillar": "minecraft:polished_basalt" },
+  "stoneworks:mossy_andesite_bricks": { "slab": "stoneworks:mossy_andesite_brick_slab",
+                                   "stairs": "stoneworks:mossy_andesite_brick_stairs",
+                                   "wall": "stoneworks:mossy_andesite_brick_wall",
+                                   "directional_pillar": "minecraft:polished_basalt" },
+  "stoneworks:mossy_cobbled_deepslate": { "slab": "stoneworks:mossy_cobbled_deepslate_slab",
+                                   "stairs": "stoneworks:mossy_cobbled_deepslate_stairs",
+                                   "wall": "stoneworks:mossy_cobbled_deepslate_wall",
+                                   "directional_pillar": "minecraft:deepslate" },
+  "stoneworks:stone_plates":     { "slab": "stoneworks:stone_plate_slab",
+                                   "stairs": "stoneworks:stone_plate_stairs",
+                                   "wall": "stoneworks:stone_plate_wall",
+                                   "directional_pillar": "minecraft:polished_basalt" },
+  "stoneworks:stone_tiles":      { "slab": "stoneworks:stone_tile_slab",
+                                   "stairs": "stoneworks:stone_tile_stairs",
+                                   "wall": "stoneworks:stone_tile_wall",
+                                   "directional_pillar": "minecraft:polished_basalt" },
+  "stoneworks:blackstone_tiles": { "slab": "stoneworks:blackstone_tile_slab",
+                                   "stairs": "stoneworks:blackstone_tile_stairs",
+                                   "wall": "stoneworks:blackstone_tile_wall",
+                                   "directional_pillar": "minecraft:basalt" },
+  "stoneworks:nether_brick_pavers": { "slab": "stoneworks:nether_brick_paver_slab",
+                                   "stairs": "stoneworks:nether_brick_paver_stairs",
+                                   "wall": "stoneworks:nether_brick_paver_wall",
+                                   "directional_pillar": "minecraft:crimson_hyphae" },
+  "twigs:weeping_polished_blackstone_bricks": { "slab": "twigs:weeping_polished_blackstone_brick_slab",
+                                   "stairs": "twigs:weeping_polished_blackstone_brick_stairs",
+                                   "wall": "twigs:weeping_polished_blackstone_brick_wall",
+                                   "directional_pillar": "minecraft:basalt" },
+
+  "atmul:dimstone":              { "slab": "atmul:dimstone_slab",
+                                   "stairs": "atmul:dimstone_stairs",
+                                   "wall": "atmul:dimstone_wall",
+                                   "directional_pillar": "minecraft:polished_basalt" },
+  "atmul:dim_sandstone":         { "slab": "atmul:dim_sandstone_slab",
+                                   "stairs": "atmul:dim_sandstone_stairs",
+                                   "wall": "atmul:dim_sandstone_wall",
+                                   "directional_pillar": "minecraft:bone_block" },
+  "atmul:glowing_nether_bricks": { "slab": "atmul:glowing_nether_bricks_slab",
+                                   "stairs": "atmul:glowing_nether_bricks_stairs",
+                                   "wall": "atmul:glowing_nether_bricks_wall",
+                                   "directional_pillar": "minecraft:crimson_hyphae" },
+
+  "aether:angelic_stone": {
+    "slab": "aether:angelic_slab",
+    "stairs": "aether:angelic_stairs",
+    "wall": "aether:angelic_wall",
+    "directional_pillar": "aether:pillar"
+  },
+  "aether:light_angelic_stone": {
+    "slab": "aether:angelic_slab",
+    "stairs": "aether:angelic_stairs",
+    "wall": "aether:angelic_wall",
+    "directional_pillar": "aether:pillar"
+  },
+  "aether:quicksoil_glass": {
+    "glass": "aether:quicksoil_glass",
+    "glass_pane": "aether:quicksoil_glass_pane"
+  },
+  "deep_aether:gilded_holystone_bricks": {
+    "slab": "deep_aether:gilded_holystone_brick_slab",
+    "stairs": "deep_aether:gilded_holystone_brick_stairs",
+    "wall": "deep_aether:gilded_holystone_brick_wall",
+    "directional_pillar": "deep_aether:holystone_pillar"
+  },
+  "deep_aether:gilded_holystone_tiles": {
+    "slab": "deep_aether:gilded_holystone_tile_slab",
+    "stairs": "deep_aether:gilded_holystone_tile_stairs",
+    "wall": "deep_aether:gilded_holystone_tile_wall",
+    "directional_pillar": "deep_aether:holystone_pillar"
+  },
+  "deep_aether:holystone_tiles": {
+    "slab": "deep_aether:holystone_tile_slab",
+    "stairs": "deep_aether:holystone_tile_stairs",
+    "wall": "deep_aether:holystone_tile_wall",
+    "directional_pillar": "deep_aether:holystone_pillar"
+  },
+  "deep_aether:sunroot_planks": {
+    "slab": "deep_aether:sunroot_slab",
+    "stairs": "deep_aether:sunroot_stairs",
+    "wall": "deep_aether:sunroot_wall",
+    "fence": "deep_aether:sunroot_fence",
+    "fence_gate": "deep_aether:sunroot_fence_gate",
+    "button": "deep_aether:sunroot_button",
+    "pressure_plate": "deep_aether:sunroot_pressure_plate",
+    "trapdoor": "deep_aether:sunroot_trapdoor",
+    "directional_pillar": "deep_aether:stripped_sunroot_log"
+  },
+  "cataclysm:azure_seastone": {
+    "slab": "cataclysm:azure_seastone_slab",
+    "stairs": "cataclysm:azure_seastone_stairs",
+    "wall": "cataclysm:azure_seastone_wall",
+    "directional_pillar": "cataclysm:azure_seastone_pillar",
+    "fence": "cataclysm:azure_seastone_fence"
+  },
+  "cataclysm:azure_seastone_bricks": {
+    "slab": "cataclysm:azure_seastone_brick_slab",
+    "stairs": "cataclysm:azure_seastone_brick_stairs",
+    "wall": "cataclysm:azure_seastone_brick_wall",
+    "directional_pillar": "cataclysm:azure_seastone_pillar",
+    "fence": "cataclysm:azure_seastone_fence"
+  },
+  "cataclysm:polished_azure_seastone": {
+    "slab": "cataclysm:polished_azure_seastone_slab",
+    "stairs": "cataclysm:polished_azure_seastone_stairs",
+    "wall": "cataclysm:polished_azure_seastone_wall",
+    "directional_pillar": "cataclysm:azure_seastone_pillar",
+    "fence": "cataclysm:azure_seastone_fence"
+  },
+  "cataclysm:azure_seastone_tiles": {
+    "slab": "cataclysm:polished_azure_seastone_slab",
+    "stairs": "cataclysm:polished_azure_seastone_stairs",
+    "wall": "cataclysm:polished_azure_seastone_wall",
+    "directional_pillar": "cataclysm:azure_seastone_pillar",
+    "fence": "cataclysm:azure_seastone_fence"
+  },
+  "cataclysm:chiseled_azure_seastone": {
+    "slab": "cataclysm:azure_seastone_slab",
+    "stairs": "cataclysm:azure_seastone_stairs",
+    "wall": "cataclysm:azure_seastone_wall",
+    "directional_pillar": "cataclysm:azure_seastone_pillar",
+    "fence": "cataclysm:azure_seastone_fence"
+  },
+  "upgrade_aquatic:prismarine_coralstone": {
+    "slab": "upgrade_aquatic:prismarine_coralstone_slab",
+    "stairs": "upgrade_aquatic:prismarine_coralstone_stairs",
+    "wall": "upgrade_aquatic:prismarine_coralstone_wall"
+  },
+  "upgrade_aquatic:luminous_prismarine": {
+    "slab": "upgrade_aquatic:luminous_prismarine_slab",
+    "stairs": "upgrade_aquatic:luminous_prismarine_stairs"
+  },
+  "upgrade_aquatic:driftwood_planks": {
+    "slab": "upgrade_aquatic:driftwood_slab",
+    "stairs": "upgrade_aquatic:driftwood_stairs",
+    "fence": "upgrade_aquatic:driftwood_fence",
+    "fence_gate": "upgrade_aquatic:driftwood_fence_gate",
+    "button": "upgrade_aquatic:driftwood_button",
+    "pressure_plate": "upgrade_aquatic:driftwood_pressure_plate",
+    "trapdoor": "upgrade_aquatic:driftwood_trapdoor",
+    "directional_pillar": "upgrade_aquatic:stripped_driftwood_log"
+  },
+  "cataclysm:frosted_stone_bricks": {
+    "slab": "cataclysm:frosted_stone_brick_slab",
+    "stairs": "cataclysm:frosted_stone_brick_stairs",
+    "wall": "cataclysm:frosted_stone_brick_wall",
+    "directional_pillar": "cataclysm:stone_pillar"
+  },
+  "quark:permafrost": {
+    "slab": "quark:permafrost_slab",
+    "stairs": "quark:permafrost_stairs",
+    "wall": "quark:permafrost_wall"
+  },
+  "quark:permafrost_bricks": {
+    "slab": "quark:permafrost_bricks_slab",
+    "stairs": "quark:permafrost_bricks_stairs",
+    "wall": "quark:permafrost_bricks_wall"
+  },
+  "eternal_starlight:eternal_ice_bricks": {
+    "slab": "eternal_starlight:eternal_ice_brick_slab",
+    "stairs": "eternal_starlight:eternal_ice_brick_stairs",
+    "wall": "eternal_starlight:eternal_ice_brick_wall"
+  },
+  "eternal_starlight:haze_ice_bricks": {
+    "slab": "eternal_starlight:haze_ice_brick_slab",
+    "stairs": "eternal_starlight:haze_ice_brick_stairs",
+    "wall": "eternal_starlight:haze_ice_brick_wall"
+  },
+  "eternal_starlight:reinforced_ice": {
+    "glass": "eternal_starlight:reinforced_ice",
+    "glass_pane": "eternal_starlight:reinforced_ice_pane"
+  },
+  "create:cut_scorchia": {
+    "slab": "create:cut_scorchia_slab",
+    "stairs": "create:cut_scorchia_stairs",
+    "wall": "create:cut_scorchia_wall",
+    "directional_pillar": "create:scorchia_pillar"
+  },
+  "create:cut_scorchia_bricks": {
+    "slab": "create:cut_scorchia_brick_slab",
+    "stairs": "create:cut_scorchia_brick_stairs",
+    "wall": "create:cut_scorchia_brick_wall",
+    "directional_pillar": "create:scorchia_pillar"
+  },
+  "create:polished_cut_scorchia": {
+    "slab": "create:polished_cut_scorchia_slab",
+    "stairs": "create:polished_cut_scorchia_stairs",
+    "wall": "create:polished_cut_scorchia_wall",
+    "directional_pillar": "create:scorchia_pillar"
+  },
+  "create:waxed_oxidized_copper_tiles": {
+    "slab": "create:waxed_oxidized_copper_tile_slab",
+    "stairs": "create:waxed_oxidized_copper_tile_stairs"
+  },
+  "create:waxed_oxidized_copper_shingles": {
+    "slab": "create:waxed_oxidized_copper_shingle_slab",
+    "stairs": "create:waxed_oxidized_copper_shingle_stairs"
+  },
+  "create:andesite_casing": {
+    "trapdoor": "create_things_and_misc:andesite_casing_trapdoor",
+    "glass": "create:framed_glass",
+    "glass_pane": "create:framed_glass_pane"
+  },
+  "create:brass_casing": {
+    "trapdoor": "create_things_and_misc:brass_casing_trapdoor",
+    "glass": "create:framed_glass",
+    "glass_pane": "create:framed_glass_pane"
+  },
+  "create:framed_glass": {
+    "glass": "create:framed_glass",
+    "glass_pane": "create:framed_glass_pane",
+    "trapdoor": "create:framed_glass_trapdoor"
+  },
+  "biomeswevegone:windswept_sandstone": {
+    "slab": "biomeswevegone:windswept_sandstone_slab",
+    "stairs": "biomeswevegone:windswept_sandstone_stairs",
+    "wall": "biomeswevegone:windswept_sandstone_wall"
+  },
+  "biomeswevegone:cut_windswept_sandstone": {
+    "slab": "biomeswevegone:cut_windswept_sandstone_slab"
+  },
+  "biomeswevegone:smooth_windswept_sandstone": {
+    "slab": "biomeswevegone:smooth_windswept_sandstone_slab",
+    "stairs": "biomeswevegone:smooth_windswept_sandstone_stairs"
+  },
+  "biomeswevegone:chiseled_windswept_sandstone": {
+    "slab": "biomeswevegone:windswept_sandstone_slab",
+    "stairs": "biomeswevegone:windswept_sandstone_stairs",
+    "wall": "biomeswevegone:windswept_sandstone_wall"
+  },
+  "create:cut_ochrum": {
+    "slab": "create:cut_ochrum_slab",
+    "stairs": "create:cut_ochrum_stairs",
+    "wall": "create:cut_ochrum_wall",
+    "directional_pillar": "create:ochrum_pillar"
+  },
+  "create:cut_ochrum_bricks": {
+    "slab": "create:cut_ochrum_brick_slab",
+    "stairs": "create:cut_ochrum_brick_stairs",
+    "wall": "create:cut_ochrum_brick_wall",
+    "directional_pillar": "create:ochrum_pillar"
+  },
+  "create:polished_cut_ochrum": {
+    "slab": "create:polished_cut_ochrum_slab",
+    "stairs": "create:polished_cut_ochrum_stairs",
+    "wall": "create:polished_cut_ochrum_wall",
+    "directional_pillar": "create:ochrum_pillar"
+  },
+  "biomeswevegone:palm_planks": {
+    "slab": "biomeswevegone:palm_slab",
+    "stairs": "biomeswevegone:palm_stairs",
+    "fence": "biomeswevegone:palm_fence",
+    "fence_gate": "biomeswevegone:palm_fence_gate",
+    "button": "biomeswevegone:palm_button",
+    "pressure_plate": "biomeswevegone:palm_pressure_plate",
+    "trapdoor": "biomeswevegone:palm_trapdoor",
+    "directional_pillar": "biomeswevegone:stripped_palm_log"
+  },
+  "chisel:glyphs/sandstone": {
+    "slab": "biomeswevegone:windswept_sandstone_slab",
+    "stairs": "biomeswevegone:windswept_sandstone_stairs",
+    "wall": "biomeswevegone:windswept_sandstone_wall"
+  },
+  "enderscape:celestial_bricks": {
+    "slab": "enderscape:celestial_brick_slab",
+    "stairs": "enderscape:celestial_brick_stairs",
+    "wall": "enderscape:celestial_brick_wall",
+    "directional_pillar": "enderscape:stripped_celestial_stem"
+  },
+  "enderscape:celestial_planks": {
+    "slab": "enderscape:celestial_slab",
+    "stairs": "enderscape:celestial_stairs",
+    "fence": "enderscape:celestial_fence",
+    "fence_gate": "enderscape:celestial_fence_gate",
+    "button": "enderscape:celestial_button",
+    "pressure_plate": "enderscape:celestial_pressure_plate",
+    "trapdoor": "enderscape:celestial_trapdoor",
+    "directional_pillar": "enderscape:stripped_celestial_stem"
+  }
+}

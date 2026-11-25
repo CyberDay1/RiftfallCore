@@ -1,0 +1,8 @@
+{
+  "id": "trickster_increased_evasion",
+  "class": "trickster",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "irons_lib:dodge_chance",
+  "bonus_per_rank": 0.06
+}

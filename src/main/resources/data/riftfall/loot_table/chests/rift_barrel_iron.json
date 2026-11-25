@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "riftfall:chests/rift_barrel_iron",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 33
+        },
+        {
+          "type": "riftfall:gear",
+          "weight": 35,
+          "pay_if": [{ "condition": "riftfall:barrel_gear_chance" }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 5,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4.0, "max": 12.0 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 4,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 5,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2.0, "max": 4.0 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 3,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4.0, "max": 10.0 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 4,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 } }
+          ]
+        },
+        { "type": "riftfall:rift_arms", "kind": "gun", "weight": 3, "pay_if": [{ "condition": "riftfall:barrel_gear_chance" }] },
+        { "type": "riftfall:rift_arms", "kind": "attachment", "weight": 5, "pay_if": [{ "condition": "riftfall:barrel_gear_chance" }] }
+      ]
+    }
+  ]
+}

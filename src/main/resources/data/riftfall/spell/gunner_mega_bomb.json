@@ -1,0 +1,121 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 20.0,
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "area_impact": {
+    "radius": 6.0,
+    "area": {},
+    "visuals": {
+      "particles": [
+        {
+          "id": "minecraft:explosion",
+          "appearance": {},
+          "batch": {
+            "count": 12.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.09,
+            "max_speed": 0.18
+          }
+        }
+      ]
+    },
+    "sound": {
+      "id": "minecraft:entity.generic.explode",
+      "volume": 0.4,
+      "pitch": 0.9,
+      "randomness": 0.06
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:item.armor.equip_leather",
+      "volume": 0.5,
+      "pitch": 1.1
+    },
+    "visuals": {
+      "particles": []
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 3.2,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "minecraft:explosion",
+            "appearance": {},
+            "batch": {
+              "count": 5.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.02,
+              "max_speed": 0.04
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:entity.generic.explode",
+        "volume": 0.3,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ],
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 0.85
+      },
+      "direct_towards_target": false,
+      "projectile": {
+        "homing_angle": 0.0,
+        "divergence": 0.0,
+        "motion": {
+          "gravity": 0.04,
+          "drag": 0.01
+        },
+        "client_data": {
+          "light_level": 0,
+          "travel_particles": [],
+          "composite_model": {
+            "models": [
+              {
+                "orientation": "TOWARDS_MOTION",
+                "rotate_degrees_per_tick": 12.0,
+                "fx": {
+                  "model_id": "riftfall:spell_projectile/grenade",
+                  "scale": 0.8,
+                  "light_emission": "NONE"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "direction_offsets": [
+        {
+          "pitch": -12.0,
+          "yaw": 0.0
+        }
+      ],
+      "direction_offsets_require_target": false
+    }
+  }
+}

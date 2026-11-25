@@ -1,0 +1,51 @@
+{
+    "type": "apotheosis:gem",
+    "min_purity": "cracked",
+    "unique": true,
+    "weights": {
+        "weight": 100,
+        "quality": 0.1
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:movement_haste",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 1.5,
+                "chipped": 2.0,
+                "flawed": 2.75,
+                "normal": 3.5,
+                "flawless": 4.25,
+                "perfect": 5.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "riftfall:movement_haste",
+            "gem_class": {
+                "key": "lower_armor",
+                "types": [
+                    "apotheosis:leggings",
+                    "apotheosis:boots"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 1.5,
+                "chipped": 2.0,
+                "flawed": 2.75,
+                "normal": 3.5,
+                "flawless": 4.25,
+                "perfect": 5.0
+            }
+        }
+    ]
+}

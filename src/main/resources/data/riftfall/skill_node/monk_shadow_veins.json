@@ -1,0 +1,9 @@
+{
+  "id": "monk_shadow_veins",
+  "class": "monk",
+  "ascendancy": "shadow_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "apothic_attributes:life_steal",
+  "bonus_per_rank": 0.06
+}

@@ -1,0 +1,251 @@
+{
+  "materials": {
+    "1": [
+      {
+        "block": "create:cut_scorchia_bricks",
+        "weight": 4.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      },
+      {
+        "block": "create:polished_cut_scorchia",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      },
+      {
+        "block": "minecraft:polished_andesite",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "2": [
+      {
+        "block": "create:cut_scorchia",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      }
+    ],
+    "3": [
+      {
+        "block": "create:polished_cut_scorchia",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      }
+    ],
+    "4": [
+      {
+        "block": "create:polished_cut_scorchia",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      }
+    ],
+    "5": [
+      {
+        "block": "create:waxed_oxidized_copper_tiles",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "6": [
+      {
+        "block": "minecraft:dark_oak_planks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "minecraft:dark_oak_log"
+        }
+      }
+    ],
+    "7": [
+      {
+        "block": "create:cut_scorchia_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      }
+    ],
+    "8": [
+      {
+        "block": "minecraft:polished_andesite",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "9": [
+      {
+        "block": "create:polished_cut_ochrum",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:ochrum_pillar"
+        }
+      }
+    ],
+    "10": [
+      {
+        "block": "create:polished_cut_scorchia",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      }
+    ],
+    "11": [
+      {
+        "block": "create:waxed_oxidized_copper_shingles",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "minecraft:polished_basalt"
+        }
+      }
+    ],
+    "12": [
+      {
+        "block": "create:polished_cut_scorchia",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      }
+    ],
+    "13": [
+      {
+        "block": "create:cut_scorchia_bricks",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      }
+    ],
+    "14": [
+      {
+        "block": "create:polished_cut_ochrum",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:ochrum_pillar"
+        }
+      }
+    ],
+    "15": [
+      {
+        "block": "create:cut_scorchia",
+        "weight": 1.0,
+        "variants": {
+          "glass": "create:framed_glass",
+          "glass_pane": "create:framed_glass_pane",
+          "directional_pillar": "create:scorchia_pillar"
+        }
+      }
+    ]
+  },
+  "fallback": "minecraft:polished_andesite",
+  "noise_scale": [
+    0.08,
+    0.08,
+    0.08
+  ],
+  "seed_adjustment": 14009,
+  "decorators": [
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:chain[axis=y]",
+      "rarity": 0.035,
+      "seed": 14010,
+      "requires_up": true
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:lantern[hanging=true]",
+      "rarity": 0.025,
+      "seed": 14011,
+      "requires_up": true
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:fatigue_plate",
+        "darkutils:weakness_plate",
+        "darkutils:slowness_plate"
+      ],
+      "decoy": "minecraft:stone_pressure_plate",
+      "room_kinds": [
+        "approach",
+        "chaos",
+        "stable",
+        "unstable",
+        "boss"
+      ],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 14009
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "deepslate",
+      "home": "citrine",
+      "light": "minecraft:ochre_froglight"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "deepslate",
+      "home": "citrine",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:ochre_froglight",
+      "ceiling": "minecraft:ochre_froglight",
+      "floor": "minecraft:ochre_froglight",
+      "alcove": "minecraft:lantern",
+      "hanging": "minecraft:lantern[hanging=true]",
+      "seed": 14012
+    }
+  ]
+}

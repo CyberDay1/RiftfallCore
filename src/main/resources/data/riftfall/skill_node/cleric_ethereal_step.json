@@ -1,0 +1,17 @@
+{
+  "id": "cleric_ethereal_step",
+  "class": "cleric",
+  "ascendancy": "spirit_caller",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:cleric_ethereal_step",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 15.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  },
+  "category": "movement"
+}

@@ -1,0 +1,34 @@
+{
+  "class": "trickster",
+  "families": [
+    {
+      "name": "daggers",
+      "words": [
+        "dagger",
+        "daggers",
+        "knife",
+        "knives",
+        "dirk",
+        "stiletto",
+        "sai",
+        "kunai",
+        "shiv"
+      ]
+    },
+    {
+      "name": "throws and whips",
+      "items": [
+        "simplyswords:iron_chakram"
+      ],
+      "words": [
+        "chakram",
+        "boomerang",
+        "shuriken",
+        "throwing",
+        "whip",
+        "bolas",
+        "javelin"
+      ]
+    }
+  ]
+}

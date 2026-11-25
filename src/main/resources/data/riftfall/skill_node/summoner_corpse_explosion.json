@@ -1,0 +1,17 @@
+{
+  "id": "summoner_corpse_explosion",
+  "class": "summoner",
+  "ascendancy": "necromancer",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:summoner_corpse_explosion",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 38.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "riftfall:blocks/riftstone",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "riftfall:riftstone",
+          "properties": {
+            "natural": "true"
+          }
+        },
+        {
+          "condition": "riftfall:rift_tier_chance",
+          "base": 0.001,
+          "top": 0.002
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "riftfall:common_runestone",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riftfall:uncommon_runestone",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riftfall:rare_runestone",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

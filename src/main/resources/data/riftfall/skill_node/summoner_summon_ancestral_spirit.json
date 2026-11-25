@@ -1,0 +1,19 @@
+{
+  "id": "summoner_summon_ancestral_spirit",
+  "class": "summoner",
+  "ascendancy": "spirit_conductor",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:summoner_summon_ancestral_spirit",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "summon",
+    "owner_scaling_per_rank": 0.1,
+    "duration_seconds_per_rank": 1.0
+  },
+  "category": "summon"
+}

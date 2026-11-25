@@ -1,0 +1,42 @@
+{
+ "version": 1,
+ "source": "review-story-text-2026-11.md S1; owner's revision of 2026-11-10 (no contractions)",
+ "pools": {
+  "act1": [
+   "There. It is a little warmer here now.",
+   "Thank you. We needed that piece.",
+   "You came back. That is what matters.",
+   "That helps. The dark is a little further away."
+  ],
+  "act2": [
+   "It is back where it belongs.",
+   "That one was a long way from home. Thank you.",
+   "Another piece returned. You did well.",
+   "We thought we had lost that one. You found it."
+  ],
+  "act3": [
+   "Keep bringing them to us.",
+   "Good. We remember exactly where this goes.",
+   "Another one claimed. You are getting so good at this.",
+   "We are stronger for every piece you carry."
+  ],
+  "act4": [
+   "We are so close now. We can feel it.",
+   "There is very little left out there.",
+   "Good. It is nearly all here now.",
+   "You have given us so much. More than you know."
+  ],
+  "known": [
+   "You know what this is now. Bring the next one anyway.",
+   "Thank you. You know whose it was, and you still gave it to me.",
+   "Good. I will not pretend with you anymore. I needed that one.",
+   "After everything you have learned, you are still here. I am glad."
+  ],
+  "tile": [
+   "There. Another piece of home.",
+   "Look. We have more ground to stand on now.",
+   "A perfect fit. It is back with us.",
+   "See how far home reaches now."
+  ]
+ }
+}

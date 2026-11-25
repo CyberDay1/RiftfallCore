@@ -1,0 +1,127 @@
+{
+  "materials": {
+    "1": [
+      { "block": "minecraft:polished_blackstone_bricks", "weight": 4.0,
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } },
+      { "block": "minecraft:cracked_polished_blackstone_bricks", "weight": 1.5,
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } },
+      { "block": "twigs:weeping_polished_blackstone_bricks", "weight": 1.5,
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } },
+      { "block": "atmul:glowing_nether_bricks", "weight": 0.15,
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "2": [
+      { "block": "minecraft:blackstone",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "3": [
+      { "block": "stoneworks:blackstone_tiles", "weight": 3.0,
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } },
+      { "block": "minecraft:polished_blackstone", "weight": 1.0,
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "4": [
+      { "block": "stoneworks:nether_brick_pavers", "weight": 2.0,
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } },
+      { "block": "minecraft:blackstone", "weight": 1.0,
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "5": [
+      { "block": "minecraft:red_nether_bricks",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "6": [
+      { "block": "minecraft:crimson_planks",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "7": [
+      { "block": "minecraft:polished_blackstone_bricks",
+        "variants": { "directional_pillar": "minecraft:polished_basalt",
+                      "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "8": [
+      { "block": "minecraft:cracked_polished_blackstone_bricks",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "9": [
+      { "block": "minecraft:chiseled_polished_blackstone",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "10": [
+      { "block": "minecraft:polished_blackstone",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "11": [
+      { "block": "minecraft:nether_bricks",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "12": [
+      { "block": "minecraft:red_nether_bricks",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "13": [
+      { "block": "minecraft:polished_blackstone_bricks",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "14": [
+      { "block": "minecraft:polished_blackstone",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ],
+    "15": [
+      { "block": "minecraft:blackstone",
+        "variants": { "glass": "minecraft:red_stained_glass", "glass_pane": "minecraft:red_stained_glass_pane" } }
+    ]
+  },
+  "fallback": "minecraft:blackstone",
+  "noise_scale": [0.11, 0.11, 0.11],
+  "seed_adjustment": 6661,
+  "decorators": [
+{
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:crimson_roots",
+      "requires_down": true,
+      "rarity": 0.05
+    },
+    {
+      "type": "riftfall:attachment",
+      "blockstate": "minecraft:chain",
+      "requires_up": true,
+      "rarity": 0.03,
+      "seed": 6663
+    },
+    {
+      "type": "riftfall:trap_plate",
+      "traps": [
+        "darkutils:fatigue_plate",
+        "darkutils:hunger_plate",
+        "darkutils:weakness_plate"
+      ],
+      "decoy": "minecraft:polished_blackstone_pressure_plate",
+      "room_kinds": ["approach", "chaos", "stable", "unstable", "boss"],
+      "rarity": 0.006,
+      "trap_share": 0.34,
+      "seed": 6661
+    },
+    {
+      "type": "riftfall:gem_vein",
+      "host": "deepslate",
+      "home": "fire_opal",
+      "light": "minecraft:shroomlight"
+    },
+    {
+      "type": "riftfall:ore_chunk",
+      "host": "deepslate",
+      "home": "fire_opal",
+      "variant": "gloomslate"
+    },
+    {
+      "type": "riftfall:room_light",
+      "target": 8,
+      "wall": "minecraft:shroomlight",
+      "ceiling": "minecraft:shroomlight",
+      "floor": "minecraft:shroomlight",
+      "alcove": "minecraft:lava_cauldron",
+      "seed": 6664
+    }
+  ]
+}

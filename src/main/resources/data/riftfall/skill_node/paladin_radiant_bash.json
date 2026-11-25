@@ -1,0 +1,16 @@
+{
+  "id": "paladin_radiant_bash",
+  "class": "paladin",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:paladin_radiant_bash",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 30.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

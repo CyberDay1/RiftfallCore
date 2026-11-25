@@ -1,0 +1,15 @@
+{
+  "id": "gunner_grapple_roll",
+  "class": "gunner",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:gunner_grapple_roll",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 15.0,
+  "base_cooldown_ticks": 200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  }
+}

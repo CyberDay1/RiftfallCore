@@ -1,0 +1,16 @@
+{
+  "id": "summoner_savage_charge",
+  "class": "summoner",
+  "ascendancy": "beast_caller",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:summoner_savage_charge",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "shifter_reduced_form_cooldowns",
+  "class": "shifter",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:form_haste",
+  "bonus_per_rank": 10.0
+}

@@ -1,0 +1,508 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+version = "${mod_version}+1.21.1"
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+// Probes and client probes: rig-only, never in the release jar. Main cannot see this set; a probe sees main.
+sourceSets {
+    probe {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+    test {
+        compileClasspath += sourceSets.probe.output
+        runtimeClasspath += sourceSets.probe.output
+    }
+}
+configurations {
+    probeCompileOnly.extendsFrom compileOnly
+    probeImplementation.extendsFrom implementation
+    testImplementation.extendsFrom probeImplementation
+}
+
+neoForge {
+    version = property('deps.neoforge')
+
+    runs {
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            systemProperty 'forge.logging.console.level', 'debug'
+        }
+
+        client {
+            client()
+        }
+
+        travelClient {
+            client()
+            gameDirectory = file('build/travel-client')
+            systemProperty 'riftfall.travelProbe', 'true'
+            systemProperty 'riftfall.travelProbeOutput', file('build/skill-travel/client.json').absolutePath
+        }
+
+        // Isolated client smoke check: validates client-only key defaults, writes a report, exits.
+        keybindClient {
+            client()
+            gameDirectory = file('build/keybind-client')
+            systemProperty 'riftfall.keybindProbe', 'true'
+            systemProperty 'riftfall.keybindProbeOutput', file('build/keybind-cleanup/client-checks.json').absolutePath
+        }
+
+        // Native workshop rendering in an isolated client, without loading or editing a world.
+        blacksmithClient {
+            client()
+            gameDirectory = file('build/blacksmith-client')
+            programArguments.addAll '--width', '1280', '--height', '960'
+            systemProperty 'riftfall.blacksmithProbe', 'true'
+            systemProperty 'riftfall.blacksmithProbeOutput', file('build/blacksmith-ui').absolutePath
+        }
+
+        // Native World Core mesh/material QA, without opening a world or the playable pack.
+        worldCoreClient {
+            client()
+            gameDirectory = file('build/world-core-client')
+            programArguments.addAll '--width', '1200', '--height', '1000'
+            systemProperty 'riftfall.worldCoreProbe', 'true'
+            systemProperty 'riftfall.worldCoreProbeOutput', file('build/world-core-import/native').absolutePath
+        }
+
+        shaderCompatClient {
+            client()
+            gameDirectory = file('build/shader-client')
+            programArguments.addAll '--width', '1280', '--height', '900'
+            systemProperty 'riftfall.shaderProbe', 'true'
+            systemProperty 'riftfall.shaderProbeOutput', file('build/shader-compat/' + providers.gradleProperty('shaderProbePack').getOrElse('Unbound')).absolutePath
+        }
+
+        // Real survival inventory and resident-independent screens, in a disposable development world.
+        stellarClient {
+            client()
+            gameDirectory = file('build/stellar-client')
+            programArguments.addAll '--width', '1280', '--height', '960'
+            systemProperty 'riftfall.stellarProbe', 'true'
+            systemProperty 'riftfall.stellarProbeOutput', file('build/stellar-ui').absolutePath
+        }
+
+        // Optional mods are copied into this disposable instance's mods folder for compatibility checks.
+        stellarCompatClient {
+            client()
+            gameDirectory = file('build/stellar-compat-client')
+            programArguments.addAll '--width', '1280', '--height', '960'
+            systemProperty 'riftfall.stellarProbe', 'true'
+            systemProperty 'riftfall.stellarCompatProbe', 'true'
+            systemProperty 'riftfall.stellarProbeOutput', file('build/stellar-compat-ui').absolutePath
+        }
+
+        server {
+            server()
+            programArgument '--nogui'
+        }
+
+        // Datagen. The 180 processor placeholders make 540 client JSONs plus a
+        // lang file; those are generated, never hand-written, so `runData` is a
+        // first-class task here rather than an afterthought.
+        data {
+            data()
+            programArguments.addAll '--mod', mod_id,
+                    '--all',
+                    '--output', file('src/generated/resources/').getAbsolutePath(),
+                    '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.probe
+        }
+    }
+
+    // Puts Minecraft on the test classpath and boots FML around the JUnit run, so the tests that
+    // need real blockstates (property survival through substitution) can have them. The
+    // Minecraft-free tests in the same source set are unaffected.
+    unitTest {
+        enable()
+        testedMod = mods."${mod_id}"
+    }
+}
+neoForge.addModdingDependenciesTo(sourceSets.probe)
+
+// Datagen output ships in the jar alongside the hand-authored resources.
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+// Pack overrides are validated by tests, but installed beside the mod rather than inside its jar.
+sourceSets.test.resources { srcDir 'pack' }
+
+// A client can reach the menu even when home templates are absent. Validate the
+// processed resources used by the JAR before allowing a deployable build.
+def validateHomeAssets = tasks.register('validateHomeAssets') {
+    dependsOn tasks.named('processResources')
+    doLast {
+        def resources = tasks.named('processResources').get().destinationDir
+        def layoutFile = new File(resources, 'data/riftfall/home_layout/layout_v2.json')
+        if (!layoutFile.isFile()) throw new GradleException('Missing packaged home layout')
+        def layout = new groovy.json.JsonSlurper().parse(layoutFile)
+        def starter = layout.tiles.find { it.grid_xz == [0, 0] }
+        if (starter == null || starter.ready != true) {
+            throw new GradleException('Home sanctuary must be ready before building the mod')
+        }
+        if (layout.tiles.size() != 25 || layout.tiles.any { it.ready != true }
+                || layout.tiles.collect { it.proposed_unlock_order }.sort() != (1..25).toList()) {
+            throw new GradleException('All 25 crafted home tiles must be ready and ordered 1 through 25')
+        }
+        def wildernessFile = new File(resources, 'data/riftfall/home_layout/wilderness_v1.json')
+        if (!wildernessFile.isFile()) throw new GradleException('Missing packaged wilderness manifest')
+        def wilderness = new groovy.json.JsonSlurper().parse(wildernessFile)
+        if (wilderness.tiles.size() != 6 || wilderness.tiles.collect { it.template }.unique().size() != 6) {
+            throw new GradleException('Six unique wilderness templates are required')
+        }
+        (layout.tiles + wilderness.tiles).each { tile ->
+            def id = tile.template.split(':', 2)
+            if (id.length != 2) throw new GradleException("Invalid home template: ${tile.template}")
+            def template = new File(resources, "data/${id[0]}/structure/${id[1]}.nbt")
+            if (!template.isFile() || template.length() == 0) {
+                throw new GradleException("Missing packaged home template: ${tile.template}")
+            }
+        }
+    }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url = 'https://maven.neoforged.net/releases' }
+
+    // Curios publishes no maven of its own for 1.21.1; Modrinth's is the route it does publish to.
+    // Scoped to that one group so nothing else in the build can quietly start resolving from it.
+    maven {
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
+    }
+
+    // Accessories does publish its own maven, and is taken from there rather than from Modrinth for
+    // a reason worth writing down: on Modrinth the Fabric and NeoForge builds of a release share one
+    // version number, so `maven.modrinth:accessories:1.1.0-beta.53+1.21.1` names two different jars
+    // and the build would compile against whichever one the API happened to hand back. The artifact
+    // id here says which loader it is.
+    maven {
+        url = 'https://maven.wispforest.io'
+        content { includeGroup 'io.wispforest' }
+    }
+
+    // CurseMaven, for the instance jars Modrinth does not carry (see instanceJar).
+    maven {
+        url = 'https://cursemaven.com'
+        content { includeGroup 'curse.maven' }
+    }
+}
+
+// Instance jars: deps.<name>_jar is a file name in riftfall.instanceMods, the pack's mods folder, set per
+// machine in ~/.gradle/gradle.properties. Without it (CI, or -Priftfall.mavenDeps=true) the build uses the
+// deps.<name>_maven coordinate, which names the same file (SHA-1 checked 11-24). Bump both together.
+def mavenDeps = providers.gradleProperty('riftfall.mavenDeps').map { it.toBoolean() }.getOrElse(false)
+def instanceMods = providers.gradleProperty('riftfall.instanceMods').map { file(it) }.getOrNull()
+def instanceFile = { String name ->
+    def jar = instanceMods == null ? null : new File(instanceMods, project.property("deps.${name}_jar") as String)
+    jar != null && jar.isFile() ? jar : null
+}
+def instanceJar = { String configuration, String name ->
+    def jar = instanceFile(name)
+    if (!mavenDeps && jar != null) {
+        project.dependencies.add(configuration, files(jar))
+    } else {
+        project.dependencies.add(configuration, project.property("deps.${name}_maven")) { transitive = false }
+    }
+}
+
+dependencies {
+    // Optional FTB theme icon bridge. No FTB classes are loaded without the guarded client mixin.
+    instanceJar('compileOnly', 'ftblibrary')
+    // Optional combat animation integration, using the version installed in this pack.
+    instanceJar('compileOnly', 'bettercombat')
+    instanceJar('compileOnly', 'playeranimator')
+    // Optional resident integration, compiled against the installed NeoForge CNPC port.
+    instanceJar('compileOnly', 'customnpcs')
+    instanceJar('testImplementation', 'customnpcs')
+    // Team membership and claim access use the pack's Open Parties and Claims API.
+    instanceJar('compileOnly', 'openpac')
+    instanceJar('testImplementation', 'openpac')
+    // Compile-only, and deliberately not declared in neoforge.mods.toml either: Curios is a mod the
+    // pack happens to ship, not one Riftfall needs. RiftCurios is the only class that names a Curios
+    // type and is only ever reached behind a ModList check, so without the mod it is never loaded.
+    compileOnly "maven.modrinth:curios:${project.property('deps.curios')}"
+
+    // The same arrangement for Accessories, which is the other equipment mod the pack runs and is a
+    // separate one rather than a Curios front end. owo is compile-only for its optional inventory
+    // surfaces; neither mod nor its transitive dependencies are bundled into Riftfall.
+    instanceJar('compileOnly', 'owo')
+    compileOnly("io.wispforest:accessories-neoforge:${project.property('deps.accessories')}") {
+        transitive = false
+    }
+
+    // Apotheosis, plus Placebo because Apotheosis' registries extend Placebo types and javac cannot
+    // resolve a supertype it has never seen. Compile-only and undeclared as a hard dependency for the
+    // usual reason: com.cyberday1.riftfall.gear.RiftRarity is the only class that names an Apotheosis
+    // type, and it is only ever reached from behind a ModList check.
+    //
+    // Without transitives on both. Apotheosis' own published metadata pulls in the rest of the pack's
+    // worth of optional integrations, and nothing here needs a single one of them.
+    compileOnly("maven.modrinth:apotheosis:${project.property('deps.apotheosis')}") {
+        transitive = false
+    }
+    compileOnly("maven.modrinth:placebo:${project.property('deps.placebo')}") {
+        transitive = false
+    }
+
+    // Apothic Attributes, on the same terms again. It owns the slot registries a LootCategory is
+    // built from — LootCategory#getSlots hands back one of its types — so the trinket category
+    // cannot be written without it on the compile classpath, even though Apotheosis is what uses it.
+    compileOnly("maven.modrinth:apothic-attributes:${project.property('deps.apothic_attributes')}") {
+        transitive = false
+    }
+
+    // Spell Engine, on the same terms as the four above: compile-only, non-transitive, undeclared in
+    // neoforge.mods.toml, and reached only from behind a ModList check.
+    // com.cyberday1.riftfall.skill.RiftSpellEngine and RiftSpellGate are the only classes that name a
+    // Spell Engine type, besides the compat mixins.
+    //
+    // Spell Power joins it on 1.10: nothing public builds a cast context for a non-player, so
+    // RiftSpellEngine builds its own, and the context's power is a SpellPower.Result.
+    //
+    // The Modrinth version string carries the loader, so unlike Accessories a coordinate here names
+    // exactly one jar and there is no Fabric build to resolve against by accident.
+    compileOnly("maven.modrinth:spell-engine:${project.property('deps.spell_engine')}") {
+        transitive = false
+    }
+    compileOnly("maven.modrinth:spell-power:${project.property('deps.spell_power')}") {
+        transitive = false
+    }
+
+    // Iron's Spells 'n Spellbooks, on the same terms. Only the compat mixins and the Iron's probe name
+    // its types; the gate they call (RiftIronsGate) takes the spell id as a string.
+    compileOnly("maven.modrinth:irons-spells-n-spellbooks:${project.property('deps.irons_spellbooks')}") {
+        transitive = false
+    }
+
+    // Woodwalkers and CraftedCore, on the same terms but from the pack instance's own jars rather than a
+    // maven (by design: nothing vendored). Only compat.WalkersShapes, the Walkers compat mixins and
+    // the Walkers probe name their types, and each is reached only behind a ModList check or the compat
+    // mixin plugin, so Riftfall loads without them and the Shifter keeps the size-and-dust stance.
+    instanceJar('compileOnly', 'walkers')
+    instanceJar('compileOnly', 'craftedcore')
+
+    // TaCZ, on the Woodwalkers terms: the instance's own jar, compile-only. Only compat.TaczGuns and the TaCZ
+    // probe name its types, each reached behind a ModList check, so the Gunner casts as before without it.
+    instanceJar('compileOnly', 'tacz')
+
+    // Sophisticated Backpacks and Core, on the same terms: only compat.BackpackUpgrades names their types,
+    // reached behind a ModList check, so the starter kit's backpack is filled through the mod's own API.
+    instanceJar('compileOnly', 'sophisticatedbackpacks')
+    instanceJar('compileOnly', 'sophisticatedcore')
+
+    // JEI, on the same terms: the instance's jar, compile-only. Only compat.jei names its types (a test scans for it), and
+    // JEI is what instantiates the @JeiPlugin there, so without JEI nothing in that package is ever loaded.
+    instanceJar('compileOnly', 'jei')
+
+    // Plain JUnit, deliberately *not* NeoForge's `unitTest` harness. The logic worth testing here
+    // — the variant fallback ladder and weight renormalisation — is Minecraft-free by design, so
+    // these tests need no game runtime and run in milliseconds.
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // Mockito, for the one thing plain JUnit cannot build: a real ServerPlayer. A lifecycle rule
+    // (a death, a login) is a chain of real calls, and FakePlayer overrides the very methods such a
+    // test needs to assert. A deep-stubbed ServerLevel is enough to get the constructor through.
+    testImplementation 'org.mockito:mockito-core:5.11.0'
+}
+
+tasks.named('test', Test).configure {
+    useJUnitPlatform()
+    systemProperty 'riftfall.test.projectDir', project.projectDir.absolutePath
+    // Mod module resource lookup hides CNPC's assets from this test module.
+    // Inspect the same configured dependency JAR when validating resident skins.
+    systemProperty 'riftfall.test.customnpcsJar', (instanceFile('customnpcs') ?: file(project.property('deps.customnpcs_jar'))).absolutePath
+    // The pack's mods folder, for the contract tests that read a jar the build does not compile against.
+    if (instanceMods != null) systemProperty 'riftfall.test.instanceMods', instanceMods.absolutePath
+    // The full library scan now decodes the 100x100 home templates as well as rift rooms.
+    // Gradle's default 512 MiB cannot hold those alongside the modded test runtime.
+    maxHeapSize = '2g'
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version      : project.property('minecraft_version'),
+            minecraft_version_range: project.property('minecraft_version_range'),
+            neo_version            : project.property('deps.neoforge'),
+            neo_version_range      : project.property('neo_version_range'),
+            loader_version_range   : project.property('loader_version_range'),
+            mod_id                 : project.property('mod_id'),
+            mod_name               : project.property('mod_name'),
+            mod_license            : project.property('mod_license'),
+            mod_version            : project.property('mod_version'),
+            mod_authors            : project.property('mod_authors'),
+            mod_description        : project.property('mod_description')
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/neoforge.mods.toml']) {
+        expand replaceProperties
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << '-Xlint:deprecation'
+}
+
+// Authoring material the game never reads; datagen, tests and tools take it from the source tree.
+def jarExcludes = [
+        '.cache/**',                                        // datagen's hash cache
+        '**/*.schem',                                       // WorldEdit copies of the home tiles
+        'assets/**/*.md', 'data/**/*.md',                   // notes beside the art
+        'assets/riftfall/entity/unseated/manifest.json',    // export notes, with local paths
+        'data/riftfall/structure/templates/**',             // room templates builders start from
+        'data/riftfall/structure/guides/**',                // palette and jigsaw guides
+        // Boss music, 22 MB with nothing to play it (audit D4). To ship it: drop this line and merge
+        // the folder's boss_cues.json back into sounds.json.
+        'assets/riftfall/sounds/music/boss/**',
+]
+
+// Every structure a template pool names, read from the processed pools.
+def poolMembers = { File resources ->
+    def members = [] as Set
+    def walk
+    walk = { node ->
+        if (node instanceof Map) node.each { k, v -> if (k == 'location' && v instanceof String) members << v else walk(v) }
+        else if (node instanceof List) node.each { walk(it) }
+    }
+    new File(resources, 'data').eachFileRecurse(groovy.io.FileType.FILES) { file ->
+        if (file.name.endsWith('.json') && file.path.replace('\\', '/').contains('/worldgen/template_pool/')) {
+            walk(new groovy.json.JsonSlurper().parse(file))
+        }
+    }
+    members
+}
+// A rift piece no pool names (struck off, or a duplicate). The gallery shows them in a dev run, which
+// reads the source tree; a rift never places them.
+def UNPOOLED = ~/^data\/riftfall\/structure\/(rift\/.+)\.nbt$/
+// 145 MB at 11-24 (the sky as JPEG), so a ceiling with room for ordinary growth but not for a stray texture set.
+def JAR_BUDGET_BYTES = 160_000_000L
+// Audio is never committed (LICENSE-AUDIO.md). -Priftfall.noAudio=true lets a clean checkout build without
+// it (the game skips a missing sound file); without the flag a missing file still fails the jar.
+def noAudio = providers.gradleProperty('riftfall.noAudio').map { it.toBoolean() }.getOrElse(false)
+
+def modJar = { Jar task -> task.configure {
+    dependsOn validateHomeAssets
+    exclude jarExcludes
+    Set pooled = null
+    exclude { FileTreeElement element ->
+        def match = UNPOOLED.matcher(element.relativePath.pathString)
+        if (!match.matches()) return false
+        if (pooled == null) pooled = poolMembers(tasks.named('processResources').get().destinationDir)
+        !pooled.contains('riftfall:' + match.group(1))
+    }
+
+    manifest {
+        attributes([
+                'Specification-Title'   : mod_id,
+                'Specification-Vendor'  : mod_authors,
+                'Specification-Version' : '1',
+                'Implementation-Title'  : project.name,
+                'Implementation-Version': project.version,
+                'Implementation-Vendor' : mod_authors
+        ])
+    }
+
+    // The jar is the thing people actually receive, so the licence and the builder credits
+    // have to travel inside it, not just sit in the repo.
+    from(file('LICENSE')) {
+        into 'META-INF'
+    }
+    from(file('ATTRIBUTION.md')) {
+        into 'META-INF'
+    }
+
+    // The jar budget: a size ceiling, and none of the excluded material. A failing jar is deleted so it
+    // cannot be deployed by mistake; raise the ceiling on purpose, never to get a build through.
+    doLast {
+        def jar = archiveFile.get().asFile
+        def problems = []
+        if (jar.length() > JAR_BUDGET_BYTES) {
+            problems << "the jar is ${jar.length()} bytes, over its ${JAR_BUDGET_BYTES} byte budget"
+        }
+        def members = poolMembers(tasks.named('processResources').get().destinationDir)
+        project.zipTree(jar).visit { entry ->
+            if (entry.directory) return
+            def path = entry.relativePath.pathString
+            def match = UNPOOLED.matcher(path)
+            if (match.matches() && !members.contains('riftfall:' + match.group(1))) problems << "unpooled piece ${path}"
+        }
+        project.zipTree(jar).matching { include jarExcludes }.visit { entry ->
+            if (!entry.directory) problems << "excluded material ${entry.relativePath.pathString}"
+        }
+        // A sound left out with its file still named in sounds.json is a WARN at every resource load.
+        def shipped = [] as Set
+        def sounds = null
+        def missingAudio = [] as Set
+        project.zipTree(jar).visit { entry ->
+            if (entry.directory) return
+            shipped << entry.relativePath.pathString
+            if (entry.relativePath.pathString == 'assets/riftfall/sounds.json') sounds = entry.file
+        }
+        if (sounds != null) new groovy.json.JsonSlurper().parse(sounds).each { event, cue ->
+            cue.sounds.each { sound ->
+                if (sound instanceof Map && sound.type == 'event') return
+                def name = sound instanceof String ? sound : sound.name
+                def id = name.contains(':') ? name.split(':', 2) : ['minecraft', name]
+                def path = "assets/${id[0]}/sounds/${id[1]}.ogg".toString()
+                if (id[0] == 'riftfall' && !shipped.contains(path)) {
+                    if (noAudio) missingAudio << path else problems << "sound ${event} names ${path}, not in the jar"
+                }
+            }
+        }
+        if (!problems.isEmpty()) {
+            jar.delete()
+            throw new GradleException('Jar budget failed:\n  ' + problems.take(20).join('\n  '))
+        }
+        if (!missingAudio.isEmpty()) {
+            logger.lifecycle("Audio-free build: ${missingAudio.size()} sound files named in sounds.json are not in this jar")
+        }
+        logger.lifecycle("Jar budget: ${jar.length()} of ${JAR_BUDGET_BYTES} bytes")
+    }
+}
+}
+
+// The release jar: main alone. A probe class here means one crept back into src/main.
+tasks.named('jar', Jar).configure {
+    modJar(it)
+    doLast {
+        def probes = []
+        project.zipTree(archiveFile.get().asFile).visit { entry ->
+            def path = entry.relativePath.pathString
+            if (!entry.directory && (path.startsWith('com/cyberday1/riftfall/probe/') || path ==~ /.*\/[^\/]*Probe[^\/]*\.class/)) probes << path
+        }
+        if (!probes.isEmpty()) {
+            archiveFile.get().asFile.delete()
+            throw new GradleException('Release jar holds probe classes:\n  ' + probes.take(20).join('\n  '))
+        }
+    }
+}
+
+// The rig jar: the same mod with the probes, for tools/rig only. Never deploy it to the instance or server pack.
+tasks.register('rigJar', Jar) {
+    group = 'build'
+    description = 'The mod jar plus src/probe, for the test rigs.'
+    archiveClassifier = 'rig'
+    from sourceSets.main.output
+    from sourceSets.probe.output
+    modJar(it)
+}

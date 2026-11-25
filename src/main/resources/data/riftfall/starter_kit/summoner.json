@@ -1,0 +1,26 @@
+{
+  "class": "summoner",
+  "items": [
+    {
+      "slot": "mainhand",
+      "item": "wizards:staff_wizard",
+      "fallback": "minecraft:wooden_sword"
+    },
+    {
+      "slot": "head",
+      "item": "irons_spellbooks:cultist_helmet"
+    },
+    {
+      "slot": "chest",
+      "item": "irons_spellbooks:cultist_chestplate"
+    },
+    {
+      "slot": "legs",
+      "item": "irons_spellbooks:cultist_leggings"
+    },
+    {
+      "slot": "feet",
+      "item": "irons_spellbooks:cultist_boots"
+    }
+  ]
+}

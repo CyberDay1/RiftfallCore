@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "archers_expansion"
+    }
+  ],
+  "name": "sentinel_archer",
+  "items": [
+    "archers_expansion:sentinel_archer_head",
+    "archers_expansion:sentinel_archer_chest",
+    "archers_expansion:sentinel_archer_legs",
+    "archers_expansion:sentinel_archer_feet"
+  ],
+  "bonuses": []
+}

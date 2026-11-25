@@ -1,0 +1,24 @@
+{
+  "class": "arcanist",
+  "families": [
+    {
+      "name": "staves and wands",
+      "items": [
+        "wizards:staff_arcane",
+        "simple_staves:woodenwand"
+      ],
+      "words": [
+        "staff",
+        "staves",
+        "wand",
+        "rod",
+        "sceptre",
+        "scepter",
+        "orb",
+        "tome",
+        "grimoire",
+        "focus"
+      ]
+    }
+  ]
+}

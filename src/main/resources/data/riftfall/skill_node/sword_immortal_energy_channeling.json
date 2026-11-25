@@ -1,0 +1,8 @@
+{
+  "id": "sword_immortal_energy_channeling",
+  "class": "sword_immortal",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:spell_damage",
+  "bonus_per_rank": 0.1
+}

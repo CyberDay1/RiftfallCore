@@ -1,0 +1,12 @@
+{
+  "kind": "clean",
+  "weight": 10,
+  "count": 1,
+  "xp": 40,
+  "rewards": [
+    {
+      "id": "riftfall:tempering_stock",
+      "count": 3
+    }
+  ]
+}

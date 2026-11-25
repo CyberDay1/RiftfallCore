@@ -1,0 +1,137 @@
+{
+  "textures": {
+    "blade": "minecraft:block/diamond_block",
+    "hilt": "minecraft:block/gold_block"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        7,
+        11
+      ],
+      "to": [
+        9,
+        9,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hilt"
+        },
+        "south": {
+          "texture": "#hilt"
+        },
+        "east": {
+          "texture": "#hilt"
+        },
+        "west": {
+          "texture": "#hilt"
+        },
+        "up": {
+          "texture": "#hilt"
+        },
+        "down": {
+          "texture": "#hilt"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        7,
+        9
+      ],
+      "to": [
+        12,
+        9,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hilt"
+        },
+        "south": {
+          "texture": "#hilt"
+        },
+        "east": {
+          "texture": "#hilt"
+        },
+        "west": {
+          "texture": "#hilt"
+        },
+        "up": {
+          "texture": "#hilt"
+        },
+        "down": {
+          "texture": "#hilt"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        7.5,
+        -5
+      ],
+      "to": [
+        9.5,
+        8.5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#blade"
+        },
+        "south": {
+          "texture": "#blade"
+        },
+        "east": {
+          "texture": "#blade"
+        },
+        "west": {
+          "texture": "#blade"
+        },
+        "up": {
+          "texture": "#blade"
+        },
+        "down": {
+          "texture": "#blade"
+        }
+      }
+    },
+    {
+      "from": [
+        7.25,
+        7.5,
+        -8
+      ],
+      "to": [
+        8.75,
+        8.5,
+        -5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#blade"
+        },
+        "south": {
+          "texture": "#blade"
+        },
+        "east": {
+          "texture": "#blade"
+        },
+        "west": {
+          "texture": "#blade"
+        },
+        "up": {
+          "texture": "#blade"
+        },
+        "down": {
+          "texture": "#blade"
+        }
+      }
+    }
+  ],
+  "ambientocclusion": false
+}

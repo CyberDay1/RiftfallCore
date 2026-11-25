@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forcemaster_rpg"
+    }
+  ],
+  "name": "billporon",
+  "items": [
+    "forcemaster_rpg:billporon_head",
+    "forcemaster_rpg:billporon_chest",
+    "forcemaster_rpg:billporon_legs",
+    "forcemaster_rpg:billporon_feet"
+  ],
+  "bonuses": []
+}

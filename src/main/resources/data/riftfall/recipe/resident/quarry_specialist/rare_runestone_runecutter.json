@@ -1,0 +1,21 @@
+{
+  "type": "riftfall:resident_conversion",
+  "role": "quarry_specialist",
+  "min_rank": "master",
+  "specialisation": "runecutter",
+  "inputs": [
+    {
+      "tag": "riftfall:rare_crystals",
+      "count": 1
+    },
+    {
+      "tag": "riftfall:rarity_material/rare",
+      "count": 4
+    }
+  ],
+  "shards": 16,
+  "result": {
+    "id": "riftfall:rare_runestone"
+  },
+  "replaces": "riftfall:resident/quarry_specialist/rare_runestone"
+}

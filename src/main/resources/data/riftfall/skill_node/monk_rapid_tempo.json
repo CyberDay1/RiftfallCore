@@ -1,0 +1,9 @@
+{
+  "id": "monk_rapid_tempo",
+  "class": "monk",
+  "ascendancy": "tempest_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:ability_haste",
+  "bonus_per_rank": 6.0
+}

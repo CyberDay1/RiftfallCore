@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "destroyer",
+  "items": [
+    "armory_rpgs:destroyer_armor_head",
+    "armory_rpgs:destroyer_armor_chest",
+    "armory_rpgs:destroyer_armor_legs",
+    "armory_rpgs:destroyer_armor_feet"
+  ],
+  "bonuses": []
+}

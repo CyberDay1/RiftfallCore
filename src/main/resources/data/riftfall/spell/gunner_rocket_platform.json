@@ -1,0 +1,137 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 24.0,
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "reposition_vertically": -4.0
+    }
+  },
+  "deliver": {
+    "type": "CLOUD",
+    "clouds": [
+      {
+        "spawn_ticks": 1,
+        "despawn_ticks": 0,
+        "impact_tick_interval": 20,
+        "time_to_live_seconds": 8.0,
+        "volume": {
+          "radius": 4.0,
+          "area": {
+            "vertical_range_multiplier": 1.0
+          }
+        },
+        "client_data": {
+          "particle_spawn_interval": 5,
+          "interval_particles": [
+            {
+              "id": "minecraft:explosion",
+              "appearance": {},
+              "batch": {
+                "count": 5.0,
+                "shape": "PILLAR",
+                "anchor": "GROUND",
+                "extent": 0.0,
+                "min_speed": 0.02,
+                "max_speed": 0.04
+              }
+            }
+          ],
+          "model_fx": [
+            {
+              "model_id": "riftfall:spell_effect/emplacement",
+              "duration": 160,
+              "scale": 1,
+              "positioning": {
+                "vertical": 0
+              },
+              "follow_entity": false,
+              "light_emission": "NONE",
+              "initial": [
+                {
+                  "operation": "translate",
+                  "y": -0.5
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.firework_rocket.launch",
+      "volume": 0.65,
+      "pitch": 0.8
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 4289545727,
+            "scale": 0.35,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 12.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "extent": 0.2,
+            "min_speed": 0.03,
+            "max_speed": 0.06
+          }
+        },
+        {
+          "id": "minecraft:explosion",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.08
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.325,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "minecraft:explosion",
+            "appearance": {},
+            "batch": {
+              "count": 2.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.02,
+              "max_speed": 0.04
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:entity.generic.explode",
+        "volume": 0.12,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

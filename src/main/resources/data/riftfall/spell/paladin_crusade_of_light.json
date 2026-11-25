@@ -1,0 +1,113 @@
+{
+  "school": "riftfall:holy",
+  "active": {
+    "cast": {}
+  },
+  "range": 12.0,
+  "target": {
+    "type": "AREA",
+    "area": {
+      "vertical_range_multiplier": 0.5,
+      "include_caster": false,
+      "angle_degrees": 40.0
+    },
+    "cap": 8
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.player.attack.sweep",
+      "volume": 0.4,
+      "pitch": 1.1
+    },
+    "animation": {
+      "id": "spell_engine:weapon_cleave",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": []
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "CUSTOM",
+        "custom": {
+          "intent": "HARMFUL",
+          "handler": "riftfall:assault_contact"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "CUSTOM",
+        "custom": {
+          "intent": "HARMFUL",
+          "handler": "riftfall:enemy_struck"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 9.0,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 4293501183,
+              "scale": 0.35,
+              "opacity": 0.85
+            },
+            "batch": {
+              "count": 6.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.06
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:block.beacon.power_select",
+        "volume": 0.3,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    },
+    {
+      "target_modifiers": [
+        {
+          "conditions": [
+            {
+              "entity_type": "#c:bosses"
+            }
+          ],
+          "execute": "DENY"
+        }
+      ],
+      "action": {
+        "type": "VELOCITY",
+        "velocity": {
+          "push": {
+            "x": 0.0,
+            "y": 0.9,
+            "z": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "deliver": {
+    "type": "CUSTOM",
+    "custom": {
+      "handler": "riftfall:assault/line"
+    }
+  }
+}

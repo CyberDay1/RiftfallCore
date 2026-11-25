@@ -1,0 +1,8 @@
+{
+  "id": "tactician_increased_threat_generation",
+  "class": "tactician",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:threat_generation",
+  "bonus_per_rank": 0.1
+}

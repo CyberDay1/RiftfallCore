@@ -1,0 +1,17 @@
+{
+  "id": "summoner_spirit_bless",
+  "class": "summoner",
+  "ascendancy": "spirit_conductor",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:summoner_spirit_bless",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 360,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "heal",
+    "magnitude_per_rank": 0.1
+  }
+}

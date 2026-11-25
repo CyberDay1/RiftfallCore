@@ -1,0 +1,26 @@
+{
+  "type": "riftfall:resident_conversion",
+  "role": "quarry_specialist",
+  "min_rank": "master",
+  "specialisation": "runecutter",
+  "inputs": [
+    {
+      "tag": "riftfall:rarity_material/uncommon",
+      "count": 16
+    },
+    {
+      "tag": "riftfall:theme_crystals",
+      "count": 16
+    }
+  ],
+  "shards": 32,
+  "result": {
+    "id": "riftfall:uncommon_runestone",
+    "count": 5
+  },
+  "work_order": {
+    "runs": 1,
+    "minutes": 60
+  },
+  "replaces": "riftfall:resident/quarry_specialist/uncommon_runestone_batch"
+}

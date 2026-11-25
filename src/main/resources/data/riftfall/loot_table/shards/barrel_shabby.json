@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "riftfall:shards/barrel_shabby",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "riftfall:rift_shards",
+          "grade": "shabby"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ],
+      "entries": [
+        {
+          "type": "riftfall:gem"
+        }
+      ]
+    }
+  ]
+}

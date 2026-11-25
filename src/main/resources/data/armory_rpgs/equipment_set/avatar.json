@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "avatar",
+  "items": [
+    "armory_rpgs:avatar_robe_head",
+    "armory_rpgs:avatar_robe_chest",
+    "armory_rpgs:avatar_robe_legs",
+    "armory_rpgs:avatar_robe_feet"
+  ],
+  "bonuses": []
+}

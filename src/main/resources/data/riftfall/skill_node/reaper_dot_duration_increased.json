@@ -1,0 +1,8 @@
+{
+  "id": "reaper_dot_duration_increased",
+  "class": "reaper",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:dot_duration",
+  "bonus_per_rank": 1.0
+}

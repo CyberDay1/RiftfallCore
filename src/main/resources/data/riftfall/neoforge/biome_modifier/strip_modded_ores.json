@@ -1,0 +1,7 @@
+{
+  "type": "riftfall:strip_modded_ores",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "modded_dimensions": true
+}

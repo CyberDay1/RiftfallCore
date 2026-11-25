@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,size=11": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=east,size=3": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=east,size=5": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=east,size=7": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=east,size=9": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=north,size=11": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=north,size=3": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=north,size=5": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=north,size=7": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=north,size=9": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=south,size=11": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=south,size=3": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=south,size=5": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=south,size=7": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=south,size=9": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=west,size=11": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=west,size=3": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=west,size=5": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=west,size=7": {
+      "model": "riftfall:block/poi_inwall"
+    },
+    "facing=west,size=9": {
+      "model": "riftfall:block/poi_inwall"
+    }
+  }
+}

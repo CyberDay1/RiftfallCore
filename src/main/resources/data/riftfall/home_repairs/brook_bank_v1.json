@@ -1,0 +1,4358 @@
+{
+  "revision": 1,
+  "tile": "03_brook_crossing",
+  "blocks": [
+    {
+      "position": [
+        52,
+        11,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        12,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        13,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        13,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        14,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        14,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        16,
+        14
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        17,
+        14
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        18,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        52,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        18,
+        14
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        19,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        52,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        19,
+        14
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        20,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        52,
+        20,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        52,
+        20,
+        14
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        21,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        52,
+        21,
+        14
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        52,
+        22,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        52,
+        22,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        52,
+        23,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        52,
+        24,
+        14
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        53,
+        11,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        11,
+        8
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        11,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        11,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        11,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        12,
+        7
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        53,
+        12,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        12,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        12,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        12,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        12,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        12,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        13,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        13,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        13,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        13,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        53,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        14,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        14,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        14,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        53,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        53,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        53,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        20,
+        15
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        20,
+        16
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        21,
+        15
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        21,
+        16
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        53,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        53,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        22,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        22,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        23,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        23,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        53,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        53,
+        24,
+        15
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        53,
+        24,
+        16
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        54,
+        11,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        12,
+        7
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        54,
+        12,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        12,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        12,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        12,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        12,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        13,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        13,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        13,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        13,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        54,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        14,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        14,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        14,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        54,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        54,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        54,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        54,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        54,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        54,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        55,
+        11,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        12,
+        7
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        55,
+        12,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        12,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        12,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        13,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        13,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        13,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        13,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        55,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        14,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        14,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        14,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        55,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        55,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        55,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        55,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        55,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        55,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        56,
+        12,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        12,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        12,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        13,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        13,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        13,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        56,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        14,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        14,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        14,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        56,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        56,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        56,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        56,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        56,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        56,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        57,
+        12,
+        7
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        57,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        57,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        14,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        14,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        57,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        57,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        57,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        57,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        57,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        57,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        58,
+        12,
+        7
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        58,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        58,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        14,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        58,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        58,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        58,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        58,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        58,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        58,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        59,
+        12,
+        7
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        59,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        13,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        59,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        14,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        59,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        59,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        59,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        59,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        59,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        59,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        60,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        60,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        60,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        60,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        60,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        60,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        60,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        60,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        61,
+        12,
+        7
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        61,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        61,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        14,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        61,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        61,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        61,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        61,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        61,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        61,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        62,
+        12,
+        7
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        62,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        62,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        15,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        62,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        62,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        62,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        62,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        62,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        62,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        63,
+        12,
+        7
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        63,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        13,
+        9
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        63,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        14,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        63,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        63,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        63,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        63,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        63,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        63,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        64,
+        13,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        14,
+        8
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        64,
+        14,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        14,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        15,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        15,
+        10
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        16,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        64,
+        16,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        16,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        16,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        17,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        17,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        18,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        64,
+        18,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        18,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        19,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        19,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        20,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        64,
+        20,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        20,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        21,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        21,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        64,
+        22,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        64,
+        22,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        23,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        64,
+        24,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        65,
+        14,
+        9
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        65,
+        14,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        15,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        15,
+        11
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        65,
+        15,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        65,
+        16,
+        10
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        65,
+        16,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        16,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        65,
+        17,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        17,
+        12
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        65,
+        17,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        65,
+        18,
+        11
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        65,
+        18,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        18,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        65,
+        19,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        19,
+        13
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "position": [
+        65,
+        20,
+        12
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        65,
+        20,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        21,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        22,
+        13
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        65,
+        23,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        23,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "position": [
+        65,
+        24,
+        14
+      ],
+      "block": "minecraft:grass_block"
+    },
+    {
+      "position": [
+        65,
+        24,
+        15
+      ],
+      "block": "minecraft:grass_block"
+    }
+  ]
+}

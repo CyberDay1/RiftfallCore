@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "strider",
+  "items": [
+    "armory_rpgs:strider_armor_head",
+    "armory_rpgs:strider_armor_chest",
+    "armory_rpgs:strider_armor_legs",
+    "armory_rpgs:strider_armor_feet"
+  ],
+  "bonuses": []
+}

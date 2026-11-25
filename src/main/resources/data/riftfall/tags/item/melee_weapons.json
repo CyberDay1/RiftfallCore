@@ -1,0 +1,113 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "simple_staves:flame_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:woodenwand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:stone_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:iron_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:gold_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:diamond_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:netherite_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:venomite_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:void_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:tenebrium_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:viritium_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:veil_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:wind_essence_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:explosion_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:thunder_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:teleport_wand",
+      "required": false
+    },
+    {
+      "id": "simple_staves:lunar_crystal_wand",
+      "required": false
+    },
+    {
+      "id": "scythes:farmer_scythe",
+      "required": false
+    },
+    {
+      "id": "better_weaponry:wooden_shuriken",
+      "required": false
+    },
+    {
+      "id": "better_weaponry:stone_shuriken",
+      "required": false
+    },
+    {
+      "id": "better_weaponry:iron_shuriken",
+      "required": false
+    },
+    {
+      "id": "better_weaponry:golden_shuriken",
+      "required": false
+    },
+    {
+      "id": "better_weaponry:diamond_shuriken",
+      "required": false
+    },
+    {
+      "id": "better_weaponry:netherite_shuriken",
+      "required": false
+    },
+    {
+      "id": "better_weaponry:copper_shuriken",
+      "required": false
+    },
+    {
+      "id": "better_weaponry:amethyst_shuriken",
+      "required": false
+    },
+    {
+      "id": "better_weaponry:emerald_shuriken",
+      "required": false
+    }
+  ]
+}

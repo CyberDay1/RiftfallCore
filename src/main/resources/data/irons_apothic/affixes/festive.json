@@ -1,0 +1,56 @@
+{
+    "type": "apotheosis:festive",
+    "categories": [
+        "irons_apothic:staff"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "apotheosis:common": {
+            "chance": {
+                "min": 0.005,
+                "max": 0.03,
+                "step": 0.005
+            },
+            "rolls": 20
+        },
+        "apotheosis:uncommon": {
+            "chance": {
+                "min": 0.01,
+                "max": 0.035,
+                "step": 0.005
+            },
+            "rolls": 20
+        },
+        "apotheosis:rare": {
+            "chance": {
+                "min": 0.015,
+                "max": 0.04,
+                "step": 0.005
+            },
+            "rolls": 20
+        },
+        "apotheosis:epic": {
+            "chance": {
+                "min": 0.02,
+                "max": 0.05,
+                "step": 0.005
+            },
+            "rolls": 20
+        },
+        "apotheosis:mythic": {
+            "chance": {
+                "min": 0.03,
+                "max": 0.06,
+                "step": 0.005
+            },
+            "rolls": 20
+        }
+    }
+}

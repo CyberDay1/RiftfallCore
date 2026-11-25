@@ -1,0 +1,21 @@
+{
+  "id": "phantom_reign_of_terror",
+  "class": "phantom",
+  "ascendancy": "dread_phantom",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:phantom_reign_of_terror",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 140.0,
+  "base_cooldown_ticks": 4200,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "control",
+    "cost_per_rank": 0.1
+  },
+  "stored": {
+    "release": "expire",
+    "window_ticks": 20
+  }
+}

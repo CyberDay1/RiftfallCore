@@ -1,0 +1,50 @@
+{
+	"parent": "minecraft:block/block",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"particle": "riftfall:block/world_breaker_crystal_lit",
+		"world_breaker_crystal_lit": "riftfall:block/world_breaker_crystal_lit"
+	},
+	"elements": [
+		{
+			"name": "chip",
+			"from": [7.37, -0.9, 7.37],
+			"to": [8.63, 0.9, 8.63],
+			"rotation": {
+				"angle": 45,
+				"axis": "y",
+				"origin": [8, 0, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [7.37, 15.1, 8.63, 16],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"east": {
+					"uv": [7.37, 15.1, 8.63, 16],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"south": {
+					"uv": [7.37, 15.1, 8.63, 16],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"west": {
+					"uv": [7.37, 15.1, 8.63, 16],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"up": {
+					"uv": [7.37, 7.37, 8.63, 8.63],
+					"texture": "#world_breaker_crystal_lit"
+				},
+				"down": {
+					"uv": [7.37, 7.37, 8.63, 8.63],
+					"texture": "#world_breaker_crystal_lit"
+				}
+			},
+			"neoforge_data": {
+				"block_light": 15,
+				"sky_light": 15
+			}
+		}
+	]
+}

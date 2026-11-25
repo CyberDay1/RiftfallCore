@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aeronautics"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystalcraft_unlimited_java"
+    }
+  ],
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "aeronautics:end_stone_powder"
+    },
+    {
+      "item": "aeronautics:end_stone_powder"
+    },
+    {
+      "item": "aeronautics:end_stone_powder"
+    },
+    {
+      "item": "aeronautics:end_stone_powder"
+    },
+    {
+      "item": "crystalcraft_unlimited_java:ametrine"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "c:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "id": "aeronautics:levitite_blend"
+    }
+  ]
+}

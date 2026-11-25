@@ -1,0 +1,17 @@
+{
+  "id": "ranger_arrow_of_oblivion",
+  "class": "ranger",
+  "ascendancy": "sharpshooter",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:ranger_arrow_of_oblivion",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 150.0,
+  "base_cooldown_ticks": 3600,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

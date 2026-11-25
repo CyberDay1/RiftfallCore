@@ -1,0 +1,23 @@
+{
+  "id": "monk_slipstream",
+  "class": "monk",
+  "ascendancy": "tempest_monk",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/monk_slipstream",
+  "shape": "proc",
+  "internal_cooldown_ticks": 100,
+  "bonus_per_rank": 0.1,
+  "reaction": {
+    "on": "move"
+  },
+  "surge": {
+    "seconds": 3.0,
+    "terms": [
+      {
+        "attribute": "irons_lib:dodge_chance",
+        "operation": "add_value"
+      }
+    ]
+  }
+}

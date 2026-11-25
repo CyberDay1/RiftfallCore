@@ -1,0 +1,44 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "apothic_attributes:life_steal",
+    "categories": [
+        "apotheosis:melee_weapon",
+        "apotheosis:trident"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.012,
+            "max": 0.024,
+            "step": 0.0015
+        },
+        "apotheosis:uncommon": {
+            "min": 0.018,
+            "max": 0.033,
+            "step": 0.001875
+        },
+        "apotheosis:rare": {
+            "min": 0.027,
+            "max": 0.042,
+            "step": 0.001875
+        },
+        "apotheosis:epic": {
+            "min": 0.036,
+            "max": 0.051,
+            "step": 0.001875
+        },
+        "apotheosis:mythic": {
+            "min": 0.048,
+            "max": 0.06,
+            "step": 0.0015
+        }
+    }
+}

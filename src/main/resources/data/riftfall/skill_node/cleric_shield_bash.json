@@ -1,0 +1,17 @@
+{
+  "id": "cleric_shield_bash",
+  "class": "cleric",
+  "ascendancy": "battle_saint",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:cleric_shield_bash",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 36.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "class": "common",
+  "items": [
+    {
+      "item": "sophisticatedbackpacks:backpack",
+      "install": [
+        "sophisticatedbackpacks:pickup_upgrade"
+      ]
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "count": 32
+    },
+    {
+      "item": "riftfall:looting_pick"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "item": "minecraft:iron_hoe"
+    }
+  ]
+}

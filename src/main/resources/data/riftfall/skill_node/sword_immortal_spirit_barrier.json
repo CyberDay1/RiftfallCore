@@ -1,0 +1,18 @@
+{
+  "id": "sword_immortal_spirit_barrier",
+  "class": "sword_immortal",
+  "ascendancy": "spirit_blade_sage",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_spirit_barrier",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 34.0,
+  "base_cooldown_ticks": 320,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1,
+    "ally_radius": 6.0
+  }
+}

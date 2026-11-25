@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "crystalcraft_unlimited_java:onyx",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:fire_opal",
+      "required": false
+    },
+    {
+      "id": "crystalcraft_unlimited_java:maradonyx",
+      "required": false
+    }
+  ]
+}

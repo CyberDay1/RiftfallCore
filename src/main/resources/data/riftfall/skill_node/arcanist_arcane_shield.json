@@ -1,0 +1,13 @@
+{
+  "id": "arcanist_arcane_shield",
+  "class": "arcanist",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "paladins:divine_protection",
+  "power_attribute": "riftfall:intellect",
+  "mana_cost": 31.0,
+  "base_cooldown_ticks": 280,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": { "type": "shield", "magnitude_per_rank": 0.1 }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "monk_momentum_chains",
+  "class": "monk",
+  "ascendancy": "dragon_fist_master",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/monk_momentum_chains",
+  "shape": "proc",
+  "internal_cooldown_ticks": 60,
+  "bonus_per_rank": 6.0,
+  "reaction": {
+    "count": 2,
+    "count_window_ticks": 40
+  },
+  "surge": {
+    "seconds": 5.0,
+    "terms": [
+      {
+        "attribute": "riftfall:ability_haste",
+        "operation": "add_value"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "riftfall:resident_conversion",
+  "role": "quarry_specialist",
+  "inputs": [
+    {
+      "tag": "riftfall:rarity_material/common",
+      "count": 4
+    },
+    {
+      "tag": "riftfall:theme_crystals",
+      "count": 2
+    }
+  ],
+  "shards": 4,
+  "result": {
+    "id": "riftfall:common_runestone"
+  }
+}

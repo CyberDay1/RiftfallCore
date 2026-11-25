@@ -1,0 +1,108 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 0.0,
+  "target": {
+    "type": "CASTER"
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:block.chain.place",
+      "volume": 0.55,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:one_handed_area_release",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 3182596095,
+            "scale": 0.35,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 12.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "extent": 0.2,
+            "min_speed": 0.03,
+            "max_speed": 0.06
+          }
+        },
+        {
+          "id": "minecraft:crit",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.08
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "target_modifiers": [
+        {
+          "conditions": [
+            {
+              "entity_predicate_id": "riftfall:is_caster"
+            }
+          ],
+          "execute": "ALLOW"
+        }
+      ],
+      "action": {
+        "type": "SPAWN",
+        "spawns": [
+          {
+            "entity_type_id": "archers_expansion:alter_ego",
+            "time_to_live_seconds": 12,
+            "delay_ticks": 10,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "apply_yaw": true
+            }
+          }
+        ]
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 3182596095,
+              "scale": 0.35,
+              "opacity": 0.85
+            },
+            "batch": {
+              "count": 6.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.06
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:block.chain.place",
+        "volume": 0.3,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

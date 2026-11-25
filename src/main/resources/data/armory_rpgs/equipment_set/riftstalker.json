@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "riftstalker",
+  "items": [
+    "armory_rpgs:riftstalker_armor_head",
+    "armory_rpgs:riftstalker_armor_chest",
+    "armory_rpgs:riftstalker_armor_legs",
+    "armory_rpgs:riftstalker_armor_feet"
+  ],
+  "bonuses": []
+}

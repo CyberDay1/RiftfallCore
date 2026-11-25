@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "torchmaster"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystalcraft_unlimited_java"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "PGP",
+    "OBO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "P": {
+      "tag": "c:glass_panes"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "B": {
+      "item": "crystalcraft_unlimited_java:onyx"
+    }
+  },
+  "result": {
+    "id": "torchmaster:dreadlamp"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "phase=idle": {
+      "model": "riftfall:block/world_breaker"
+    },
+    "phase=charging": {
+      "model": "riftfall:block/world_breaker_charging"
+    },
+    "phase=open": {
+      "model": "riftfall:block/world_breaker_open"
+    },
+    "phase=homing": {
+      "model": "riftfall:block/world_breaker_homing"
+    },
+    "phase=cooldown_3": {
+      "model": "riftfall:block/world_breaker_cooldown_3"
+    },
+    "phase=cooldown_2": {
+      "model": "riftfall:block/world_breaker_cooldown_2"
+    },
+    "phase=cooldown_1": {
+      "model": "riftfall:block/world_breaker_cooldown_1"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "justicar",
+  "items": [
+    "armory_rpgs:justicar_armor_head",
+    "armory_rpgs:justicar_armor_chest",
+    "armory_rpgs:justicar_armor_legs",
+    "armory_rpgs:justicar_armor_feet"
+  ],
+  "bonuses": []
+}

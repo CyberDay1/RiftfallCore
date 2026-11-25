@@ -1,0 +1,303 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 24.0,
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "area_impact": {
+    "radius": 3.0,
+    "area": {},
+    "visuals": {
+      "particles": [
+        {
+          "id": "minecraft:cloud",
+          "appearance": {},
+          "batch": {
+            "count": 10.0,
+            "shape": "CIRCLE",
+            "anchor": "GROUND",
+            "extent": 0.0,
+            "min_speed": 0.06,
+            "max_speed": 0.12
+          }
+        }
+      ],
+      "models": [
+        {
+          "model_id": "riftfall:spell_projectile/wave_wind",
+          "duration": 16,
+          "scale": 1.25,
+          "positioning": {
+            "vertical": 0
+          },
+          "follow_entity": false,
+          "light_emission": "GLOW",
+          "initial": [
+            {
+              "operation": "rotate",
+              "y": 0
+            }
+          ],
+          "animations": [
+            {
+              "operation": "rotate",
+              "start": 0,
+              "end": 16,
+              "easing": "LINEAR",
+              "y": 192
+            },
+            {
+              "operation": "translate",
+              "start": 0,
+              "end": 0,
+              "easing": "LINEAR",
+              "x": 0.7,
+              "y": 0.2
+            },
+            {
+              "operation": "rotate",
+              "start": 0,
+              "end": 0,
+              "easing": "LINEAR",
+              "x": -15
+            }
+          ]
+        },
+        {
+          "model_id": "riftfall:spell_projectile/wave_wind",
+          "duration": 16,
+          "scale": 1.25,
+          "positioning": {
+            "vertical": 0
+          },
+          "follow_entity": false,
+          "light_emission": "GLOW",
+          "initial": [
+            {
+              "operation": "rotate",
+              "y": 35
+            }
+          ],
+          "animations": [
+            {
+              "operation": "rotate",
+              "start": 0,
+              "end": 16,
+              "easing": "LINEAR",
+              "y": 192
+            },
+            {
+              "operation": "translate",
+              "start": 0,
+              "end": 0,
+              "easing": "LINEAR",
+              "x": 1.06,
+              "y": 0.8999999999999999
+            },
+            {
+              "operation": "rotate",
+              "start": 0,
+              "end": 0,
+              "easing": "LINEAR",
+              "x": -15
+            }
+          ]
+        },
+        {
+          "model_id": "riftfall:spell_projectile/wave_wind",
+          "duration": 16,
+          "scale": 1.25,
+          "positioning": {
+            "vertical": 0
+          },
+          "follow_entity": false,
+          "light_emission": "GLOW",
+          "initial": [
+            {
+              "operation": "rotate",
+              "y": 70
+            }
+          ],
+          "animations": [
+            {
+              "operation": "rotate",
+              "start": 0,
+              "end": 16,
+              "easing": "LINEAR",
+              "y": 192
+            },
+            {
+              "operation": "translate",
+              "start": 0,
+              "end": 0,
+              "easing": "LINEAR",
+              "x": 1.42,
+              "y": 1.5999999999999999
+            },
+            {
+              "operation": "rotate",
+              "start": 0,
+              "end": 0,
+              "easing": "LINEAR",
+              "x": -15
+            }
+          ]
+        }
+      ]
+    },
+    "sound": {
+      "id": "minecraft:entity.breeze.wind_burst",
+      "volume": 0.4,
+      "pitch": 0.9,
+      "randomness": 0.06
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.breeze.wind_burst",
+      "volume": 0.55,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:archery_release",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 3371499519,
+            "scale": 0.35,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 12.0,
+            "shape": "CONE",
+            "anchor": "LAUNCH_POINT",
+            "extent": 0.2,
+            "min_speed": 0.03,
+            "max_speed": 0.06,
+            "alignment": "LOOK",
+            "angle": 35.0
+          }
+        },
+        {
+          "id": "minecraft:cloud",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.08
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 3.2,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "minecraft:cloud",
+            "appearance": {},
+            "batch": {
+              "count": 5.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.02,
+              "max_speed": 0.04
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:entity.breeze.wind_burst",
+        "volume": 0.3,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    },
+    {
+      "target_modifiers": [
+        {
+          "conditions": [
+            {
+              "entity_type": "#c:bosses"
+            }
+          ],
+          "execute": "DENY"
+        }
+      ],
+      "action": {
+        "type": "VELOCITY",
+        "velocity": {
+          "push": {
+            "x": 0.0,
+            "y": 0.9,
+            "z": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 1.5
+      },
+      "direct_towards_target": false,
+      "projectile": {
+        "homing_angle": 0.0,
+        "divergence": 0.0,
+        "client_data": {
+          "light_level": 10,
+          "travel_particles": [
+            {
+              "id": "minecraft:cloud",
+              "appearance": {},
+              "batch": {
+                "count": 1.0,
+                "shape": "SPHERE",
+                "anchor": "ENTITY",
+                "extent": 0.0,
+                "min_speed": 0.0025,
+                "max_speed": 0.005
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "orientation": "TOWARDS_MOTION",
+                "rotate_degrees_per_tick": 0.0,
+                "fx": {
+                  "model_id": "archers:spell_projectile/volley_arrow",
+                  "scale": 1.0,
+                  "light_emission": "GLOW"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

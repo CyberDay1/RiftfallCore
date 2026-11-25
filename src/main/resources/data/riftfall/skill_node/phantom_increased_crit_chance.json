@@ -1,0 +1,8 @@
+{
+  "id": "phantom_increased_crit_chance",
+  "class": "phantom",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "apothic_attributes:crit_chance",
+  "bonus_per_rank": 0.02
+}

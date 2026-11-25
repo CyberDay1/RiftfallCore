@@ -1,0 +1,8 @@
+{
+  "id": "summoner_summons_deal_increased_damage",
+  "class": "summoner",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:summon_power",
+  "bonus_per_rank": 0.1
+}

@@ -1,0 +1,55 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "irons_spellbooks:nature_spell_power",
+    "categories": [
+        "irons_apothic:spellbook",
+        "irons_apothic:staff",
+        "riftfall:necklace",
+        "riftfall:trinket"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [
+            "riftfall:flat/school_power/blood",
+            "riftfall:flat/school_power/eldritch",
+            "riftfall:flat/school_power/ender",
+            "riftfall:flat/school_power/evocation",
+            "riftfall:flat/school_power/fire",
+            "riftfall:flat/school_power/holy",
+            "riftfall:flat/school_power/ice",
+            "riftfall:flat/school_power/lightning"
+        ],
+        "weights": {
+            "quality": 0.1,
+            "weight": 3
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.036,
+            "max": 0.072,
+            "step": 0.0045
+        },
+        "apotheosis:uncommon": {
+            "min": 0.054,
+            "max": 0.099,
+            "step": 0.005625
+        },
+        "apotheosis:rare": {
+            "min": 0.081,
+            "max": 0.126,
+            "step": 0.005625
+        },
+        "apotheosis:epic": {
+            "min": 0.108,
+            "max": 0.153,
+            "step": 0.005625
+        },
+        "apotheosis:mythic": {
+            "min": 0.144,
+            "max": 0.18,
+            "step": 0.0045
+        }
+    }
+}

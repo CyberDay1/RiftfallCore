@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "role=gem": {
+      "model": "riftfall:block/gem_seam_gem"
+    },
+    "role=cluster": {
+      "model": "riftfall:block/gem_seam_cluster"
+    },
+    "role=light": {
+      "model": "riftfall:block/gem_seam_light"
+    }
+  }
+}

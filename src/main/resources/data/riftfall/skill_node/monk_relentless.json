@@ -1,0 +1,11 @@
+{
+  "id": "monk_relentless",
+  "class": "monk",
+  "ascendancy": "dragon_fist_master",
+  "kind": "passive",
+  "max_rank": 5,
+  "spell": "riftfall:passive/monk_relentless",
+  "shape": "conditional",
+  "target_health_below": 0.3,
+  "bonus_per_rank": 0.10
+}

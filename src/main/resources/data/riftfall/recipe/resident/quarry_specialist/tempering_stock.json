@@ -1,0 +1,14 @@
+{
+  "type": "riftfall:resident_conversion",
+  "role": "quarry_specialist",
+  "inputs": [
+    {
+      "tag": "riftfall:theme_crystals",
+      "count": 2
+    }
+  ],
+  "shards": 2,
+  "result": {
+    "id": "riftfall:tempering_stock"
+  }
+}

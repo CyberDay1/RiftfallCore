@@ -1,0 +1,23 @@
+{
+  "id": "ranger_bleed_arrow",
+  "class": "ranger",
+  "ascendancy": "shadow_hunter",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:ranger_bleed_arrow",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 39.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.1,
+    "duration_seconds_per_rank": 0.4
+  },
+  "dot": {
+    "type": "bleed",
+    "coefficient": 0.8,
+    "seconds": 10.0
+  }
+}

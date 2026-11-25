@@ -1,0 +1,8 @@
+{
+  "id": "sword_immortal_footwork",
+  "class": "sword_immortal",
+  "kind": "passive",
+  "max_rank": 5,
+  "attribute": "riftfall:movement_haste",
+  "bonus_per_rank": 10.0
+}

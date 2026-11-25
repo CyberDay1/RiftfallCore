@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "anarchy_rpg"
+    }
+  ],
+  "name": "despot",
+  "items": [
+    "anarchy_rpg:despot_chest",
+    "anarchy_rpg:despot_legs"
+  ],
+  "bonuses": []
+}

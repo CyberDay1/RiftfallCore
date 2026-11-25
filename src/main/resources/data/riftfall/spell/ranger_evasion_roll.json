@@ -1,0 +1,81 @@
+{
+  "school": "spell_power:physical_melee",
+  "active": {
+    "cast": {}
+  },
+  "range": 3.5,
+  "target": {
+    "type": "AREA",
+    "area": {
+      "vertical_range_multiplier": 0.5,
+      "include_caster": true
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:entity.player.attack.sweep",
+      "volume": 0.4,
+      "pitch": 1.2
+    },
+    "animation": {
+      "id": "spell_engine:weapon_cleave",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": []
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "CUSTOM",
+        "apply_to_caster": true,
+        "custom": {
+          "intent": "HELPFUL",
+          "handler": "riftfall:travel/dash/4"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 2.6,
+          "knockback": 0.4
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "minecraft:cloud",
+            "appearance": {},
+            "batch": {
+              "count": 5.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.02,
+              "max_speed": 0.04
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:entity.breeze.wind_burst",
+        "volume": 0.3,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "bards_rpg:eclipse_mantle",
+          "duration": 2.0,
+          "amplifier": 5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "irons_spellbooks:scroll", "required": false },
+    { "id": "irons_spellbooks:necronomicon_spell_book", "required": false },
+    { "id": "irons_spellbooks:evoker_spell_book", "required": false },
+    { "id": "irons_spellbooks:amethyst_rapier", "required": false },
+    { "id": "irons_spellbooks:boreal_blade", "required": false },
+    { "id": "irons_spellbooks:hellrazor", "required": false },
+    { "id": "irons_spellbooks:hither_thither_wand", "required": false },
+    { "id": "irons_spellbooks:misery", "required": false },
+    { "id": "irons_spellbooks:spellbreaker", "required": false },
+    { "id": "irons_spellbooks:twilight_gale", "required": false }
+  ]
+}

@@ -1,0 +1,29 @@
+newmtl copper
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/refined/copper
+
+newmtl edge
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/refined/edge
+
+newmtl light
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/refined/light
+
+newmtl obsidian
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/refined/obsidian
+
+newmtl seal
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/refined/seal
+
+newmtl particle
+Ka 0 0 0
+Kd 1 1 1
+map_Kd riftfall:item/refined/amethyst

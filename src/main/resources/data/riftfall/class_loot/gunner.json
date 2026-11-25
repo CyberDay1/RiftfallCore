@@ -1,0 +1,9 @@
+{
+  "class": "gunner",
+  "families": [
+    {
+      "name": "guns",
+      "guns": true
+    }
+  ]
+}

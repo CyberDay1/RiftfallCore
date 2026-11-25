@@ -1,0 +1,23 @@
+{
+  "id": "phantom_poison_blade",
+  "class": "phantom",
+  "ascendancy": "nightstalker",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:phantom_poison_blade",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 39.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "dot",
+    "damage_per_rank": 0.1,
+    "duration_seconds_per_rank": 0.4
+  },
+  "dot": {
+    "type": "venom",
+    "coefficient": 0.8,
+    "seconds": 10.0
+  }
+}

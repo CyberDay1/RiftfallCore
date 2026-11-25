@@ -1,0 +1,183 @@
+{
+  "school": "riftfall:summoning",
+  "active": {
+    "cast": {}
+  },
+  "range": 0.0,
+  "target": {
+    "type": "CASTER"
+  },
+  "release": {
+    "sound": {
+      "id": "minecraft:item.firecharge.use",
+      "volume": 0.55,
+      "pitch": 1.0,
+      "randomness": 0.06
+    },
+    "animation": {
+      "id": "spell_engine:dual_handed_ground_release",
+      "speed": 1.2
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 4285542399,
+            "scale": 0.35,
+            "opacity": 0.85
+          },
+          "batch": {
+            "count": 12.0,
+            "shape": "PILLAR",
+            "anchor": "ENTITY",
+            "extent": 0.2,
+            "min_speed": 0.03,
+            "max_speed": 0.06
+          }
+        },
+        {
+          "id": "minecraft:flame",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "extent": 0.0,
+            "min_speed": 0.04,
+            "max_speed": 0.08
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SUMMON",
+        "summon": {
+          "entity_type_id": "riftfall:summon_imp",
+          "spawn_count": 1,
+          "behaviour": {
+            "is_attackable": true,
+            "movement": {
+              "follow": {
+                "stop_distance": 2.5,
+                "teleport_after_distance": 32
+              }
+            },
+            "targeting": {
+              "automatic_targeting": "HOSTILE"
+            },
+            "lifespan": {
+              "spawn_ticks": 20,
+              "active_seconds": 10,
+              "despawn_ticks": 20
+            },
+            "actions": [
+              {
+                "type": "SPELL_CAST",
+                "spell_cast": {
+                  "spell_id": "riftfall:summon_attack/imp",
+                  "cooldown": 30
+                }
+              }
+            ]
+          },
+          "attribute_scaling": {
+            "entries": [
+              {
+                "attribute_id": "minecraft:generic.max_health",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.max_health",
+                    "operation": "ADD_VALUE",
+                    "base": 0,
+                    "coefficient": 0.35
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.attack_damage",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0,
+                    "coefficient": 0.4
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.armor",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0,
+                    "coefficient": 0
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.knockback_resistance",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0,
+                    "coefficient": 0
+                  }
+                ]
+              },
+              {
+                "attribute_id": "spell_power:fire",
+                "modifiers": [
+                  {
+                    "attribute_id": "minecraft:generic.attack_damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0,
+                    "coefficient": 0.4
+                  }
+                ]
+              }
+            ]
+          },
+          "placements": [
+            {
+              "location_offset_by_look": 1.8,
+              "location_yaw_offset": 0.0,
+              "apply_yaw": true
+            }
+          ]
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 4285542399,
+              "scale": 0.35,
+              "opacity": 0.85
+            },
+            "batch": {
+              "count": 6.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "extent": 0.0,
+              "min_speed": 0.03,
+              "max_speed": 0.06
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "minecraft:item.firecharge.use",
+        "volume": 0.3,
+        "pitch": 1.1,
+        "randomness": 0.06
+      }
+    }
+  ]
+}

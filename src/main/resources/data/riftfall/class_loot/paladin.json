@@ -1,0 +1,37 @@
+{
+  "class": "paladin",
+  "families": [
+    {
+      "name": "shields",
+      "slots": [
+        "shield"
+      ]
+    },
+    {
+      "name": "longswords",
+      "words": [
+        "longsword",
+        "claymore",
+        "greatsword",
+        "broadsword",
+        "zweihander"
+      ]
+    },
+    {
+      "name": "hammers and maces",
+      "items": [
+        "paladins:iron_mace"
+      ],
+      "words": [
+        "hammer",
+        "warhammer",
+        "mace",
+        "flail",
+        "morning"
+      ],
+      "slots": [
+        "mace"
+      ]
+    }
+  ]
+}

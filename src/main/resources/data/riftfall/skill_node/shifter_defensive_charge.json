@@ -1,0 +1,16 @@
+{
+  "id": "shifter_defensive_charge",
+  "class": "shifter",
+  "ascendancy": "bear_warden",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:shifter_defensive_charge",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 25.0,
+  "base_cooldown_ticks": 240,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gunner_barricade",
+  "class": "gunner",
+  "ascendancy": "siege_engineer",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:gunner_barricade",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 38.0,
+  "base_cooldown_ticks": 320,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "damage",
+    "damage_per_rank": 0.1
+  }
+}

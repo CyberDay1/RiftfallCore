@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witcher_rpg"
+    }
+  ],
+  "name": "mastercrafted_griffin",
+  "items": [
+    "witcher_rpg:mastercrafted_griffin_head",
+    "witcher_rpg:mastercrafted_griffin_chest",
+    "witcher_rpg:mastercrafted_griffin_legs",
+    "witcher_rpg:mastercrafted_griffin_feet"
+  ],
+  "bonuses": []
+}

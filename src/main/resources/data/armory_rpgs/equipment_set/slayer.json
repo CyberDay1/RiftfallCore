@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "slayer",
+  "items": [
+    "armory_rpgs:slayer_armor_head",
+    "armory_rpgs:slayer_armor_chest",
+    "armory_rpgs:slayer_armor_legs",
+    "armory_rpgs:slayer_armor_feet"
+  ],
+  "bonuses": []
+}

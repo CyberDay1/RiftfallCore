@@ -1,0 +1,71 @@
+{
+  "set": {
+    "base": 2,
+    "per_purity": 2,
+    "theme_from": 2,
+    "rare_from": 4
+  },
+  "unset": {
+    "base": 3,
+    "per_purity": 2,
+    "theme_from": 0
+  },
+  "dissolve": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    12
+  ],
+  "purity": [
+    {
+      "from": 0,
+      "rank": "apprentice",
+      "grit": 2,
+      "theme": 1,
+      "shards": 3
+    },
+    {
+      "from": 1,
+      "rank": "apprentice",
+      "grit": 4,
+      "theme": 2,
+      "shards": 6
+    },
+    {
+      "from": 2,
+      "rank": "journeyman",
+      "grit": 8,
+      "theme": 2,
+      "rare": 1,
+      "shards": 12,
+      "order_runs": 1,
+      "order_minutes": 60,
+      "order_shards": 6
+    },
+    {
+      "from": 3,
+      "rank": "expert",
+      "grit": 12,
+      "faceted": 1,
+      "shards": 24,
+      "order_runs": 1,
+      "order_minutes": 60,
+      "order_shards": 24,
+      "order_only": true
+    },
+    {
+      "from": 4,
+      "rank": "master",
+      "grit": 16,
+      "faceted": 2,
+      "shards": 48,
+      "order_runs": 2,
+      "order_minutes": 120,
+      "order_shards": 48,
+      "order_only": true
+    }
+  ],
+  "socket_shards": 4
+}

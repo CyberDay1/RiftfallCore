@@ -1,0 +1,17 @@
+{
+  "id": "sword_immortal_lightning_dash",
+  "class": "sword_immortal",
+  "ascendancy": "lightning_blade",
+  "kind": "active",
+  "engine": "spell_engine",
+  "ability": "riftfall:sword_immortal_lightning_dash",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 30.0,
+  "base_cooldown_ticks": 160,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 10,
+  "lever": {
+    "type": "movement"
+  },
+  "category": "movement"
+}

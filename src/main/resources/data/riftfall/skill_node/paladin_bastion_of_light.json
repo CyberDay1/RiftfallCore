@@ -1,0 +1,18 @@
+{
+  "id": "paladin_bastion_of_light",
+  "class": "paladin",
+  "ascendancy": "divine_sentinel",
+  "kind": "ultimate",
+  "engine": "spell_engine",
+  "ability": "riftfall:paladin_bastion_of_light",
+  "power_attribute": "minecraft:generic.attack_damage",
+  "mana_cost": 140.0,
+  "base_cooldown_ticks": 4400,
+  "cooldown_per_rank": 0.03,
+  "max_rank": 5,
+  "lever": {
+    "type": "shield",
+    "magnitude_per_rank": 0.1,
+    "ally_radius": 8.0
+  }
+}

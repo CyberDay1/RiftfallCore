@@ -1,0 +1,25 @@
+{
+  "type": "riftfall:resident_conversion",
+  "role": "quarry_specialist",
+  "min_rank": "master",
+  "specialisation": "crystalwright",
+  "inputs": [
+    {
+      "tag": "riftfall:rare_crystals",
+      "count": 1
+    },
+    {
+      "tag": "riftfall:theme_crystals",
+      "count": 3
+    }
+  ],
+  "shards": 10,
+  "result": {
+    "id": "riftfall:faceted_crystal"
+  },
+  "work_order": {
+    "runs": 1,
+    "minutes": 60
+  },
+  "replaces": "riftfall:resident/quarry_specialist/faceted_crystal"
+}

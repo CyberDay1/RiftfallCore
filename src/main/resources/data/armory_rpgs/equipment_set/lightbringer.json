@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "armory_rpgs"
+    }
+  ],
+  "name": "lightbringer",
+  "items": [
+    "armory_rpgs:lightbringer_armor_head",
+    "armory_rpgs:lightbringer_armor_chest",
+    "armory_rpgs:lightbringer_armor_legs",
+    "armory_rpgs:lightbringer_armor_feet"
+  ],
+  "bonuses": []
+}
